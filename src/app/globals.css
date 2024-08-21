@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.hero-bg{
+    background: url("/hero-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.heading-txt{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 655;
+    font-style: normal;
+}
+
+.montserrat-light{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20;
+    font-style: normal;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.footer-bg{
+    background: url("/footer-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background: #030919;
+    /* display: none; */
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 7px;
+    display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #dcd7ff; 
+    border-radius: 1rem;
+}
+
+.by{
+    
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.event-bg{
+    background: url("/retro-moon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    height: 100%;
+    width: 100%;
+}
+.event-details-bg{
+    background: url("/torn-ppr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.poster-bg{
+    background: url("/poster-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.events-bg{
+    /* opacity: 0.5; */
+    height: 100%;
+    width: 100%;
+}
+
+.event-card:hover{
+    box-shadow: 7px 12px #ba37ff;
+}
+
+.bg-404{
+    background: url("/bg-404.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #030919;
+    filter: blur(2px);
+}
+
+.faq-content{
+    transform: translateY(-5%);
+    transition: transform 150ms ease-in-out;
+    opacity: 100ms ease-in-out;
+}
+
+/* ------------------------------------------------- Landing Page SVG Animation ------------------------------------------------- */
+
+#hero-svg-path{
+    stroke-dasharray: 6743;
+    stroke-dashoffset: 6743;
+    /* stroke-dasharray: 50px; */
+    animation: line-anim 17s ease forwards;
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+
+}
