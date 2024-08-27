@@ -29,8 +29,12 @@ function LandingPage() {
           MOMENTUM
         </div>
         <div className="h-32 w-14 hidden bg-white fixed end-0 xl:flex flex-col rounded-l-md items-center justify-evenly z-50">
-          <FaInstagram size={27} color="black"/>
-          <FiYoutube size={27} color="black"/>
+          <a href='https://www.instagram.com/ncumomentum/' target='_blank'>
+            <FaInstagram size={27} color="black" />
+          </a>
+          <a href='https://youtube.com/@ncugurugram?si=1Fo1gwHJ0uvc6H1r' target='_blank'>
+            <FiYoutube size={27} color="black" href='https://www.instagram.com/ncumomentum/'/>
+          </a>
         </div>
       </div>
     </>

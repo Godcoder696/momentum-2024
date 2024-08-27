@@ -63,38 +63,38 @@ function TopEvents() {
         </div>
         <Image src="/featured-1.svg" width={100} height={100} alt='' className='w-screen'/>
       </div>
-      
+      np
       <div className='min-h-96 md:min-h-screen px-1 xl:px-6 flex space-x-4 justify-between bg-[#905aaa] -mt-28 xl:-mt-36 -z-10 '> 
         <div className='space-y-2 xl:space-y-4 go-dn-1'>
-          <Image src="/event-poster.png" height={400} width={350} alt='p1'/>
-          <Image src="/event-poster.png" height={400} width={350} alt='p1'/>
-          <Image src="/event-poster.png" height={400} width={350} alt='p1' className='block xl:hidden'/>
-          <Image src="/event-poster.png" height={400} width={350} alt='p1' className='block xl:hidden'/>
+          <Image src="/top-events/5.svg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/6.svg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/3.svg" height={400} width={350} alt='p1' className='block xl:hidden'/>
+          <Image src="/top-events/4.svg" height={400} width={350} alt='p1' className='block xl:hidden'/>
         </div>
         <div className='space-y-2 xl:space-y-4 go-up-1'>
-          <Image src="/event-poster1.png" height={400} width={350} alt='p1'/>
-          <Image src="/event-poster1.png" height={400} width={350} alt='p1'/>
-          <Image src="/event-poster1.png" height={400} width={350} alt='p1' className='block xl:hidden'/>
-          <Image src="/event-poster1.png" height={400} width={350} alt='p1' className='block xl:hidden'/>
+          <Image src="/top-events/1.svg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/9.svg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/7.svg" height={400} width={350} alt='p1' className='block xl:hidden'/>
+          <Image src="/top-events/8.svg" height={400} width={350} alt='p1' className='block xl:hidden'/>
         </div>
         <div className='space-y-1 xl:space-y-3 go-dn-2'>
-          <Image src="/event-poster2.png" height={400} width={350} alt='p1'/>
-          <Image src="/event-poster2.png" height={400} width={350} alt='p1'/>
-          <Image src="/event-poster2.png" height={400} width={350} alt='p1' className='block xl:hidden'/>
-          <Image src="/event-poster2.png" height={400} width={350} alt='p1' className='block xl:hidden'/>
+        <Image src="/top-events/2.svg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/10.svg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/11.svg" height={400} width={350} alt='p1' className='block xl:hidden'/>
+          <Image src="/top-events/12.svg" height={400} width={350} alt='p1' className='block xl:hidden'/>
         </div>
         <div className='space-y-1 xl:space-y-2 go-up-2'>
-          <Image src="/event-poster3.png" height={400} width={350} alt='p1'/>
-          <Image src="/event-poster3.png" height={400} width={350} alt='p1'/>
-          <Image src="/event-poster3.png" height={400} width={350} alt='p1' className='block xl:hidden'/>
-          <Image src="/event-poster3.png" height={400} width={350} alt='p1' className='block xl:hidden'/>
+          <Image src="/top-events/4.svg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/8.svg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/12.svg" height={400} width={350} alt='p1' className='block xl:hidden'/>
+          <Image src="/top-events/1.svg" height={400} width={350} alt='p1' className='block xl:hidden'/>
         </div>
       </div>
       <div className='flex items-center justify-end -mt-48 xl:-mt-96'>
         <Image src="/featured-2.svg" width={100} height={100} alt='' className='w-screen'/>
-        <button className='xl:py-3 xl:px-10 px-6 py-2 bg-gray-200 hover:bg-white absolute text-sm mr-3 xl:mr-20 xl:text-xl rounded-[2rem] xl:mb-10 -mb-3'>
+        {/* <button className='xl:py-3 xl:px-10 px-6 py-2 bg-gray-200 hover:bg-white absolute text-sm mr-3 xl:mr-20 xl:text-xl rounded-[2rem] xl:mb-10 -mb-3'>
           SEE ALL
-        </button>
+        </button> */}
       </div>
     </div>
   )
