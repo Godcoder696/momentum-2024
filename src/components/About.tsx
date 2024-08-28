@@ -62,12 +62,12 @@ function About() {
               <Image src="/ncu-logo.svg" height={200} width={200} alt='NCU' className='ncu-logo h-16 xl:hidden'></Image>
             </span>
             <span className='leading-relaxed text-xs xl:text-lg mb-4 about-text-anim text-start'>
-              Momentum is a 2-day long festival organized in the month of November. Momentum is the university fest where we provide the student community from various Universities and Colleges with velocity. This year Momentum 2024, the 26th Edition is planned for 23rd-24th October.
+              Momentum is a 2-day long festival organized in the month of November. Momentum is the university fest where we provide the student community from various Universities and Colleges with velocity. This year Momentum 2024, the 26th Edition is planned for <b> 24<sup>th</sup> - 25<sup>th</sup> October.</b>
             </span>
         </div>
       </div>
     </div>
   )
-}
+} 
 
 export default About

@@ -8,7 +8,7 @@ import Sponsors from './Sponsors'
 
 function HomePage() {
   return (
-    <div className='h-screen w-screen bg-red-300'>
+    <div className='h-screen w-screen bg-[#030919]'>
       <LandingPage/>
       <About/>
       <TopEvents/>

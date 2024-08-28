@@ -6,7 +6,7 @@ import Link from 'next/link'
 function NavBar() {
   return (
     <div className='z-50 flex text-white w-[100%] justify-between px-3 md:px-24 py-4 montserrat-light fixed '>
-      <Image src="/Logo.png" alt='mmt' height={50} width={50} className=''/>
+      <Image src="/Logo.webp" alt='mmt' height={50} width={50} className=''/>
       {/* <div className='flex items-center space-x-10 font-light'>
         <Link href="/" className='hover:font-normal cursor-pointer'>
           <div>Home</div>
