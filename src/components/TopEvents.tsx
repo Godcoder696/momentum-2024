@@ -9,10 +9,10 @@ function TopEvents() {
 
   useEffect(()=>{
     gsap.fromTo(".go-dn-1",{
-      y: -100,
+      y: -50,
     },
     {
-      y: 100,
+      y: 50,
       duration: 6, 
       yoyo: true,
       repeat: -1,
@@ -54,40 +54,39 @@ function TopEvents() {
     )
   },[])
   return (
-    <div className='xl:min-h-screen w-screen flex flex-col justify-between -mt-2 z-50'>
+    <div className='min-h-80 xl:min-h-screen w-screen flex flex-col justify-between -mt-2 z-50'>
       <div className='flex items-center'>
         {/* <span className='absolute text-white ml-10 text-7xl'>FEATURED</span> */}
-        <div className='flex absolute w-screen justify-between'>
+        <div className='xl:flex absolute w-screen justify-between hidden'>
           <Image src="/Planet.svg" width={300} height={500} alt='' className='xl:mt-32 mt-16 h-24 xl:h-80'/>
           <Image src="/megaphone.svg" width={400} height={500} alt='' className='xl:-mt-30 align-bottom xl:-mr-20 ml-40 h-28 xl:h-80'/>
         </div>
         <Image src="/featured-1.svg" width={100} height={100} alt='' className='w-screen'/>
       </div>
-      np
       <div className='min-h-96 md:min-h-screen px-1 xl:px-6 flex space-x-4 justify-between bg-[#905aaa] -mt-28 xl:-mt-36 -z-10 '> 
         <div className='space-y-2 xl:space-y-4 go-dn-1'>
           <Image src="/top-events/5.webp" height={400} width={350} alt='p1'/>
           <Image src="/top-events/6.webp" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/3.webp" height={400} width={350} alt='p1' className='block xl:hidden'/>
-          <Image src="/top-events/4.webp" height={400} width={350} alt='p1' className='block xl:hidden'/>
+          <Image src="/top-events/3.webp" height={400} width={350} alt='p1' className='block sm:hidden'/>
+          <Image src="/top-events/4.webp" height={400} width={350} alt='p1' className='block md:hidden'/>
         </div>
         <div className='space-y-2 xl:space-y-4 go-up-1'>
           <Image src="/top-events/1.webp" height={400} width={350} alt='p1'/>
           <Image src="/top-events/9.webp" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/7.webp" height={400} width={350} alt='p1' className='block xl:hidden'/>
-          <Image src="/top-events/8.webp" height={400} width={350} alt='p1' className='block xl:hidden'/>
+          <Image src="/top-events/7.webp" height={400} width={350} alt='p1' className='block sm:hidden'/>
+          <Image src="/top-events/8.webp" height={400} width={350} alt='p1' className='block md:hidden'/>
         </div>
         <div className='space-y-1 xl:space-y-3 go-dn-2'>
           <Image src="/top-events/2.webp" height={400} width={350} alt='p1'/>
           <Image src="/top-events/10.webp" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/11.webp" height={400} width={350} alt='p1' className='block xl:hidden'/>
-          <Image src="/top-events/12.webp" height={400} width={350} alt='p1' className='block xl:hidden'/>
+          <Image src="/top-events/11.webp" height={400} width={350} alt='p1' className='block sm:hidden'/>
+          <Image src="/top-events/12.webp" height={400} width={350} alt='p1' className='block md:hidden'/>
         </div>
         <div className='space-y-1 xl:space-y-2 go-up-2'>
           <Image src="/top-events/4.webp" height={400} width={350} alt='p1'/>
           <Image src="/top-events/8.webp" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/12.webp" height={400} width={350} alt='p1' className='block xl:hidden'/>
-          <Image src="/top-events/1.webp" height={400} width={350} alt='p1' className='block xl:hidden'/>
+          <Image src="/top-events/12.webp" height={400} width={350} alt='p1' className='block sm:hidden'/>
+          <Image src="/top-events/1.webp" height={400} width={350} alt='p1' className='block md:hidden'/>
         </div>
       </div>
       <div className='flex items-center justify-end -mt-48 xl:-mt-96'>

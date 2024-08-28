@@ -28,12 +28,12 @@ function LandingPage() {
         <div className="absolute text-5xl xl:text-8xl heading-txt hero-head-anim">
           MOMENTUM
         </div>
-        <div className="h-32 w-14 hidden bg-white fixed end-0 xl:flex flex-col rounded-l-md items-center justify-evenly z-50">
-          <a href='https://www.instagram.com/ncumomentum/' target='_blank'>
-            <FaInstagram size={27} color="black" />
+        <div className="hidden sm:h-24 sm:w-10 lg:h-32 lg:w-14 bg-white fixed end-0 sm:flex flex-col rounded-l-md items-center justify-evenly z-50">
+          <a href='https://www.instagram.com/ncumomentum/' target='_blank' className='sm:p-2 lg:p-3'>
+            <FaInstagram size="auto" color="black" />
           </a>
-          <a href='https://youtube.com/@ncugurugram?si=1Fo1gwHJ0uvc6H1r' target='_blank'>
-            <FiYoutube size={27} color="black" href='https://www.instagram.com/ncumomentum/'/>
+          <a href='https://youtube.com/@ncugurugram?si=1Fo1gwHJ0uvc6H1r' target='_blank' className='sm:p-2 lg:p-3'>
+            <FiYoutube size="auto" color="black" />
           </a>
         </div>
       </div>

@@ -31,9 +31,8 @@ body{
 }
 
 .footer-bg{
-    background: url("/footer-bg.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    max-height: max-content;
+    
 }
 
 ::-webkit-scrollbar {
