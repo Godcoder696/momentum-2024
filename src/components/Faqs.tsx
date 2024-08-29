@@ -38,7 +38,7 @@ function Faqs() {
       ];
       const [toggle, setToggle]= useState(null);
   return (
-    <div className='z-40 bg-gradient-to-b from-[#030919] to-[#020015] w-screen flex justify-center items-center px-5 xl:px-20 pb-10 -mt-2 py-10'>
+    <div className='z-40 bg-gradient-to-b from-[#030919] to-[#020015] w-screen flex justify-center items-center px-5 xl:px-20 pb-10 -mt-2 py-10 '>
       <div className='flex w-full text-white justify-around space-x-4 z-30'>
         <FaqImage/>
         <div className='md:w-3/6 w-screen flex flex-col space-y-3'>

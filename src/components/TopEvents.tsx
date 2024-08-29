@@ -63,30 +63,30 @@ function TopEvents() {
         </div>
         <Image src="/featured-1.svg" width={100} height={100} alt='' className='w-screen'/>
       </div>
-      <div className='min-h-96 md:min-h-screen px-1 xl:px-6 flex space-x-4 justify-between bg-[#905aaa] -mt-28 xl:-mt-36 -z-10 '> 
+      <div className='min-h-96 md:min-h-screen px-1 xl:px-6 flex space-x-4 justify-between bg-[#bd56ec] -mt-28 xl:-mt-36 -z-10 texture-bg'> 
         <div className='space-y-2 xl:space-y-4 go-dn-1'>
-          <Image src="/top-events/5.jpg" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/6.jpg" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/3.jpg" height={400} width={350} alt='p1' className='block sm:hidden'/>
-          <Image src="/top-events/4.jpg" height={400} width={350} alt='p1' className='block md:hidden'/>
+          <Image src="/top-events/5.jpg" height={400} width={350} alt='p1' className='shadow-lg shadow-[#00000081]'/>
+          <Image src="/top-events/6.jpg" height={400} width={350} alt='p1' className='shadow-lg shadow-[#000000]'/>
+          <Image src="/top-events/3.jpg" height={400} width={350} alt='p1' className='block sm:hidden shadow-lg shadow-[#00000081]'/>
+          <Image src="/top-events/4.jpg" height={400} width={350} alt='p1' className='block md:hidden shadow-lg shadow-[#00000081]'/>
         </div>
         <div className='space-y-2 xl:space-y-4 go-up-1'>
-          <Image src="/top-events/1.jpg" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/9.jpg" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/7.jpg" height={400} width={350} alt='p1' className='block sm:hidden'/>
-          <Image src="/top-events/8.jpg" height={400} width={350} alt='p1' className='block md:hidden'/>
+          <Image src="/top-events/1.jpg" height={400} width={350} alt='p1' className='shadow-lg shadow-[#00000081]'/>
+          <Image src="/top-events/9.jpg" height={400} width={350} alt='p1' className='shadow-lg shadow-[#00000081]'/>
+          <Image src="/top-events/7.jpg" height={400} width={350} alt='p1' className='block sm:hidden shadow-lg shadow-[#00000081]'/>
+          <Image src="/top-events/8.jpg" height={400} width={350} alt='p1' className='block md:hidden shadow-lg shadow-[#00000081]'/>
         </div>
         <div className='space-y-1 xl:space-y-3 go-dn-2'>
-          <Image src="/top-events/2.jpg" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/10.jpg" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/11.jpg" height={400} width={350} alt='p1' className='block sm:hidden'/>
-          <Image src="/top-events/12.jpg" height={400} width={350} alt='p1' className='block md:hidden'/>
+          <Image src="/top-events/2.jpg" height={400} width={350} alt='p1' className='shadow-lg shadow-[#00000081]'/>
+          <Image src="/top-events/10.jpg" height={400} width={350} alt='p1' className='shadow-lg shadow-[#00000081]'/>
+          <Image src="/top-events/11.jpg" height={400} width={350} alt='p1' className='block sm:hidden shadow-lg shadow-[#00000081]'/>
+          <Image src="/top-events/12.jpg" height={400} width={350} alt='p1' className='block md:hidden shadow-lg shadow-[#00000081]'/>
         </div>
         <div className='space-y-1 xl:space-y-2 go-up-2'>
-          <Image src="/top-events/4.jpg" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/12.jpg" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/5.jpg" height={400} width={350} alt='p1' className='block sm:hidden'/>
-          <Image src="/top-events/1.jpg" height={400} width={350} alt='p1' className='block md:hidden'/>
+          <Image src="/top-events/4.jpg" height={400} width={350} alt='p1' className='shadow-lg shadow-[#00000081]'/>
+          <Image src="/top-events/12.jpg" height={400} width={350} alt='p1' className='shadow-lg shadow-[#00000081]'/>
+          <Image src="/top-events/5.jpg" height={400} width={350} alt='p1' className='block sm:hidden shadow-lg shadow-[#00000081]'/>
+          <Image src="/top-events/1.jpg" height={400} width={350} alt='p1' className='block md:hidden shadow-lg shadow-[#00000081]'/>
         </div>
       </div>
       <div className='flex items-center justify-end -mt-48 xl:-mt-96'>

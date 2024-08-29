@@ -117,3 +117,8 @@ body{
     }
 
 }
+
+.texture-bg{
+    background: url("/cartographer.png");
+    background-color: #bd56ec;
+}

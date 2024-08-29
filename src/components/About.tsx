@@ -50,7 +50,7 @@ function About() {
     )
   },[])
   return (
-    <div className='bg-[#030919] w-screen flex justify-center items-center py-10 sm:px-5 xl:p-20 '>
+    <div className='bg-[#030919] w-screen flex justify-center items-center py-10 sm:px-5 xl:p-20'>
       <div className='flex text-white items-center justify-evenly about-sec pb-3 space-x-2'>
         <img src="/NCU.png" alt='NCU' className='ncu-logo sm:block h-12 sm:h-24 md:h-30 xl:h-36 hidden'></img>
         <div className='sm:w-4/5 flex flex-col space-y-2 xl:space-y-3 px-3'>
