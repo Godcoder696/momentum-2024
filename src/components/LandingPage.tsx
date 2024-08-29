@@ -20,7 +20,7 @@ function LandingPage() {
   },[])
   return (
     <>
-      <div className="h-screen w-screen hero-bg flex items-center justify-center text-white">
+      <div className="h-screen w-screen hero-bg flex flex-col items-center justify-center text-white">
         <SVGAnim></SVGAnim>
         <div className="absolute text-5xl xl:text-8xl heading-txt blur-sm hero-head-anim">
           MOMENTUM
@@ -36,6 +36,9 @@ function LandingPage() {
             <FiYoutube size="auto" color="black" />
           </a>
         </div>
+        {/* <div className='bg-white text-black px-4'>
+          Events Coming Soon ...
+        </div> */}
       </div>
     </>
   )

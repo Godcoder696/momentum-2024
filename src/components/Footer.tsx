@@ -14,7 +14,7 @@ function Footer() {
           <a href='https://www.instagram.com/ncumomentum/' target='_blank'>
             <FaInstagram size={18} color="white" />
           </a>
-          <a href='https://www.instagram.com/ncumomentum/' target='_blank'>
+          <a href='https://youtube.com/@ncugurugram?si=1Fo1gwHJ0uvc6H1r' target='_blank'>
             <FiYoutube size={18} color="white" />
           </a>
         </div>
