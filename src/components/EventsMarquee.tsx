@@ -7,13 +7,14 @@ function EventsMarquee() {
         <Marquee autoFill={true} style={
             {
                 color:"black",
+                marginTop: "-40px",
+                backgroundColor: "whitesmoke"
             }
         }>
-            <div className='space-x-2 text-xl font-extralight py-1'>
+            <div className='text-xl font-extralight py-1'>
                 <span className='px-1'>●</span>
-                <span className='px-[2px]'>EVENTS</span>
-                <span className='px-[2px]'>COMING</span>
-                <span className='px-[2px]'>SOON </span>
+                <span className='px-[3px]'>COMING</span>
+                <span className='px-[3px]'>SOON </span>
             </div>
         </Marquee>
     </>
