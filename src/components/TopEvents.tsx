@@ -65,28 +65,28 @@ function TopEvents() {
       </div>
       <div className='min-h-96 md:min-h-screen px-1 xl:px-6 flex space-x-4 justify-between bg-[#905aaa] -mt-28 xl:-mt-36 -z-10 '> 
         <div className='space-y-2 xl:space-y-4 go-dn-1'>
-          <Image src="/top-events/5.webp" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/6.webp" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/3.webp" height={400} width={350} alt='p1' className='block sm:hidden'/>
-          <Image src="/top-events/4.webp" height={400} width={350} alt='p1' className='block md:hidden'/>
+          <Image src="/top-events/5.jpg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/6.jpg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/3.jpg" height={400} width={350} alt='p1' className='block sm:hidden'/>
+          <Image src="/top-events/4.jpg" height={400} width={350} alt='p1' className='block md:hidden'/>
         </div>
         <div className='space-y-2 xl:space-y-4 go-up-1'>
-          <Image src="/top-events/1.webp" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/9.webp" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/7.webp" height={400} width={350} alt='p1' className='block sm:hidden'/>
-          <Image src="/top-events/8.webp" height={400} width={350} alt='p1' className='block md:hidden'/>
+          <Image src="/top-events/1.jpg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/9.jpg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/7.jpg" height={400} width={350} alt='p1' className='block sm:hidden'/>
+          <Image src="/top-events/8.jpg" height={400} width={350} alt='p1' className='block md:hidden'/>
         </div>
         <div className='space-y-1 xl:space-y-3 go-dn-2'>
-          <Image src="/top-events/2.webp" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/10.webp" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/11.webp" height={400} width={350} alt='p1' className='block sm:hidden'/>
-          <Image src="/top-events/12.webp" height={400} width={350} alt='p1' className='block md:hidden'/>
+          <Image src="/top-events/2.jpg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/10.jpg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/11.jpg" height={400} width={350} alt='p1' className='block sm:hidden'/>
+          <Image src="/top-events/12.jpg" height={400} width={350} alt='p1' className='block md:hidden'/>
         </div>
         <div className='space-y-1 xl:space-y-2 go-up-2'>
-          <Image src="/top-events/4.webp" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/8.webp" height={400} width={350} alt='p1'/>
-          <Image src="/top-events/12.webp" height={400} width={350} alt='p1' className='block sm:hidden'/>
-          <Image src="/top-events/1.webp" height={400} width={350} alt='p1' className='block md:hidden'/>
+          <Image src="/top-events/4.jpg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/12.jpg" height={400} width={350} alt='p1'/>
+          <Image src="/top-events/5.jpg" height={400} width={350} alt='p1' className='block sm:hidden'/>
+          <Image src="/top-events/1.jpg" height={400} width={350} alt='p1' className='block md:hidden'/>
         </div>
       </div>
       <div className='flex items-center justify-end -mt-48 xl:-mt-96'>
