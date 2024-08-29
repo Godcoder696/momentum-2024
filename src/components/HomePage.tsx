@@ -5,11 +5,13 @@ import About from './About'
 import TopEvents from './TopEvents'
 import Faqs from './Faqs'
 import Sponsors from './Sponsors'
+import EventsMarquee from './EventsMarquee'
 
 function HomePage() {
   return (
     <div className='h-screen w-screen bg-[#030919]'>
       <LandingPage/>
+      <EventsMarquee/>
       <About/>
       <TopEvents/>
       {/* <Sponsors/> */}

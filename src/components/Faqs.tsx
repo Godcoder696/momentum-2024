@@ -49,7 +49,7 @@ function Faqs() {
                 {
                     faqs.map((element, key)=>{
                         return (
-                          <Faq key={key} element={element} toggle={toggle} setToggle={setToggle} index={key}/>
+                          <Faq key={key} element={element}/>
                         )
                     })
                 }
