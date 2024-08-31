@@ -29,9 +29,8 @@ function CustomDrawer({drawerOpen, setDrawerOpen,eventFilter, setEventFilter}) {
           open={drawerOpen}
           onClose={()=>{setDrawerOpen(false)}}
           direction='left'
-          className=''
       >
-          <div className='bg-[#02050fde] h-screen p-5 flex flex-col space-y-5'>
+          <div className='bg-[#02050fde] h-screen w-screen p-5 flex flex-col space-y-5'>
             <div className='w-full flex justify-between items-center'>
               <span className='text-lg'>
                 Categories

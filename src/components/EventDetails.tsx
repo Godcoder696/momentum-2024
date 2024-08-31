@@ -10,7 +10,7 @@ import { TiTick } from "react-icons/ti";
 
 function EventDetails() {
   return (
-    <>
+    <div className='space-y-4'>
         <div className='text-3xl font-bold'>Event Name</div>
           <div className=' text-sm'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo corporis earum inventore dolorum vel, est natus nemo dolore praesentium veniam consequatur aperiam mollitia impedit dolores quae blanditiis magni illum tempora eius culpa! Temporibus velit non necessitatibus, laborum id deleniti sapiente reprehenderit iusto nesciunt nulla explicabo earum, neque iste. Consequuntur fugiat sed ullam laboriosam harum nam cumque perspiciatis illo labore molestias cum nihil voluptatem quos quaerat dignissimos est magni, iste voluptates omnis animi. Fuga, cum!
@@ -63,7 +63,7 @@ function EventDetails() {
                 </ul>
             </div>
         </div> 
-    </>
+    </div>
   )
 }
 
