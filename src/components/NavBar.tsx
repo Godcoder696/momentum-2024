@@ -5,8 +5,11 @@ import Link from 'next/link'
 
 function NavBar() {
   return (
-    <div className='z-50 flex text-white w-[100%] justify-between px-3 lg:px-10 xl:px-24 py-4 montserrat-light fixed '>
-      <Image src="/Logo.png" alt='mmt' height={50} width={50} className=''/>
+    <div className='z-50 flex text-white w-[100%] justify-between px-1 lg:px-6 xl:px-10 py-4 montserrat-light fixed '>
+      <div className='flex items-center justify-center space-x-3'>
+        <Image src="/NCU.png" alt='mmt' height={70} width={70} className=''/>
+        <Image src="/Logo.png" alt='mmt' height={50} width={50} className=''/>
+      </div>
       {/* <div className='flex items-center space-x-10 font-light'>
         <Link href="/" className='hover:font-normal cursor-pointer'>
           <div>Home</div>
