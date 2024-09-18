@@ -919,5 +919,405 @@
             "The decision of the judges will be final.",
             "Any misbehavior will lead to disqualification."
         ]
+    },
+    {
+        "id": 35,
+        "img_url": "",
+        "event_name": "Rubik's Cube Solving",
+        "duration": "1 hour",
+        "about": [
+            "Each participant will be given a Rubik's Cube to solve.",
+            "The participant who solves the cube the fastest will be declared the winner."
+        ],
+        "fee":"₹200 per participant",
+        "team_size": "Solo",
+        "judge":[
+            "Time taken to solve the cube (100%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Teams must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 36,
+        "img_url": "",
+        "event_name": "BGMI (WOW Mode)",
+        "duration": "2 hours",
+        "about": [
+            "Each team will consist of 4 members.",
+            "Teams will play 3 matches.",
+            "The team with the highest score at the end of 3 matches will be declared the winner."
+        ],
+        "fee":"₹800 per team",
+        "team_size": "4 members",
+        "judge":[
+            "Score (100%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Teams must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 37,
+        "img_url": "",
+        "event_name": "Clash Royale",
+        "duration": "2 hours",
+        "about": [
+            "Each participant will play 3 matches.",
+            "The participant with the highest score at the end of 3 matches will be declared the winner."
+        ],
+        "fee":"₹200 per participant",
+        "team_size": "Solo",
+        "judge":[
+            "Score (100%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Participants must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 38,
+        "img_url": "",
+        "event_name": "Plank Challenge",
+        "duration": "1 hour",
+        "about": [
+            "Each participant will hold a plank position for as long as possible.",
+            "The participant who holds the plank position the longest will be declared the winner."
+        ],
+        "fee":"₹100 per participant",
+        "team_size": "Solo",
+        "judge":[
+            "Time held in plank position (100%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Participants must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 39,
+        "img_url": "",
+        "event_name": "IPL Auction",
+        "duration": "1.5 hours",
+        "about": [
+            "Each team will consist of 2 members.",
+            "Teams will be given a set of players to bid on.",
+            "The team that bids the most strategically will be declared the winner."
+        ],
+        "fee":"₹300 per team",
+        "team_size": "2 members",
+        "judge":[
+            "Strategic bidding (100%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Teams must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 40,
+        "img_url": "",
+        "event_name": "Chess Competition",
+        "duration": "2 hours",
+        "about": [
+            "Each participant will play 3 matches.",
+            "The participant who wins the most matches will be declared the winner."
+        ],
+        "fee":"₹200 per participant",
+        "team_size": "Solo",
+        "judge":[
+            "Wins (100%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Participants must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 41,
+        "img_url": "",
+        "event_name": "Valorant",
+        "duration": "2 hours",
+        "about": [
+            "Each team will consist of 5 members.",
+            "Teams will play 3 matches.",
+            "The team with the highest score at the end of 3 matches will be declared the winner."
+        ],
+        "fee":"₹1000 per team",
+        "team_size": "5 members",
+        "judge":[
+            "Score (100%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Teams must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 42,
+        "img_url": "",
+        "event_name": "Mini Militia",
+        "duration": "2 hours",
+        "about": [
+            "Each team will consist of 4 members.",
+            "Teams will play 3 matches.",
+            "The team with the highest score at the end of 3 matches will be declared the winner."
+        ],
+        "fee":"₹800 per team",
+        "team_size": "4 members",
+        "judge":[
+            "Score (100%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Teams must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 43,
+        "img_url": "",
+        "event_name": "No-Flame Cooking Challenge",
+        "duration": "2 hours",
+        "about": [
+            "Each team will consist of 2 members.",
+            "Teams will be given a set of ingredients to cook with.",
+            "The team that prepares the best dish will be declared the winner."
+        ],
+        "fee":"₹300 per team",
+        "team_size": "2 members",
+        "judge":[
+            "Taste (40%)",
+            "Presentation (30%)",
+            "Creativity (30%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Teams must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 44,
+        "img_url": "",
+        "event_name": "Clash of Clans Mix Challenges",
+        "duration": "2 hours",
+        "about": [
+            "Each team will consist of 2 members.",
+            "Teams will participate in a mix of challenges related to Clash of Clans.",
+            "The team that completes the most challenges will be declared the winner."
+        ],
+        "fee":"₹300 per team",
+        "team_size": "2 members",
+        "judge":[
+            "Completion of challenges (100%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Teams must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 45,
+        "img_url": "",
+        "event_name": "Musical Chair",
+        "duration": "1 hour",
+        "about": [
+            "Each participant will participate in a game of musical chairs.",
+            "The last participant standing will be declared the winner."
+        ],
+        "fee":"₹100 per participant",
+        "team_size": "Solo",
+        "judge":[
+            "Last participant standing (100%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Teams must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 46,
+        "img_url": "",
+        "event_name": "Creative Writing",
+        "duration": "2 hours",
+        "about": [
+            "Each participant will be given a prompt to write on.",
+            "The participant who writes the most creative piece will be declared the winner."
+        ],
+        "fee":"₹200 per participant",
+        "team_size": "Solo",
+        "judge":[
+            "Creativity (50%)",
+            "Grammar and spelling (30%)",
+            "Originality (20%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Teams must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 47,
+        "img_url": "",
+        "event_name": "Shooting Basketball",
+        "duration": "1 hour",
+        "about": [
+            "Each participant will shoot basketballs from different distances.",
+            "The participant who makes the most shots will be declared the winner."
+        ],
+        "fee":"₹100 per participant",
+        "team_size": "Solo",
+        "judge":[
+            "Number of shots made (100%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Participants must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 48,
+        "img_url": "",
+        "event_name": "Reel Making Competition",
+        "duration": "2 hours",
+        "about": [
+            "Each team will consist of 2 members.",
+            "Teams will create a reel on a given theme.",
+            "The team that creates the best reel will be declared the winner."
+        ],
+        "fee":"₹300 per team",
+        "team_size": "2 members",
+        "judge":[
+            "Creativity (50%)",
+            "Technical skills (30%)",
+            "Originality (20%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Teams must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 49,
+        "img_url": "",
+        "event_name": "Digital Art",
+        "duration": "2 hours",
+        "about": [
+            "Each participant will create a digital art piece on a given theme.",
+            "The participant who creates the best art piece will be declared the winner."
+        ],
+        "fee":"₹200 per participant",
+        "team_size": "Solo",
+        "judge":[
+            "Creativity (50%)",
+            "Technical skills (30%)",
+            "Originality (20%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Participants must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
+    },
+    {
+        "id": 50,
+        "img_url": "",
+        "event_name": "Tug of War",
+        "duration": "1 hour",
+        "about": [
+            "Each team will consist of 5 members.",
+            "Teams will participate in a game of tug of war.",
+            "The team that wins the most rounds will be declared the winner."
+        ],
+        "fee":"₹500 per team",
+        "team_size": "5 members",
+        "judge":[
+            "Wins (100%)"
+        ],
+        "elimination": "Single elimination",
+        "rules": [
+            "Teams must arrive 30 minutes prior to the event.",
+            "No external help will be allowed."
+        ],
+        "terms":[
+            "The decision of the judges will be final.",
+            "Any misbehavior will lead to disqualification."
+        ]
     }
 ]
