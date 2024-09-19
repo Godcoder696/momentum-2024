@@ -1319,5 +1319,23 @@
             "The decision of the judges will be final.",
             "Any misbehavior will lead to disqualification."
         ]
+    },
+    {
+        "id": 51,
+        "img_url": "",
+        "event_name": "IKTAARA- Solo Singing (Hindi/English)",
+        "about": [
+            "Each team will consist of 5 members.",
+            "Teams will participate in a game of tug of war.",
+            "The team that wins the most rounds will be declared the winner."
+        ],
+        "team_size": "Solo",
+        "judge":[
+            "Pitch, Rhythm, Voice modulation, overall impact of the song (Song selection, stage presence etc.)"
+        ],
+        "elimination": [
+            "Comprises of two rounds: prelims(2minute) and final(3-3.5minute)",
+            ""
+        ]
     }
 ]
