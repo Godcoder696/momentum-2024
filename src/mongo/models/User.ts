@@ -11,6 +11,15 @@ const userModel= mongoose.Schema(
             isRequired: true,
             unique: true
         },
+        collegeName:{
+            type: String
+        },
+        fname:{
+            type: String
+        },
+        lname:{
+            type: String
+        },
         createdAt:{
             type: Date,
             default: Date.now()
@@ -19,17 +28,12 @@ const userModel= mongoose.Schema(
             type: Date,
         },
         role:{
-            default: "particpant"
+            default: "participant"
         },
         tag:{
-
-        },
-        campusAmbassador:{
-            type: Object,
-            default: {
-                "applied": false,
-                "count": 0,
-            }
+            type: String,
+            unique: true,
+            isRequired: true
         },
         pNumber:{
             type: Number
@@ -44,5 +48,3 @@ const userModel= mongoose.Schema(
 
 const Users= mongoose.model("Users",userModel)
 module.exports= Users;
-
-export {};
