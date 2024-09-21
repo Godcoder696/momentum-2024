@@ -3,8 +3,8 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req){
     try{
-        const params= req.body;
-        console.log(req);
+        const params= await req.json();
+        // console.log(req);
         console.log(params);
         return NextResponse.json({msg: "Hey",params: params}, {status: 200})
     }
