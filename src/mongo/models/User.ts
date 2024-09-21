@@ -26,6 +26,7 @@ const userModel= mongoose.Schema(
         },
         modifiedAt:{
             type: Date,
+            default: Date.now()
         },
         role:{
             default: "participant"
@@ -43,6 +44,10 @@ const userModel= mongoose.Schema(
                 type: Array,
             },
         ],
+        useVerified:{
+            type: Boolean,
+            default: false
+        }
     }
 )
 
