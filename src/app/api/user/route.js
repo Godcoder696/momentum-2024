@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import createUser from '../../../lib/db/methods/createUser';
+import updateUser from '../../../lib/db/methods/updateUser';
 
 export async function POST(req){
     // const msg= NextRequest.msg;
@@ -23,7 +24,8 @@ export async function GET(){
 
 export async function PUT(){
     try {
-        return NextResponse.json({msg:"Hello from put"});
+        const res= await updateUser();
+        return NextResponse.json({msg:"Hello from put",response: res});
     } catch (error) {
         return NextResponse.json({msg:"error"});
     }

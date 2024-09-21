@@ -3,7 +3,7 @@ import User from '../../../mongo/models/User';
 
 const createUser= async ()=>{
     await dbConnect();
-
+    
     const user= new User({
         name: "lakshay",
         email: "lakshay21csu342@ncuindia.edu",
