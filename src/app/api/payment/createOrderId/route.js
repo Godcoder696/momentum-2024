@@ -8,7 +8,6 @@ const razorpay= new Razorpay({
 })
 
 export async function POST(NextRequest){
-    console.log("hllo");
     try {
         
         const order= await razorpay.orders.create({

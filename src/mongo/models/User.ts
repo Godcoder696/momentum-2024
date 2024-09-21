@@ -29,6 +29,7 @@ const userModel= mongoose.Schema(
             default: Date.now()
         },
         role:{
+            type: "String",
             default: "participant"
         },
         tag:{
@@ -39,11 +40,11 @@ const userModel= mongoose.Schema(
         pNumber:{
             type: Number
         },
-        events:[
-            {
-                type: Array,
-            },
-        ],
+        // events:[
+        //     {
+        //         type: Array,
+        //     },
+        // ],
         useVerified:{
             type: Boolean,
             default: false
@@ -51,5 +52,5 @@ const userModel= mongoose.Schema(
     }
 )
 
-const Users= mongoose.model("Users",userModel)
+const Users= mongoose.models.Users || mongoose.model("Users",userModel)
 module.exports= Users;
