@@ -22,8 +22,9 @@ const createUser= async (userData)=>{
     });
 
     await user.save();
-
-    return "user created";
+    console.log(user);
+    
+    return user;
 }
 
 export default createUser

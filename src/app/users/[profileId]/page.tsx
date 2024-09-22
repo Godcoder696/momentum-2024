@@ -7,6 +7,30 @@ import React, { useEffect, useState } from 'react'
 function Profile({params}) {
   const { data: session } = useSession();
   const [sideBar, setSideBar]= useState(0);
+  const [usrDetails, setUsrDetails]= useState("");
+
+  useEffect(()=>{
+    const email= session?.user?.email;
+    if(email) getUser(email);
+
+  },[session?.user?.email])
+
+  const getUser= async(email)=>{
+    const user= await fetch("/api/user",{
+      method: "POST",
+      headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({email:email})
+    })
+    const details= await user.json();
+    const {data}= details;
+   
+    await setUsrDetails(data);
+  }
+
+
   return (
     <div className='h-screen bg-[#030919] text-white pt-[110px] pb-10 px-24 flex gap-3'>
       {/* <img src={session?.user?.image || ""} alt="" className="rounded-md h-44 w-44 cursor-pointer" /> */}
@@ -14,7 +38,7 @@ function Profile({params}) {
         <div className='w-full flex gap-4'>
           <img src={session?.user?.image || ""} alt="" className="rounded-md h-28 w-28 cursor-pointer" />
           <div  className='flex flex-col h-full space-y-1 py-4'>
-            <div className='text-2xl font-semibold'>MMT-2024-CODE</div>
+            <div className='text-2xl font-semibold'>{usrDetails.tag}</div>
             <div className='text-lg'>{session?.user?.name}</div>
             <div className='text-sm font-thin'>{session?.user?.email}</div>
           </div>
@@ -45,9 +69,9 @@ function Profile({params}) {
         <hr className='w-full bg-white h-[1px] opacity-[0.5]'/>
         {
           sideBar==0?
-          <UserProfile>Hello ji</UserProfile>
+          <UserProfile usrDetails={usrDetails}/>
           :
-          <MyEvents/>
+          <MyEvents events= {usrDetails.events}/>
         }
       </div>
     </div>

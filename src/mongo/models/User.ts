@@ -33,8 +33,7 @@ const userModel= mongoose.Schema(
             default: "participant"
         },
         tag:{
-            type: String,
-            unique: true
+            type: String
         },
         pNumber:{
             type: Number

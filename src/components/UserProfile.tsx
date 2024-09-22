@@ -1,11 +1,59 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import college from '../data/college.json';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { useSession } from 'next-auth/react';
 
-function UserProfile() {
-  const [fname, setFname]= useState("");
-  const [lname, setLname]= useState("");
-  const [phNum, setPhNum]= useState("");
-  const [clgName, setClgName]= useState("");
+function UserProfile({usrDetails}) {
+  const [fname, setFname]= useState(usrDetails.fname);
+  const [lname, setLname]= useState(usrDetails.lname);
+  const [phNum, setPhNum]= useState(usrDetails.pNumber);
+  const [clgName, setClgName]= useState(usrDetails.collegeName);
+  const [id, setId]= useState(usrDetails._id);
+  const [role, setRole]= useState("");
+  const [year, setYear]= useState("");
+  const [dob, setDob]= useState("");
+  const [addrs, setAddrs]= useState("");
+
+  useEffect(()=>{
+    if(usrDetails){
+      setFname(usrDetails.fname);
+      setLname(usrDetails.lname);
+      setPhNum(usrDetails.pNumber);
+      setClgName(usrDetails.collegeName);
+      setId(usrDetails._id);
+    }
+  },[usrDetails])
+
+  const validateDetails= async ()=>{
+    // toast("Hey!!", {
+    //   position: "top-right",
+    //   autoClose: 4000,
+    //   hideProgressBar: true,
+    //   closeOnClick: true,
+    //   pauseOnHover: true,
+    //   progress: undefined,
+    //   theme: "light"
+    // });
+    await fetch("/api/user",{
+      method: "PUT",
+      headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        _id: id,
+        email: usrDetails.email,
+        fname: fname,
+        lname: lname,
+        pNumber: phNum,
+        collegeName: clgName,
+        role: role
+      })
+    })
+
+    window.location.reload();
+  }
 
   return (
     <div className='w-full p-1 flex flex-col space-y-4'>
@@ -67,7 +115,15 @@ function UserProfile() {
           />
         </div>
       </div>
-      <button className='bg-purple-600 hover:bg-purple-800 py-3 rounded-md w-[49%]'>Save Changes</button>
+      <button 
+        className='bg-purple-600 hover:bg-purple-800 py-3 rounded-md w-[49%]'
+        onClick={()=>{
+          validateDetails()
+        }}
+      >
+        Save Changes
+      </button>
+      <ToastContainer />
     </div>
   )
 }

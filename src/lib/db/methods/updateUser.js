@@ -4,11 +4,12 @@ import generateTag from '../../../utils/generateTag'
 
 const updateUser= async (userData)=>{
 
-    const {email,fname,lname,tag,collegeName,events,pNumber}= userData;
+    const {email,fname,lname,tag,collegeName,events,pNumber,_id}= userData;
 
     await dbConnect();
 
-
+    console.log("id: ",_id);
+    
     const updateUser= await User.findOneAndUpdate(
         {
             email: email
@@ -16,7 +17,7 @@ const updateUser= async (userData)=>{
         {
             fname: fname,
             lname: lname,
-            tag: tag || await generateTag(userData),
+            tag: await generateTag(userData),
             collegeName: collegeName,
             events: events,
             pNumber: pNumber
