@@ -1,17 +1,24 @@
 import dbConnect from "./mongodb"
 import User from '../../../mongo/models/User';
 
-const createUser= async ()=>{
+const createUser= async (userData)=>{
     await dbConnect();
     
+    const {email,name,fname,lname,tag,collegeName,events,pNumber}= userData;
+
+    const userField= await User.findOne({email: email})
+    
+    if(userField) return userField;
+
     const user= new User({
-        name: "lakshay",
-        email: "lakshay21csu342@ncuindia.edu",
-        collegeName: "The Northcap University",
-        fname: "Lakshay",
-        lname: "Yadav",
-        tag: "12345",
-        pNumber: "9650368568",
+        name: name,
+        email: email,
+        fname: fname,
+        lname: lname,
+        tag: tag,
+        collegeName: collegeName,
+        events: events,
+        pNumber: pNumber
     });
 
     await user.save();

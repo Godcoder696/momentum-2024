@@ -34,18 +34,17 @@ const userModel= mongoose.Schema(
         },
         tag:{
             type: String,
-            unique: true,
-            isRequired: true
+            unique: true
         },
         pNumber:{
             type: Number
         },
-        // events:[
-        //     {
-        //         type: Array,
-        //     },
-        // ],
-        useVerified:{
+        events:[
+            {
+                type: String
+            },
+        ],
+        userVerified:{
             type: Boolean,
             default: false
         }

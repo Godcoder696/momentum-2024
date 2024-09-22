@@ -1,5 +1,6 @@
 'use client'
 import MyEvents from '@/components/MyEvents';
+import UserProfile from '@/components/UserProfile';
 import { useSession } from 'next-auth/react';
 import React, { useEffect, useState } from 'react'
 
@@ -23,30 +24,30 @@ function Profile({params}) {
           className={`w-full h-10 px-6 py-8 rounded-md mt-4 flex space-x-4 items-center text-lg cursor-pointer border-[1px] border-[#41454d] ${+sideBar==0?"bg-[#41454d]":"hover:bg-[#41454d]"}`}
           onClick={()=>{setSideBar(0)}}
           >
-          My Events
+          Profile
         </div>
         <div 
           className={`w-full h-10 px-6 py-8 rounded-md mt-4 flex space-x-4 items-center text-lg cursor-pointer border-[1px] border-[#41454d] ${+sideBar==1?"bg-[#41454d]":"hover:bg-[#41454d]"}`}
           onClick={()=>{setSideBar(1)}}
-        >
-          Campus Ambassador
+          >
+          Tickets
         </div>
       </div>
-      <div className='h-full w-4/6 bg-[#2123279d] rounded-sm p-6 space-y-6'>
+      <div className='h-full w-4/6 bg-[#2123279d] rounded-sm p-6 space-y-6 overflow-y-scroll'>
         <div className='text-2xl font-semibold'>
           {
             sideBar==0?
-            "My Events"
+            "Profile"
             :
-            "Campus Ambassador"
+            "Tickets"
           }
         </div>
         <hr className='w-full bg-white h-[1px] opacity-[0.5]'/>
         {
           sideBar==0?
-          <MyEvents/>
+          <UserProfile>Hello ji</UserProfile>
           :
-          <div>Hello ji</div>
+          <MyEvents/>
         }
       </div>
     </div>

@@ -4,8 +4,10 @@ import updateUser from '../../../lib/db/methods/updateUser';
 
 export async function POST(req){
     // const msg= NextRequest.msg;
+    
+    const params= await req.json();
     try {
-        const res= await createUser();
+        const res= await createUser(params);
         return NextResponse.json({msg:"Hello from post", response: res});
     } catch (error) {
         console.log(error);
@@ -14,19 +16,13 @@ export async function POST(req){
     }
 }
 
-export async function GET(){
+export async function PUT(req){
+    const params= await req.json();
     try {
-        return NextResponse.json({msg:"Hello from get"});
-    } catch (error) {
-        return NextResponse.json({msg:"error"});
-    }
-}
-
-export async function PUT(){
-    try {
-        const res= await updateUser();
+        const res= await updateUser(params);
         return NextResponse.json({msg:"Hello from put",response: res});
     } catch (error) {
-        return NextResponse.json({msg:"error"});
+        console.log(error);
+        return NextResponse.json({msg:"error",errMsg: error});
     }
 }
