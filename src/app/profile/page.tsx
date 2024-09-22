@@ -4,7 +4,7 @@ import UserProfile from '@/components/UserProfile';
 import { useSession } from 'next-auth/react';
 import React, { useEffect, useState } from 'react'
 
-function Profile({params}) {
+function Profile() {
   const { data: session } = useSession();
   const [sideBar, setSideBar]= useState(0);
   const [usrDetails, setUsrDetails]= useState("");
