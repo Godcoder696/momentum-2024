@@ -8,11 +8,17 @@ function MyEvents({events}) {
                 events.length==0?
                 <>No Events found</>
                 :
-                <div className='h-14 border-[1px] border-[#41454d] rounded-md flex items-center px-4 justify-between'>
-                    <div>Event Name</div>
-                    <div>Individual Event</div>
-                    <div>1/1</div>
-                </div>
+                events.map((event,index)=>{
+                    return(
+                      <div 
+                        key={index}
+                        className='h-14 border-[1px] border-[#41454d] rounded-md flex items-center px-4 justify-between'>
+                          <div>Event Name</div>
+                          <div>Individual Event</div>
+                          <div>1/1</div>
+                      </div>
+                    )
+                })
             }
             
         </div>

@@ -6,10 +6,10 @@ export async function PUT(req){
     
     try{
         const res= await newUserTicket(email, eventId);
-        return NextResponse.json({msg: "Hey",params: res}, {status: 200})
+        return NextResponse.json({params: res}, {status: 200})
     }
     catch(error){
-        return NextResponse.json({msg: "error",errMsg: error},{status: 500})
+        return NextResponse.json({errMsg: error},{status: 500})
     }
 }
 
