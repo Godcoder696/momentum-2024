@@ -11,7 +11,7 @@ import { useRef, useState } from "react";
 export default function Events({ }) {
   const [eventFilter, setEventFilter] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
-
+  
   return (
     <div>
       <div  className="h-screen min-h-screen bg-[#030919] text-white px-10 events-bg z-30 " >
