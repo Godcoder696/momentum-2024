@@ -2,23 +2,22 @@ const mongoose = require('mongoose');
 
 const userModel= mongoose.Schema(
     {
-        name:{
-            type: String,
-            isRequired: true
-        },
         email:{
             type: String,
             isRequired: true,
             unique: true
         },
         collegeName:{
-            type: String
+            type: String,
+            default: ""
         },
         fname:{
-            type: String
+            type: String,
+            default: ""
         },
         lname:{
-            type: String
+            type: String,
+            default: ""
         },
         createdAt:{
             type: Date,
@@ -46,6 +45,19 @@ const userModel= mongoose.Schema(
         userVerified:{
             type: Boolean,
             default: false
+        },
+        address:{
+            type: String
+        },
+        dob:{
+            type: String
+        },
+        gender:{
+            type:String,
+            default: "male"
+        },
+        year:{
+            type: String
         }
     }
 )

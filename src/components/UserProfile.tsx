@@ -1,19 +1,19 @@
-import React, { useEffect, useState } from 'react'
-import college from '../data/college.json';
-import { toast, ToastContainer } from 'react-toastify';
+import { useEffect, useState } from 'react';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { useSession } from 'next-auth/react';
+import college from '../data/college.json';
 
 function UserProfile({usrDetails}) {
-  const [fname, setFname]= useState(usrDetails.fname);
-  const [lname, setLname]= useState(usrDetails.lname);
-  const [phNum, setPhNum]= useState(usrDetails.pNumber);
-  const [clgName, setClgName]= useState(usrDetails.collegeName);
-  const [id, setId]= useState(usrDetails._id);
+  const [fname, setFname]= useState();
+  const [lname, setLname]= useState();
+  const [phNum, setPhNum]= useState();
+  const [clgName, setClgName]= useState();
+  const [id, setId]= useState();
   const [role, setRole]= useState("");
   const [year, setYear]= useState("");
   const [dob, setDob]= useState("");
   const [addrs, setAddrs]= useState("");
+  const [gender, setGender]= useState("");
 
   useEffect(()=>{
     if(usrDetails){
@@ -22,6 +22,10 @@ function UserProfile({usrDetails}) {
       setPhNum(usrDetails.pNumber);
       setClgName(usrDetails.collegeName);
       setId(usrDetails._id);
+      setYear(usrDetails.year);
+      setDob(usrDetails.dob);
+      setAddrs(usrDetails.address);
+      setGender(usrDetails.gender);
     }
   },[usrDetails])
 
@@ -48,7 +52,11 @@ function UserProfile({usrDetails}) {
         lname: lname,
         pNumber: phNum,
         collegeName: clgName,
-        role: role
+        role: role,
+        dob: dob,
+        gender: gender,
+        year: year,
+        address: addrs
       })
     })
 
@@ -76,47 +84,92 @@ function UserProfile({usrDetails}) {
           />
         </div>
       </div>
-      <div className='flex flex-col space-y-1'>
-        <span className='text-sm font-extralight'>Phone Number</span>
-        <div className='space-x-3 space-y-1'>
-          <input 
-            value={phNum || ""}
-            type="tel" 
-            className='bg-[#41454d] h-10 px-2 w-[49%] rounded-md' 
-            placeholder='99999-99999'
-            onChange={(event)=>{setPhNum(event.target.value);}}
-          />
+      <div className='flex w-full space-x-3'>
+        <div className='flex flex-col space-y-1 w-full'>
+          <span className='text-sm font-extralight'>Phone Number</span>
+          <div className='space-x-3 space-y-1'>
+            <input 
+              value={phNum || ""}
+              type="tel" 
+              className='bg-[#41454d] h-10 px-2 rounded-md w-full' 
+              placeholder='99999-99999'
+              onChange={(event)=>{setPhNum(event.target.value);}}
+            />
+          </div>
+        </div>
+        <div className='flex flex-col space-y-1 w-full'>
+          <span className='text-sm font-extralight'>Date of birth</span>
+          <div className='space-x-3 space-y-1'>
+            <input 
+              value={dob}
+              type="date" 
+              className='bg-[#41454d] h-10 px-2 rounded-md w-full' 
+              placeholder='99999-99999'
+              onChange={(event)=>{setDob(event.target.value);}}
+            />
+          </div>
         </div>
       </div>
-      <div className='flex flex-col space-y-1'>
-        <span className='text-sm font-extralight'>College Name</span>
-        <select 
-          name="" id="" 
-          className='bg-[#41454d] h-10 px-2 w-[49%] rounded-md'
-          value={clgName}
-          onChange={(event)=>{setClgName(event.target.value);}}
-        >
-          {
-            college.collegeList.map((clg, index)=>{
-              return (
-                <option value={clg} key={index}>{clg}</option>
-              )
-            })
-          }
-        </select>
+      <div className='flex w-full space-x-3'>
+        <div className='flex flex-col space-y-1 w-full'>
+          <span className='text-sm font-extralight'>College Name</span>
+          <select 
+            name="" id="" 
+            className='bg-[#41454d] h-10 px-2 w-full rounded-md'
+            value={clgName}
+            onChange={(event)=>{setClgName(event.target.value);}}
+          >
+            {
+              college.collegeList.map((clg, index)=>{
+                return (
+                  <option value={clg} key={index}>{clg}</option>
+                )
+              })
+            }
+          </select>
+        </div>
+        <div className='flex flex-col space-y-1 w-full'>
+          <span className='text-sm font-extralight'>Gender</span>
+          <select 
+            name="" id="" 
+            className='bg-[#41454d] h-10 px-2 w-full rounded-md'
+            value={gender}
+            onChange={(event)=>{setGender(event.target.value);}}
+          >
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="prefer not to say">prefer not to say</option>
+          </select>
+        </div>
       </div>
-      <div className='flex flex-col space-y-1'>
-        <span className='text-sm font-extralight'>Year of study</span>
-        <div className='space-x-3 space-y-1'>
-          <input 
-            type="tel" 
-            className='bg-[#41454d] h-10 px-2 w-[49%] rounded-md' 
-            placeholder='1st Year'
+      <div className='flex w-full space-x-3'>
+        <div className='flex flex-col space-y-1 w-full'>
+          <span className='text-sm font-extralight'>Year of study</span>
+          <select 
+            name="" id="" 
+            className='bg-[#41454d] h-10 px-2 w-full rounded-md'
+            value={year}
+            onChange={(event)=>{setYear(event.target.value);}}
+          >
+            <option value="1">1<sup>st</sup> Year</option>
+            <option value="2">2<sup>nd</sup> Year</option>
+            <option value="3">3<sup>rd</sup> Year</option>
+            <option value="4">4<sup>th</sup> Year</option>
+          </select>
+        </div>
+        <div className='flex flex-col space-y-1 w-full'>
+          <span className='text-sm font-extralight'>Address</span>
+          <input
+            value={addrs}
+            type="text" 
+            className='bg-[#41454d] h-10 px-2 rounded-md w-full' 
+            placeholder='Enter full address'
+            onChange={(event)=>{setAddrs(event.target.value);}}
           />
         </div>
       </div>
       <button 
-        className='bg-purple-600 hover:bg-purple-800 py-3 rounded-md w-[49%]'
+        className='bg-purple-600 hover:bg-purple-800 py-3 rounded-md'
         onClick={()=>{
           validateDetails()
         }}

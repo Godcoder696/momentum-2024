@@ -4,7 +4,9 @@ import generateTag from '../../../utils/generateTag'
 
 const updateUser= async (userData)=>{
 
-    const {email,fname,lname,tag,collegeName,events,pNumber,_id}= userData;
+    const {email,fname,lname,tag,collegeName,events,pNumber,_id,dob,gender, address,year}= userData;
+
+    console.log("user updated: ",userData);
 
     await dbConnect();
 
@@ -20,7 +22,12 @@ const updateUser= async (userData)=>{
             tag: await generateTag(userData),
             collegeName: collegeName,
             events: events,
-            pNumber: pNumber
+            pNumber: pNumber,
+            modifiedAt: Date.now(),
+            address: address,
+            dob: dob,
+            gender: gender,
+            year: year
         }
     )
 
