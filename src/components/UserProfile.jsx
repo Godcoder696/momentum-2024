@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ToastContainer } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import college from '../data/college.json';
 
@@ -29,38 +29,50 @@ function UserProfile({usrDetails}) {
     }
   },[usrDetails])
 
-  const validateDetails= async ()=>{
-    // toast("Hey!!", {
-    //   position: "top-right",
-    //   autoClose: 4000,
-    //   hideProgressBar: true,
-    //   closeOnClick: true,
-    //   pauseOnHover: true,
-    //   progress: undefined,
-    //   theme: "light"
-    // });
-    await fetch("/api/user",{
-      method: "PUT",
-      headers:{
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        _id: id,
-        email: usrDetails.email,
-        fname: fname,
-        lname: lname,
-        pNumber: phNum,
-        collegeName: clgName,
-        role: role,
-        dob: dob,
-        gender: gender,
-        year: year,
-        address: addrs
-      })
-    })
+  const myToast= (msg)=>{
+    toast(msg, {
+      position: "top-right",
+      autoClose: 4000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      progress: undefined,
+      theme: "light"
+    });
+  }
 
-    window.location.reload();
+  const validateDetails= async ()=>{
+    if(!fname || !lname) myToast("Enter full name!.")
+    if(fname.length<3)myToast("Name should have atleast 3 characters.");
+    if(!phNum || phNum.length!=10)myToast("Please enter valid phone number.");
+    if(!year) myToast("Please select a year.")
+    if(!dob) myToast("Please enter your date of birth.")
+    if(!addrs) myToast("Please enter your address.")
+
+    else if(fname && fname.length>=3 && lname && phNum && phNum.length==10 && year && dob && addrs){
+      await fetch("/api/user",{
+        method: "PUT",
+        headers:{
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          _id: id,
+          email: usrDetails.email,
+          fname: fname,
+          lname: lname,
+          pNumber: phNum,
+          collegeName: clgName,
+          role: role,
+          dob: dob,
+          gender: gender,
+          year: year,
+          address: addrs
+        })
+      })
+      window.location.reload();
+    }
+
   }
 
   return (

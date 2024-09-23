@@ -27,7 +27,8 @@ const updateUser= async (userData)=>{
             address: address,
             dob: dob,
             gender: gender,
-            year: year
+            year: year,
+            userVerified: true
         }
     )
 
