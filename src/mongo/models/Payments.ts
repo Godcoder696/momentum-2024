@@ -22,18 +22,6 @@ const paymentModel= mongoose.Schema(
             type: Date,
             default: Date.now()
         },
-        t_verify_user: {
-            type: Boolean,
-            default: false
-        },
-        t_verify_user_at: {
-            type: Date,
-            default: Date.now()
-        },
-        t_verify_rpay: {
-            type: Boolean,
-            default: false
-        },
         team_name: {
             type: String,
             default: "Single Player"

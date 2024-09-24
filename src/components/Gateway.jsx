@@ -15,7 +15,7 @@ function Gateway() {
       });
       const data = await response.json();
 
-      console.log(data);
+      console.log(data.orderId);
 
       // initialize razprpay
       const options = {
@@ -39,6 +39,8 @@ function Gateway() {
       };
 
       const rzp1 = new window.Razorpay(options);
+      console.log(rzp1);
+
       rzp1.open();
     } catch (error) {
       console.log("Payment Failed", error);
