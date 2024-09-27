@@ -54,9 +54,9 @@
     {
         "id": 2,
         "name": "Among Us Intrigue (Among Us)",
-        "mainCoordi": "Niket",
+        "mainCoordi": "Yuvraj",
         "coordinators": "Anvi, Muskan",
-        "contact": "9310723765",
+        "contact": "7042147175",
         "dayTime":"Day 1, 12 PM - 2 PM",
         "venue": "N201",
         "fee": "100",
@@ -101,16 +101,572 @@
     },
     {
         "id": 4,
-        "name": "",
+        "name": "BizWhiz Ideathon",
+        "mainCoordi": "Kavya",
+        "coordinators": "Soumaya, Vershaish",
+        "contact": "8595839182",
+        "dayTime":"Day 1, 12 PM - 2:30 PM",
+        "venue": "N209",
+        "fee": "200",
+        "desc": "",
+        "criteria": [
+            "Originality, feasibility, scalability, and market potential of the business plan.",
+            "Presentation skills and team collaboration."
+        ],
+        "rule": [
+            "Teams of 2-4 members.",
+            "No external aids (consultants, pre-made templates).",
+            "Each team gets 10 minutes for presentation and 5 minutes for Q&A."
+        ],
+        "elimination":[
+            "Winner based on panel's scoring."
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Eco-Creative Craft (Best Out of Waste)",
+        "mainCoordi": "Ishika",
+        "coordinators": "Kavya Singh, Mohit Dudeja",
+        "contact": "8595394240",
+        "dayTime":"Day 1, 12:30 PM - 1:30 PM",
+        "venue": "N302",
+        "fee": "100",
+        "desc": "",
+        "criteria": [
+            "Creativity and use of waste materials.",
+            "Aesthetic appeal and overall concept."
+        ],
+        "rule": [
+            "No pre-made crafts allowed.",
+            "Materials will be checked before competition."
+        ],
+        "elimination":[
+            "Single round competition.",
+            "Top 3 crafts awarded."
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Star Search (Talent Hunt)",
+        "mainCoordi": "Pakhi",
+        "coordinators": "Jyoti, Baani",
+        "contact": "9818357711",
+        "dayTime":"Day 1, 1 PM - 2 PM",
+        "venue": "RN-222",
+        "fee": "100",
+        "desc": "",
+        "criteria": [
+           "Creativity (30%): Originality and uniqueness of the performance.",
+           "Skill (30%): Mastery of the talent showcased.",
+           "Presentation (20%): Overall stage presence, confidence, and audience engagement.",
+           "Technical Execution (20%): Quality of performance, including voice clarity, dance technique, etc.",
+           "Audience Voting: Audience members may cast votes for their favorite performances during the final showcase. Votes will contribute to the overall score but not exceed the judges' scores.",
+           "A panel of 3-5 judges with expertise in various talents will evaluate performances based on the scoring criteria."
+        ],
+        "rule": [
+            "Performance Time: Each participant is allowed solo or a maximum of 5 minutes for their performance. Timing will be strictly enforced.",
+            "Content: All performances must be original or properly credited. No offensive or inappropriate content will be tolerated.",
+            "Props and Equipment: Participants may use props or instruments. Any necessary equipment must be arranged by the participants beforehand and checked for safety.",
+            "Technical Setup: Sound and lighting equipment will be provided. Participants are encouraged to do a brief soundcheck prior to their performance.",
+            "Conduct: Participants are expected to maintain professionalism. Disruptive behavior or unsportsmanlike conduct will lead to disqualification."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Push-Up Endurance (Push Up Competition)",
+        "mainCoordi": "Shridhar ",
+        "coordinators": "Pratyush, Lokesh",
+        "contact": "9971355350",
+        "dayTime":"Day 1, 1 PM - 2 PM",
+        "venue": "Incubation Center",
+        "fee": "100",
+        "desc": "",
+        "criteria": [
+           "Total Push-Ups: The winner will be determined by the total number of correctly executed push-ups completed within the 2-minute time frame.",
+           "Tiebreaker: In case of a tie, a sudden-death round will be held where tied participants will perform as many push-ups as possible until one participant fails to meet the proper form or cannot continue.",
+           "Judges will oversee the competition to ensure adherence to rules and proper counting of push-ups.",
+           "Judges have the final authority to determine the validity of each push-up and to disqualify participants as necessary."
+        ],
+        "rule": [
+            "Starting Position: Participants must begin in a plank position, with hands shoulder-width apart and body in a straight line from head to heels.",
+           "Proper Form: A push-up is counted when the participant lowers their chest to the ground and returns to the starting position without sagging the hips or arching the back. Participants must maintain proper form throughout the duration. Any deviation from proper form will result in disqualification of that push-up.",
+           "Time Limit: Each participant has 2 minutes to complete as many push-ups as possible. Time starts when the judge signals the beginning.",
+           "Resting: Participants may rest in the plank position but must maintain the plank form. If they drop to their knees or sit, they will be disqualified from the count.",
+           "Disqualification: Any participant found cheating or using improper form will be disqualified from the event."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Verses Unbound (Shayari Event)",
+        "mainCoordi": "Ishika",
+        "coordinators": "Jessica, Ananya",
+        "contact": "8595394240",
+        "dayTime":"Day 1, 1 PM - 2 PM",
+        "venue": "N204",
+        "fee": "100",
+        "desc": "Topic Announcement: A specific topic will be announced at the start of the event. Participants will have a short time (e.g., 10 minutes) to prepare their Shayari based on this topic. Each participant is allotted a maximum of 3 minutes for their performance. Participants will recite their Shayari in front of a panel of judges and an audience.",
+        "criteria": [
+           "After all performances, judges will evaluate each participant based on set criteria, and winners will be announced.",
+           "Creativity (30%): Originality and uniqueness of the Shayari.",
+           "Delivery (30%): Clarity, emotion, and expressiveness during recitation.",
+           "Connection (20%): Ability to engage and resonate with the audience.",
+           "Technical Quality (20%): Use of language, rhythm, and adherence to poetic structure.",
+           "A panel of 3-5 judges with expertise in poetry will evaluate performances based on the scoring criteria."
+        ],
+        "rule": [
+            "Performance Time: Each participant has a strict time limit of 3 minutes. Timing will be monitored, and any participant exceeding this limit will be stopped.",
+            "Content: All Shayari presented must be original and relevant to the given topic. Any plagiarized content will lead to disqualification.",
+            "Language: Participants may present their Shayari in Hindi, Urdu, or English. Bilingual performances are also encouraged.",
+            "Props and Aids: Participants may use minimal props, but no visual aids or written materials are allowed during the performance.",
+            "Conduct: Participants are expected to maintain professionalism. Disruptive behavior during other participants’ performances will not be tolerated."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Artistry Arena (Art Competition)",
+        "mainCoordi": "Pakhi",
+        "coordinators": "Divigya, Hitanshu",
+        "contact": "9818357711",
+        "dayTime":"Day 1, 1 PM - 2 PM",
+        "venue": "RN-102",
+        "fee": "100",
+        "desc": "Participants showcase their artistic skills by creating original artworks within a specified time limit, aiming to impress judges with creativity and technique. Materials: Participants are required to bring their own materials, including canvases, paints, brushes, or other tools. A list of allowed materials will be provided upon registration. The competition will last for 1 hour. Participants will create their artwork based on a theme announced at the start of the event. Completed artworks must be submitted at the end of the time limit for evaluation.",
+        "criteria": [
+           "Creativity (30%): Originality and uniqueness of the artwork.",
+           "Technique (30%): Mastery of the chosen medium and skill in execution.",
+           "Theme Relevance (20%): How well the artwork adheres to the announced theme.",
+           "Presentation (20%): Overall aesthetics, including composition and finishing.",
+           "A panel of 3-5 judges with expertise in art will evaluate the submissions based on the scoring criteria."
+        ],
+        "rule": [
+            "Theme: The theme for the artwork will be announced at the beginning of the event. All entries must relate to this theme.",
+            "Originality: All artwork must be original. Plagiarized or copied works will lead to disqualification.",
+            "Conduct: Participants are expected to maintain a respectful and encouraging atmosphere. Disruptive behavior or disrespect towards others’ works will not be tolerated."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Rangoli Radiance - Rangoli Making Competition",
+        "mainCoordi": "Ishika",
+        "coordinators": "Kanika, Gaurika",
+        "contact": "8595394240",
+        "dayTime":"Day 1, 1:30 PM - 2:30 PM",
+        "venue": "Waiting Area",
+        "fee": "100",
+        "desc": "Participants create beautiful and intricate rangoli designs using colorful materials, showcasing their artistic skills and creativity. Participants must register in advance, either individually or in teams. Each team can have up to 3 members. Participants should bring their own materials for creating rangoli, including colored powders, flowers, and any additional decorative elements. A list of allowed materials will be provided upon registration. The competition will last for 1 hours. Participants will create their rangoli designs on designated spaces marked on the ground. Completed rangoli designs will be submitted for evaluation at the end of the time limit.",
+        "criteria": [
+           "Creativity (30%): Originality and uniqueness of the rangoli design.",
+           "Technique (30%): Skill in execution, including detail and precision.",
+           "Theme Relevance (20%): How well the rangoli adheres to the announced theme.",
+           "Presentation (20%): Overall aesthetics, including color harmony and finishing touches.",
+           "A panel of 3-5 judges with expertise in art and design will evaluate the submissions based on the scoring criteria."
+        ],
+        "rule": [
+            "Theme: A specific theme will be announced at the beginning of the event. All rangoli designs must adhere to this theme.",
+            "Originality: All designs must be original. Plagiarized or copied works will lead to disqualification.",
+            "Conduct: Participants are expected to maintain a respectful and encouraging atmosphere. Disruptive behavior or disrespect towards others’ works will not be tolerated."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Stock Smarts - Mock Stock",
+        "mainCoordi": "Jatin",
+        "coordinators": "Rudra, Siya",
+        "contact": "9315431144",
+        "dayTime":"Day 1, 1:30 PM - 2:30 PM",
+        "venue": "RN-117",
+        "fee": "100",
+        "desc": "Participants engage in a simulated stock trading environment to demonstrate their understanding of the stock market, investment strategies, and decision-making skills. Participants must register in advance as individuals or in teams (up to 3 members per team). Participants will be provided with a virtual portfolio containing a set amount of virtual currency (e.g., $100,000). The trading event will last for a specified period (e.g., 1 hours). Participants will make buy and sell decisions based on real-time market data provided during the event. At the end of the trading period, participants will submit their final portfolios for evaluation.",
+        "criteria": [
+           "Portfolio Value: The primary scoring criterion will be the final value of each participant’s or team’s portfolio at the end of the trading period.",
+           "Investment Strategy: Judges may also consider the strategy employed by participants, including diversification and risk management.",
+           "Decision-Making: The effectiveness of buy and sell decisions will be evaluated based on the participants’ ability to adapt to market changes.",
+           "A panel of judges with expertise in finance and trading will evaluate participants based on the scoring criteria."
+        ],
+        "rule": [
+            "Trading Limitations: Participants may trade stocks, bonds, and commodities as specified in the event guidelines. Certain high-risk options may be restricted.",
+            "Market Information: Market data will be provided to all participants during the trading period. Participants must rely on this information to make informed decisions.",
+            "Team Collaboration: Teams may discuss strategies but must ensure that all trading decisions are made collectively.",
+            "Conduct: Participants are expected to maintain professionalism and sportsmanship throughout the event. Disruptive behavior will not be tolerated."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Tech Trivia Tournament - Tech Quiz",
+        "mainCoordi": "Nirjhar",
+        "coordinators": "Himani, Anshika",
+        "contact": "9311097076",
+        "dayTime":"Day 1, 2:00 PM - 3:00 PM",
+        "venue": "RN-209",
+        "fee": "100",
+        "desc": "",
+        "teamSize": " 2-3 members",
+        "criteria": [
+           "Accuracy of answers",
+           "Speed in responding"
+        ],
+        "rule": [
+            "The quiz will consist of multiple-choice, short-answer, and true/false questions.",
+            "Teams will be given time limits for each round.",
+            "In case of cheating, the participant will be disqualified",
+            "Any form of cheating will lead to immediate disqualification."
+        ],
+        "elimination":[
+            "Teams scoring below the median will be eliminated in each round."
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Debate Duel - Debate Competition",
+        "mainCoordi": "Kavya",
+        "coordinators": "Khushi Sharma, Pawni Kaushik",
+        "contact": "8595839182",
+        "dayTime":"Day 1, 2:00 PM - 3:00 PM",
+        "venue": "N304",
+        "fee": "100",
+        "desc": "Participants engage in a structured debate format to articulate their viewpoints on a given topic, aiming to persuade the judges and audience with their arguments and rebuttals. Participants must register in advance as individuals or in teams (up to 3 members per team). A specific debate topic will be announced at the beginning of the event. Participants will be assigned either the 'pro' or 'con' position.  Participants will have a limited time (e.g., 10-15 minutes) to prepare their arguments before the debate begins. Each debate will consist of multiple rounds, typically including opening statements, rebuttals, and closing arguments. Time limits will be enforced for each segment (e.g., 3 minutes for opening statements, 2 minutes for rebuttals). Judges will evaluate the debates based on the established criteria, and winners will be announced. ",
+        "teamSize": " upto 3 members",
+        "criteria": [
+           "Argument Quality (40%): Clarity, logic, and persuasiveness of arguments presented.",
+           "Rebuttal Effectiveness (30%): Ability to counter opposing arguments effectively.",
+           "Delivery (20%): Presentation style, confidence, and engagement with the audience.",
+           "Research and Evidence (10%): Use of factual data, examples, and logical reasoning to support arguments.",
+           "A panel of judges with expertise in debate will evaluate performances based on the scoring criteria."
+        ],
+        "rule": [
+            "Conduct: Participants are expected to maintain decorum and respect each other's viewpoints. Disruptive behavior will not be tolerated.",
+            "Use of Notes: Participants may use notes during the debate but should aim to engage with the audience and judges directly.",
+            "Respectful Discourse: Personal attacks or disrespectful comments towards opponents will lead to disqualification.",
+            "Time Management: Participants must adhere to the time limits for each segment. Judges will signal when time is nearly up."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Story Blitz - One-Minute Storytelling",
+        "mainCoordi": "Jatin",
+        "coordinators": "Gia, Hetal",
+        "contact": "9315431144",
+        "dayTime":"Day 1, 2:00 PM - 3:00 PM",
+        "venue": "RN-136",
+        "fee": "100",
+        "desc": "Participants share their original stories in a concise format, aiming to engage the audience and judges within a one-minute timeframe. Participants must register in advance. Each participant will be assigned a specific time slot for their performance. A theme or prompt may be provided at the start of the event to inspire storytelling. Participants will have a short time (e.g., 5 minutes) to prepare. Each participant will have exactly one minute to tell their story in front of the audience and judges. After all performances, judges will evaluate each participant based on the set criteria, and winners will be announced. ",
+        "teamSize": "",
+        "criteria": [
+           "Creativity (30%): Originality and uniqueness of the story.",
+           "Engagement (30%): Ability to captivate the audience and maintain interest throughout the performance.",
+           "Clarity (20%): Coherence and clarity in storytelling, including structure and flow.",
+           "Delivery (20%): Presentation style, including voice modulation, pacing, and expressiveness.",
+           "A panel of judges with experience in storytelling or literature will evaluate performances based on the scoring criteria."
+        ],
+        "rule": [
+            "Time Limit: Each participant has a strict time limit of one minute. Timing will be monitored, and any participant exceeding this limit will be stopped.",
+            "Content: All stories must be original. Plagiarized or copied works will lead to disqualification. Stories should be appropriate for all audiences.",
+            "Language: Participants may tell their stories in any language. Bilingual performances are also encouraged.",
+            "Props and Aids: No props or visual aids are allowed during the storytelling. Participants should rely solely on their narrative skills.",
+            "Conduct: Participants are expected to maintain professionalism. Disruptive behavior during other participants’ performances will not be tolerated."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Ping Pong Palooza - Table Tennis Competition",
+        "mainCoordi": "Nirjhar",
+        "coordinators": "Ayush, Aaradhye Agarwal",
+        "contact": "9311097076",
+        "dayTime":"Day 1, 2:30 PM - 4:30 PM",
+        "venue": "Sports Room",
+        "fee": "100",
+        "desc": "Participants compete in a table tennis tournament to showcase their skills and strategy, aiming to win matches and ultimately be crowned the champion. Participants must register in advance as individuals or in teams (if doubles are allowed). The competition will follow a knockout format, with each match played as the best of three games. Each game will be played to 11 points, and players must win by at least 2 points. A brief warm-up period will be provided before each match. Winners will advance to the next round until a champion is determined.",
+        "teamSize": "",
+        "criteria": [
+           "Match Wins: The primary criterion for advancing in the tournament is the number of matches won.",
+           "Performance Evaluation: While there are no formal scoring criteria beyond match wins, judges may observe performance quality and sportsmanship throughout the event.",
+           "A referee will oversee the matches, ensure adherence to rules, and resolve any disputes."
+        ],
+        "rule": [
+            "Equipment: Players must bring their own paddles. Balls and tables will be provided by the organizers.",
+            "Scoring System: Matches will use the rally scoring system, where points can be scored by either player regardless of who serves.",
+            "Service Rules: Players must serve behind the end line, and the ball must first bounce on their side before crossing over to the opponent’s side.",
+            "Conduct: Players are expected to maintain sportsmanship. Disruptive behavior, unsportsmanlike conduct, or cheating will lead to disqualification.",
+            "Disputes: Any disputes regarding points or rules must be raised immediately to the umpire, whose decision will be final."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Free Fire Frenzy - Free Fire Squad Battle",
+        "mainCoordi": "Priyanshu",
+        "coordinators": "Raghav, Keshav",
+        "contact": "9560900386",
+        "dayTime":"Day 1, 3:00 PM - 4:30 PM",
+        "venue": "N209",
+        "fee": "200 per squad",
+        "desc": "Teams compete in a battle royale format in the game Free Fire, aiming to be the last squad standing while demonstrating teamwork and strategy. Teams must register in advance, with each team consisting of up to 4 players. Teams will be assigned specific match times. Players must ensure their devices and accounts are ready and updated prior to the event. Each match will be played in a standard squad format. The winning team will be the last squad remaining alive in the match. Teams will earn points based on their performance in each match.",
+        "teamSize": "",
+        "criteria": [
+           "Match Wins: Teams earn 10 points for each match win.",
+           "Eliminations: Teams earn 1 point for each enemy player eliminated.",
+           "Placement Points: Additional points may be awarded based on final placements: 2nd Place: 5 points, 3rd Place: 3 points, 4th Place and lower: 1 point",
+           "Total Points: The team with the highest total points at the end of all matches will be declared the winner.",
+           "A referee or event organizer will oversee the matches, ensuring adherence to rules and resolving any disputes.",
+           "Match results will be tracked and tallied after each round."
+        ],
+        "rule": [
+            "Gameplay: Teams must play fair and avoid any form of cheating or exploitation of bugs. All players must adhere to the game’s rules and etiquette.",
+            "Communication: Teams are encouraged to use in-game voice chat or other communication tools for coordination during matches.",
+            "Disconnections: If a player disconnects, they may rejoin the match only if the match has not concluded. If the match ends, their team must continue with the remaining players.",
+            "Conduct: Players are expected to maintain sportsmanship and respect towards other teams. Disruptive behavior, harassment, or unsportsmanlike conduct will lead to disqualification."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Brainiac Battle - General Knowledge Quiz",
+        "mainCoordi": "Shridhar",
+        "coordinators": "Anvi, Muskan",
+        "contact": "9971355350",
+        "dayTime":"Day 1, 3:00 PM - 4:00 PM",
+        "venue": "RN-122",
+        "fee": "150 per team",
+        "desc": "Multiple-choice and short-answer questions covering various topics, including history, science, geography, pop culture, and current events.",
+        "teamSize": "2 members per team",
+        "criteria": [
+           "Accuracy of answers."
+        ],
+        "rule": [
+            "No use of electronic devices.",
+            "Cheating will result in immediate elimination."
+        ],
+        "elimination":[
+            "Teams scoring below 50% will be eliminated after each round."
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Minute to Win It - 60-Second Showdown",
+        "mainCoordi": "Nayan",
+        "coordinators": "Aayushi Dhanda, Vanshika",
+        "contact": "7889271180",
+        "dayTime":"Day 1, ",
+        "venue": "N407",
+        "fee": "150",
+        "desc": "",
+        "teamSize": "Indiviual",
+        "criteria": [
+           "Task completion speed and accuracy."
+        ],
+        "rule": [
+            "Each task must be completed within 60 seconds.",
+            "Participants are assigned random tasks.",
+            "No external help allowed."
+        ],
+        "elimination":[
+            "Tasks will increase in difficulty; participants failing to complete in time will be eliminated."
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Code Golf Challenge - Coding Challenge",
+        "mainCoordi": "Jatin",
+        "coordinators": "Aryan Dahiya, Sidhant Raj",
+        "contact": "9315431144",
+        "dayTime":"Day 1, 3:00 PM - 4:00 PM",
+        "venue": "RN-136",
+        "fee": "100",
+        "desc": "Participants compete to solve coding problems using the least amount of code possible, demonstrating efficiency and creativity in their programming skills. A set of coding problems will be announced at the start of the event. Each problem will have specific requirements and constraints. Participants will have a fixed amount of time (e.g., 1 hour) to solve as many problems as possible. Each solution will be evaluated based on its code length and correctness.",
+        "teamSize": "",
+        "criteria": [
+           "Correctness: Points will only be awarded for correct solutions. A correctly solved problem with a longer solution will score lower than an incorrect solution with a shorter code.",
+           "A panel of judges with expertise in programming will evaluate the submitted solutions based on the scoring criteria."
+        ],
+        "rule": [
+            "Programming Languages: Participants may choose from a predefined list of programming languages (e.g., Python, JavaScript, Ruby, etc.).",
+            "Correctness: Solutions must produce the correct output for all given test cases. Incorrect solutions will not be scored.",
+            "Conduct: Participants are expected to maintain professionalism and sportsmanship. Cheating or collaboration between teams during the coding period will lead to disqualification."
+        ],
+        "elimination":[
+            ""
+        ]
+    },
+    {
+        "id": 20,
+        "name": "The Analysis Arena (Case Study Competition)",
+        "mainCoordi": "Yuvraj",
+        "coordinators": "Shobhit, Chaitanya",
+        "contact": "7042147175",
+        "dayTime":"Day 1, 3:30 PM – 4:30 PM",
+        "venue": "RN-102",
+        "fee": "150",
+        "desc": "Participants analyze a provided case study, develop solutions or recommendations, and present their findings to a panel of judges. Participants must register in advance as individuals or in teams (up to 4 members per team). A case study will be distributed to participants at the start of the event. Participants will have a set time (e.g., 2-3 hours) to analyze the case and prepare their presentations. Each team will present their findings and recommendations to the judges in a specified time (e.g., 10 minutes), followed by a Q&A session (e.g., 5 minutes). Judges will evaluate presentations based on set criteria, and winners will be announced at the end.",
+        "teamSize": "2-3",
+        "criteria": [
+           "Analysis (40%): Depth and clarity of the analysis presented, including identification of key issues and insights.",
+           "Solutions (30%): Practicality and creativity of the proposed solutions or recommendations.",
+           "Presentation (20%): Clarity, engagement, and professionalism in delivery, including use of visual aids.",
+           "Q&A Performance (10%): Ability to answer questions effectively and demonstrate a deep understanding of the case.",
+           "A panel of judges with expertise in business analysis and the relevant industry will evaluate the presentations based on the scoring criteria."
+        ],
+        "rule": [
+            "Case Study Focus: The case study will focus on a specific industry or issue. Participants should tailor their analysis and recommendations accordingly.",
+            "Presentation Materials: Teams may use slides or visual aids during their presentations. These materials must be submitted in advance for review.",
+            "Time Management: Teams must adhere to the allotted time for both presentations and Q&A. Judges will signal when time is nearly up.",
+            "Conduct: Participants are expected to maintain professionalism and respect during presentations and Q&A sessions. Disruptive behavior will not be tolerated."
+        ],
+        "elimination":[
+            ""
+        ]
+    },
+    {
+        "id": 21,
+        "name": "3v3 Basketball Tournament",
+        "mainCoordi": "Priyanshu",
+        "coordinators": "Anam Khan, Mohit Dudeja",
+        "contact": "9560900386",
+        "dayTime":"Day 1, 3 PM – 4:30 PM",
+        "venue": "Basketball Court",
+        "fee": "150",
+        "desc": "",
+        "teamSize": "3",
+        "criteria": [
+           "The winning team will be determined by points scored.",
+           "Game Wins: The primary criterion for advancing in the tournament is the number of games won.",
+           "Performance Evaluation: While there are no formal scoring criteria beyond game wins, judges may observe the overall teamwork and sportsmanship throughout the event."
+        ],
+        "rule": [
+            "Standard 3v3 basketball rules apply.",
+            "Each match will consist of two halves of 10 minutes each.",
+            "No substitutions are allowed during the game.",
+            "Unsportsmanlike behavior will lead to direct disqualification.",
+            "Game Play: The game starts with a coin toss to determine which team will have the first possession. After each made basket, the scoring team must take the ball out of bounds to restart play.",
+            "Fouls: Personal fouls will be called for any illegal physical contact. Teams will receive free throws after the 5th team foul in a game. Technical fouls may be called for unsportsmanlike conduct.",
+            "Timeouts: Each team is allowed one timeout per game, lasting up to 30 seconds.",
+            "Conduct: Teams are expected to maintain sportsmanship and respect towards opponents and officials. Disruptive behavior will lead to disqualification."
+        ],
+        "elimination":[
+            "Knockout rounds will be held until a final winner emerges.",
+            "Match Format: The tournament will be conducted in a knockout format, with each match played to a specified number of points (e.g., 15 points) or until the time limit is reached (e.g., 10 minutes). Each game will use half-court play.",
+            "Warm-Up: Teams will be given a brief warm-up period before their matches.",
+            "Scoring: Points will be awarded based on field goals, with 1 point for shots made inside the arc and 2 points for shots made beyond the arc."
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Clash Master Solo (Clash of Clans Solo Competition)",
+        "mainCoordi": "Nirjhar",
+        "coordinators": "Preyansh, Ishan",
+        "contact": "9311097076",
+        "dayTime":"Day 1, 2:30 PM – 3:30 PM",
+        "venue": "N201",
+        "fee": "100",
+        "desc": "",
+        "teamSize": "Indiviual",
+        "criteria": [
+           "Highest destruction percentage and stars earned."
+        ],
+        "rule": [
+            "Each player will have one opportunity to attack an opponent’s base.",
+            "Attack time will be capped at 3 minutes.",
+            "Participants must use their own devices with pre-registered accounts."
+        ],
+        "elimination":[
+            "Knockout basis; top performers will proceed to final rounds."
+        ]
+    },
+    {
+        "id": 23,
+        "name": "SkipMania (Skipping Competition)",
+        "mainCoordi": "Yuvraj",
+        "coordinators": "Lokesh, Pratyush",
+        "contact": "7042147175",
+        "dayTime":"Day 1, 4 PM – 4:30 PM",
+        "venue": "Badminton Court",
+        "fee": "100",
+        "desc": "Participants compete to showcase their skipping skills, aiming to achieve the highest number of skips in a set time limit while demonstrating technique and style. Participants must register in advance as individuals. Each participant will be assigned a specific time slot for their turn. A brief warm-up session will be provided to prevent injuries and prepare participants for the competition. Each participant will have a set time (e.g., 1 minute) to complete as many skips as possible. Skips will be counted by judges during the performance. Points will be awarded based on the total number of successful skips completed within the time limit.",
+        "teamSize": "Indiviual",
+        "criteria": [
+           "Total Skips: The primary scoring criterion will be the total number of successful skips completed within the time limit.",
+           "Style Points: Judges may award additional style points for creativity in skipping techniques (e.g., tricks, variations), but these points will not exceed the total number of skips.",
+           "Judges will oversee the competition to ensure adherence to rules and accurate counting of skips."
+        ],
+        "rule": [
+            "Skipping Technique: Participants must use a standard jump rope for the competition. The rope must be of appropriate length. All skips must be performed with proper form; both feet must leave the ground for each skip.",
+            "Time Limit: Each participant has exactly 1 minute to complete as many skips as possible. Timing will be strictly enforced.",
+            "Conduct: Participants are expected to maintain sportsmanship and respect towards other competitors and judges."
+        ],
+        "elimination":[
+            "Missing the rope entirely.",
+            "Using any aids or tools other than the skipping rope.",
+            "Conducting disruptive behavior during the competition."
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Essay Writing Competition",
+        "mainCoordi": "Nirjhar",
+        "coordinators": "Shristi, Priyanshi",
+        "contact": "9311097076",
+        "dayTime":"Day 1, 3:30 PM – 4:30 PM",
+        "venue": "RN-215",
+        "fee": "100",
+        "desc": "Participants compose original essays on a given topic, showcasing their writing skills, creativity, and critical thinking abilities. Participants must register in advance as individuals. Each participant will be assigned a specific time slot for the essay writing. A specific essay topic will be announced at the start of the event. Participants will have time to prepare and plan their essays. Each participant will have a set time (e.g., 1-2 hours) to write their essay. Essays must be handwritten or typed, depending on the event setup. Completed essays must be submitted by the end of the allotted time for evaluation.",
+        "teamSize": "Indiviual",
+        "criteria": [
+           "Content (40%): Relevance to the topic, depth of analysis, and clarity of argument.",
+           "Structure (30%): Organization, coherence, and flow of ideas within the essay.",
+           "Language (20%): Use of grammar, vocabulary, and overall writing style.",
+           "Creativity (10%): Originality of thought and creativity in presentation.",
+           "A panel of judges with expertise in writing and literature will evaluate the essays based on the scoring criteria."
+        ],
+        "rule": [
+            "Originality: All essays must be original works. Plagiarized essays will result in disqualification.",
+            "Length: Essays must adhere to a specified word limit (e.g., 500-1000 words). Participants should ensure their essays fall within this limit.",
+            "Formatting: Participants may be required to follow specific formatting guidelines (e.g., font type, size, spacing). These guidelines will be provided at the start of the event.",
+            "Conduct: Participants are expected to maintain professionalism and respect toward others during the writing period. Disruptive behavior will not be tolerated."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 25,
+        "name": "BGMI Squad Showdown",
         "mainCoordi": "",
         "coordinators": "",
         "contact": "",
-        "dayTime":"",
+        "dayTime":"Day 2, ",
         "venue": "",
         "fee": "",
         "desc": "",
+        "teamSize": "4",
         "criteria": [
-            
+           
         ],
         "rule": [
             

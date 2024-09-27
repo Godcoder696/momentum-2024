@@ -14,8 +14,8 @@ function Gateway() {
         method: "POST",
       });
       const data = await response.json();
-
-      console.log(data.orderId);
+      const orderId = data.orderId;
+      console.log(orderId);
 
       // initialize razprpay
       const options = {
@@ -24,9 +24,25 @@ function Gateway() {
         currency: "INR",
         name: "Momentum 2024",
         description: "Test payment",
-        order: data.orderId,
-        handler: function (response) {
-          console.log("Payment Success", response);
+        order_id: orderId,
+        handler: async function (response) {
+          console.log("razorpay_payment_id", response.razorpay_payment_id);
+          console.log("razorpay_order_id", response.razorpay_order_id);
+          console.log("razorpay_signature", response.razorpay_signature);
+
+          try {
+            const rsp = await fetch("/api/payment/verify", {
+              method: "POST",
+              body: JSON.stringify({
+                razorpay_payment_id: response.razorpay_payment_id,
+                razorpay_order_id: response.razorpay_order_id,
+                razorpay_signature: response.razorpay_signature,
+              }),
+            });
+            console.log(rsp);
+          } catch (error) {
+            console.log(error);
+          }
         },
         prefill: {
           name: "Lakshay Yadav",
