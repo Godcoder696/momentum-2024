@@ -4,8 +4,6 @@ import User from '../../../mongo/models/User';
 export async function newUserTicket(email, eventId){
     try{
         await dbConnect();
-        // store the transaction in Payments Schema
-
 
         // find user email and add the event id
         const user= await User.findOne({

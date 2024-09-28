@@ -1,10 +1,9 @@
 'use client'
 import AboutEvent from '@/components/AboutEvent'
-import Gateway from '@/components/Gateway'
+import EventFormWrapper from '@/components/EventFormWrapper'
 import { useSession } from 'next-auth/react'
-import { usePathname } from 'next/navigation'
-import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
+import { useEffect, useState } from 'react'
 
 function Page({params}) {
   const [proceedToPay, setProceedToPay]= useState(false);
@@ -27,7 +26,7 @@ function Page({params}) {
           !proceedToPay?
           <AboutEvent setProceedToPay={setProceedToPay}/>
           :
-          session && <Gateway/>
+          session && <EventFormWrapper/>
         }
       </div>
     </div>

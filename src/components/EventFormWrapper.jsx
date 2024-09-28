@@ -1,11 +1,12 @@
 "use client";
+import Image from "next/image";
+import React, { useState } from "react";
+import EventForm from "./EventForm";
 import Script from "next/script";
-import { useState } from "react";
 
-function Gateway() {
+function EventFormWrapper() {
   const ammount = 100;
   const [isProcessing, setIsProcessing] = useState(false);
-
   const handlePayment = async () => {
     setIsProcessing(true);
     try {
@@ -26,6 +27,8 @@ function Gateway() {
         description: "Test payment",
         order_id: orderId,
         handler: async function (response) {
+          setIsProcessing(true);
+
           console.log("razorpay_payment_id", response.razorpay_payment_id);
           console.log("razorpay_order_id", response.razorpay_order_id);
           console.log("razorpay_signature", response.razorpay_signature);
@@ -39,10 +42,16 @@ function Gateway() {
                 razorpay_signature: response.razorpay_signature,
               }),
             });
-            console.log(rsp);
+
+            if (rsp.status == 200) {
+              console.log("Payment verified!");
+            }
+            setIsProcessing(false);
           } catch (error) {
             console.log(error);
           }
+
+          setIsProcessing(false);
         },
         prefill: {
           name: "Lakshay Yadav",
@@ -55,7 +64,6 @@ function Gateway() {
       };
 
       const rzp1 = new window.Razorpay(options);
-      console.log(rzp1);
 
       rzp1.open();
     } catch (error) {
@@ -66,13 +74,31 @@ function Gateway() {
   };
 
   return (
-    <div className=" h-full w-full">
+    <>
       <Script src="https://checkout.razorpay.com/v1/checkout.js" />
-      <button onClick={handlePayment} disabled={isProcessing}>
-        {isProcessing ? "Processing" : "Pay Rs. 1"}
-      </button>
-    </div>
+      <div className="text-white flex w-[80%] space-x-5">
+        <Image
+          src="/event-poster.png"
+          height={200}
+          width={200}
+          alt="p1"
+          className="z-20 rounded-sm h-72"
+        />
+        <div className="flex flex-col space-y-2 items-end w-full">
+          <div className="bg-[#030919ae] rounded-md p-5 h-[480px] overflow-y-scroll w-full">
+            <EventForm />
+          </div>
+          <button
+            onClick={handlePayment}
+            disabled={isProcessing}
+            className="hover:bg-green-700 bg-green-600 px-6 py-2 rounded-md"
+          >
+            {isProcessing ? "Processing..." : "Proceed To Pay!"}
+          </button>
+        </div>
+      </div>
+    </>
   );
 }
 
-export default Gateway;
+export default EventFormWrapper;

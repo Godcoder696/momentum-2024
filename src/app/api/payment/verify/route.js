@@ -1,5 +1,6 @@
 import {NextRequest, NextResponse} from 'next/server';
 import crypto from 'crypto';
+import addPayment from '../../../../lib/db/methods/addPayment';
 
 export async function POST(req){
     try {
@@ -15,7 +16,10 @@ export async function POST(req){
         console.log("Expected Signature: ", expectedSignature);
         console.log("Received Signature: ", razorpay_signature);
 
-        if(expectedSignature===razorpay_signature) return NextResponse.json({msg:"verified"},{status: 200})
+        if(expectedSignature===razorpay_signature) {
+            await addPayment();
+            return NextResponse.json({msg:"verified"},{status: 200})
+        }
         else return NextResponse.json({"msg":"unverified"},{status: 500})
     } catch (error) {
         console.log("Error creating order: ", error);

@@ -2,6 +2,10 @@ const mongoose = require('mongoose');
 
 const teamsModel= mongoose.Schema(
     {
+        eventName: {
+            type: String,
+            required: true
+        },
         teamName: {
             type: String,
             required: true
@@ -11,11 +15,13 @@ const teamsModel= mongoose.Schema(
             required: true,
         },
         teamLeader: {
-            type: String,
+            type: Object,
             required: true
         },
         teamMembers:[
-            
+            {
+                type: Object
+            }
         ],
     }
 )

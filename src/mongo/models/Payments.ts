@@ -18,24 +18,29 @@ const paymentModel= mongoose.Schema(
             type: String,
             default: "INR"
         },
+        referral: {
+            type: String,
+            default: "none"
+        },
         createdAt:{
             type: Date,
             default: Date.now()
         },
         team_name: {
             type: String,
-            default: "Single Player"
-        },
-        user: {
-            type: String
+            default: "Individual"
         },
         userId: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Users'
+        },
+        userTag: {
             type: String
         }
     }
 )
 
-const Payments= mongoose.model("Payments", paymentModel);
+const Payments= mongoose.models.Payments || mongoose.model("Payments", paymentModel);
 module.exports= Payments;
 
 export { };
