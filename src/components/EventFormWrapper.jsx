@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import EventForm from "./EventForm";
 import Script from "next/script";
 
-function EventFormWrapper() {
+function EventFormWrapper({eventId}) {
   const ammount = 100;
   const [isProcessing, setIsProcessing] = useState(false);
   const handlePayment = async () => {

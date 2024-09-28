@@ -657,21 +657,744 @@
     {
         "id": 25,
         "name": "BGMI Squad Showdown",
-        "mainCoordi": "",
-        "coordinators": "",
-        "contact": "",
-        "dayTime":"Day 2, ",
-        "venue": "",
-        "fee": "",
+        "mainCoordi": "Jatin",
+        "coordinators": "Rudra, Siya",
+        "contact": "9315431144",
+        "dayTime":"Day 2, 10 AM – 12 PM",
+        "venue": "N302",
+        "fee": "400 per squad",
         "desc": "",
         "teamSize": "4",
         "criteria": [
-           
+           "Teams will be judged on total kills and position.",
+           "Match Points: Points for Eliminations: Each elimination earns a specific number of points (e.g., 1 point per kill). Placement Points: Additional points may be awarded based on final placements: 1st Place: 20 points, 2nd Place: 15 points, 3rd Place: 10 points, 4th Place and below: 5 points",
+           "Total Points: The team with the highest total points across all matches will be declared the winner."
         ],
         "rule": [
-            
+            "Classic match mode, Erangel, Miramar and Sanhok map.",
+            "Only one squad can win per match.",
+            "Players must have their POV recording throughout the match."
         ],
         "elimination":[
+            "Only the top three teams from the final points table will proceed as winners."
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Mystic Trails (Treasure Hunt)",
+        "mainCoordi": "Ishika ",
+        "coordinators": "Divigya, Hitanshu",
+        "contact": "8595394240",
+        "dayTime":"Day 2, 10 AM – 12 PM",
+        "venue": "Starting from Nescafe to NCU campus",
+        "fee": "120 per team",
+        "desc": "Participants work in teams to solve clues and complete challenges to find hidden treasures scattered across the event area, aiming to be the first team to complete the hunt. Registration: Teams must register in advance, with each team consisting of up to 4 members. Kick-Off Meeting: A briefing session will be held to explain the rules, the treasure hunt area, and how clues will be delivered. Clue Distribution: Teams will receive their first clue at the start of the event. Each clue leads to the next location or challenge. Teams must complete challenges or solve riddles to receive subsequent clues. Completion: The first team to find all treasures and return to the starting point wins.",
+        "teamSize": "3",
+        "criteria": [
+           "The team that completes the hunt first wins.",
+           "Completion Order: The primary criterion for winning is the order in which teams complete the hunt.",
+           "Bonus Points: Additional points may be awarded for completing challenges correctly or within a specific time frame.",
+           "Creativity: Teams may earn extra points for creativity in completing challenges or for teamwork displayed during the event.",
+           "Organizers will monitor the event, verify clue completion, and ensure adherence to rules.",
+           "Results will be tallied based on the order of completion and any bonus points awarded."
+        ],
+        "rule": [
+            "Teams will be provided clues across the campus.",
+            "Each clue will lead to the next; no external help is allowed.",
+            "Teamwork: All team members must work together to solve clues and complete tasks. No outside assistance is allowed.",
+            "Time Limit: The treasure hunt will have a set duration (e.g., 1-2 hours). Teams must complete the hunt within this time frame.",
+            "Area Boundaries: Participants must remain within designated boundaries. Leaving the designated area will result in disqualification.",
+            "Conduct: Participants are expected to maintain sportsmanship and respect towards other teams. Disruptive behavior or cheating will lead to disqualification."
+        ],
+        "elimination":[
+            "Teams unable to solve clues within the time frame will be disqualified."
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Beach Volleyball (2v2 Volleyball)",
+        "mainCoordi": "Priyanshu ",
+        "coordinators": "Keshav, Rishit",
+        "contact": "9560900386",
+        "dayTime":"Day 2, 10 AM – 12 PM",
+        "venue": "Volleyball Court",
+        "fee": "100",
+        "desc": "",
+        "teamSize": "2",
+        "criteria": [
+           "Points scored in each set."
+        ],
+        "rule": [
+            "Standard volleyball rules apply.",
+            "Each game will consist of 3 sets, first to 21 points."
+        ],
+        "elimination":[
+            "Knockout tournament."
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Parley in Parliament (Mock Parliament)",
+        "mainCoordi": "Jatin ",
+        "coordinators": "Kavya Singh, Hetal",
+        "contact": "9315431144",
+        "dayTime":"Day 2, 10 AM – 11 AM",
+        "venue": "N307",
+        "fee": "100",
+        "desc": "Participants simulate a parliamentary session, engaging in debates, discussions, and decision-making processes to understand the workings of a parliamentary system and enhance their public speaking and critical thinking skills. Registration: Participants must register in advance as individuals or in teams (up to 4 members per team). Topic Announcement: A specific topic or bill will be announced at the beginning of the event. Participants will be assigned roles (e.g.,government, opposition, independent members) related to the topic. Preparation: Participants will have a brief period (e.g., 15-30 minutes) to prepare their arguments and strategies. Mock Session: The mock parliament will be conducted, with each team presenting their viewpoints, followed by debates and voting on the proposed bill or topic.",
+        "teamSize": "5",
+        "criteria": [
+           "Argument Quality (40%): Clarity, logic, and persuasiveness of the arguments presented.",
+           "Engagement (30%): Ability to engage and respond to opposing viewpoints effectively.",
+           "Delivery (20%): Presentation style, confidence, and engagement with the audience.",
+           "Research and Evidence (10%): Use of factual data and examples to support arguments.",
+           "A panel of judges with expertise in public speaking or politics will evaluate performances based on the scoring criteria.",
+           "Quality of arguments",
+           "Relevance to the topic",
+           "Public speaking skills"
+        ],
+        "rule": [
+            "Conduct: Participants are expected to maintain professionalism and respect during debates. Personal attacks or disrespectful comments will not be tolerated.",
+            "Speaking Order: The order of speaking will be predetermined, and participants must adhere to it. Each participant will have a limited time (e.g., 3 minutes) to present their arguments.",
+            "Rebuttals: After initial speeches, participants may engage in rebuttals, with each rebuttal having a time limit (e.g., 1-2 minutes).",
+            "Voting: At the end of the debate, a vote will be conducted to decide the outcome of the proposed bill. Simple majority rules will apply."
+        ],
+        "elimination":[
+            "The top team will be determined by cumulative scores from all debates."
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Tech Talk Battle (Tech Debate)",
+        "mainCoordi": "Yuvraj",
+        "coordinators": "Amandeep, Cheshna Mehra",
+        "contact": "7042147175",
+        "dayTime":"Day 2, 10 AM – 11 AM",
+        "venue": "N304",
+        "fee": "100",
+        "desc": "Participants engage in a structured debate focusing on current technology topics, showcasing their analytical skills, persuasive abilities, and knowledge of the subject matter. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Topic Announcement: A specific tech-related debate topic will be announced at the beginning of the event. Participants will be assigned either the 'pro' or 'con' position regarding the topic.Preparation Time: Participants will have a brief period (e.g., 10-15 minutes) to prepare their arguments and strategies based on their assigned positions. Debate Format: Each debate will consist of opening statements, rebuttals, and closing arguments. Each segment will have a designated time limit (e.g., 3 minutes for opening statements, 2 minutes for rebuttals).",
+        "teamSize": "2",
+        "criteria": [
+           "Argument Quality (40%): Clarity, logic, and persuasiveness of the arguments presented.",
+           "Rebuttal Effectiveness (30%): Ability to counter opposing arguments effectively and engage with the topic.",
+           "Delivery (20%): Presentation style, confidence, and engagement with the audience.",
+           "Research and Evidence (10%): Use of factual data, examples, and logical reasoning to support arguments.",
+           "A panel of judges with expertise in technology and debate will evaluate performances based on the scoring criteria.",
+           "Clarity of arguments",
+           "Research and facts presented",
+           "Teamwork and rebuttal strength"
+        ],
+        "rule": [
+            "Conduct: Participants are expected to maintain professionalism and respect during debates. Personal attacks or disrespectful comments towards opponents will not be tolerated.",
+            "Use of Notes: Participants may use notes during the debate but should primarily engage with the audience and judges.",
+            "Time Management: Participants must adhere to the time limits for each segment. Judges will signal when time is nearly up.",
+            "Disputes: Any disputes regarding rules or points of order must be raised immediately to the debate moderator, whose decision will be final."
+        ],
+        "elimination":[
+            "Knockout rounds, with the top 2 teams advancing to the finals."
+        ]
+    },
+    {
+        "id": 30,
+        "name": "COD Lone Wolf (Solo)",
+        "mainCoordi": "Yuvraj",
+        "coordinators": "Divyansh, Prince",
+        "contact": "7042147175",
+        "dayTime":"Day 2, 11:00 AM - 12:30 PM",
+        "venue": "N201",
+        "fee": "100",
+        "desc": "",
+        "teamSize": "Solo",
+        "criteria": [
+            "Based on kill count and survival. The last player standing wins.",
+            "Eliminations: Points will be awarded for each enemy eliminated (e.g., 1 point per kill).",
+            "Placement Points: Additional points will be awarded based on final placement: 1st Place: 20 points, 2nd Place: 15 points, 3rd Place: 10 points, 4th Place and below: 5 points",
+            "Total Points: The participant with the highest total points across all matches will be declared the winner."
+        ],
+        "rule": [
+            "This is an individual competition. No teams are allowed.",
+            "Standard Call of Duty mobile rules apply, with a focus on elimination gameplay.",
+            "Participants must bring their own devices and ensure stable internet connectivity.",
+            "Any attempt to use external software or cheats will lead to instant disqualification."
+        ],
+        "elimination":[
+            "Knockout format. Top 50% will proceed to the next round."
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Melody Master: Name the Song",
+        "mainCoordi": "Pakhi",
+        "coordinators": "Jessica, Ananya",
+        "contact": "9818357711",
+        "dayTime":"Day 2, 11:00 AM - 12:00 PM",
+        "venue": "RN-117",
+        "fee": "100 per person",
+        "desc": "Participants compete to identify songs based on short audio clips or clues, showcasing their musical knowledge and quick recall. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Game Format: The event will consist of multiple rounds, each featuring a series of audio clips or clues from various songs across different genres and eras.Each round will have a specific number of songs (e.g., 10 songs) to identify. Timing: Participants will have a limited time (e.g., 30 seconds) to answer each song clue. Scoring: Points will be awarded for each correct song identification. ",
+        "teamSize": "",
+        "criteria": [
+            "Correct Answers: Each correct song identification will earn a specific number of points (e.g., 1 point per correct answer).",
+            "Bonus Points: Extra points may be awarded for identifying the artist or album title, if applicable.",
+            "Total Points: The participant or team with the highest total points at the end of all rounds will be declared the winner.",
+            "A quizmaster will oversee the event, play the audio clips, and manage scoring."
+        ],
+        "rule": [
+            "Audio Clips: Clips will be played for a set duration (e.g., 10-15 seconds) before moving on to the next song.",
+            "Answer Submission: Participants must write down their answers and submit them to the quizmaster after each round.",
+            "No Electronic Devices: Participants are not allowed to use phones or other electronic devices during the competition.",
+            "Conduct: Participants are expected to maintain sportsmanship and respect toward other competitors. Disruptive behavior will lead to disqualification."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Photon Quest: Online Photography Contest",
+        "mainCoordi": "Pakhi",
+        "coordinators": "Kanika, Gaurika",
+        "contact": "9818357711",
+        "dayTime":"Day 2, 11:00 AM - 12:00 PM",
+        "venue": "RN-307",
+        "fee": "100 per person",
+        "desc": "Participants submit their original photographs based on a specific theme, showcasing their creativity, composition skills, and technical proficiency. Registration: Participants must register in advance by providing their name and a brief description of their photographic style. Theme Announcement: A specific theme (e.g., nature, portrait, urban, etc.) will be announced at the start of the contest. Submission Period: Participants will have a set time (e.g., 1-2 weeks) to capture and submit their photographs based on the theme. Submission Format: All entries must be submitted electronically in a specified format (e.g., JPEG, PNG) and adhere to size guidelines.",
+        "teamSize": "",
+        "criteria": [
+            "Creativity (40%): Originality and uniqueness of the photograph in relation to the theme.",
+            "Composition (30%): Use of framing, balance, and visual elements within the photograph.",
+            "Technical Quality (20%): Clarity, exposure, and focus of the image.",
+            "Theme Relevance (10%): How well the photograph adheres to the announced theme.",
+            "A panel of judges with expertise in photography will evaluate the submissions based on the scoring criteria."
+        ],
+        "rule": [
+            "Originality: All submitted photographs must be original works taken by the participant. Plagiarized or previously published works will lead to disqualification.",
+            "Editing: Minimal editing is allowed (e.g., cropping, color correction). Heavy manipulation or composite images may be disqualified.",
+            "Submission Limits: Each participant may submit a limited number of entries (e.g., up to 3 photographs).",
+            "Conduct: Participants are expected to maintain professionalism and respect towards other competitors. Disruptive behavior will not be tolerated."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Meme-o-Mania: Meme Battle",
+        "mainCoordi": "Nayan",
+        "coordinators": "Khushi, Pawni",
+        "contact": "7889271180",
+        "dayTime":"Day 2, 12:00 PM - 1:00 PM",
+        "venue": "RN-310",
+        "fee": "100 per person",
+        "teamSize": "",
+        "desc": "Participants create and present original memes based on specific themes or prompts, showcasing their creativity, humor, and understanding of meme culture. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme or prompt will be announced at the start of the event (e.g., current events, pop culture, etc.). Creation Period: Participants will have a set amount of time (e.g., 45 mins) to create their memes using any digital tools or applications. Each participant or team may submit a limited number of memes (e.g., up to 3 memes). Submission: Memes must be submitted electronically in a specified format (e.g., JPEG, PNG) by the end of the creation period.",
+        "criteria": [
+            "Creativity (40%): Originality and uniqueness of the meme in relation to the theme.",
+            "Humor (30%): Effectiveness of the meme in eliciting laughter or amusement.",
+            "Relevance (20%): How well the meme adheres to the announced theme or prompt.",
+            "Presentation (10%): Overall visual appeal and clarity of the meme.",
+            "A panel of judges with expertise in social media and meme culture will evaluate the submissions based on the scoring criteria."
+        ],
+        "rule": [
+            "Originality: All submitted memes must be original creations. Plagiarized memes or those that violate copyright will lead to disqualification.",
+            "Content Guidelines: Memes must be appropriate for all audiences. Offensive or inappropriate content will not be tolerated and will result in disqualification.",
+            "Technical Requirements: Memes should adhere to size guidelines and be submitted in a clear and readable format.",
+            "Conduct: Participants are expected to maintain professionalism and respect toward other competitors. Disruptive behavior will not be tolerated."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Bollywood Quiz",
+        "mainCoordi": "Kavya",
+        "coordinators": "Siya, Rudra",
+        "contact": "8595839182",
+        "dayTime":"Day 2, 12:00 PM - 1:00 PM",
+        "venue": "N407",
+        "fee": "100 per person",
+        "teamSize": "",
+        "desc": "Participants compete in a quiz format to test their knowledge of Bollywood films, actors, music, and trivia, aiming to score the highest points. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Quiz Format: The quiz will consist of multiple rounds, including multiple-choice questions, true/false questions, and rapid-fire rounds. Each round will feature a specific number of questions (e.g., 20 questions per round). Timing: Each question will have a time limit (e.g., 30 seconds) for answering. Scoring: Points will be awarded for each correct answer, and the total will be tallied at the end of the event.",
+        "criteria": [
+            "Correct Answers: Each correct answer will typically earn 1 point. Incorrect answers will not result in point deductions.",
+            "Bonus Questions: Some rounds may include bonus questions that offer extra points (e.g., 2 points for a correct bonus answer).",
+            "Final Round: A final rapid-fire round may be conducted, where participants can earn additional points based on the number of correct answers within a limited time.",
+            "A quizmaster will oversee the event, present questions, and manage scoring."
+        ],
+        "rule": [
+            "Question Format: Questions will cover various topics within Bollywood, including film plots, actors, music, awards, and historical milestones.",
+            "Conduct: Participants are expected to maintain decorum. Cheating or collaboration between teams during the quiz will lead to disqualification.",
+            "Use of Devices: No electronic devices or reference materials are allowed during the quiz.",
+            "Disputes: Any disputes regarding questions or answers must be raised immediately to the quizmaster, whose decision will be final."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Cube Champ: Rubik's Cube Solving",
+        "mainCoordi": "Paras",
+        "coordinators": "Shristi, Priyanshi",
+        "contact": "9810783403",
+        "dayTime":"Day 2, 12:00 PM - 1:00 PM",
+        "venue": "Sports Room",
+        "fee": "100 per person",
+        "teamSize": "",
+        "desc": "",
+        "criteria": [
+            "Time taken to solve the cube."
+        ],
+        "rule": [
+            "Participants must solve a 3x3 Rubik's cube within the allotted time.",
+            "The event will follow the official World Cube Association (WCA) rules.",
+            "Personal cubes are allowed; however, the judge’s decision on the legitimacy of the solve is final."
+        ],
+        "elimination":[
+            "Top 3 fastest solvers will compete in the final round."   
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Battle Blitz: BGMI (WOW Mode)",
+        "mainCoordi": "Nirjhar",
+        "coordinators": "Anoop, Sushil",
+        "contact": "9311097076",
+        "dayTime":"Day 2, 1:00 PM - 2:00 PM",
+        "venue": "N304",
+        "fee": "150 per person",
+        "teamSize": "",
+        "desc": "",
+        "criteria": [
+            "Top 3 with maximum distance covered will be rewarded."
+        ],
+        "rule": [
+            "Participants will play in solo mode with the ‘WOW’ game setting.",
+            "Participants must bring their own mobile devices and earphones.",
+            "Any use of hacks or cheats will result in immediate disqualification."
+        ],
+        "elimination":[
+            
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Clash Royale Rumble",
+        "mainCoordi": "Shridhar",
+        "coordinators": "Divyansh, Prince",
+        "contact": "9971355350",
+        "dayTime":"Day 2, 1:00 PM - 2:30 PM",
+        "venue": "N302",
+        "fee": "100 per person",
+        "teamSize": "",
+        "desc": "",
+        "criteria": [
+            "Win by taking down the opponent’s towers."
+        ],
+        "rule": [
+            "Standard 1v1 Clash Royale matches, with tournament rules.",
+            "Participants must bring their own mobile devices.",
+            "Any disruptions caused by device malfunctions are the player's responsibility."
+        ],
+        "elimination":[
+            "Single elimination bracket until the final."
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Plank Challenge",
+        "mainCoordi": "Shridhar",
+        "coordinators": "Shobhit, Chaitanya",
+        "contact": "9971355350",
+        "dayTime":"Day 2, 1:00 PM - 2:00 PM",
+        "venue": "Incubation Center",
+        "fee": "100 per person",
+        "teamSize": "",
+        "desc": "",
+        "criteria": [
+            "Hold Duration: The primary criterion for winning is the total time held in the plank position. The participant with the longest time wins.",
+            "Tie-Breaker: In case of a tie, a sudden-death plank round may be held, where participants will compete again to determine the winner."
+        ],
+        "rule": [
+            "Plank Position: Participants must maintain a proper plank position: Forearms must be on the ground, with elbows directly under the shoulders. The body must be in a straight line from head to heels. Feet may be together or slightly apart, but the toes must remain on the ground.",
+            "Form Check: Judges will monitor participants to ensure they maintain proper form. Any significant deviations will lead to disqualification.",
+            "Time Limits: Participants must hold the plank position for a minimum of 10 seconds to qualify for timing.",
+            "Conduct: Participants are expected to maintain sportsmanship and respect toward others. Disruptive behavior will not be tolerated."
+        ],
+        "elimination":[
+            "No elimination; a one-round competition."
+        ]
+    },
+    {
+        "id": 39,
+        "name": "IPL Fantasy Auction",
+        "mainCoordi": "Paras",
+        "coordinators": "Preyansh, Ishan",
+        "contact": "9810783403",
+        "dayTime":"Day 2, 2:00 PM - 3:00 PM",
+        "venue": "N309",
+        "fee": "150 per person",
+        "teamSize": "",
+        "desc": "",
+        "criteria": [
+            "Based on the performance of the drafted team in subsequent matches."
+        ],
+        "rule": [
+            "Participants will form teams based on an IPL fantasy draft, following the rules of IPL auctions.",
+            "Each team will have a fixed budget and must select players wisely.",
+            "No communication with external sources allowed once the draft begins.",
+            "Each team should Bid for 7 Players, 3 batsmen, 3 Bowlers, and 1 All-rounder.",
+            "Each team should have a Captain and wicketkeeper as compulsory. Specifications for 7 Players, as mentioned above, are a must.3.  30 Lakhs (virtual money) is the maximum limit for a team, and bidding should be done within this amount.",
+            "Each Player will be given a profile as batsman/Bowler/wicketkeeper/all-rounder/ batsman, captain/bowler, captain/wicketkeeper, captain/all-rounder, and captain with credit points.",
+            "The credit points will be reduced as a penalty for the teams that are overcoming the disciplinary rules.",
+            "The credit points of the selected players by a team will be added to decide the winners."
+        ],
+        "elimination":[
+            "Teams with the least budget allocation will be eliminated at the end of each round."
+        ],
+        "T&C":[
+            "By participating in our tournaments, all participants automatically agree that they vow to respect fellow participants.",
+            "It is prohibited to spam or use offensive messages on any of the ongoing events of Momentum & The NorthCap University, and doing so may result in the Organisers taking punitive measures against the person responsible for the same.",
+            "The event organizer retains the authority to cancel, reschedule, or postpone any event, especially when its conduct could directly or indirectly impact the overall flow and integrity of the entire fest. This action may be taken in response to factors such as commercial inviability, legal restrictions, or substantial interference arising from unforeseen circumstances beyond the organizer's control, such as acts of nature or force majeure events."
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Chess Champions",
+        "mainCoordi": "Priyanshu",
+        "coordinators": "Sartaj, Yathansh",
+        "contact": "9560900386",
+        "dayTime":"Day 2, 2:00 PM - 3:30 PM",
+        "venue": "Sports Room",
+        "fee": "100",
+        "teamSize": "",
+        "desc": "Participants compete in a chess tournament to demonstrate their strategic thinking, problem-solving skills, and mastery of the game. Registration: Participants must register in advance as individuals. Each participant will be assigned a specific match time. Match Format: The tournament will follow a knockout format or Swiss system, depending on the number of participants. Each match will be played under standard chess rules, with a time control set (e.g., 10 minutes per player for blitz or longer for classical).Warm-Up: A brief warm-up period may be provided before the tournament begins. Scoring: Points will be awarded for match wins, draws, and overall performance based on the tournament format.",
+        "criteria": [
+            "Match Wins: Each match win will earn the player a point. A draw will earn half a point.",
+            "Ranking: Players will be ranked based on total points accumulated throughout the tournament.",
+            "Tie-Breakers: In case of ties in points, tie-breakers will be determined by the results of direct encounters or additional rapid matches, as needed.",
+            "A tournament director will oversee the matches, ensuring adherence to rules and managing scoring."
+        ],
+        "rule": [
+            "Gameplay: Participants must adhere to the standard rules of chess, including the touch-move rule. Each match will be monitored by a tournament director or a designated official.",
+            "Chess Clocks: All matches will use chess clocks. Players must press their clock after making a move.",
+            "Conduct: Participants are expected to maintain sportsmanship and respect towards opponents. Disruptive behavior will not be tolerated."
+        ],
+        "elimination":[
+            "Any form of cheating, including using external aids or devices, will lead to immediate disqualification."
+        ],
+        "T&C":[
+            
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Valorant Vanguard",
+        "mainCoordi": "Nayan",
+        "coordinators": "Soumya, Vershaish",
+        "contact": "7889271180",
+        "dayTime":"Day 2, 2:30 PM - 4:00 PM",
+        "venue": "RN-118",
+        "fee": "250 per squad",
+        "teamSize": "5 members per squad.",
+        "desc": "",
+        "criteria": [
+            "Based on wins in each round."
+        ],
+        "rule": [
+            "5 vs 5 matches, standard mode.",
+            "Best-of-3 rounds format.",
+            "All participants must be on the event’s Discord server."
+        ],
+        "elimination":[
+            "Single-elimination format."
+        ],
+        "T&C":[
+            "No external tools or scripts allowed.",
+            "Participants must ensure stable internet connections; disconnections will not be entertained for a rematch."
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Militia Madness (Mini Militia)",
+        "mainCoordi": "Paras",
+        "coordinators": "Ayush, Aaradhye Agarwal",
+        "contact": "9810783403",
+        "dayTime":"Day 2, 2:30 PM - 3:30 PM",
+        "venue": "RN-117",
+        "fee": "100",
+        "teamSize": "",
+        "desc": "",
+        "criteria": [
+            "In Deathmatch Mode, the team with the most kills at the end of the match wins.",
+            "In CTF Mode, the team with the most flags captured within the time limit wins.",
+            "If a tie occurs, an overtime round of 3 minutes will be held, with the first team to score or make the most kills declared the winner.",
+            "Judges (organizers) will oversee each match, ensuring fair play. Any disputes or challenges must be raised with the organizers immediately after the match. The decision of the judges will be final and cannot be appealed.",
+            "Based on the total kills."
+        ],
+        "rule": [
+            "Game Version & Platform: The version of Mini Militia given by the organizers must be used. Participants must play on mobile devices (no emulators or PCs allowed). Players must bring their own devices, fully charged with the game pre-installed.",
+            "Team Composition: Teams can consist of 3 to 5 players. Only registered team members can participate. No substitutions allowed during the competition.",
+            "Mode: Deathmatch or Capture the Flag (CTF) based on the tournament format.",
+            "Game Duration: 6 to 10 minutes per match, depending on the number of participants.",
+            "Map: The map will be pre-selected by the organizers before each round.",
+            "Rounds: The tournament will follow a knockout or league format, depending on the number of teams registered.",
+            "Device & Network Requirements: Players must ensure that their devices are capable of handling the game without lag. All players must connect to the same local Wi-Fi network created by the organizers for fair play. No external apps (VPNs, boosters, etc.) are allowed during the competition.",
+            "Fair Play: Cheating, glitch abuse, or any form of unfair advantage will lead to immediate disqualification.",
+            "Technical Issues: If a player’s device crashes or disconnects, the game will continue unless there is a widespread network issue.",
+            "Lag/Connection Problems: Complaints of lag or connection issues will not be entertained unless it affects the majority of participants.",
+            "Weapons: All default weapons will be allowed unless specifically restricted for the match. Jetpack Fuel & Health: Players will have the standard game settings, unless organizers decide to tweak it for specific rounds.",
+            "Additional Rules: Players must arrive at least 10 minutes before their match for setup and connectivity testing. Organizers reserve the right to modify rules or settings during the competition to maintain fair play."
+        ],
+        "elimination":[
+            "Unsportsmanlike Behavior: Any inappropriate behavior such as harassment, trash-talking, or disruptive conduct will result in penalties or disqualification.",
+            "Cheating: Any use of mods, hacks, or external tools (like auto-aim) will lead to immediate removal from the competition.",
+            "Team Penalties: If any player is caught cheating, the entire team may face disqualification.",
+            "Top 2 from each round advance to the next stage."
+        ],
+        "T&C":[
+            "Participants must bring their devices fully charged.",
+            "In case of disputes, the final decision will be made by coordinators."
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Kitchen Kwizards (No flame cooking challenge)",
+        "mainCoordi": "Ishika",
+        "coordinators": "Jyoti, Baani",
+        "contact": "8595394240",
+        "dayTime":"Day 2, 2:30 PM - 3:30 PM",
+        "venue": "NCU Ground",
+        "fee": "100 per team",
+        "teamSize": "2",
+        "desc": "",
+        "criteria": [
+            "Taste, presentation, creativity, and hygiene.",
+            "Creativity (40%): Originality and uniqueness of the dish in relation to the theme.",
+            "Taste (30%): Flavor balance and overall taste of the dish.",
+            "Presentation (20%): Visual appeal and plating of the dish.",
+            "Adherence to Rules (10%): Compliance with the no-cook method and ingredient restrictions."
+        ],
+        "rule": [
+            "Teams of 2 participants.",
+            "Cooking only with cold or room-temperature ingredients; no use of fire or electronic devices.",
+            "Time limit: 1 hour."
+        ],
+        "elimination":[
+            "The least creative dishes will be eliminated in the first round."
+        ],
+        "T&C":[
+            "All ingredients must be brought by the participants.",
+            "No pre-cooked or store-bought items allowed except for garnishing purposes."
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Clash Mix Mayhem (Clash of Clans Mix Challenges)",
+        "mainCoordi": "Nayan",
+        "coordinators": "Hanshika, Sneha",
+        "contact": "7889271180",
+        "dayTime":"Day 2, 3:00 PM - 4:30 PM",
+        "venue": "N301",
+        "fee": "100",
+        "teamSize": "",
+        "desc": "",
+        "criteria": [
+            "Based on the total destruction percentage and star count."
+        ],
+        "rule": [
+            "All town hall levels allowed.",
+            "Attacks to be done in real-time with tournament mode settings."
+        ],
+        "elimination":[
+            "Single elimination after 2 losses."
+        ],
+        "T&C":[
+            "Players must use their own accounts.",
+            "No external mods or cheats allowed."
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Chair Chase (Musical Chair)",
+        "mainCoordi": "Paras",
+        "coordinators": "Anoop, Sushil",
+        "contact": "9810783403",
+        "dayTime":"Day 2, 3:00 PM - 4:00 PM",
+        "venue": "Common Room RN-101",
+        "fee": "120",
+        "teamSize": "",
+        "desc": "Participants compete in a fun and fast-paced game of musical chairs, showcasing their agility and reflexes to be the last person remaining seated. Registration: Participants must register in advance as individuals. Each participant will be assigned a specific number for the game. Setup: A number of chairs will be arranged in a circle, with one fewer chair than the number of participants. Music will be played while participants walk around the chairs. Game Format: When the music stops, participants must quickly find a chair to sit in. The player left standing without a chair is eliminated. One chair will be removed after each round, continuing until only one participant remains.",
+        "criteria": [
+            "A game moderator will oversee the event, ensuring rules are followed and managing the music."
+        ],
+        "rule": [
+            "Music Control: A designated person will control the music, ensuring it starts and stops at random intervals.",
+            "Conduct: Participants must not push or shove others to get a chair. Disruptive behavior will lead to disqualification.",
+            "Elimination: Once a participant is eliminated, they must leave the game area quietly to avoid distracting remaining players.",
+            "Final Round: The last two participants will compete for the final chair, with music playing until only one person is left seated."
+        ],
+        "elimination":[
+            "The main objective is to avoid elimination and be the last participant remaining in the game."
+        ],
+        "T&C":[
+            
+        ]
+    },
+    {
+        "id": 46,
+        "name": "InkSpire Writing (Creative Writing Competition)",
+        "mainCoordi": "Kavya",
+        "coordinators": "Prateek Dangi, Vishal Bansal",
+        "contact": "8595839182",
+        "dayTime":"Day 2, 3:00 PM - 4:00 PM",
+        "venue": "RN-318",
+        "fee": "100",
+        "teamSize": "",
+        "desc": "Participants create original written works based on a given prompt, showcasing their creativity, storytelling skills, and writing abilities. Registration: Participants must register in advance as individuals. Each participant will receive a unique identification number for anonymity during judging. Prompt Announcement: A specific writing prompt or theme will be announced at the start of the event. Writing Period: Participants will have a set time (e.g., 2-3 hours) to write their pieces. Submission: Completed works must be submitted by the end of the allotted time for evaluation.",
+        "criteria": [
+            "Creativity (40%): Originality and uniqueness of the writing in relation to the prompt.",
+            "Content (30%): Clarity, coherence, and engagement of the story.",
+            "Language (20%): Grammar, vocabulary, and overall writing style.",
+            "Structure (10%): Organization and flow of ideas within the piece.",
+            "A panel of judges with expertise in creative writing and literature will evaluate the submissions based on the scoring criteria."
+        ],
+        "rule": [
+            "Participants will be given a topic 10 minutes before the event.",
+            "Time limit: 45 minutes, word limit: 600-800 words.",
+            "Plagiarism will lead to disqualification.",
+            "Originality: All submitted works must be original. Plagiarized pieces will lead to disqualification.",
+            "Length: Participants must adhere to a specified word limit (e.g., 1000-1500 words). Pieces exceeding the limit will be disqualified.",
+            "Formatting: Participants must follow specific formatting guidelines (e.g., font type, size, spacing) provided at the beginning of the event.",
+            "Conduct: Participants are expected to maintain professionalism. Disruptive behavior during the writing period will not be tolerated."
+        ],
+        "elimination":[
+            
+        ],
+        "T&C":[
+            "Submissions must be handwritten.",
+            "Any form of cheating will result in immediate disqualification."
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Shooting Basketball",
+        "mainCoordi": "Priyanshu",
+        "coordinators": "Rishit, Raghav",
+        "contact": "9560900386",
+        "dayTime":"Day 2, 3:00 PM - 4:00 PM",
+        "venue": "Basketball Court",
+        "fee": "100",
+        "teamSize": "",
+        "desc": "Participants compete to demonstrate their shooting skills by making the most baskets from designated shooting spots on the court. Registration: Participants must register in advance as individuals. Each participant will be assigned a specific time slot for their shooting attempt. Setup: The competition will be held on a standard basketball court with marked shooting spots (e.g., 2 pointer line, three-point line). Each participant will have a set number of shots (e.g., 10 shots) from each spot. Shooting Format: Participants will take shots from each designated spot in a predetermined order. Each successful basket made will count toward their total score.",
+        "criteria": [
+            "Baskets Made: Each successful shot will earn 1 point. The total score will be the sum of all successful shots made from each designated spot.",
+            "Bonus Points: Additional points may be awarded for making shots from challenging spots (e.g., 3-point shots) or achieving a certain number of consecutive baskets.",
+            "Judges will keep track of each participant’s score and ensure fair play throughout the competition."
+        ],
+        "rule": [
+            "Shooting Order: Participants will take turns shooting. The order will be predetermined and communicated before the competition starts.",
+            "Time Limit: Participants may have a time limit for making their shots from each spot (e.g., 1 minute for all shots from a single spot).",
+            "Conduct: Participants are expected to maintain sportsmanship and respect toward others. Disruptive behavior will not be tolerated.",
+            "Judging: Judges will oversee the event, ensuring that rules are followed and that scores are accurately recorded."
+        ],
+        "elimination":[
+            
+        ],
+        "T&C":[
+            
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Reel Revolution (Reel Making Competition)",
+        "mainCoordi": "Kavya ",
+        "coordinators": "Aayushi Dhanda, Vanshika",
+        "contact": "8595839182",
+        "dayTime":"Day 2, 3:00 PM - 4:00 PM",
+        "venue": "NCU Ground",
+        "fee": "150",
+        "teamSize": "",
+        "desc": "Participants create engaging and creative video reels based on a specified theme, showcasing their storytelling, editing, and filmmaking skills. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme or prompt will be announced at the start of the competition (e.g., travel, friendship, humor). Creation Period: Participants will have a set time (e.g., 2-3 hours) to shoot, edit, and finalize their reels. Reels should be kept within a specified duration (e.g., 30-60 seconds). Submission: Completed reels must be submitted electronically by the end of the creation period.",
+        "criteria": [
+            "Creativity, editing, and storytelling.",
+            "Creativity (40%): Originality and uniqueness of the reel in relation to the theme.",
+            "Storytelling (30%): Clarity, engagement, and coherence of the narrative.",
+            "Technical Quality (20%): Editing, sound, and overall production quality.",
+            "Audience Engagement (10%): Ability to capture and hold the audience's attention.",
+            "A panel of judges with expertise in filmmaking and social media will evaluate the reels based on the scoring criteria."
+        ],
+        "rule": [
+            "Maximum reel length: 1 minute.",
+            "Participants must shoot on the event day.",
+            "Originality: All submitted reels must be original content. Plagiarized or previously published works will lead to disqualification.",
+            "Content Guidelines: Reels must adhere to the provided theme and be appropriate for all audiences. Offensive or inappropriate content will not be tolerated.",
+            "Technical Requirements: Reels should be submitted in a specified format (e.g., MP4) and resolution. Additional technical guidelines may be provided.",
+            "Conduct: Participants are expected to maintain professionalism and respect toward other competitors. Disruptive behavior will not be tolerated."
+        ],
+        "elimination":[
+            
+        ],
+        "T&C":[
+            "No offensive content allowed.",
+            "Reels must be original."
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Cosmic Canvas Creations (Digital Art Competition)",
+        "mainCoordi": "Nayan",
+        "coordinators": "Prateek Dangi, Vishal Bansal",
+        "contact": "7889271180",
+        "dayTime":"Day 2, 4:00 PM - 4:30 PM",
+        "venue": "RN-324",
+        "fee": "100",
+        "teamSize": "",
+        "desc": "Participants create original digital artwork based on a specified theme, showcasing their creativity, technical skills, and artistic expression. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme will be announced at the start of the competition (e.g., nature, fantasy, technology). Creation Period: Participants will have a set time (e.g., 1 hour) to create their digital artworks. All artworks must be completed during this time frame. Submission: Completed artworks must be submitted electronically in a specified format (e.g., PNG, JPEG) by the end of the creation period.",
+        "criteria": [
+            "Creativity (40%): Originality and uniqueness of the artwork in relation to the theme.",
+            "Technical Skill (30%): Mastery of digital tools, techniques, and overall execution.",
+            "Theme Relevance (20%): How well the artwork adheres to the announced theme.",
+            "Presentation (10%): Overall aesthetics and visual appeal of the artwork.",
+            "A panel of judges with expertise in digital art and design will evaluate the submissions based on the scoring criteria."
+        ],
+        "rule": [
+            "Originality: All submitted artworks must be original. Plagiarized or previously created works will lead to disqualification.",
+            "Tools and Software: Participants may use any digital tools or software they prefer (e.g., Photoshop, Illustrator, Procreate).",
+            "Size and Format: Artworks should adhere to specified size guidelines (e.g., minimum dimensions) and must be submitted in the required file format.",
+            "Conduct: Participants are expected to maintain professionalism and respect toward other competitors. Disruptive behavior will not be tolerated."
+        ],
+        "elimination":[
+            
+        ],
+        "T&C":[
+            
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Tug of War",
+        "mainCoordi": "Jatin",
+        "coordinators": "Sartaj, Yathansh",
+        "contact": "9315431144",
+        "dayTime":"Day 2, 3:30 PM - 4:30 PM",
+        "venue": "Amphitheater",
+        "fee": "100",
+        "teamSize": "",
+        "desc": "Teams compete in a test of strength and teamwork to pull the opposing team across a designated line, showcasing their coordination and physical endurance. Registration: Teams must register in advance, with each team consisting of 5 to 10 members. Setup: A rope will be used for the competition, with a marked center line on the ground. Each team will take positions on opposite sides of the rope. Match Format: Teams will compete in a series of rounds, with each round lasting until one team successfully pulls the other team across the center line.Best of three rounds may be played to determine the winning team.",
+        "criteria": [
+            "Round Wins: The primary criterion for winning is the number of rounds won. The team that wins two out of three rounds is declared the overall winner."
+        ],
+        "rule": [
+            "Team Composition: Teams must have a balanced mix of members to promote fairness in competition. No more than one participant may exceed a certain weight limit (if applicable).",
+            "Starting Position: Teams must start with their hands on the rope, with a referee signaling the start of each round.",
+            "Conduct: Participants are expected to maintain sportsmanship and respect toward opponents. Disruptive behavior or unsportsmanlike conduct will lead to disqualification.",
+            "Safety: Participants must wear appropriate footwear and clothing to prevent injury. Any unsafe practices will result in disqualification."
+        ],
+        "elimination":[
+            
+        ],
+        "T&C":[
             
         ]
     }

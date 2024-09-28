@@ -17,19 +17,27 @@ function Page({params}) {
     if(eventId<0 || eventId>63 || Number.isNaN(eventId)){
       router.push("/events/"+params.eventId+"/page-not-found");
     }
-  },[])
+  },[params.eventId])
   
   return (
-    <div className='event-bg min-h-screen'>
-      <div className=' text-white z-30 flex justify-around pb-8 items-start xl:px-16 pt-[110px] h-full'>
-        {
-          !proceedToPay?
-          <AboutEvent setProceedToPay={setProceedToPay}/>
+    <>
+      {
+        ((params.eventId>=0 && params.eventId<=63)?
+          <div className='event-bg min-h-screen'>
+            <div className=' text-white z-30 flex justify-around pb-8 items-start xl:px-16 pt-[110px] h-full'>
+              {
+                !proceedToPay?
+                <AboutEvent setProceedToPay={setProceedToPay} eventId={params.eventId}/>
+                :
+                session && <EventFormWrapper eventId={params.eventId}/>
+              }
+            </div>
+          </div>
           :
-          session && <EventFormWrapper/>
-        }
-      </div>
-    </div>
+          <></>
+        )
+      }
+    </>
   )
 }
 

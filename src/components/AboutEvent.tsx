@@ -1,17 +1,18 @@
-import React, { useState } from 'react'
-import EventDetails from './EventDetails'
-import Image from 'next/image'
-import { useSession } from 'next-auth/react'
+import { useSession } from 'next-auth/react';
+import Image from 'next/image';
+import { useState } from 'react';
 import BottomDrawer from './BottomDrawer';
-import CustomDrawer from './CustomDrawer';
+import EventDetails from './EventDetails';
+import events from '../data/events.json'
 
-function AboutEvent({setProceedToPay}) {
+function AboutEvent({setProceedToPay, eventId}) {
   const {data:session}= useSession();
   const [drawerOpen, setDrawerOpen]= useState(false);
+
   return (
     <>
         <div className='xl:flex flex-col h-[500px] w-4/6 space-y-5 z-30 p-10 rounded-lg bg-[#030919ae] overflow-y-scroll hidden'>
-          <EventDetails/>
+          <EventDetails event={events[eventId]}/>
         </div>
         <div className='absolute xl:sticky top-[110px]'>
             <div className='space-y-3'>
