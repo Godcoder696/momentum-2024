@@ -120,6 +120,25 @@ function EventDetails({event}) {
                 </ul>
             </div>
         </div> }
+        { event.TC && event.TC.length>0 && <div className='space-y-2'>
+            <div className='text-xl font-semibold flex items-center space-x-2'>
+              <TiTick />
+              <span>Terms & Conditions</span>
+            </div>
+            <div className=' text-sm'>
+                <ul className='ml-10 ' style={
+                {
+                  "listStyleType":"disc"
+                }
+                } >
+                  {
+                    event.TC.map((rule, index)=>{
+                      return (<li key={index}>{rule}</li>)
+                    })
+                  }
+                </ul>
+            </div>
+        </div> }
     </div>
   )
 }
