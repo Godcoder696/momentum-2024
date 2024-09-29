@@ -17,7 +17,7 @@ export async function POST(req){
         console.log("Received Signature: ", razorpay_signature);
 
         if(expectedSignature===razorpay_signature) {
-            await addPayment();
+            await addPayment(body);
             return NextResponse.json({msg:"verified"},{status: 200})
         }
         else return NextResponse.json({"msg":"unverified"},{status: 500})

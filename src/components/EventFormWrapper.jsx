@@ -3,10 +3,13 @@ import Image from "next/image";
 import React, { useState } from "react";
 import EventForm from "./EventForm";
 import Script from "next/script";
+import { useAppContext } from "@/app/context/ContextProvider";
+import events from "@/data/events.json";
 
 function EventFormWrapper({ eventId }) {
   const ammount = 100;
   const [isProcessing, setIsProcessing] = useState(false);
+  const { user } = useAppContext();
   const handlePayment = async () => {
     setIsProcessing(true);
     try {
@@ -34,18 +37,26 @@ function EventFormWrapper({ eventId }) {
           console.log("razorpay_signature", response.razorpay_signature);
 
           try {
-            // const rsp = await fetch("/api/payment/verify", {
-            //   method: "POST",
-            //   body: JSON.stringify({
-            //     razorpay_payment_id: response.razorpay_payment_id,
-            //     razorpay_order_id: response.razorpay_order_id,
-            //     razorpay_signature: response.razorpay_signature,
-            //   }),
-            // });
+            const rsp = await fetch("/api/payment/verify", {
+              method: "POST",
+              body: JSON.stringify({
+                razorpay_payment_id: response.razorpay_payment_id,
+                razorpay_order_id: response.razorpay_order_id,
+                razorpay_signature: response.razorpay_signature,
+                teamName: "",
+                eventName: events[eventId].name,
+                eventId: eventId,
+                userId: user._id,
+                userTag: user.tag,
+                referral: "",
+                email: user.email,
+                fname: user.fname
+              }),
+            });
 
-            // if (rsp.status == 200) {
-            //   console.log("Payment verified!");
-            // }
+            if (rsp.status == 200) {
+              console.log("Payment verified!");
+            }
             setIsProcessing(false);
             window.location.reload();
           } catch (error) {

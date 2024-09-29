@@ -4,6 +4,16 @@ function EventForm() {
   return (
     <div className='flex flex-col space-y-5'>
         <div className='flex flex-col space-y-1'>
+            <div className='text-sm'>Team Name</div>
+            <div className='flex space-x-3 text-black'>
+                <input 
+                    type="text" 
+                    className='bg-gray-50 h-10 px-2 w-[49%] rounded-md outline-none' 
+                    placeholder='Enter team name'
+                />
+            </div>
+        </div>
+        <div className='flex flex-col space-y-1'>
             <div className='text-sm'>Team Leader Details</div>
             <div className='flex space-x-3 text-black'>
                 <input 
