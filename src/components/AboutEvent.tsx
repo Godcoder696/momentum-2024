@@ -4,10 +4,15 @@ import { useState } from 'react';
 import BottomDrawer from './BottomDrawer';
 import EventDetails from './EventDetails';
 import events from '../data/events.json'
+import { useAppContext } from '@/app/context/ContextProvider';
 
 function AboutEvent({setProceedToPay, eventId}) {
   const {data:session}= useSession();
   const [drawerOpen, setDrawerOpen]= useState(false);
+  const {user}= useAppContext();
+
+  console.log(user);
+  
 
   return (
     <>
@@ -20,12 +25,17 @@ function AboutEvent({setProceedToPay, eventId}) {
               <button 
                 className={`w-full px-5 py-2 rounded-sm ${session? 'hover:bg-green-600 bg-green-500':'bg-green-600'}`}
                 onClick={()=>{setProceedToPay(true)}}
-                disabled={session?false:true}>
+                disabled={(!session || (user && user.events.includes(eventId)) || (user && !user.userVerified))?true:false}>
                   {
-                    session?
-                    "Register !"
+                    user && user.events.includes(eventId)?
+                    "Registered"
                     :
-                    "Sign In To Register !"
+                    (
+                      session?
+                      (user && !user.userVerified? "Kindly Fill your Details": "Register !")
+                      :
+                      "Sign In To Register !"
+                    )
                   }
               </button>
               <button

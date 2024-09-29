@@ -1,4 +1,5 @@
 import React from 'react'
+import eve from '../data/events.json';
 
 function MyEvents({events}) {
   return (
@@ -13,14 +14,13 @@ function MyEvents({events}) {
                       <div 
                         key={index}
                         className='h-14 border-[1px] border-[#41454d] rounded-md flex items-center px-4 justify-between'>
-                          <div>Event Name</div>
-                          <div>Individual Event</div>
-                          <div>1/1</div>
+                          <div>{eve[event].name}</div>
+                          {/* <div>Individual Event</div> */}
+                          <div>{eve[event].venue}</div>
                       </div>
                     )
                 })
             }
-            
         </div>
     </>
   )

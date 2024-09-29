@@ -3,35 +3,25 @@ import MyEvents from "@/components/MyEvents";
 import UserProfile from "@/components/UserProfile";
 import { useSession } from "next-auth/react";
 import React, { useEffect, useState } from "react";
+import { useAppContext } from "../context/ContextProvider";
 
 function Profile() {
   const { data: session } = useSession();
   const [sideBar, setSideBar] = useState(0);
   const [usrDetails, setUsrDetails] = useState("");
+  const { user, setUser } = useAppContext();
+  const [loading, setLoading] = useState();
 
   useEffect(() => {
-    const email = session?.user?.email;
-    if (email) getUser(email);
-  }, [session?.user?.email]);
-
-  const getUser = async (email) => {
-    const user = await fetch("/api/user", {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email: email }),
-    });
-    const details = await user.json();
-    const { data } = details;
-
-    await setUsrDetails(data);
-  };
+    setLoading(true);
+    if (user) {
+      setUsrDetails(user);
+      setLoading(false);
+    }
+  }, [user]);
 
   return (
     <div className="h-screen bg-[#030919] text-white pt-[110px] pb-10 px-24 flex gap-3">
-      {/* <img src={session?.user?.image || ""} alt="" className="rounded-md h-44 w-44 cursor-pointer" /> */}
       <div className="h-full w-2/6 bg-[#2123279d] rounded-sm px-5 py-8 flex flex-col items-center ">
         <div className="w-full flex gap-4">
           <img
@@ -68,14 +58,20 @@ function Profile() {
         </div>
       </div>
       <div className="h-full w-4/6 bg-[#2123279d] rounded-sm p-6 space-y-6 overflow-y-scroll">
-        <div className="text-2xl font-semibold">
-          {sideBar == 0 ? "Profile" : "Tickets"}
-        </div>
-        <hr className="w-full bg-white h-[1px] opacity-[0.5]" />
-        {sideBar == 0 ? (
-          <UserProfile usrDetails={usrDetails} />
+        {loading ? (
+          <>Loading....</>
         ) : (
-          <MyEvents events={usrDetails.events} />
+          <>
+            <div className="text-2xl font-semibold">
+              {sideBar == 0 ? "Profile" : "Tickets"}
+            </div>
+            <hr className="w-full bg-white h-[1px] opacity-[0.5]" />
+            {sideBar == 0 ? (
+              <UserProfile usrDetails={usrDetails} />
+            ) : (
+              <MyEvents events={usrDetails.events} />
+            )}
+          </>
         )}
       </div>
     </div>

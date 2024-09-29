@@ -1,14 +1,34 @@
 'use client'
 import { signIn, signOut, useSession } from "next-auth/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { LiaSignOutAltSolid } from "react-icons/lia";
 import { MdOutlineEmojiEvents } from "react-icons/md";
 import { IoMdClose, IoMdPerson } from "react-icons/io";
 import Link from "next/link";
+import { useAppContext } from "@/app/context/ContextProvider";
 
 function SignInButton() {
   const { data: session } = useSession();
   const [show,setShow]= useState(false);
+  const {user, setUser} =useAppContext();
+
+  useEffect(()=>{
+    if(session) handleUserChange();
+  },[session?.user?.email])
+
+  async function handleUserChange(){
+    const user = await fetch("/api/user", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email: session?.user?.email }),
+    });
+    const details = await user.json();
+    const { data } = details;
+    setUser(data);
+  }
 
   if (session && session.user) {
     return (
@@ -54,7 +74,9 @@ function SignInButton() {
   }
   return (
     <button 
-      onClick={()=> signIn()} 
+      onClick={async ()=> {
+        await signIn();
+      }} 
       className="text-white ml-auto px-6 bg-[#ffffff77] py-[7px] rounded-[2rem] hover:bg-[#ffffffa9]">
       Sign In
     </button>
