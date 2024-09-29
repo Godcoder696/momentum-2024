@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import EventForm from "./EventForm";
 import Script from "next/script";
 
-function EventFormWrapper({eventId}) {
+function EventFormWrapper({ eventId }) {
   const ammount = 100;
   const [isProcessing, setIsProcessing] = useState(false);
   const handlePayment = async () => {
@@ -34,19 +34,20 @@ function EventFormWrapper({eventId}) {
           console.log("razorpay_signature", response.razorpay_signature);
 
           try {
-            const rsp = await fetch("/api/payment/verify", {
-              method: "POST",
-              body: JSON.stringify({
-                razorpay_payment_id: response.razorpay_payment_id,
-                razorpay_order_id: response.razorpay_order_id,
-                razorpay_signature: response.razorpay_signature,
-              }),
-            });
+            // const rsp = await fetch("/api/payment/verify", {
+            //   method: "POST",
+            //   body: JSON.stringify({
+            //     razorpay_payment_id: response.razorpay_payment_id,
+            //     razorpay_order_id: response.razorpay_order_id,
+            //     razorpay_signature: response.razorpay_signature,
+            //   }),
+            // });
 
-            if (rsp.status == 200) {
-              console.log("Payment verified!");
-            }
+            // if (rsp.status == 200) {
+            //   console.log("Payment verified!");
+            // }
             setIsProcessing(false);
+            window.location.reload();
           } catch (error) {
             console.log(error);
           }

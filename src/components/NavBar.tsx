@@ -1,9 +1,15 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from 'react'
 import SignInButton from './SignInButton'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useAppContext } from '@/app/context/ContextProvider'
 
 function NavBar() {
+  const {user, setUser} =useAppContext();
+
+  console.log("hello from ",user);
+  
   return (
     <div className='z-50 flex text-white w-[100%] justify-between px-1 lg:px-6 xl:px-10 py-4 montserrat-light fixed '>
       <div className='flex items-center justify-center space-x-3'>
