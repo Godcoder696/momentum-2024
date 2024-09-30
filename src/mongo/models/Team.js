@@ -10,14 +10,6 @@ const teamsModel= mongoose.Schema(
             type: String,
             required: true
         },
-        teamSize: {
-            type: Number,
-            required: true,
-        },
-        teamLeader: {
-            type: Object,
-            required: true
-        },
         teamMembers:[
             {
                 type: Object

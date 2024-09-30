@@ -1397,5 +1397,37 @@
         "TC":[
             
         ]
+    },
+    {
+        "id": 51,
+        "name": "IKTAARA- Solo Singing (Hindi/English)",
+        "mainCoordi": "",
+        "coordinators": "",
+        "contact": "",
+        "dayTime":"",
+        "venue": "",
+        "fee": "",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Pitch, Rhythm, Voice modulation, overall impact of the song (Song selection, stage presence etc.)"
+        ],
+        "rule": [
+            
+        ],
+        "elimination":[
+            "Comprises of two rounds: prelims(2minute) and final(3-3.5minute)",
+            "No backing vocals are allowed. General Rules",
+            "Songs must be in Hindi/English.",
+            "Rap portions or refrains are not permissible.",
+            "Allowed to play an accompanying instrument themselves or can take the help of their friend.",
+            "The decision of the judges shall be final and binding.",
+            "Obscenity (at the discretion of judges) of any kind is not allowed and will lead to immediate disqualification.",
+            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
+            "The decision of the organizers regarding the final line-up would be final"
+        ],
+        "TC":[
+            
+        ]
     }
 ]

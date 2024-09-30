@@ -1,14 +1,15 @@
 import dbConnect from "./mongodb";
-import Payments from '../../../mongo/models/Payments';
-import Teams from '../../../mongo/models/Teams';
-import { newUserTicket } from "./newUserTicket";
+import Payment from '../../../mongo/models/Payment';
+import Team from '../../../mongo/models/Team';
+import newUserTicket from "./newUserTicket";
+import sendEmail from '../../mail/index'
 
-export async function addPayment({teamName,eventName, eventId, userId, userTag, referral, email, fname}){
+export default async function addPayment({teamName,eventName, eventId, userId, userTag, referral, email, fname, team, teamMembers}){
     try {
         await dbConnect();
 
         // Step 1: Add payment to payments schema
-        const payment= new Payments({
+        const payment= new Payment({
             status: "success",
             eventName: eventName,
             amount: 100,
@@ -23,21 +24,11 @@ export async function addPayment({teamName,eventName, eventId, userId, userTag, 
         console.log(payment);
 
         // Step 2: If its a team then store it in team's schema
-        if(team!=="Individual"){
-            const team= new Teams({
+        if(team!=="Solo"){
+            const team= new Team({
                 eventName: eventName,
                 teamName: teamName,
-                teamSize: "",
-                teamLeader: {
-                    name: "",
-                    rollNum: ""
-                },
-                teamMembers: [
-                    {
-                        name: "",
-                        rollNum: ""
-                    }
-                ]
+                teamMembers: teamMembers
             })
 
             await team.save();

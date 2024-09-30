@@ -1,7 +1,7 @@
 import dbConnect from "./mongodb"
 import User from '../../../mongo/models/User';
 
-export async function newUserTicket(email, eventId){
+export default async function newUserTicket(email, eventId){
     try{
         await dbConnect();
 
