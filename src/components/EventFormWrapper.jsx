@@ -5,6 +5,8 @@ import EventForm from "./EventForm";
 import Script from "next/script";
 import { useAppContext } from "@/app/context/ContextProvider";
 import events from "@/data/events.json";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function EventFormWrapper({ eventId }) {
   const ammount = 100;
@@ -28,79 +30,111 @@ function EventFormWrapper({ eventId }) {
     setMembers(team);
   }, [minSize]);
   const handlePayment = async () => {
-    setIsProcessing(true);
-    try {
-      // create order
-      const response = await fetch("/api/payment/createOrderId", {
-        method: "POST",
-      });
-      const data = await response.json();
-      const orderId = data.orderId;
-      console.log(orderId);
+    const isValid = validateDetails();
+    if (isValid) {
+      setIsProcessing(true);
+      try {
+        // create order
+        const response = await fetch("/api/payment/createOrderId", {
+          method: "POST",
+        });
+        const data = await response.json();
+        const orderId = data.orderId;
+        console.log(orderId);
 
-      // initialize razprpay
-      const options = {
-        key: process.env.NEXT_PUBLIC_RPAY_KEY,
-        amount: ammount,
-        currency: "INR",
-        name: "Momentum 2024",
-        description: `Payment for ` + events[eventId].name,
-        order_id: orderId,
-        handler: async function (response) {
-          setIsProcessing(true);
+        // initialize razprpay
+        const options = {
+          key: process.env.NEXT_PUBLIC_RPAY_KEY,
+          amount: ammount,
+          currency: "INR",
+          name: "Momentum 2024",
+          description: `Payment for ` + events[eventId].name,
+          order_id: orderId,
+          handler: async function (response) {
+            setIsProcessing(true);
 
-          console.log("razorpay_payment_id", response.razorpay_payment_id);
-          console.log("razorpay_order_id", response.razorpay_order_id);
-          console.log("razorpay_signature", response.razorpay_signature);
+            console.log("razorpay_payment_id", response.razorpay_payment_id);
+            console.log("razorpay_order_id", response.razorpay_order_id);
+            console.log("razorpay_signature", response.razorpay_signature);
 
-          try {
-            const rsp = await fetch("/api/payment/verify", {
-              method: "POST",
-              body: JSON.stringify({
-                razorpay_payment_id: response.razorpay_payment_id,
-                razorpay_order_id: response.razorpay_order_id,
-                razorpay_signature: response.razorpay_signature,
-                teamName: "",
-                eventName: events[eventId].name,
-                eventId: eventId,
-                userId: user._id,
-                userTag: user.tag,
-                referral: rId,
-                email: user.email,
-                fname: user.fname,
-              }),
-            });
+            try {
+              const rsp = await fetch("/api/payment/verify", {
+                method: "POST",
+                body: JSON.stringify({
+                  razorpay_payment_id: response.razorpay_payment_id,
+                  razorpay_order_id: response.razorpay_order_id,
+                  razorpay_signature: response.razorpay_signature,
+                  teamName: "",
+                  eventName: events[eventId].name,
+                  eventId: eventId,
+                  userId: user._id,
+                  userTag: user.tag,
+                  referral: rId,
+                  email: user.email,
+                  fname: user.fname,
+                }),
+              });
 
-            if (rsp.status == 200) {
-              console.log("Payment verified!");
+              if (rsp.status == 200) {
+                console.log("Payment verified!");
+              }
+              setIsProcessing(false);
+              window.location.reload();
+            } catch (error) {
+              console.log(error);
             }
+
             setIsProcessing(false);
-            window.location.reload();
-          } catch (error) {
-            console.log(error);
-          }
+          },
+          prefill: {
+            name: user.fname + " " + user.lname,
+            email: user.email,
+            contact: user.pNumber,
+          },
+          theme: {
+            color: "#e75a54",
+          },
+        };
 
-          setIsProcessing(false);
-        },
-        prefill: {
-          name: user.fname + " " + user.lname,
-          email: user.email,
-          contact: user.pNumber,
-        },
-        theme: {
-          color: "#e75a54",
-        },
-      };
+        const rzp1 = new window.Razorpay(options);
 
-      const rzp1 = new window.Razorpay(options);
-
-      rzp1.open();
-    } catch (error) {
-      console.log("Payment Failed", error);
-    } finally {
-      setIsProcessing(false);
+        rzp1.open();
+      } catch (error) {
+        console.log("Payment Failed", error);
+      } finally {
+        setIsProcessing(false);
+      }
     }
   };
+
+  const myToast = (msg) => {
+    toast(msg, {
+      position: "top-right",
+      autoClose: 4000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      progress: undefined,
+      theme: "light",
+    });
+  };
+
+  function validateDetails() {
+    if (!teamName) {
+      // toast
+      myToast("Team name is required");
+      return false;
+    } else if (teamName.length < 3) {
+      // toast
+      myToast("Please enter a longer team name");
+      return false;
+    } else if (!members) {
+      // toast
+      myToast("Members can't be null");
+      return false;
+    }
+    return true;
+  }
 
   return (
     <>
@@ -133,6 +167,7 @@ function EventFormWrapper({ eventId }) {
           </button>
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 }
