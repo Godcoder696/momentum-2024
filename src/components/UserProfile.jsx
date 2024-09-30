@@ -83,13 +83,13 @@ function UserProfile({ usrDetails }) {
   };
 
   return (
-    <div className="w-full p-1 flex flex-col space-y-4">
-      <div className="flex flex-col">
+    <div className="h-min w-full md:p-1 flex flex-col space-y-2 md:space-y-4">
+      <div className="flex flex-col space-y-1">
         <span className="text-sm font-extralight">Name</span>
-        <div className="space-x-3 space-y-1">
+        <div className="space-x-3 flex">
           <input
             type="text"
-            className="bg-[#41454d] h-10 px-2 w-[49%] rounded-md"
+            className="bg-[#41454d] h-9 md:h-10 px-2 w-[47%] md:w-[49%] rounded-md text-xs md:text-base"
             placeholder="First Name"
             value={fname}
             onChange={(event) => {
@@ -98,7 +98,7 @@ function UserProfile({ usrDetails }) {
           />
           <input
             type="text"
-            className="bg-[#41454d] h-10 px-2 w-[49%] rounded-md"
+            className="bg-[#41454d] h-9 md:h-10 px-2 w-[47%] md:w-[49%] rounded-md text-xs md:text-base"
             placeholder="Last Name"
             value={lname}
             onChange={(event) => {
@@ -114,7 +114,7 @@ function UserProfile({ usrDetails }) {
             <input
               value={phNum}
               type="tel"
-              className="bg-[#41454d] h-10 px-2 rounded-md w-full"
+              className="bg-[#41454d] text-xs md:text-base h-9 md:h-10 px-2 rounded-md w-full"
               placeholder="99999-99999"
               onChange={(event) => {
                 setPhNum(event.target.value);
@@ -128,7 +128,7 @@ function UserProfile({ usrDetails }) {
             <input
               value={dob}
               type="date"
-              className="bg-[#41454d] h-10 px-2 rounded-md w-full"
+              className="bg-[#41454d] text-xs md:text-base h-9 md:h-10 px-2 rounded-md w-full"
               placeholder="99999-99999"
               onChange={(event) => {
                 setDob(event.target.value);
@@ -143,7 +143,7 @@ function UserProfile({ usrDetails }) {
           <select
             name=""
             id=""
-            className="bg-[#41454d] h-10 px-2 w-full rounded-md"
+            className="bg-[#41454d] text-xs md:text-base h-9 md:h-10 px-2 w-full rounded-md"
             value={clgName}
             onChange={(event) => {
               setClgName(event.target.value);
@@ -163,7 +163,7 @@ function UserProfile({ usrDetails }) {
           <select
             name=""
             id=""
-            className="bg-[#41454d] h-10 px-2 w-full rounded-md"
+            className="bg-[#41454d] text-xs md:text-base h-9 md:h-10 px-2 w-full rounded-md"
             value={gender}
             onChange={(event) => {
               setGender(event.target.value);
@@ -181,7 +181,7 @@ function UserProfile({ usrDetails }) {
           <select
             name=""
             id=""
-            className="bg-[#41454d] h-10 px-2 w-full rounded-md"
+            className="bg-[#41454d] text-xs md:text-base h-9 md:h-10 px-2 w-full rounded-md"
             value={year}
             onChange={(event) => {
               setYear(event.target.value);
@@ -206,7 +206,7 @@ function UserProfile({ usrDetails }) {
           <input
             value={addrs}
             type="text"
-            className="bg-[#41454d] h-10 px-2 rounded-md w-full"
+            className="bg-[#41454d] text-xs md:text-base h-9 md:h-10 px-2 rounded-md w-full"
             placeholder="Enter full address"
             onChange={(event) => {
               setAddrs(event.target.value);
@@ -215,7 +215,7 @@ function UserProfile({ usrDetails }) {
         </div>
       </div>
       <button
-        className="bg-purple-600 hover:bg-purple-800 py-3 rounded-md"
+        className="bg-purple-600 hover:bg-purple-800 py-2 md:py-3 rounded-md mt-2 text-sm md:text-base"
         onClick={() => {
           validateDetails();
         }}

@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Speed Typer Showdown (Typing Speed Test)",
-        "imgUrl": "",
+        "imgUrl": "/events/1.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -36,7 +36,7 @@
     {
         "id": 1,
         "name": "Carrom Clash",
-        "imgUrl": "",
+        "imgUrl": "/events/2.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -65,7 +65,7 @@
     },
     {
         "id": 2,
-        "imgUrl": "",
+        "imgUrl": "/events/3.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -94,7 +94,7 @@
     },
     {
         "id": 3,
-        "imgUrl": "",
+        "imgUrl": "/events/4.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -125,7 +125,7 @@
     },
     {
         "id": 4,
-        "imgUrl": "",
+        "imgUrl": "/events/5.webp",
         "type": "Team",
         "minSize": 2,
         "maxSize": 4,
@@ -154,7 +154,7 @@
     },
     {
         "id": 5,
-        "imgUrl": "",
+        "imgUrl": "/events/6.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -183,7 +183,7 @@
     },
     {
         "id": 6,
-        "imgUrl": "",
+        "imgUrl": "/events/7.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -218,7 +218,7 @@
     },
     {
         "id": 7,
-        "imgUrl": "",
+        "imgUrl": "/events/8.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -251,7 +251,7 @@
     },
     {
         "id": 8,
-        "imgUrl": "",
+        "imgUrl": "/events/9.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -286,7 +286,7 @@
     },
     {
         "id": 9,
-        "imgUrl": "",
+        "imgUrl": "/events/10.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -318,7 +318,7 @@
     },
     {
         "id": 10,
-        "imgUrl": "",
+        "imgUrl": "/events/11.webp",
         "type": "Team",
         "minSize": "1",
         "maxSize": "3",
@@ -350,7 +350,7 @@
     },
     {
         "id": 11,
-        "imgUrl": "",
+        "imgUrl": "/events/12.webp",
         "type": "Team",
         "minSize": "1",
         "maxSize": "3",
@@ -382,7 +382,7 @@
     },
     {
         "id": 12,
-        "imgUrl": "",
+        "imgUrl": "/events/13.webp",
         "type": "Team",
         "minSize": "2",
         "maxSize": "3",
@@ -413,7 +413,7 @@
     },
     {
         "id": 13,
-        "imgUrl": "",
+        "imgUrl": "/events/14.webp",
         "type": "Team",
         "minSize": "1",
         "maxSize": "3",
@@ -447,7 +447,7 @@
     },
     {
         "id": 14,
-        "imgUrl": "",
+        "imgUrl": "/events/15.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -482,7 +482,7 @@
     },
     {
         "id": 15,
-        "imgUrl": "",
+        "imgUrl": "/events/16.webp",
         "type": "Team",
         "minSize": "2",
         "maxSize": "2",
@@ -515,7 +515,7 @@
     },
     {
         "id": 16,
-        "imgUrl": "",
+        "imgUrl": "/events/17.webp",
         "type": "Team",
         "minSize": "4",
         "maxSize": "4",
@@ -550,7 +550,7 @@
     },
     {
         "id": 17,
-        "imgUrl": "",
+        "imgUrl": "/events/18.webp",
         "type": "Team",
         "minSize": "2",
         "maxSize": "2",
@@ -578,7 +578,7 @@
     },
     {
         "id": 18,
-        "imgUrl": "",
+        "imgUrl": "/events/19.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -607,7 +607,7 @@
     },
     {
         "id": 19,
-        "imgUrl": "",
+        "imgUrl": "/events/20.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -637,7 +637,7 @@
     },
     {
         "id": 20,
-        "imgUrl": "",
+        "imgUrl": "/events/21.webp",
         "type": "Team",
         "minSize": "1",
         "maxSize": "4",
@@ -671,7 +671,7 @@
     },
     {
         "id": 21,
-        "imgUrl": "",
+        "imgUrl": "/events/22.webp",
         "type": "Team",
         "minSize": "3",
         "maxSize": "3",
@@ -710,7 +710,7 @@
     },
     {
         "id": 22,
-        "imgUrl": "",
+        "imgUrl": "/events/23.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -739,7 +739,7 @@
     },
     {
         "id": 23,
-        "imgUrl": "",
+        "imgUrl": "/events/24.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -772,7 +772,7 @@
     },
     {
         "id": 24,
-        "imgUrl": "",
+        "imgUrl": "/events/25.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -806,7 +806,7 @@
     },
     {
         "id": 25,
-        "imgUrl": "",
+        "imgUrl": "/events/26.webp",
         "type": "Team",
         "minSize": "4",
         "maxSize": "4",
@@ -837,7 +837,7 @@
     },
     {
         "id": 26,
-        "imgUrl": "",
+        "imgUrl": "/events/27.webp",
         "type": "Team",
         "minSize": "1",
         "maxSize": "4",
@@ -874,7 +874,7 @@
     },
     {
         "id": 27,
-        "imgUrl": "",
+        "imgUrl": "/events/28.webp",
         "type": "Team",
         "minSize": "2",
         "maxSize": "2",
@@ -902,7 +902,7 @@
     },
     {
         "id": 28,
-        "imgUrl": "",
+        "imgUrl": "/events/29.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -939,7 +939,7 @@
     },
     {
         "id": 29,
-        "imgUrl": "",
+        "imgUrl": "/events/30.webp",
         "type": "Team",
         "minSize": "1",
         "maxSize": "3",
@@ -976,7 +976,7 @@
     },
     {
         "id": 30,
-        "imgUrl": "",
+        "imgUrl": "/events/31.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1009,7 +1009,7 @@
     },
     {
         "id": 31,
-        "imgUrl": "",
+        "imgUrl": "/events/32.webp",
         "type": "Team",
         "minSize": "1",
         "maxSize": "3",
@@ -1042,7 +1042,7 @@
     },
     {
         "id": 32,
-        "imgUrl": "",
+        "imgUrl": "/events/33.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1076,7 +1076,7 @@
     },
     {
         "id": 33,
-        "imgUrl": "",
+        "imgUrl": "/events/34.webp",
         "type": "Team",
         "minSize": "1",
         "maxSize": "3",
@@ -1110,7 +1110,7 @@
     },
     {
         "id": 34,
-        "imgUrl": "",
+        "imgUrl": "/events/35.webp",
         "type": "Team",
         "minSize": "1",
         "maxSize": "3",
@@ -1143,7 +1143,7 @@
     },
     {
         "id": 35,
-        "imgUrl": "",
+        "imgUrl": "/events/36.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1172,7 +1172,7 @@
     },
     {
         "id": 36,
-        "imgUrl": "",
+        "imgUrl": "/events/37.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1201,7 +1201,7 @@
     },
     {
         "id": 37,
-        "imgUrl": "",
+        "imgUrl": "/events/38.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1230,7 +1230,7 @@
     },
     {
         "id": 38,
-        "imgUrl": "",
+        "imgUrl": "/events/39.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1261,7 +1261,7 @@
     },
     {
         "id": 39,
-        "imgUrl": "",
+        "imgUrl": "/events/40.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1300,7 +1300,7 @@
     },
     {
         "id": 40,
-        "imgUrl": "",
+        "imgUrl": "/events/41.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1335,7 +1335,7 @@
     },
     {
         "id": 41,
-        "imgUrl": "",
+        "imgUrl": "/events/42.webp",
         "type": "Team",
         "minSize": "5",
         "maxSize": "5",
@@ -1368,7 +1368,7 @@
     },
     {
         "id": 42,
-        "imgUrl": "",
+        "imgUrl": "/events/43.webp",
         "type": "Team",
         "minSize": "3",
         "maxSize": "5",
@@ -1417,7 +1417,7 @@
     },
     {
         "id": 43,
-        "imgUrl": "",
+        "imgUrl": "/events/44.webp",
         "type": "Team",
         "minSize": "2",
         "maxSize": "2",
@@ -1454,7 +1454,7 @@
     },
     {
         "id": 44,
-        "imgUrl": "",
+        "imgUrl": "/events/45.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1486,7 +1486,7 @@
     },
     {
         "id": 45,
-        "imgUrl": "",
+        "imgUrl": "/events/46.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1519,7 +1519,7 @@
     },
     {
         "id": 46,
-        "imgUrl": "",
+        "imgUrl": "/events/47.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1560,7 +1560,7 @@
     },
     {
         "id": 47,
-        "imgUrl": "",
+        "imgUrl": "/events/48.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1595,7 +1595,7 @@
     },
     {
         "id": 48,
-        "imgUrl": "",
+        "imgUrl": "/events/49.webp",
         "type": "Team",
         "minSize": "1",
         "maxSize": "3",
@@ -1636,7 +1636,7 @@
     },
     {
         "id": 49,
-        "imgUrl": "",
+        "imgUrl": "/events/50.webp",
         "type": "Team",
         "minSize": "1",
         "maxSize": "3",
@@ -1673,7 +1673,7 @@
     },
     {
         "id": 50,
-        "imgUrl": "",
+        "imgUrl": "/events/51.webp",
         "type": "Team",
         "minSize": "5",
         "maxSize": "10",
@@ -1706,7 +1706,7 @@
     },
     {
         "id": 51,
-        "imgUrl": "",
+        "imgUrl": "/events/52.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1744,7 +1744,7 @@
     },
     {
         "id": 52,
-        "imgUrl": "",
+        "imgUrl": "/events/53.webp",
         "type": "Team",
         "minSize": "5",
         "maxSize": "20",
@@ -1780,7 +1780,7 @@
     },
     {
         "id": 53,
-        "imgUrl": "",
+        "imgUrl": "/events/54.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1818,45 +1818,7 @@
     },
     {
         "id": 54,
-        "imgUrl": "",
-        "type": "Solo",
-        "minSize": "",
-        "maxSize": "",
-        "waLink": "https://chat.whatsapp.com/L2OHKBIm81nFHjZO4TjIWt",
-        "categories": [],
-        "name": "JHANKAAR – Solo Dance (Classical)",
-        "mainCoordi": "",
-        "coordinators": "Vishesh, Utkarsh",
-        "contact": "9596755674, 9810592534",
-        "dayTime":"",
-        "venue": "",
-        "fee": "350",
-        "teamSize": "Solo",
-        "desc": "",
-        "criteria": [
-            "Choreography & Expressions during the performance, Clarity and Overall impact."
-        ],
-        "rule": [
-            "No usage of props is allowed for this round.",
-            "Participants will not be judged based on their costumes.",
-            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
-            "Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage is STRICTLY not allowed.",
-            "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification. Songs should be chosen accordingly.",
-            "Violation of any of the above rules will lead to heavy penalties.",
-            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
-            "The decision of the organizers regarding the final line-up would be final."
-        ],
-        "elimination":[
-            "Time Limit: 5 minutes",
-            "Styles: All except Folk dance such as Garba, Bhangra, Bihu, etc."
-        ],
-        "TC":[
-            
-        ]
-    },
-    {
-        "id": 55,
-        "imgUrl": "",
+        "imgUrl": "/events/55.webp",
         "type": "Team",
         "minSize": "2",
         "maxSize": "2",
@@ -1891,8 +1853,8 @@
         ]
     },
     {
-        "id": 56,
-        "imgUrl": "",
+        "id": 55,
+        "imgUrl": "/events/56.webp",
         "type": "Team",
         "minSize": "5",
         "maxSize": "25",
@@ -1928,8 +1890,8 @@
         ]
     },
     {
-        "id": 57,
-        "imgUrl": "",
+        "id": 56,
+        "imgUrl": "/events/57.webp",
         "type": "Team",
         "minSize": "5",
         "maxSize": "20",
@@ -1966,8 +1928,8 @@
         ]
     },
     {
-        "id": 58,
-        "imgUrl": "",
+        "id": 57,
+        "imgUrl": "/events/58.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -2004,8 +1966,8 @@
         ]
     },
     {
-        "id": 59,
-        "imgUrl": "",
+        "id": 58,
+        "imgUrl": "/events/59.webp",
         "type": "Team",
         "minSize": "5",
         "maxSize": "20",
@@ -2041,8 +2003,8 @@
         ]
     },
     {
-        "id": 60,
-        "imgUrl": "",
+        "id": 59,
+        "imgUrl": "/events/60.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -2080,8 +2042,8 @@
         ]
     },
     {
-        "id": 61,
-        "imgUrl": "",
+        "id": 60,
+        "imgUrl": "/events/61.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -2117,8 +2079,8 @@
         ]
     },
     {
-        "id": 62,
-        "imgUrl": "",
+        "id": 61,
+        "imgUrl": "/events/62.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -2152,8 +2114,8 @@
         ]
     },
     {
-        "id": 63,
-        "imgUrl": "",
+        "id": 62,
+        "imgUrl": "/events/63.webp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -2180,6 +2142,44 @@
         ],
         "elimination":[
             
+        ],
+        "TC":[
+            
+        ]
+    },
+    {
+        "id": 63,
+        "imgUrl": "/events/64.webp",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/L2OHKBIm81nFHjZO4TjIWt",
+        "categories": [],
+        "name": "JHANKAAR – Solo Dance (Classical)",
+        "mainCoordi": "",
+        "coordinators": "Vishesh, Utkarsh",
+        "contact": "9596755674, 9810592534",
+        "dayTime":"",
+        "venue": "",
+        "fee": "350",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Choreography & Expressions during the performance, Clarity and Overall impact."
+        ],
+        "rule": [
+            "No usage of props is allowed for this round.",
+            "Participants will not be judged based on their costumes.",
+            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
+            "Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage is STRICTLY not allowed.",
+            "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification. Songs should be chosen accordingly.",
+            "Violation of any of the above rules will lead to heavy penalties.",
+            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
+            "The decision of the organizers regarding the final line-up would be final."
+        ],
+        "elimination":[
+            "Time Limit: 5 minutes",
+            "Styles: All except Folk dance such as Garba, Bhangra, Bihu, etc."
         ],
         "TC":[
             

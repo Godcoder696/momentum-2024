@@ -32,8 +32,8 @@ function SignInButton() {
 
   if (session && session.user) {
     return (
-      <div className="flex flex-col  ml-auto items-center">
-        <img src={session.user.image || ""} alt="" className="rounded-[50%] h-9 w-9 cursor-pointer" 
+      <div className="flex flex-col pr-4 ml-auto items-center">
+        <img src={session.user.image || ""} alt="" className="rounded-[50%] h-8 w-8 md:h-9 md:w-9 cursor-pointer" 
           onClick={()=>{
             setShow(!show);
           }}/>

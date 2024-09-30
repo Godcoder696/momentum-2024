@@ -22,7 +22,7 @@ export default function Events({ }) {
             events.map((event, index)=>{
               return (
                 <Link href={`events/${index}`} key={index}>
-                  <Image src="/event-poster.png" alt='p1' height={200} width={200} className="event-card "/>
+                  <Image src={event.imgUrl} alt='p1' height={200} width={200} className="event-card "/>
                 </Link>
               )
             })

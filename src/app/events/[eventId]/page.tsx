@@ -24,7 +24,7 @@ function Page({params}) {
       {
         ((params.eventId>=0 && params.eventId<=63)?
           <div className='event-bg min-h-screen'>
-            <div className=' text-white z-30 flex justify-around pb-8 items-start xl:px-16 pt-[110px] h-full'>
+            <div className='flex flex-col sm:flex-row text-white z-30 space-y-1 sm:space-x-2 px-3 justify-center sm:justify-around pb-8 items-start xl:px-16 pt-[110px] h-full'>
               {
                 !proceedToPay?
                 <AboutEvent setProceedToPay={setProceedToPay} eventId={params.eventId}/>

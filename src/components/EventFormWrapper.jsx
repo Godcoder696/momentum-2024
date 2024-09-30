@@ -134,16 +134,16 @@ function EventFormWrapper({ eventId }) {
   return (
     <>
       <Script src="https://checkout.razorpay.com/v1/checkout.js" />
-      <div className="text-white flex w-[80%] space-x-5">
+      <div className="text-white flex md:w-[90%] sm:space-x-5 justify-evenly ">
         <Image
-          src="/event-poster.png"
+          src={events[eventId].imgUrl}
           height={200}
           width={200}
           alt="p1"
-          className="z-20 rounded-sm h-72"
+          className="z-20 rounded-sm h-60 w-60 md:w-fit md:h-fit hidden sm:block"
         />
-        <div className="flex flex-col space-y-2 items-end w-full">
-          <div className="bg-[#030919ae] rounded-md p-5 h-[480px] overflow-y-scroll w-full">
+        <div className="flex flex-col space-y-2 w-full md:w-3/5">
+          <div className="bg-[#030919ae] rounded-md p-3 sm:p-5 max-h-[480px] overflow-y-scroll">
             <EventForm
               rId={rId}
               setRId={setRId}
@@ -156,7 +156,7 @@ function EventFormWrapper({ eventId }) {
           <button
             onClick={handlePayment}
             disabled={isProcessing}
-            className="hover:bg-green-700 bg-green-600 px-6 py-2 rounded-md"
+            className="hover:bg-green-700 bg-green-600 px-6 py-2 rounded-md w-full"
           >
             {isProcessing ? "Processing..." : "Proceed To Pay!"}
           </button>

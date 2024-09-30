@@ -14,23 +14,23 @@ function EventDetails({event}) {
     console.log(event);
   },[])
   return (
-    <div className='space-y-4'>
+    <div className='space-y-2 md:space-y-4'>
         <div className='text-3xl font-bold'>{event.name}</div>
           <div className=' text-sm'>
             {
               event.desc
             }
           </div>
-          <div className='space-y-2'>
+          <div className='space-y-1 md:space-y-2'>
             {/* <div className='text-sm flex items-center space-x-3'>
               <MdDateRange size={15}/>
               <span>Date: {event.dayTime}</span>
             </div> */}
-            <div className='text-sm flex items-center space-x-3'>
+            <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <IoIosTime size={15}/>
               <span>Day/Time: {event.dayTime}</span>
             </div>
-            <div className='text-sm flex items-center space-x-3'>
+            <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <FaLocationDot size={15}/>
               <span>Venue: {event.venue}</span>
             </div>
@@ -38,23 +38,23 @@ function EventDetails({event}) {
               <IoIosTrophy/>
               <span>Prize: Rs. 1000</span>
             </div> */}
-            <div className='text-sm flex items-center space-x-3'>
+            <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <FaMoneyBillWave/>
               <span>Entry Fees: Rs. {event.fee}</span>
             </div>
-            <div className='text-sm flex items-center space-x-3'>
+            <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <RiTeamFill/>
               <span>Team Size: 1 - 5 persons</span>
             </div>
-            <div className='text-sm flex items-center space-x-3'>
+            <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <RiTeamFill/>
               <span>Team : 1 - 5 persons</span>
             </div>
-            <div className='text-sm flex items-center space-x-3'>
+            <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <RiTeamFill/>
               <span>Coordinators: {event.coordinators}</span>
             </div>
-            <div className='text-sm flex items-center space-x-3'>
+            <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <IoIosContact/>
               <span>Contact: +91 {event.contact}</span>
             </div>
