@@ -10,6 +10,15 @@ function EventFormWrapper({ eventId }) {
   const ammount = 100;
   const [isProcessing, setIsProcessing] = useState(false);
   const { user } = useAppContext();
+  const [rId, setRId] = useState(undefined);
+  const [members, setMembers] = useState([
+    { name: "", rollNum: "" },
+    { name: "", rollNum: "" },
+    { name: "", rollNum: "" },
+    { name: "", rollNum: "" },
+  ]);
+  const [teamName, setTeamName] = useState(undefined);
+
   const handlePayment = async () => {
     setIsProcessing(true);
     try {
@@ -27,7 +36,7 @@ function EventFormWrapper({ eventId }) {
         amount: ammount,
         currency: "INR",
         name: "Momentum 2024",
-        description: "Test payment",
+        description: `Payment for ` + events[eventId].name,
         order_id: orderId,
         handler: async function (response) {
           setIsProcessing(true);
@@ -48,9 +57,9 @@ function EventFormWrapper({ eventId }) {
                 eventId: eventId,
                 userId: user._id,
                 userTag: user.tag,
-                referral: "",
+                referral: rId,
                 email: user.email,
-                fname: user.fname
+                fname: user.fname,
               }),
             });
 
@@ -66,9 +75,9 @@ function EventFormWrapper({ eventId }) {
           setIsProcessing(false);
         },
         prefill: {
-          name: "Lakshay Yadav",
-          email: "lionleo110@gmail.com",
-          contact: "9650368568",
+          name: user.fname + " " + user.lname,
+          email: user.email,
+          contact: user.pNumber,
         },
         theme: {
           color: "#e75a54",
@@ -98,7 +107,14 @@ function EventFormWrapper({ eventId }) {
         />
         <div className="flex flex-col space-y-2 items-end w-full">
           <div className="bg-[#030919ae] rounded-md p-5 h-[480px] overflow-y-scroll w-full">
-            <EventForm />
+            <EventForm
+              rId={rId}
+              setRId={setRId}
+              members={members}
+              setMembers={setMembers}
+              teamName={teamName}
+              setTeamName={setTeamName}
+            />
           </div>
           <button
             onClick={handlePayment}
