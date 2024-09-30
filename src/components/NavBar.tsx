@@ -1,9 +1,7 @@
 'use client'
-import React, { useEffect } from 'react'
-import SignInButton from './SignInButton'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useAppContext } from '@/app/context/ContextProvider'
+import SignInButton from './SignInButton'
 
 function NavBar() {
   return (

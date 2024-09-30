@@ -13,22 +13,20 @@ function EventFormWrapper({ eventId }) {
   const [isProcessing, setIsProcessing] = useState(false);
   const { user } = useAppContext();
   const [rId, setRId] = useState(undefined);
-  const [members, setMembers] = useState([
-    { name: "", rollNum: "" },
-    { name: "", rollNum: "" },
-    { name: "", rollNum: "" },
-    { name: "", rollNum: "" },
-  ]);
-  const [minSize, setMinSize] = useState(4);
+  const [members, setMembers] = useState([]);
+  const [maxSize, setMaxSize] = useState(events[eventId].maxSize || 0);
+  const [minSize, setMinSize] = useState(events[eventId].minSize || 0);
   const [teamName, setTeamName] = useState(undefined);
+  const [type, setType]= useState(events[eventId].type);
 
   useEffect(() => {
     const team = [];
-    for (let i = 0; i < minSize; i++) {
-      team.push({ name: "", rollNum: "" });
+    for (let i = 0; i < maxSize; i++) {
+      if (i == 0) team.push({ name: "", rollNum: "" });
+      else team.push({ name: "", rollNum: "" });
     }
     setMembers(team);
-  }, [minSize]);
+  }, [maxSize]);
   const handlePayment = async () => {
     const isValid = validateDetails();
     if (isValid) {
@@ -62,7 +60,9 @@ function EventFormWrapper({ eventId }) {
                   razorpay_payment_id: response.razorpay_payment_id,
                   razorpay_order_id: response.razorpay_order_id,
                   razorpay_signature: response.razorpay_signature,
-                  teamName: "",
+                  teamName: teamName,
+                  teamMembers: members,
+                  type: type,
                   eventName: events[eventId].name,
                   eventId: eventId,
                   userId: user._id,
@@ -123,10 +123,15 @@ function EventFormWrapper({ eventId }) {
       // toast
       myToast("Please enter a longer team name");
       return false;
-    } else if (!members) {
+    } else if (maxSize != 0 && minSize != 0) {
       // toast
-      myToast("Members can't be null");
-      return false;
+      for (let i = 0; i < minSize; i++) {
+        const member = members[i];
+        if (member.name == "" || member.rollNum == "") {
+          myToast("Please Enter atleast " + minSize + " members details!");
+          return false;
+        }
+      }
     }
     return true;
   }
@@ -151,6 +156,7 @@ function EventFormWrapper({ eventId }) {
               setMembers={setMembers}
               teamName={teamName}
               setTeamName={setTeamName}
+              type= {type}
             />
           </div>
           <button
