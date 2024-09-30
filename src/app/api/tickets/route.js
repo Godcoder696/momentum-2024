@@ -12,7 +12,3 @@ export async function PUT(req){
         return NextResponse.json({errMsg: error},{status: 500})
     }
 }
-
-export async function GET(){
-
-}
