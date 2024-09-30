@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import EventForm from "./EventForm";
 import Script from "next/script";
 import { useAppContext } from "@/app/context/ContextProvider";
@@ -17,8 +17,16 @@ function EventFormWrapper({ eventId }) {
     { name: "", rollNum: "" },
     { name: "", rollNum: "" },
   ]);
+  const [minSize, setMinSize] = useState(4);
   const [teamName, setTeamName] = useState(undefined);
 
+  useEffect(() => {
+    const team = [];
+    for (let i = 0; i < minSize; i++) {
+      team.push({ name: "", rollNum: "" });
+    }
+    setMembers(team);
+  }, [minSize]);
   const handlePayment = async () => {
     setIsProcessing(true);
     try {

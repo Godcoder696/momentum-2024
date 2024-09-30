@@ -43,13 +43,13 @@ function SignInButton() {
             onMouseLeave={()=>{
               setShow(false)
             }}>
-            <Link href={"/users/profile"}>
+            <Link href={"/profile"}>
               <div className="flex  justify-start items-center px-3 py-1 space-x-3 rounded-md hover:bg-gray-200">
                 <IoMdPerson size={14}/>
                 <button >Profile</button> 
               </div>
             </Link>
-            <Link href={"/users/profile"}>
+            <Link href={"/profile"}>
               <div className="flex  justify-start items-center px-3 py-1 space-x-3 rounded-md hover:bg-gray-200">
                 <MdOutlineEmojiEvents size={14}/>
                 <button >My Events</button> 

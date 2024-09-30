@@ -19,6 +19,7 @@ function EventForm({rId,setRId, members, setMembers, teamName, setTeamName}) {
                     onChange={(e)=>{
                         setTeamName(e.target.value)
                     }}
+                    required
                 />
             </div>
         </div>
