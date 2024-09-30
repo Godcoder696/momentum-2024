@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import updateUser, { newUserTicket } from '../../../lib/db/methods/newUserTicket';
+import newUserTicket  from '../../../lib/db/methods/newUserTicket';
 
 export async function PUT(req){
     const {email, eventId}= await req.json();
