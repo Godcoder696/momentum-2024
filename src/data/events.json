@@ -2,12 +2,18 @@
     {
         "id": 0,
         "name": "Speed Typer Showdown (Typing Speed Test)",
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "fee": "100",
+        "waLink": "https://chat.whatsapp.com/ItNIc1A7bhuHwbte99xRS6",
+        "categories": [],
         "mainCoordi": "Paras",
         "coordinators": "Himani, Anshika",
         "contact": "9810783403",
         "dayTime":"Day 1, 12 PM - 1 PM",
         "venue": "RN-136",
-        "fee": "100",
         "desc": "Participants compete to achieve the highest typing speed while maintaining accuracy in a series of typing challenges.",
         "criteria": [
             "Typing speed and accuracy (Words per Minute - WPM).",
@@ -30,6 +36,12 @@
     {
         "id": 1,
         "name": "Carrom Clash",
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/GqS1lFYVNdd0RkNQhtYWwb",
+        "categories": [],
         "mainCoordi": "Pakhi",
         "coordinators": "Anam Khan, Gia",
         "contact": "9818357711",
@@ -53,6 +65,12 @@
     },
     {
         "id": 2,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/GZIImwLGtYkGEDvW6tLHlQ",
+        "categories": [],
         "name": "Among Us Intrigue (Among Us)",
         "mainCoordi": "Yuvraj",
         "coordinators": "Anvi, Muskan",
@@ -76,6 +94,12 @@
     },
     {
         "id": 3,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/BfgJjwQL4LQ8KTNLOdjDbi",
+        "categories": [],
         "name": "BGMI Lone Survivor",
         "mainCoordi": "Shridhar",
         "coordinators": "Amandeep, Cheshna Mehra",
@@ -101,6 +125,12 @@
     },
     {
         "id": 4,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": 2,
+        "maxSize": 4,
+        "waLink": "https://chat.whatsapp.com/KrfzT4lZwkE1rnRIkBUlyG",
+        "categories": [],
         "name": "BizWhiz Ideathon",
         "mainCoordi": "Kavya",
         "coordinators": "Soumaya, Vershaish",
@@ -124,6 +154,12 @@
     },
     {
         "id": 5,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/DRul5pqB40nKreBOO7GEs4",
+        "categories": [],
         "name": "Eco-Creative Craft (Best Out of Waste)",
         "mainCoordi": "Ishika",
         "coordinators": "Kavya Singh, Mohit Dudeja",
@@ -147,6 +183,12 @@
     },
     {
         "id": 6,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/BZezdSdvANJ8c7ETCjnZGa",
+        "categories": [],
         "name": "Star Search (Talent Hunt)",
         "mainCoordi": "Pakhi",
         "coordinators": "Jyoti, Baani",
@@ -176,6 +218,12 @@
     },
     {
         "id": 7,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/LQPxIvrjSmeBLacc1lBbkG",
+        "categories": [],
         "name": "Push-Up Endurance (Push Up Competition)",
         "mainCoordi": "Shridhar ",
         "coordinators": "Pratyush, Lokesh",
@@ -203,6 +251,12 @@
     },
     {
         "id": 8,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/CitvEyZQ4JQ6rgesMgxbNT",
+        "categories": [],
         "name": "Verses Unbound (Shayari Event)",
         "mainCoordi": "Ishika",
         "coordinators": "Jessica, Ananya",
@@ -232,6 +286,12 @@
     },
     {
         "id": 9,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/ErFw4WABVKs38OfDm5TNhX",
+        "categories": [],
         "name": "Artistry Arena (Art Competition)",
         "mainCoordi": "Pakhi",
         "coordinators": "Divigya, Hitanshu",
@@ -258,6 +318,12 @@
     },
     {
         "id": 10,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "1",
+        "maxSize": "3",
+        "waLink": "https://chat.whatsapp.com/BnTa81quizj2KViVGxRlKe",
+        "categories": [],
         "name": "Rangoli Radiance - Rangoli Making Competition",
         "mainCoordi": "Ishika",
         "coordinators": "Kanika, Gaurika",
@@ -284,6 +350,12 @@
     },
     {
         "id": 11,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "1",
+        "maxSize": "3",
+        "waLink": "https://chat.whatsapp.com/BQ5ay1Q9QGyD7a4vpLW2HL",
+        "categories": [],
         "name": "Stock Smarts - Mock Stock",
         "mainCoordi": "Jatin",
         "coordinators": "Rudra, Siya",
@@ -310,6 +382,12 @@
     },
     {
         "id": 12,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "2",
+        "maxSize": "3",
+        "waLink": "https://chat.whatsapp.com/K6oRiNV3Ezg6Q98939tOjC",
+        "categories": [],
         "name": "Tech Trivia Tournament - Tech Quiz",
         "mainCoordi": "Nirjhar",
         "coordinators": "Himani, Anshika",
@@ -335,6 +413,12 @@
     },
     {
         "id": 13,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "1",
+        "maxSize": "3",
+        "waLink": "https://chat.whatsapp.com/GE9QSRysuWEAsGWIbowzmH",
+        "categories": [],
         "name": "Debate Duel - Debate Competition",
         "mainCoordi": "Kavya",
         "coordinators": "Khushi Sharma, Pawni Kaushik",
@@ -363,6 +447,12 @@
     },
     {
         "id": 14,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/IEGQWGWhFlVBm45OztWadU",
+        "categories": [],
         "name": "Story Blitz - One-Minute Storytelling",
         "mainCoordi": "Jatin",
         "coordinators": "Gia, Hetal",
@@ -392,6 +482,12 @@
     },
     {
         "id": 15,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "2",
+        "maxSize": "2",
+        "waLink": "https://chat.whatsapp.com/CA7j3tfS9h8Kl6Bc0FZWIX",
+        "categories": [],
         "name": "Ping Pong Palooza - Table Tennis Competition",
         "mainCoordi": "Nirjhar",
         "coordinators": "Ayush, Aaradhye Agarwal",
@@ -419,6 +515,12 @@
     },
     {
         "id": 16,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "4",
+        "maxSize": "4",
+        "waLink": "https://chat.whatsapp.com/JtEKGOLHIhf2Wz7MaGWzOu",
+        "categories": [],
         "name": "Free Fire Frenzy - Free Fire Squad Battle",
         "mainCoordi": "Priyanshu",
         "coordinators": "Raghav, Keshav",
@@ -448,6 +550,12 @@
     },
     {
         "id": 17,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "2",
+        "maxSize": "2",
+        "waLink": "https://chat.whatsapp.com/J6vBmtkaXOT5b5vez9618Z",
+        "categories": [],
         "name": "Brainiac Battle - General Knowledge Quiz",
         "mainCoordi": "Shridhar",
         "coordinators": "Anvi, Muskan",
@@ -470,6 +578,12 @@
     },
     {
         "id": 18,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/I8vyuZdK46V4RJQ3pCAzUD",
+        "categories": [],
         "name": "Minute to Win It - 60-Second Showdown",
         "mainCoordi": "Nayan",
         "coordinators": "Aayushi Dhanda, Vanshika",
@@ -493,6 +607,12 @@
     },
     {
         "id": 19,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/CEkoFmA1hre6txmMroDfHI",
+        "categories": [],
         "name": "Code Golf Challenge - Coding Challenge",
         "mainCoordi": "Jatin",
         "coordinators": "Aryan Dahiya, Sidhant Raj",
@@ -517,6 +637,12 @@
     },
     {
         "id": 20,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "1",
+        "maxSize": "4",
+        "waLink": "https://chat.whatsapp.com/ELeMpeV7rTBIUYX85FHkT1",
+        "categories": [],
         "name": "The Analysis Arena (Case Study Competition)",
         "mainCoordi": "Yuvraj",
         "coordinators": "Shobhit, Chaitanya",
@@ -545,6 +671,12 @@
     },
     {
         "id": 21,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "3",
+        "maxSize": "3",
+        "waLink": "https://chat.whatsapp.com/J0P43NeLHIRFLXb4lVb1OO",
+        "categories": [],
         "name": "3v3 Basketball Tournament",
         "mainCoordi": "Priyanshu",
         "coordinators": "Anam Khan, Mohit Dudeja",
@@ -578,6 +710,12 @@
     },
     {
         "id": 22,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/JZPgkW8owA4CAaYLT9Wj2h",
+        "categories": [],
         "name": "Clash Master Solo (Clash of Clans Solo Competition)",
         "mainCoordi": "Nirjhar",
         "coordinators": "Preyansh, Ishan",
@@ -601,6 +739,12 @@
     },
     {
         "id": 23,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/KSXf1U7lypC82pJ0PTeIuh",
+        "categories": [],
         "name": "SkipMania (Skipping Competition)",
         "mainCoordi": "Yuvraj",
         "coordinators": "Lokesh, Pratyush",
@@ -628,6 +772,12 @@
     },
     {
         "id": 24,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/ET4BFkmOQdxEAxiVeuf2Lb",
+        "categories": [],
         "name": "Essay Writing Competition",
         "mainCoordi": "Nirjhar",
         "coordinators": "Shristi, Priyanshi",
@@ -656,6 +806,12 @@
     },
     {
         "id": 25,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "4",
+        "maxSize": "4",
+        "waLink": "https://chat.whatsapp.com/Iu6sX1FJO1LJSj8jsXbeni",
+        "categories": [],
         "name": "BGMI Squad Showdown",
         "mainCoordi": "Jatin",
         "coordinators": "Rudra, Siya",
@@ -681,6 +837,12 @@
     },
     {
         "id": 26,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "1",
+        "maxSize": "4",
+        "waLink": "https://chat.whatsapp.com/Dm9EeTjKnLVIdpXLeaT149",
+        "categories": [],
         "name": "Mystic Trails (Treasure Hunt)",
         "mainCoordi": "Ishika ",
         "coordinators": "Divigya, Hitanshu",
@@ -712,6 +874,12 @@
     },
     {
         "id": 27,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "2",
+        "maxSize": "2",
+        "waLink": "https://chat.whatsapp.com/E8UCJTnXYxjHJ07ndWiZRy",
+        "categories": [],
         "name": "Beach Volleyball (2v2 Volleyball)",
         "mainCoordi": "Priyanshu ",
         "coordinators": "Keshav, Rishit",
@@ -734,6 +902,12 @@
     },
     {
         "id": 28,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/H0xpg7ukBw66Y20XX3wXob",
+        "categories": [],
         "name": "Parley in Parliament (Mock Parliament)",
         "mainCoordi": "Jatin ",
         "coordinators": "Kavya Singh, Hetal",
@@ -765,6 +939,12 @@
     },
     {
         "id": 29,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "1",
+        "maxSize": "3",
+        "waLink": "https://chat.whatsapp.com/DGPSlfTCFuxBR6ADmwKmVL",
+        "categories": [],
         "name": "Tech Talk Battle (Tech Debate)",
         "mainCoordi": "Yuvraj",
         "coordinators": "Amandeep, Cheshna Mehra",
@@ -796,6 +976,12 @@
     },
     {
         "id": 30,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/J2204P7dfLMBpjLG8kR4eK",
+        "categories": [],
         "name": "COD Lone Wolf (Solo)",
         "mainCoordi": "Yuvraj",
         "coordinators": "Divyansh, Prince",
@@ -823,6 +1009,12 @@
     },
     {
         "id": 31,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "1",
+        "maxSize": "3",
+        "waLink": "https://chat.whatsapp.com/CGKVZWMENSb8vhcZblua7P",
+        "categories": [],
         "name": "Melody Master: Name the Song",
         "mainCoordi": "Pakhi",
         "coordinators": "Jessica, Ananya",
@@ -850,6 +1042,12 @@
     },
     {
         "id": 32,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/JduqYnuSfeR3rYJraEiYS3",
+        "categories": [],
         "name": "Photon Quest: Online Photography Contest",
         "mainCoordi": "Pakhi",
         "coordinators": "Kanika, Gaurika",
@@ -878,6 +1076,12 @@
     },
     {
         "id": 33,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "1",
+        "maxSize": "3",
+        "waLink": "https://chat.whatsapp.com/HJg5kFmph2LEj8ZXlHGftE",
+        "categories": [],
         "name": "Meme-o-Mania: Meme Battle",
         "mainCoordi": "Nayan",
         "coordinators": "Khushi, Pawni",
@@ -906,6 +1110,12 @@
     },
     {
         "id": 34,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "1",
+        "maxSize": "3",
+        "waLink": "https://chat.whatsapp.com/DGpKPJnN1lBJN3X6dxEo1x",
+        "categories": [],
         "name": "Bollywood Quiz",
         "mainCoordi": "Kavya",
         "coordinators": "Siya, Rudra",
@@ -933,6 +1143,12 @@
     },
     {
         "id": 35,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/FXKpw9THQjqGuHNyryij34",
+        "categories": [],
         "name": "Cube Champ: Rubik's Cube Solving",
         "mainCoordi": "Paras",
         "coordinators": "Shristi, Priyanshi",
@@ -956,6 +1172,12 @@
     },
     {
         "id": 36,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/DoipNxAgkcvFYBTfvHhavh",
+        "categories": [],
         "name": "Battle Blitz: BGMI (WOW Mode)",
         "mainCoordi": "Nirjhar",
         "coordinators": "Anoop, Sushil",
@@ -979,6 +1201,12 @@
     },
     {
         "id": 37,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/CuJnN6fgHFU3VTOE2fCwIG",
+        "categories": [],
         "name": "Clash Royale Rumble",
         "mainCoordi": "Shridhar",
         "coordinators": "Divyansh, Prince",
@@ -1002,6 +1230,12 @@
     },
     {
         "id": 38,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/Dd1dgmFVelqKOyM6BuP3t1",
+        "categories": [],
         "name": "Plank Challenge",
         "mainCoordi": "Shridhar",
         "coordinators": "Shobhit, Chaitanya",
@@ -1027,6 +1261,12 @@
     },
     {
         "id": 39,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/C1cxTOLmRAP3XbvVRY4cSo",
+        "categories": [],
         "name": "IPL Fantasy Auction",
         "mainCoordi": "Paras",
         "coordinators": "Preyansh, Ishan",
@@ -1060,6 +1300,12 @@
     },
     {
         "id": 40,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/IeUinpeUk19DQvlsY2y7Kx",
+        "categories": [],
         "name": "Chess Champions",
         "mainCoordi": "Priyanshu",
         "coordinators": "Sartaj, Yathansh",
@@ -1089,6 +1335,12 @@
     },
     {
         "id": 41,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "5",
+        "maxSize": "5",
+        "waLink": "https://chat.whatsapp.com/EgitCkL8VQz5u3n3YeC7kI",
+        "categories": [],
         "name": "Valorant Vanguard",
         "mainCoordi": "Nayan",
         "coordinators": "Soumya, Vershaish",
@@ -1116,6 +1368,12 @@
     },
     {
         "id": 42,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "3",
+        "maxSize": "5",
+        "waLink": "https://chat.whatsapp.com/FU5Mnzb8cwaF3oUlSQQKdZ",
+        "categories": [],
         "name": "Militia Madness (Mini Militia)",
         "mainCoordi": "Paras",
         "coordinators": "Ayush, Aaradhye Agarwal",
@@ -1159,6 +1417,12 @@
     },
     {
         "id": 43,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "2",
+        "maxSize": "2",
+        "waLink": "https://chat.whatsapp.com/CdTemg9TYhj0DsE9FFckxf",
+        "categories": [],
         "name": "Kitchen Kwizards (No flame cooking challenge)",
         "mainCoordi": "Ishika",
         "coordinators": "Jyoti, Baani",
@@ -1190,6 +1454,12 @@
     },
     {
         "id": 44,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/BaUpquRf9jE5ifw2C2YtV6",
+        "categories": [],
         "name": "Clash Mix Mayhem (Clash of Clans Mix Challenges)",
         "mainCoordi": "Nayan",
         "coordinators": "Hanshika, Sneha",
@@ -1216,6 +1486,12 @@
     },
     {
         "id": 45,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/HbzEhl0ToAmAa80KgHJNrx",
+        "categories": [],
         "name": "Chair Chase (Musical Chair)",
         "mainCoordi": "Paras",
         "coordinators": "Anoop, Sushil",
@@ -1243,6 +1519,12 @@
     },
     {
         "id": 46,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/H28cCrxbalzHNuj6CzY8Ek",
+        "categories": [],
         "name": "InkSpire Writing (Creative Writing Competition)",
         "mainCoordi": "Kavya",
         "coordinators": "Prateek Dangi, Vishal Bansal",
@@ -1278,6 +1560,12 @@
     },
     {
         "id": 47,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/I1xGYv2AmR12s28IDnVeMF",
+        "categories": [],
         "name": "Shooting Basketball",
         "mainCoordi": "Priyanshu",
         "coordinators": "Rishit, Raghav",
@@ -1307,6 +1595,12 @@
     },
     {
         "id": 48,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "1",
+        "maxSize": "3",
+        "waLink": "https://chat.whatsapp.com/FluQQySe1Lj1gSLOjVThOA",
+        "categories": [],
         "name": "Reel Revolution (Reel Making Competition)",
         "mainCoordi": "Kavya ",
         "coordinators": "Aayushi Dhanda, Vanshika",
@@ -1342,6 +1636,12 @@
     },
     {
         "id": 49,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "1",
+        "maxSize": "3",
+        "waLink": "https://chat.whatsapp.com/KSpa3i3IxmqFrOE7lkY9hw",
+        "categories": [],
         "name": "Cosmic Canvas Creations (Digital Art Competition)",
         "mainCoordi": "Nayan",
         "coordinators": "Prateek Dangi, Vishal Bansal",
@@ -1373,6 +1673,12 @@
     },
     {
         "id": 50,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "5",
+        "maxSize": "10",
+        "waLink": "https://chat.whatsapp.com/KsDazK6RcjwKrs5jqlGTwH",
+        "categories": [],
         "name": "Tug of War",
         "mainCoordi": "Jatin",
         "coordinators": "Sartaj, Yathansh",
@@ -1400,13 +1706,19 @@
     },
     {
         "id": 51,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/HOpKGkOUpF9AOIUgtnA2LB",
+        "categories": [],
         "name": "IKTAARA- Solo Singing (Hindi/English)",
         "mainCoordi": "",
-        "coordinators": "",
-        "contact": "",
+        "coordinators": "Amisha",
+        "contact": "8448427187",
         "dayTime":"",
         "venue": "",
-        "fee": "",
+        "fee": "350",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -1425,6 +1737,449 @@
             "Obscenity (at the discretion of judges) of any kind is not allowed and will lead to immediate disqualification.",
             "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
             "The decision of the organizers regarding the final line-up would be final"
+        ],
+        "TC":[
+            
+        ]
+    },
+    {
+        "id": 52,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "5",
+        "maxSize": "20",
+        "waLink": "https://chat.whatsapp.com/LGnO5P9QHtK9YUaUk2FKkq",
+        "categories": [],
+        "name": "GOONJ – Group Singing (Choir/acapella)",
+        "mainCoordi": "",
+        "coordinators": "Amisha",
+        "contact": "8448427187",
+        "dayTime":"",
+        "venue": "",
+        "fee": "1100",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Coordination among team members, overall performance, stage presence, audience appeal."
+        ],
+        "rule": [
+            "Maximum two accompanists are allowed.",
+            "The language must be only English and/or Hindi.",
+            "The team may sing more than one song within the time limit.",
+            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
+            "The decision of the organizers regarding the final line-up would be final"
+        ],
+        "elimination":[
+            "Participation: There should not be any common members.",
+            "There will be only one round.",
+            "Time limit: 10 minutes (including sound check)."
+        ],
+        "TC":[
+            
+        ]
+    },
+    {
+        "id": 53,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/EoYhZ3Do9Ng0AOXGh9Oz7a",
+        "categories": [],
+        "name": "TARANG – Solo Dance (Western)",
+        "mainCoordi": "",
+        "coordinators": "Vishesh, Utkarsh",
+        "contact": "9596755674, 9810592534",
+        "dayTime":"",
+        "venue": "",
+        "fee": "350",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Choreography & Expressions during the performance, Clarity and Overall impact."
+        ],
+        "rule": [
+            "No usage of props is allowed for this round.",
+            "Participants will not be judged based on their costumes.",
+            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
+            "Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage is STRICTLY not allowed.",
+            "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification. Songs should be chosen accordingly.",
+            "Violation of any of the above rules will lead to heavy penalties.",
+            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
+            "The decision of the organisers regarding the final line-up would be final."
+        ],
+        "elimination":[
+            "Time Limit: 5 minutes",
+            "Styles: All except Folk dance such as Garba, Bhangra, Bihu, etc."
+        ],
+        "TC":[
+            
+        ]
+    },
+    {
+        "id": 54,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/L2OHKBIm81nFHjZO4TjIWt",
+        "categories": [],
+        "name": "JHANKAAR – Solo Dance (Classical)",
+        "mainCoordi": "",
+        "coordinators": "Vishesh, Utkarsh",
+        "contact": "9596755674, 9810592534",
+        "dayTime":"",
+        "venue": "",
+        "fee": "350",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Choreography & Expressions during the performance, Clarity and Overall impact."
+        ],
+        "rule": [
+            "No usage of props is allowed for this round.",
+            "Participants will not be judged based on their costumes.",
+            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
+            "Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage is STRICTLY not allowed.",
+            "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification. Songs should be chosen accordingly.",
+            "Violation of any of the above rules will lead to heavy penalties.",
+            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
+            "The decision of the organizers regarding the final line-up would be final."
+        ],
+        "elimination":[
+            "Time Limit: 5 minutes",
+            "Styles: All except Folk dance such as Garba, Bhangra, Bihu, etc."
+        ],
+        "TC":[
+            
+        ]
+    },
+    {
+        "id": 55,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "2",
+        "maxSize": "2",
+        "waLink": "https://chat.whatsapp.com/IpIZr70obbZ9szuD6Fytzr",
+        "categories": [],
+        "name": "SWIRL – Couple dance",
+        "mainCoordi": "",
+        "coordinators": "Vishesh, Utkarsh",
+        "contact": "9596755674, 9810592534",
+        "dayTime":"",
+        "venue": "",
+        "fee": "700",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Choreography & Energy, Creativity & Synchronisation, Expressions,  Costumes (Basic colour code), Overall Impact"
+        ],
+        "rule": [
+            "Participants can use more than one song in their performance.",
+            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
+            "Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage are STRICTLY not allowed.",
+            "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification. Songs should be chosen accordingly.",
+            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
+            "The decision of the organizers regarding the final line-up would be final."
+        ],
+        "elimination":[
+            "Time limit: 2-4 minutes (+1minute setup and clearance time)",
+            "Teams must perform any sequence of their choice on a song of their choice."
+        ],
+        "TC":[
+            
+        ]
+    },
+    {
+        "id": 56,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "5",
+        "maxSize": "25",
+        "waLink": "https://chat.whatsapp.com/EM4fPp7ICEt5ISDgmlRcuu",
+        "categories": [],
+        "name": "UTOPIA – Group Dance",
+        "mainCoordi": "",
+        "coordinators": "Vishesh, Utkarsh",
+        "contact": "9596755674, 9810592534",
+        "dayTime":"",
+        "venue": "",
+        "fee": "1100",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Choreography & Energy, Creativity & Synchronisation, Expressions, Costumes(Basic color code), Overall Impact."
+        ],
+        "rule": [
+            "Only one team per college is allowed to perform.",
+            "Participants can use more than one song in their performance.",
+            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
+            "Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage are STRICTLY not allowed.",
+            "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification. Songs should be chosen accordingly.",
+            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
+            "The decision of the organizers regarding the final line-up would be final."
+        ],
+        "elimination":[
+            "Time limit: 3- 5 minutes ( +1 minute setup and clearance time)",
+            "Teams must perform any sequence of their choice on a song of their choice."
+        ],
+        "TC":[
+            
+        ]
+    },
+    {
+        "id": 57,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "5",
+        "maxSize": "20",
+        "waLink": "https://chat.whatsapp.com/Bk7S1FR8MRmHqgKLAAngki",
+        "categories": [],
+        "name": "Thread mill – Inter University Fashion Show",
+        "mainCoordi": "",
+        "coordinators": "Tanvi Kathuria",
+        "contact": "7011584257",
+        "dayTime":"",
+        "venue": "",
+        "fee": "1100",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Theme (vivid illusion), Formation (team only), Music, Dresses & Walk,  Overall Impact."
+        ],
+        "rule": [
+            "Colleges are expected to bring with them, all the apparels, props and music CDs/ pen drives according to their respective themes, necessary for the event.",
+            "All teams should report for the prelim, as no direct entry to the Final event would be allowed.",
+            "The slot for the prelims is 10 minutes, including 5 minutes of setup time and 5 minutes of performance time.",
+            "Teams would be selected on the basis of their performance in the prelims to walk on the ramp in the main event.",
+            "The slot for the final event is 15 minutes’ maximum, which includes 3 minutes of setup time as well.",
+            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
+            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
+            "The decision of the organizers regarding the final line-up would be final."
+        ],
+        "elimination":[
+            "Time Limit: 10minutes (5 minute + 5minute setup)",
+            "There will be only one round."
+        ],
+        "TC":[
+            
+        ]
+    },
+    {
+        "id": 58,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/FNbYFyxderEHl7sc3Z9aLT",
+        "categories": [],
+        "name": "Haute Couture- Intra University Fashion Show",
+        "mainCoordi": "",
+        "coordinators": "Isha Aggarwal",
+        "contact": "9871389860",
+        "dayTime":"",
+        "venue": "",
+        "fee": "450",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Talent expertise, Uniqueness & Personality, Crowd Reaction, Overall Impact"
+        ],
+        "rule": [
+            "Rounds: 3 (Ethnic , Formal And Urban Wear)",
+            "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification.",
+            "Use of cigarettes, alcohol and unfair means is strongly prohibited.",
+            "Tracks to be played in the background.",
+            "Incase of any technical issues, the participant would be allowed to perform the entire performance from the beginning.",
+            "Under no condition (other than technical issues) would the participant be allowed to stop and start the performance again.",
+            "The final scoring would be based on equal weightage of all the rounds.",
+            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
+            "The decision of the organizers regarding the final line-up would be final."
+        ],
+        "elimination":[
+            
+        ],
+        "TC":[
+            
+        ]
+    },
+    {
+        "id": 59,
+        "imgUrl": "",
+        "type": "Team",
+        "minSize": "5",
+        "maxSize": "20",
+        "waLink": "https://chat.whatsapp.com/BTQSznaukhd36NwucpMIgS",
+        "categories": [],
+        "name": "Battle of Bands",
+        "mainCoordi": "",
+        "coordinators": "Karan",
+        "contact": "9311573728",
+        "dayTime":"",
+        "venue": "",
+        "fee": "1500",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Coordination among team members, overall performance, stage presence, audience appeal."
+        ],
+        "rule": [
+            "Maximum two accompanists are allowed.",
+            "The language must be only English and/or Hindi.",
+            "The team may sing more than one song within the time limit.",
+            "Time limit should be strictly followed. Participants will be heavily penalised by judges for not doing so.",
+            "The decision of the organisers regarding the final line-up would be final."
+        ],
+        "elimination":[
+            "Participation: There should not be any common members.",
+            "There will be only one round.",
+            "Time limit: 15 minutes, 5(Set Up)+ 10(Performance)."
+            
+        ],
+        "TC":[
+            
+        ]
+    },
+    {
+        "id": 60,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/FZrvIkDWsXF0hEooFhes9N",
+        "categories": [],
+        "name": "Mr. and Ms. Fresher’s",
+        "mainCoordi": "",
+        "coordinators": "Isha Aggarwal",
+        "contact": "9871389860",
+        "dayTime":"",
+        "venue": "",
+        "fee": "500",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Talent expertise, Uniqueness, Personality, Crowd Reaction, Overall Impact"
+        ],
+        "rule": [
+            "Rounds: 2 (Talent and Personality)",
+            "Time Limit: 2-3 Minutes for Talent Round and less than 2 minutes for Personality round.",
+            "This event will consist of 2 rounds, the first round will be the talent display round",
+            "The second round will be a personality round where the participant would be asked a question or asked to speak about a topic for less than 2 minutes.",
+            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
+            "Incase of any technical issues, the participant would be allowed to perform the entire performance from the beginning.",
+            "Under no condition (other than technical issues) would the participant be allowed to stop and start the performance again.",
+            "The final scoring would be based on equal weightage of both the rounds. ➔Talent round: 50 points ➔Personality round: 50 points",
+            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
+            "The decision of the organizers regarding the final line-up would be final."
+        ],
+        "elimination":[
+            
+        ],
+        "TC":[
+            
+        ]
+    },
+    {
+        "id": 61,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/HVtSAzagGBRAt5jiiAb7ua",
+        "categories": [],
+        "name": "Off The Hook – Solo Rap",
+        "mainCoordi": "",
+        "coordinators": "Amisha",
+        "contact": "8448427187",
+        "dayTime":"",
+        "venue": "",
+        "fee": "350",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Diction, Clarity of Words, Wit (Creativity, rhyme, etc.), Overall Impact (Attitude, Stage Presence, etc.)"
+        ],
+        "rule": [
+            "Comprises of two rounds: prelims and final",
+            "Participants will have a performance of 2 minute.",
+            "Profanity, swears and sexual slangs (at the judge’s discretion) in the rap are not permitted. Else the participant shall be immediately disqualified.",
+            "The participants are free to play any beat of their choice.",
+            "The language of rap must be only English and/or Hindi.",
+            "The participant is allowed to use puns, double entendres and quips, but any sort of racist, sexist or offensive slurs will lead to immediate disqualification.",
+            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
+            "The decision of the organizers regarding the final line-up would be final."
+        ],
+        "elimination":[
+            
+        ],
+        "TC":[
+            
+        ]
+    },
+    {
+        "id": 62,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/H5E21DIhRkiHpxoGoSP8ZM",
+        "categories": [],
+        "name": "Muscle Fit",
+        "mainCoordi": "",
+        "coordinators": "Karan",
+        "contact": "9311573728",
+        "dayTime":"",
+        "venue": "",
+        "fee": "350",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Talent expertise, Uniqueness, Personality, Crowd Reaction, Overall Impact."
+        ],
+        "rule": [
+            "Time Limit: 10minutes (5 minute + 5minute setup).",
+            "There will be only one round.",
+            "The decision of the judges shall be final and binding.",
+            "Obscenity (at the discretion of judges) of any kind is not allowed and will lead to immediate disqualification.",
+            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
+            "The decision of the organizers regarding the final line-up would be final."
+        ],
+        "elimination":[
+            
+        ],
+        "TC":[
+            
+        ]
+    },
+    {
+        "id": 63,
+        "imgUrl": "",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/C6x1tdKyZM26Y4d3ft6pqr",
+        "categories": [],
+        "name": "PRATIGYAA: Monologue Delivery",
+        "mainCoordi": "",
+        "coordinators": "Tanvi Kathuria",
+        "contact": "7011584257",
+        "dayTime":"",
+        "venue": "",
+        "fee": "350",
+        "teamSize": "Solo",
+        "desc": "",
+        "criteria": [
+            "Content, Delivery, Expressions, Engagement"
+        ],
+        "rule": [
+            "The decision of the judges shall be final and binding.",
+            "Obscenity (at the discretion of judges) of any kind is not allowed and will lead to immediate disqualification.",
+            "Time limit should be strictly followed. Participants will be heavily penalised by judges for not doing so.",
+            "The decision of the organisers regarding the final line-up would be final.",
+            "Time Limit: Each participant has a maximum of 5 minutes to deliver their monologue."
+        ],
+        "elimination":[
+            
         ],
         "TC":[
             
