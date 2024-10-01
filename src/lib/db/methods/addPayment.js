@@ -4,7 +4,7 @@ import Team from '../../../mongo/models/Team';
 import newUserTicket from "./newUserTicket";
 import sendEmail from '../../mail/index'
 
-export default async function addPayment({teamName,eventName, eventId, userId, userTag, referral, email, fname, type, teamMembers, waLink}){
+export default async function addPayment({teamName,eventName, eventId, userId, userTag, referral, email, fname, type, teamMembers, waLink,amount}){
     try {
         await dbConnect();
 
@@ -12,7 +12,7 @@ export default async function addPayment({teamName,eventName, eventId, userId, u
         const payment= new Payment({
             status: "success",
             eventName: eventName,
-            amount: 100,
+            amount: amount,
             team_name: teamName,
             userId: userId,
             userTag: userTag,
@@ -32,7 +32,6 @@ export default async function addPayment({teamName,eventName, eventId, userId, u
             })
 
             await team.save();
-            console.log();
         }
 
         // Step 3: Add event id to user's schema

@@ -26,14 +26,14 @@ function EventDetails({event}) {
               <MdDateRange size={15}/>
               <span>Date: {event.dayTime}</span>
             </div> */}
-            <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
+            {/* <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <IoIosTime size={15}/>
               <span>Day/Time: {event.dayTime}</span>
-            </div>
-            <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
+            </div> */}
+            {/* <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <FaLocationDot size={15}/>
               <span>Venue: {event.venue}</span>
-            </div>
+            </div> */}
             {/* <div className='text-sm flex items-center space-x-3 mt-5'>
               <IoIosTrophy/>
               <span>Prize: Rs. 1000</span>
@@ -44,12 +44,19 @@ function EventDetails({event}) {
             </div>
             <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <RiTeamFill/>
-              <span>Team Size: 1 - 5 persons</span>
+              <span>Team Size: 
+                {
+                  event.type=="Solo"?
+                  " Solo"
+                  :
+                  (event.minSize==event.maxSize?`${event.maxSize} members`:`${event.minSize} - ${event.maxSize} members`)
+                }
+              </span>
             </div>
-            <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
+            {/* <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <RiTeamFill/>
               <span>Team : 1 - 5 persons</span>
-            </div>
+            </div> */}
             <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <RiTeamFill/>
               <span>Coordinators: {event.coordinators}</span>

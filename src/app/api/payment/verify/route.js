@@ -5,7 +5,6 @@ import addPayment from '../../../../lib/db/methods/addPayment';
 export async function POST(req){
     try {
         const body= await req.json();
-        console.log(body);
         const {razorpay_order_id, razorpay_payment_id, razorpay_signature}= body;
 
         const pmntString= razorpay_order_id +"|" +razorpay_payment_id;
@@ -13,8 +12,8 @@ export async function POST(req){
 
         const expectedSignature= crypto.createHmac('sha256', secret).update(pmntString.toString()).digest("hex");
 
-        console.log("Expected Signature: ", expectedSignature);
-        console.log("Received Signature: ", razorpay_signature);
+        // console.log("Expected Signature: ", expectedSignature);
+        // console.log("Received Signature: ", razorpay_signature);
 
         if(expectedSignature===razorpay_signature) {
             await addPayment(body);

@@ -9,7 +9,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function EventFormWrapper({ eventId }) {
-  const ammount = 100;
+  // const ammount = 100;
   const [isProcessing, setIsProcessing] = useState(false);
   const { user } = useAppContext();
   const [rId, setRId] = useState(undefined);
@@ -36,6 +36,9 @@ function EventFormWrapper({ eventId }) {
         // create order
         const response = await fetch("/api/payment/createOrderId", {
           method: "POST",
+          body: JSON.stringify({
+            fee: events[eventId].fee,
+          }),
         });
         const data = await response.json();
         const orderId = data.orderId;
@@ -44,7 +47,7 @@ function EventFormWrapper({ eventId }) {
         // initialize razprpay
         const options = {
           key: process.env.NEXT_PUBLIC_RPAY_KEY,
-          amount: ammount,
+          amount: events[eventId].fee * 100,
           currency: "INR",
           name: "Momentum 2024",
           description: `Payment for ` + events[eventId].name,
@@ -72,6 +75,7 @@ function EventFormWrapper({ eventId }) {
                   email: user.email,
                   fname: user.fname,
                   waLink: events[eventId].waLink,
+                  amount: events[eventId].fee,
                 }),
               });
               if (rsp.status == 200) {

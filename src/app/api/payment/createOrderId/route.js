@@ -7,15 +7,18 @@ const razorpay= new Razorpay({
     key_secret: process.env.RPAY_SECRET
 })
 
-export async function POST(NextRequest){
+export async function POST(req){
     try {
+        const body= await req.json();
+        
+        const {fee}= body;
          
         const order= await razorpay.orders.create({
-            amount: 100,
+            amount: fee*100,
             currency: "INR",
             receipt: shortid.generate()
         })
-        console.log(order);
+        // console.log(order);
         
         return NextResponse.json({orderId: order.id},{status: 200})
     } catch (error) {
