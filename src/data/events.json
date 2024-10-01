@@ -7,6 +7,7 @@
         "minSize": "",
         "maxSize": "",
         "fee": "100",
+        "amount":"",
         "waLink": "https://chat.whatsapp.com/ItNIc1A7bhuHwbte99xRS6",
         "categories": [],
         "mainCoordi": "Paras",
@@ -48,6 +49,7 @@
         "dayTime":"Day 1, 12 PM - 2 PM",
         "venue": "Sports Room",
         "fee": "100",
+        "amount":"",
         "desc": "",
         "criteria": [
             "Points-based system.",
@@ -78,6 +80,7 @@
         "dayTime":"Day 1, 12 PM - 2 PM",
         "venue": "N201",
         "fee": "100",
+        "amount":"",
         "desc": "",
         "criteria": [
             "Based on the survival and tasks completed for crew members.",
@@ -107,6 +110,7 @@
         "dayTime":"Day 1, 12 PM - 2:30 PM",
         "venue": "N208",
         "fee": "100",
+        "amount":"",
         "desc": "",
         "criteria": [
             "Based on individual performance and kills.",
@@ -138,6 +142,7 @@
         "dayTime":"Day 1, 12 PM - 2:30 PM",
         "venue": "N209",
         "fee": "200",
+        "amount":"",
         "desc": "",
         "criteria": [
             "Originality, feasibility, scalability, and market potential of the business plan.",
@@ -167,6 +172,7 @@
         "dayTime":"Day 1, 12:30 PM - 1:30 PM",
         "venue": "N302",
         "fee": "100",
+        "amount":"",
         "desc": "",
         "criteria": [
             "Creativity and use of waste materials.",
@@ -196,6 +202,7 @@
         "dayTime":"Day 1, 1 PM - 2 PM",
         "venue": "RN-222",
         "fee": "100",
+        "amount":"",
         "desc": "",
         "criteria": [
            "Creativity (30%): Originality and uniqueness of the performance.",
@@ -231,6 +238,7 @@
         "dayTime":"Day 1, 1 PM - 2 PM",
         "venue": "Incubation Center",
         "fee": "100",
+        "amount":"",
         "desc": "",
         "criteria": [
            "Total Push-Ups: The winner will be determined by the total number of correctly executed push-ups completed within the 2-minute time frame.",
@@ -264,6 +272,7 @@
         "dayTime":"Day 1, 1 PM - 2 PM",
         "venue": "N204",
         "fee": "100",
+        "amount":"",
         "desc": "Topic Announcement: A specific topic will be announced at the start of the event. Participants will have a short time (e.g., 10 minutes) to prepare their Shayari based on this topic. Each participant is allotted a maximum of 3 minutes for their performance. Participants will recite their Shayari in front of a panel of judges and an audience.",
         "criteria": [
            "After all performances, judges will evaluate each participant based on set criteria, and winners will be announced.",
@@ -299,6 +308,7 @@
         "dayTime":"Day 1, 1 PM - 2 PM",
         "venue": "RN-102",
         "fee": "100",
+        "amount":"",
         "desc": "Participants showcase their artistic skills by creating original artworks within a specified time limit, aiming to impress judges with creativity and technique. Materials: Participants are required to bring their own materials, including canvases, paints, brushes, or other tools. A list of allowed materials will be provided upon registration. The competition will last for 1 hour. Participants will create their artwork based on a theme announced at the start of the event. Completed artworks must be submitted at the end of the time limit for evaluation.",
         "criteria": [
            "Creativity (30%): Originality and uniqueness of the artwork.",
@@ -319,9 +329,9 @@
     {
         "id": 10,
         "imgUrl": "/events/11.webp",
-        "type": "Team",
-        "minSize": "1",
-        "maxSize": "3",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/BnTa81quizj2KViVGxRlKe",
         "categories": [],
         "name": "Rangoli Radiance - Rangoli Making Competition",
@@ -331,6 +341,7 @@
         "dayTime":"Day 1, 1:30 PM - 2:30 PM",
         "venue": "Waiting Area",
         "fee": "100",
+        "amount":"",
         "desc": "Participants create beautiful and intricate rangoli designs using colorful materials, showcasing their artistic skills and creativity. Participants must register in advance, either individually or in teams. Each team can have up to 3 members. Participants should bring their own materials for creating rangoli, including colored powders, flowers, and any additional decorative elements. A list of allowed materials will be provided upon registration. The competition will last for 1 hours. Participants will create their rangoli designs on designated spaces marked on the ground. Completed rangoli designs will be submitted for evaluation at the end of the time limit.",
         "criteria": [
            "Creativity (30%): Originality and uniqueness of the rangoli design.",
@@ -351,9 +362,9 @@
     {
         "id": 11,
         "imgUrl": "/events/12.webp",
-        "type": "Team",
-        "minSize": "1",
-        "maxSize": "3",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/BQ5ay1Q9QGyD7a4vpLW2HL",
         "categories": [],
         "name": "Stock Smarts - Mock Stock",
@@ -363,6 +374,7 @@
         "dayTime":"Day 1, 1:30 PM - 2:30 PM",
         "venue": "RN-117",
         "fee": "100",
+        "amount":"",
         "desc": "Participants engage in a simulated stock trading environment to demonstrate their understanding of the stock market, investment strategies, and decision-making skills. Participants must register in advance as individuals or in teams (up to 3 members per team). Participants will be provided with a virtual portfolio containing a set amount of virtual currency (e.g., $100,000). The trading event will last for a specified period (e.g., 1 hours). Participants will make buy and sell decisions based on real-time market data provided during the event. At the end of the trading period, participants will submit their final portfolios for evaluation.",
         "criteria": [
            "Portfolio Value: The primary scoring criterion will be the final value of each participant’s or team’s portfolio at the end of the trading period.",
@@ -383,9 +395,9 @@
     {
         "id": 12,
         "imgUrl": "/events/13.webp",
-        "type": "Team",
-        "minSize": "2",
-        "maxSize": "3",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/K6oRiNV3Ezg6Q98939tOjC",
         "categories": [],
         "name": "Tech Trivia Tournament - Tech Quiz",
@@ -395,6 +407,7 @@
         "dayTime":"Day 1, 2:00 PM - 3:00 PM",
         "venue": "RN-209",
         "fee": "100",
+        "amount":"",
         "desc": "",
         "teamSize": " 2-3 members",
         "criteria": [
@@ -414,9 +427,9 @@
     {
         "id": 13,
         "imgUrl": "/events/14.webp",
-        "type": "Team",
-        "minSize": "1",
-        "maxSize": "3",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/GE9QSRysuWEAsGWIbowzmH",
         "categories": [],
         "name": "Debate Duel - Debate Competition",
@@ -426,6 +439,7 @@
         "dayTime":"Day 1, 2:00 PM - 3:00 PM",
         "venue": "N304",
         "fee": "100",
+        "amount":"",
         "desc": "Participants engage in a structured debate format to articulate their viewpoints on a given topic, aiming to persuade the judges and audience with their arguments and rebuttals. Participants must register in advance as individuals or in teams (up to 3 members per team). A specific debate topic will be announced at the beginning of the event. Participants will be assigned either the 'pro' or 'con' position.  Participants will have a limited time (e.g., 10-15 minutes) to prepare their arguments before the debate begins. Each debate will consist of multiple rounds, typically including opening statements, rebuttals, and closing arguments. Time limits will be enforced for each segment (e.g., 3 minutes for opening statements, 2 minutes for rebuttals). Judges will evaluate the debates based on the established criteria, and winners will be announced. ",
         "teamSize": " upto 3 members",
         "criteria": [
@@ -460,6 +474,7 @@
         "dayTime":"Day 1, 2:00 PM - 3:00 PM",
         "venue": "RN-136",
         "fee": "100",
+        "amount":"",
         "desc": "Participants share their original stories in a concise format, aiming to engage the audience and judges within a one-minute timeframe. Participants must register in advance. Each participant will be assigned a specific time slot for their performance. A theme or prompt may be provided at the start of the event to inspire storytelling. Participants will have a short time (e.g., 5 minutes) to prepare. Each participant will have exactly one minute to tell their story in front of the audience and judges. After all performances, judges will evaluate each participant based on the set criteria, and winners will be announced. ",
         "teamSize": "",
         "criteria": [
@@ -483,9 +498,9 @@
     {
         "id": 15,
         "imgUrl": "/events/16.webp",
-        "type": "Team",
-        "minSize": "2",
-        "maxSize": "2",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/CA7j3tfS9h8Kl6Bc0FZWIX",
         "categories": [],
         "name": "Ping Pong Palooza - Table Tennis Competition",
@@ -495,6 +510,7 @@
         "dayTime":"Day 1, 2:30 PM - 4:30 PM",
         "venue": "Sports Room",
         "fee": "100",
+        "amount":"",
         "desc": "Participants compete in a table tennis tournament to showcase their skills and strategy, aiming to win matches and ultimately be crowned the champion. Participants must register in advance as individuals or in teams (if doubles are allowed). The competition will follow a knockout format, with each match played as the best of three games. Each game will be played to 11 points, and players must win by at least 2 points. A brief warm-up period will be provided before each match. Winners will advance to the next round until a champion is determined.",
         "teamSize": "",
         "criteria": [
@@ -527,7 +543,8 @@
         "contact": "9560900386",
         "dayTime":"Day 1, 3:00 PM - 4:30 PM",
         "venue": "N209",
-        "fee": "200 per squad",
+        "fee": "200",
+        "amount":"",
         "desc": "Teams compete in a battle royale format in the game Free Fire, aiming to be the last squad standing while demonstrating teamwork and strategy. Teams must register in advance, with each team consisting of up to 4 players. Teams will be assigned specific match times. Players must ensure their devices and accounts are ready and updated prior to the event. Each match will be played in a standard squad format. The winning team will be the last squad remaining alive in the match. Teams will earn points based on their performance in each match.",
         "teamSize": "",
         "criteria": [
@@ -562,7 +579,8 @@
         "contact": "9971355350",
         "dayTime":"Day 1, 3:00 PM - 4:00 PM",
         "venue": "RN-122",
-        "fee": "150 per team",
+        "fee": "150",
+        "amount":"",
         "desc": "Multiple-choice and short-answer questions covering various topics, including history, science, geography, pop culture, and current events.",
         "teamSize": "2 members per team",
         "criteria": [
@@ -591,6 +609,7 @@
         "dayTime":"Day 1, ",
         "venue": "N407",
         "fee": "150",
+        "amount":"",
         "desc": "",
         "teamSize": "Indiviual",
         "criteria": [
@@ -620,6 +639,7 @@
         "dayTime":"Day 1, 3:00 PM - 4:00 PM",
         "venue": "RN-136",
         "fee": "100",
+        "amount":"",
         "desc": "Participants compete to solve coding problems using the least amount of code possible, demonstrating efficiency and creativity in their programming skills. A set of coding problems will be announced at the start of the event. Each problem will have specific requirements and constraints. Participants will have a fixed amount of time (e.g., 1 hour) to solve as many problems as possible. Each solution will be evaluated based on its code length and correctness.",
         "teamSize": "",
         "criteria": [
@@ -638,9 +658,9 @@
     {
         "id": 20,
         "imgUrl": "/events/21.webp",
-        "type": "Team",
-        "minSize": "1",
-        "maxSize": "4",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/ELeMpeV7rTBIUYX85FHkT1",
         "categories": [],
         "name": "The Analysis Arena (Case Study Competition)",
@@ -650,6 +670,7 @@
         "dayTime":"Day 1, 3:30 PM – 4:30 PM",
         "venue": "RN-102",
         "fee": "150",
+        "amount":"",
         "desc": "Participants analyze a provided case study, develop solutions or recommendations, and present their findings to a panel of judges. Participants must register in advance as individuals or in teams (up to 4 members per team). A case study will be distributed to participants at the start of the event. Participants will have a set time (e.g., 2-3 hours) to analyze the case and prepare their presentations. Each team will present their findings and recommendations to the judges in a specified time (e.g., 10 minutes), followed by a Q&A session (e.g., 5 minutes). Judges will evaluate presentations based on set criteria, and winners will be announced at the end.",
         "teamSize": "2-3",
         "criteria": [
@@ -684,6 +705,7 @@
         "dayTime":"Day 1, 3 PM – 4:30 PM",
         "venue": "Basketball Court",
         "fee": "150",
+        "amount":"",
         "desc": "",
         "teamSize": "3",
         "criteria": [
@@ -723,6 +745,7 @@
         "dayTime":"Day 1, 2:30 PM – 3:30 PM",
         "venue": "N201",
         "fee": "100",
+        "amount":"",
         "desc": "",
         "teamSize": "Indiviual",
         "criteria": [
@@ -752,6 +775,7 @@
         "dayTime":"Day 1, 4 PM – 4:30 PM",
         "venue": "Badminton Court",
         "fee": "100",
+        "amount":"",
         "desc": "Participants compete to showcase their skipping skills, aiming to achieve the highest number of skips in a set time limit while demonstrating technique and style. Participants must register in advance as individuals. Each participant will be assigned a specific time slot for their turn. A brief warm-up session will be provided to prevent injuries and prepare participants for the competition. Each participant will have a set time (e.g., 1 minute) to complete as many skips as possible. Skips will be counted by judges during the performance. Points will be awarded based on the total number of successful skips completed within the time limit.",
         "teamSize": "Indiviual",
         "criteria": [
@@ -785,6 +809,7 @@
         "dayTime":"Day 1, 3:30 PM – 4:30 PM",
         "venue": "RN-215",
         "fee": "100",
+        "amount":"",
         "desc": "Participants compose original essays on a given topic, showcasing their writing skills, creativity, and critical thinking abilities. Participants must register in advance as individuals. Each participant will be assigned a specific time slot for the essay writing. A specific essay topic will be announced at the start of the event. Participants will have time to prepare and plan their essays. Each participant will have a set time (e.g., 1-2 hours) to write their essay. Essays must be handwritten or typed, depending on the event setup. Completed essays must be submitted by the end of the allotted time for evaluation.",
         "teamSize": "Indiviual",
         "criteria": [
@@ -818,7 +843,8 @@
         "contact": "9315431144",
         "dayTime":"Day 2, 10 AM – 12 PM",
         "venue": "N302",
-        "fee": "400 per squad",
+        "fee": "250",
+        "amount":"",
         "desc": "",
         "teamSize": "4",
         "criteria": [
@@ -849,7 +875,8 @@
         "contact": "8595394240",
         "dayTime":"Day 2, 10 AM – 12 PM",
         "venue": "Starting from Nescafe to NCU campus",
-        "fee": "120 per team",
+        "fee": "200",
+        "amount":"",
         "desc": "Participants work in teams to solve clues and complete challenges to find hidden treasures scattered across the event area, aiming to be the first team to complete the hunt. Registration: Teams must register in advance, with each team consisting of up to 4 members. Kick-Off Meeting: A briefing session will be held to explain the rules, the treasure hunt area, and how clues will be delivered. Clue Distribution: Teams will receive their first clue at the start of the event. Each clue leads to the next location or challenge. Teams must complete challenges or solve riddles to receive subsequent clues. Completion: The first team to find all treasures and return to the starting point wins.",
         "teamSize": "3",
         "criteria": [
@@ -875,9 +902,9 @@
     {
         "id": 27,
         "imgUrl": "/events/28.webp",
-        "type": "Team",
-        "minSize": "2",
-        "maxSize": "2",
+        "type": "Solo",
+        "minSize": "1",
+        "maxSize": "1",
         "waLink": "https://chat.whatsapp.com/E8UCJTnXYxjHJ07ndWiZRy",
         "categories": [],
         "name": "Beach Volleyball (2v2 Volleyball)",
@@ -887,6 +914,7 @@
         "dayTime":"Day 2, 10 AM – 12 PM",
         "venue": "Volleyball Court",
         "fee": "100",
+        "amount":"",
         "desc": "",
         "teamSize": "2",
         "criteria": [
@@ -915,6 +943,7 @@
         "dayTime":"Day 2, 10 AM – 11 AM",
         "venue": "N307",
         "fee": "100",
+        "amount":"",
         "desc": "Participants simulate a parliamentary session, engaging in debates, discussions, and decision-making processes to understand the workings of a parliamentary system and enhance their public speaking and critical thinking skills. Registration: Participants must register in advance as individuals or in teams (up to 4 members per team). Topic Announcement: A specific topic or bill will be announced at the beginning of the event. Participants will be assigned roles (e.g.,government, opposition, independent members) related to the topic. Preparation: Participants will have a brief period (e.g., 15-30 minutes) to prepare their arguments and strategies. Mock Session: The mock parliament will be conducted, with each team presenting their viewpoints, followed by debates and voting on the proposed bill or topic.",
         "teamSize": "5",
         "criteria": [
@@ -940,9 +969,9 @@
     {
         "id": 29,
         "imgUrl": "/events/30.webp",
-        "type": "Team",
-        "minSize": "1",
-        "maxSize": "3",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/DGPSlfTCFuxBR6ADmwKmVL",
         "categories": [],
         "name": "Tech Talk Battle (Tech Debate)",
@@ -952,6 +981,7 @@
         "dayTime":"Day 2, 10 AM – 11 AM",
         "venue": "N304",
         "fee": "100",
+        "amount":"",
         "desc": "Participants engage in a structured debate focusing on current technology topics, showcasing their analytical skills, persuasive abilities, and knowledge of the subject matter. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Topic Announcement: A specific tech-related debate topic will be announced at the beginning of the event. Participants will be assigned either the 'pro' or 'con' position regarding the topic.Preparation Time: Participants will have a brief period (e.g., 10-15 minutes) to prepare their arguments and strategies based on their assigned positions. Debate Format: Each debate will consist of opening statements, rebuttals, and closing arguments. Each segment will have a designated time limit (e.g., 3 minutes for opening statements, 2 minutes for rebuttals).",
         "teamSize": "2",
         "criteria": [
@@ -989,6 +1019,7 @@
         "dayTime":"Day 2, 11:00 AM - 12:30 PM",
         "venue": "N201",
         "fee": "100",
+        "amount":"",
         "desc": "",
         "teamSize": "Solo",
         "criteria": [
@@ -1010,9 +1041,9 @@
     {
         "id": 31,
         "imgUrl": "/events/32.webp",
-        "type": "Team",
-        "minSize": "1",
-        "maxSize": "3",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/CGKVZWMENSb8vhcZblua7P",
         "categories": [],
         "name": "Melody Master: Name the Song",
@@ -1021,7 +1052,8 @@
         "contact": "9818357711",
         "dayTime":"Day 2, 11:00 AM - 12:00 PM",
         "venue": "RN-117",
-        "fee": "100 per person",
+        "fee": "100",
+        "amount":"",
         "desc": "Participants compete to identify songs based on short audio clips or clues, showcasing their musical knowledge and quick recall. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Game Format: The event will consist of multiple rounds, each featuring a series of audio clips or clues from various songs across different genres and eras.Each round will have a specific number of songs (e.g., 10 songs) to identify. Timing: Participants will have a limited time (e.g., 30 seconds) to answer each song clue. Scoring: Points will be awarded for each correct song identification. ",
         "teamSize": "",
         "criteria": [
@@ -1054,7 +1086,8 @@
         "contact": "9818357711",
         "dayTime":"Day 2, 11:00 AM - 12:00 PM",
         "venue": "RN-307",
-        "fee": "100 per person",
+        "fee": "100",
+        "amount":"",
         "desc": "Participants submit their original photographs based on a specific theme, showcasing their creativity, composition skills, and technical proficiency. Registration: Participants must register in advance by providing their name and a brief description of their photographic style. Theme Announcement: A specific theme (e.g., nature, portrait, urban, etc.) will be announced at the start of the contest. Submission Period: Participants will have a set time (e.g., 1-2 weeks) to capture and submit their photographs based on the theme. Submission Format: All entries must be submitted electronically in a specified format (e.g., JPEG, PNG) and adhere to size guidelines.",
         "teamSize": "",
         "criteria": [
@@ -1077,9 +1110,9 @@
     {
         "id": 33,
         "imgUrl": "/events/34.webp",
-        "type": "Team",
-        "minSize": "1",
-        "maxSize": "3",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/HJg5kFmph2LEj8ZXlHGftE",
         "categories": [],
         "name": "Meme-o-Mania: Meme Battle",
@@ -1088,8 +1121,9 @@
         "contact": "7889271180",
         "dayTime":"Day 2, 12:00 PM - 1:00 PM",
         "venue": "RN-310",
-        "fee": "100 per person",
+        "fee": "100",
         "teamSize": "",
+        "amount":"",
         "desc": "Participants create and present original memes based on specific themes or prompts, showcasing their creativity, humor, and understanding of meme culture. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme or prompt will be announced at the start of the event (e.g., current events, pop culture, etc.). Creation Period: Participants will have a set amount of time (e.g., 45 mins) to create their memes using any digital tools or applications. Each participant or team may submit a limited number of memes (e.g., up to 3 memes). Submission: Memes must be submitted electronically in a specified format (e.g., JPEG, PNG) by the end of the creation period.",
         "criteria": [
             "Creativity (40%): Originality and uniqueness of the meme in relation to the theme.",
@@ -1111,9 +1145,9 @@
     {
         "id": 34,
         "imgUrl": "/events/35.webp",
-        "type": "Team",
-        "minSize": "1",
-        "maxSize": "3",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/DGpKPJnN1lBJN3X6dxEo1x",
         "categories": [],
         "name": "Bollywood Quiz",
@@ -1122,7 +1156,8 @@
         "contact": "8595839182",
         "dayTime":"Day 2, 12:00 PM - 1:00 PM",
         "venue": "N407",
-        "fee": "100 per person",
+        "fee": "100",
+        "amount":"",
         "teamSize": "",
         "desc": "Participants compete in a quiz format to test their knowledge of Bollywood films, actors, music, and trivia, aiming to score the highest points. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Quiz Format: The quiz will consist of multiple rounds, including multiple-choice questions, true/false questions, and rapid-fire rounds. Each round will feature a specific number of questions (e.g., 20 questions per round). Timing: Each question will have a time limit (e.g., 30 seconds) for answering. Scoring: Points will be awarded for each correct answer, and the total will be tallied at the end of the event.",
         "criteria": [
@@ -1155,7 +1190,8 @@
         "contact": "9810783403",
         "dayTime":"Day 2, 12:00 PM - 1:00 PM",
         "venue": "Sports Room",
-        "fee": "100 per person",
+        "fee": "100",
+        "amount":"",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1184,7 +1220,8 @@
         "contact": "9311097076",
         "dayTime":"Day 2, 1:00 PM - 2:00 PM",
         "venue": "N304",
-        "fee": "150 per person",
+        "fee": "150",
+        "amount":"",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1213,7 +1250,8 @@
         "contact": "9971355350",
         "dayTime":"Day 2, 1:00 PM - 2:30 PM",
         "venue": "N302",
-        "fee": "100 per person",
+        "fee": "100",
+        "amount":"",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1242,7 +1280,8 @@
         "contact": "9971355350",
         "dayTime":"Day 2, 1:00 PM - 2:00 PM",
         "venue": "Incubation Center",
-        "fee": "100 per person",
+        "fee": "100",
+        "amount":"",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1273,7 +1312,8 @@
         "contact": "9810783403",
         "dayTime":"Day 2, 2:00 PM - 3:00 PM",
         "venue": "N309",
-        "fee": "150 per person",
+        "fee": "150",
+        "amount":"",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1313,6 +1353,7 @@
         "dayTime":"Day 2, 2:00 PM - 3:30 PM",
         "venue": "Sports Room",
         "fee": "100",
+        "amount":"",
         "teamSize": "",
         "desc": "Participants compete in a chess tournament to demonstrate their strategic thinking, problem-solving skills, and mastery of the game. Registration: Participants must register in advance as individuals. Each participant will be assigned a specific match time. Match Format: The tournament will follow a knockout format or Swiss system, depending on the number of participants. Each match will be played under standard chess rules, with a time control set (e.g., 10 minutes per player for blitz or longer for classical).Warm-Up: A brief warm-up period may be provided before the tournament begins. Scoring: Points will be awarded for match wins, draws, and overall performance based on the tournament format.",
         "criteria": [
@@ -1347,7 +1388,8 @@
         "contact": "7889271180",
         "dayTime":"Day 2, 2:30 PM - 4:00 PM",
         "venue": "RN-118",
-        "fee": "250 per squad",
+        "fee": "250",
+        "amount":"",
         "teamSize": "5 members per squad.",
         "desc": "",
         "criteria": [
@@ -1369,9 +1411,9 @@
     {
         "id": 42,
         "imgUrl": "/events/43.webp",
-        "type": "Team",
-        "minSize": "3",
-        "maxSize": "5",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/FU5Mnzb8cwaF3oUlSQQKdZ",
         "categories": [],
         "name": "Militia Madness (Mini Militia)",
@@ -1381,6 +1423,7 @@
         "dayTime":"Day 2, 2:30 PM - 3:30 PM",
         "venue": "RN-117",
         "fee": "100",
+        "amount":"",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1418,9 +1461,9 @@
     {
         "id": 43,
         "imgUrl": "/events/44.webp",
-        "type": "Team",
-        "minSize": "2",
-        "maxSize": "2",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/CdTemg9TYhj0DsE9FFckxf",
         "categories": [],
         "name": "Kitchen Kwizards (No flame cooking challenge)",
@@ -1429,7 +1472,8 @@
         "contact": "8595394240",
         "dayTime":"Day 2, 2:30 PM - 3:30 PM",
         "venue": "NCU Ground",
-        "fee": "100 per team",
+        "fee": "100",
+        "amount":"",
         "teamSize": "2",
         "desc": "",
         "criteria": [
@@ -1467,6 +1511,7 @@
         "dayTime":"Day 2, 3:00 PM - 4:30 PM",
         "venue": "N301",
         "fee": "100",
+        "amount":"",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1499,6 +1544,7 @@
         "dayTime":"Day 2, 3:00 PM - 4:00 PM",
         "venue": "Common Room RN-101",
         "fee": "120",
+        "amount":"",
         "teamSize": "",
         "desc": "Participants compete in a fun and fast-paced game of musical chairs, showcasing their agility and reflexes to be the last person remaining seated. Registration: Participants must register in advance as individuals. Each participant will be assigned a specific number for the game. Setup: A number of chairs will be arranged in a circle, with one fewer chair than the number of participants. Music will be played while participants walk around the chairs. Game Format: When the music stops, participants must quickly find a chair to sit in. The player left standing without a chair is eliminated. One chair will be removed after each round, continuing until only one participant remains.",
         "criteria": [
@@ -1532,6 +1578,7 @@
         "dayTime":"Day 2, 3:00 PM - 4:00 PM",
         "venue": "RN-318",
         "fee": "100",
+        "amount":"",
         "teamSize": "",
         "desc": "Participants create original written works based on a given prompt, showcasing their creativity, storytelling skills, and writing abilities. Registration: Participants must register in advance as individuals. Each participant will receive a unique identification number for anonymity during judging. Prompt Announcement: A specific writing prompt or theme will be announced at the start of the event. Writing Period: Participants will have a set time (e.g., 2-3 hours) to write their pieces. Submission: Completed works must be submitted by the end of the allotted time for evaluation.",
         "criteria": [
@@ -1573,6 +1620,7 @@
         "dayTime":"Day 2, 3:00 PM - 4:00 PM",
         "venue": "Basketball Court",
         "fee": "100",
+        "amount":"",
         "teamSize": "",
         "desc": "Participants compete to demonstrate their shooting skills by making the most baskets from designated shooting spots on the court. Registration: Participants must register in advance as individuals. Each participant will be assigned a specific time slot for their shooting attempt. Setup: The competition will be held on a standard basketball court with marked shooting spots (e.g., 2 pointer line, three-point line). Each participant will have a set number of shots (e.g., 10 shots) from each spot. Shooting Format: Participants will take shots from each designated spot in a predetermined order. Each successful basket made will count toward their total score.",
         "criteria": [
@@ -1598,7 +1646,7 @@
         "imgUrl": "/events/49.webp",
         "type": "Team",
         "minSize": "1",
-        "maxSize": "3",
+        "maxSize": "2",
         "waLink": "https://chat.whatsapp.com/FluQQySe1Lj1gSLOjVThOA",
         "categories": [],
         "name": "Reel Revolution (Reel Making Competition)",
@@ -1608,6 +1656,7 @@
         "dayTime":"Day 2, 3:00 PM - 4:00 PM",
         "venue": "NCU Ground",
         "fee": "150",
+        "amount":"",
         "teamSize": "",
         "desc": "Participants create engaging and creative video reels based on a specified theme, showcasing their storytelling, editing, and filmmaking skills. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme or prompt will be announced at the start of the competition (e.g., travel, friendship, humor). Creation Period: Participants will have a set time (e.g., 2-3 hours) to shoot, edit, and finalize their reels. Reels should be kept within a specified duration (e.g., 30-60 seconds). Submission: Completed reels must be submitted electronically by the end of the creation period.",
         "criteria": [
@@ -1637,9 +1686,9 @@
     {
         "id": 49,
         "imgUrl": "/events/50.webp",
-        "type": "Team",
-        "minSize": "1",
-        "maxSize": "3",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/KSpa3i3IxmqFrOE7lkY9hw",
         "categories": [],
         "name": "Cosmic Canvas Creations (Digital Art Competition)",
@@ -1649,6 +1698,7 @@
         "dayTime":"Day 2, 4:00 PM - 4:30 PM",
         "venue": "RN-324",
         "fee": "100",
+        "amount":"",
         "teamSize": "",
         "desc": "Participants create original digital artwork based on a specified theme, showcasing their creativity, technical skills, and artistic expression. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme will be announced at the start of the competition (e.g., nature, fantasy, technology). Creation Period: Participants will have a set time (e.g., 1 hour) to create their digital artworks. All artworks must be completed during this time frame. Submission: Completed artworks must be submitted electronically in a specified format (e.g., PNG, JPEG) by the end of the creation period.",
         "criteria": [
@@ -1674,9 +1724,9 @@
     {
         "id": 50,
         "imgUrl": "/events/51.webp",
-        "type": "Team",
-        "minSize": "5",
-        "maxSize": "10",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/KsDazK6RcjwKrs5jqlGTwH",
         "categories": [],
         "name": "Tug of War",
@@ -1686,6 +1736,7 @@
         "dayTime":"Day 2, 3:30 PM - 4:30 PM",
         "venue": "Amphitheater",
         "fee": "100",
+        "amount":"",
         "teamSize": "",
         "desc": "Teams compete in a test of strength and teamwork to pull the opposing team across a designated line, showcasing their coordination and physical endurance. Registration: Teams must register in advance, with each team consisting of 5 to 10 members. Setup: A rope will be used for the competition, with a marked center line on the ground. Each team will take positions on opposite sides of the rope. Match Format: Teams will compete in a series of rounds, with each round lasting until one team successfully pulls the other team across the center line.Best of three rounds may be played to determine the winning team.",
         "criteria": [
@@ -1719,6 +1770,7 @@
         "dayTime":"",
         "venue": "",
         "fee": "350",
+        "amount":"",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -1757,6 +1809,7 @@
         "dayTime":"",
         "venue": "",
         "fee": "1100",
+        "amount":"",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -1793,6 +1846,7 @@
         "dayTime":"",
         "venue": "",
         "fee": "350",
+        "amount":"",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -1831,6 +1885,7 @@
         "dayTime":"",
         "venue": "",
         "fee": "700",
+        "amount":"",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -1867,6 +1922,7 @@
         "dayTime":"",
         "venue": "",
         "fee": "1100",
+        "amount":"",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -1904,6 +1960,7 @@
         "dayTime":"",
         "venue": "",
         "fee": "1100",
+        "amount":"",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -1942,6 +1999,7 @@
         "dayTime":"",
         "venue": "",
         "fee": "450",
+        "amount":"",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -1980,6 +2038,7 @@
         "dayTime":"",
         "venue": "",
         "fee": "1500",
+        "amount":"",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -2017,6 +2076,7 @@
         "dayTime":"",
         "venue": "",
         "fee": "500",
+        "amount":"",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -2056,6 +2116,7 @@
         "dayTime":"",
         "venue": "",
         "fee": "350",
+        "amount":"",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -2093,6 +2154,7 @@
         "dayTime":"",
         "venue": "",
         "fee": "350",
+        "amount":"",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -2128,6 +2190,7 @@
         "dayTime":"",
         "venue": "",
         "fee": "350",
+        "amount":"",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -2162,6 +2225,7 @@
         "dayTime":"",
         "venue": "",
         "fee": "350",
+        "amount":"",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
