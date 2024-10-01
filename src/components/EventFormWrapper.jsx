@@ -17,7 +17,7 @@ function EventFormWrapper({ eventId }) {
   const [maxSize, setMaxSize] = useState(events[eventId].maxSize || 0);
   const [minSize, setMinSize] = useState(events[eventId].minSize || 0);
   const [teamName, setTeamName] = useState(undefined);
-  const [type, setType]= useState(events[eventId].type);
+  const [type, setType] = useState(events[eventId].type);
 
   useEffect(() => {
     const team = [];
@@ -28,7 +28,8 @@ function EventFormWrapper({ eventId }) {
     setMembers(team);
   }, [maxSize]);
   const handlePayment = async () => {
-    const isValid = validateDetails();
+    let isValid = true;
+    if (events[eventId].type == "Team") isValid = validateDetails();
     if (isValid) {
       setIsProcessing(true);
       try {
@@ -70,6 +71,7 @@ function EventFormWrapper({ eventId }) {
                   referral: rId,
                   email: user.email,
                   fname: user.fname,
+                  waLink: events[eventId].waLink,
                 }),
               });
               if (rsp.status == 200) {
@@ -156,7 +158,7 @@ function EventFormWrapper({ eventId }) {
               setMembers={setMembers}
               teamName={teamName}
               setTeamName={setTeamName}
-              type= {type}
+              type={type}
             />
           </div>
           <button

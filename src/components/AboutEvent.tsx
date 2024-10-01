@@ -23,11 +23,29 @@ function AboutEvent({setProceedToPay, eventId}) {
       <div className='xl:sticky top-[110px]'>
         <div className='space-y-3'>
         <Image src={events[eventId].imgUrl} height={300} width={300} alt='p1' className='z-20 rounded-sm hidden sm:block'/> 
-          <div className='hidden sm:block'><RegisterButton setProceedToPay={setProceedToPay} eventId={eventId} /></div>
+          <div className='hidden sm:block'>
+            {
+              user && user.events.includes(eventId)?
+              <a href={events[eventId].waLink} target='_blank' className='w-full'>
+                <button className={`w-full px-5 py-2 rounded-sm ${session? 'hover:bg-purple-600 bg-purple-500':'bg-purple-600'}`}>
+                  Join Whatsapp Group
+                </button>
+              </a>
+              :
+              <RegisterButton setProceedToPay={setProceedToPay} eventId={eventId} />
+            }
+          </div>
         </div>
       </div>
       <div className='sm:hidden w-full'>
-        <RegisterButton setProceedToPay={setProceedToPay} eventId={eventId} />
+        {
+          user && user.events.includes(eventId)?
+          <a href={events[eventId].waLink} target='_blank' className='w-full'>
+            <button className={`w-full px-5 py-2 rounded-sm ${session? 'hover:bg-purple-600 bg-purple-500':'bg-purple-600'}`}></button>
+          </a>
+          :
+          <RegisterButton setProceedToPay={setProceedToPay} eventId={eventId} />
+        }
       </div>
     </>
   )

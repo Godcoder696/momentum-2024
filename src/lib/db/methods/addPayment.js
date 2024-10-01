@@ -4,7 +4,7 @@ import Team from '../../../mongo/models/Team';
 import newUserTicket from "./newUserTicket";
 import sendEmail from '../../mail/index'
 
-export default async function addPayment({teamName,eventName, eventId, userId, userTag, referral, email, fname, type, teamMembers}){
+export default async function addPayment({teamName,eventName, eventId, userId, userTag, referral, email, fname, type, teamMembers, waLink}){
     try {
         await dbConnect();
 
@@ -39,7 +39,7 @@ export default async function addPayment({teamName,eventName, eventId, userId, u
         await newUserTicket(email, eventId);
 
         // Step 4: Send ticket mail
-        await sendEmail(email, fname);
+        await sendEmail(email, fname, waLink, eventName);
 
         return "success";
 
