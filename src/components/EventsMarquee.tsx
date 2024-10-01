@@ -13,8 +13,9 @@ function EventsMarquee() {
         }>
             <div className='text-xl font-extralight py-1'>
                 <span className='px-1'>●</span>
-                <span className='px-[3px]'>COMING</span>
-                <span className='px-[3px]'>SOON </span>
+                <span className='px-[3px]'>REGISTRATIONS</span>
+                <span className='px-[3px]'>ARE</span>
+                <span className='px-[3px]'>LIVE </span>
             </div>
         </Marquee>
     </>
