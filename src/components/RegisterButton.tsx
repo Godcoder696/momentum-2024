@@ -10,18 +10,32 @@ function RegisterButton({eventId, setProceedToPay}) {
   return (
     <>
         <button 
-          className={`w-full px-5 py-2 rounded-sm ${session? 'hover:bg-green-600 bg-green-500':'bg-green-600'}`}
+          className={`w-full rounded-sm ${session? 'hover:bg-green-600 bg-green-500':'bg-green-600'}`}
           onClick={()=>{setProceedToPay(true)}}
           disabled={(!session || (user && user.events.includes(eventId)) || (user && !user.userVerified))?true:false}>
             {
               user && user.events.includes(eventId)?
-              "Registered"
+              <div className='px-5 py-4 w-full h-full'>
+                Registered
+              </div>
               :
               (
                   session?
-                  (user && !user.userVerified? "Kindly Fill your Details": "Register !")
+                  (user && !user.userVerified? 
+                    <a href='/profile' className='w-full h-full'>
+                      <div className='px-5 py-4'>
+                        Kindly Fill your Details
+                      </div>
+                    </a>
+                    : 
+                    <div className='px-5 py-4 w-full h-full'>
+                      Register !
+                    </div>
+                  )
                   :
-                  "Sign In To Register !"
+                  <div className='px-5 py-4 w-full h-full'>
+                    Sign In To Register !
+                  </div>
               )
             }
         </button>
