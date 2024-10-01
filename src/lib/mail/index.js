@@ -10,7 +10,7 @@ const cb = (err, info) => {
   // }
 };
 
-export default function sendEmail(email, name) {
+export default function sendEmail(email, name, waLink, eventName) {
   const transporterOptions = {
     service: "Gmail",
     auth: {
@@ -24,7 +24,7 @@ export default function sendEmail(email, name) {
     to: email,
     subject: "Momentum 2024 Registration Successfull!",
     replyTo: "registration-momentum2022@ncuindia.edu",
-    html: getHtml(name),
+    html: getHtml(name, waLink, eventName),
   };
   transporter.sendMail(mail, cb);
 }
