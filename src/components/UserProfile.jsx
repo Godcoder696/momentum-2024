@@ -6,7 +6,7 @@ import college from "../data/college.json";
 function UserProfile({ usrDetails }) {
   const [fname, setFname] = useState();
   const [lname, setLname] = useState();
-  const [phNum, setPhNum] = useState();
+  const [phNum, setPhNum] = useState("");
   const [clgName, setClgName] = useState();
   const [id, setId] = useState();
   const [role, setRole] = useState("");
@@ -19,7 +19,7 @@ function UserProfile({ usrDetails }) {
     if (usrDetails) {
       setFname(usrDetails.fname);
       setLname(usrDetails.lname);
-      setPhNum(usrDetails.pNumber + "");
+      setPhNum(usrDetails.pNumber);
       setClgName(usrDetails.collegeName);
       setId(usrDetails._id);
       setYear(usrDetails.year);

@@ -13,7 +13,7 @@ function NavBar() {
       <div className='flex items-center space-x-5 xl:space-x-10 font-light'>
         <Link href="/" className='hover:font-normal cursor-pointer text-xs md:text-sm'>
           <div>Home</div>
-          <hr />
+          {/* <hr /> */}
         </Link>
         <Link href="/events" className='hover:font-normal cursor-pointer text-xs md:text-sm'>Events</Link>
         <SignInButton/>
