@@ -6,7 +6,7 @@ import Link from "next/link";
 // import { getEvents } from "lib/eventList";
 // import EventCard from "@/components/newUI/eventCard";
 // import PageWrapper from "@/components/PageWrapper";
-import { useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import events from '@/data/events.json'
 
 export default function Events({ }) {
@@ -16,14 +16,24 @@ export default function Events({ }) {
   return (
     <div>
       <div  className="h-screen min-h-screen bg-[#030919] text-white px-10 events-bg z-30 " >
-        <EventsSearchBar eventFilter={eventFilter} setEventFilter={setEventFilter}/>
+        <EventsSearchBar eventFilter={eventFilter} setEventFilter={setEventFilter} searchQuery={searchQuery} setSearchQuery={setSearchQuery}/>
         <div className="h-max mt-5 overflow-y-scroll grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-5 gap-10">  
           {
             events.map((event, index)=>{
               return (
-                <Link href={`events/${index}`} key={index}>
-                  <Image src={event.imgUrl} alt='p1' height={200} width={200} className="event-card "/>
-                </Link>
+                (
+                  event.categories.includes(eventFilter) || eventFilter=="All"?
+                  (
+                    event.name.toLowerCase().includes(searchQuery.toLowerCase())?
+                    <Link href={`events/${index}`} key={index}>
+                      <Image src={event.imgUrl} alt='p1' height={200} width={200} className="event-card "/>
+                    </Link>
+                    :
+                    <React.Fragment key={index}></React.Fragment>
+                  )
+                  :
+                  <React.Fragment key={index}></React.Fragment>
+                )
               )
             })
           }

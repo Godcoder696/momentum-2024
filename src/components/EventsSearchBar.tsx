@@ -3,7 +3,7 @@ import { IoMdSearch } from "react-icons/io";
 import { FaFilter } from "react-icons/fa";
 import CustomDrawer from './CustomDrawer';
 
-function EventsSearchBar({eventFilter, setEventFilter}) {
+function EventsSearchBar({eventFilter, setEventFilter,searchQuery, setSearchQuery}) {
     const [drawerOpen, setDrawerOpen]= useState(false);
   return (
     <>
@@ -14,6 +14,10 @@ function EventsSearchBar({eventFilter, setEventFilter}) {
                     <input type="text" name="" id="" 
                         className='bg-transparent w-full outline-none px-2'
                         placeholder='Type in to search'
+                        value={searchQuery}
+                        onChange={(e)=>{
+                            setSearchQuery(e.target.value)
+                        }}
                     />
                 </div>
                 <button
