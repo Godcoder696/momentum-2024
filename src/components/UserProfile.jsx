@@ -44,7 +44,7 @@ function UserProfile({ usrDetails }) {
   const validateDetails = async () => {
     if (!fname) myToast("Enter full name!.");
     if (fname.length < 3) myToast("Name should have atleast 3 characters.");
-    if (!phNum || phNum.length != 10)
+    if (!phNum && phNum.length != 10)
       myToast("Please enter valid phone number.");
     if (!year) myToast("Please select a year.");
     if (!dob) myToast("Please enter your date of birth.");
