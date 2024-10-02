@@ -1777,18 +1777,18 @@
             "Pitch, Rhythm, Voice modulation, overall impact of the song (Song selection, stage presence etc.)"
         ],
         "rule": [
-            
-        ],
-        "elimination":[
-            "Comprises of two rounds: prelims(2minute) and final(3-3.5minute)",
-            "No backing vocals are allowed. General Rules",
             "Songs must be in Hindi/English.",
             "Rap portions or refrains are not permissible.",
-            "Allowed to play an accompanying instrument themselves or can take the help of their friend.",
+            "No backing vocals are allowed.",
+            "Participants are allowed to play an accompanying instrument themselves or can take the help of their friend.",
             "The decision of the judges shall be final and binding.",
             "Obscenity (at the discretion of judges) of any kind is not allowed and will lead to immediate disqualification.",
-            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
-            "The decision of the organizers regarding the final line-up would be final"
+            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
+            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
+        ],
+        "elimination":[
+            "The event consist of a single round with a maximum time limit of 3 minutes for each performance including setup if any.",
+            "An elimination based preliminary round may also be kept based on the number of participants, if need arises."
         ],
         "TC":[
             
@@ -1819,13 +1819,13 @@
             "Maximum two accompanists are allowed.",
             "The language must be only English and/or Hindi.",
             "The team may sing more than one song within the time limit.",
-            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
-            "The decision of the organizers regarding the final line-up would be final"
+            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
+            " The decision of the judges shall be final and binding.",
+            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
         "elimination":[
-            "Participation: There should not be any common members.",
-            "There will be only one round.",
-            "Time limit: 10 minutes (including sound check)."
+            "Participation: There should not be any common members among multiple teams. Such cases shall be immediately disqualified.",
+            "There will be only one round with a maximum time limit of 10 minutes (including sound check) for each group performance."
         ],
         "TC":[
             
@@ -1850,21 +1850,22 @@
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
-            "Choreography & Expressions during the performance, Clarity and Overall impact."
+            "Choreography, Expressions during the performance, Clarity and Overall impact."
         ],
         "rule": [
-            "No usage of props is allowed for this round.",
-            "Participants will not be judged based on their costumes.",
-            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
+            "Styles: All except Folk and Classical dance forms such as Garba, Bhangra, Bihu, Kathak etc.",
+            "Participants will not be judged on their costumes; however, it is expected that attire remains modest and appropriate.",
+            "The soundtrack should be submitted in the respective google forms shared by the coordinators within the deadline prescribed and to be brought in a pen drive on the day of the performance (in .mp3 format only).",
             "Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage is STRICTLY not allowed.",
             "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification. Songs should be chosen accordingly.",
             "Violation of any of the above rules will lead to heavy penalties.",
-            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
-            "The decision of the organisers regarding the final line-up would be final."
+            "The decision of the judges shall be final and binding.",
+            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
+            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
         "elimination":[
-            "Time Limit: 5 minutes",
-            "Styles: All except Folk dance such as Garba, Bhangra, Bihu, etc."
+            "The event consist of a single round with a maximum time limit of 5 minutes for each performance including setting up props if any.",
+            "An elimination based preliminary round may also be kept based on the number of participants, if need arises."
         ],
         "TC":[
             
@@ -1889,19 +1890,23 @@
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
-            "Choreography & Energy, Creativity & Synchronisation, Expressions,  Costumes (Basic colour code), Overall Impact"
+            "Choreography & Energy, Creativity & Synchronisation, Expressions, Overall Impact"
         ],
         "rule": [
+            "Teams comprising of 2 members can perform any sequence on a song of their choice.",
             "Participants can use more than one song in their performance.",
-            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
-            "Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage are STRICTLY not allowed.",
-            "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification. Songs should be chosen accordingly.",
-            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
-            "The decision of the organizers regarding the final line-up would be final."
+            "Participants will not be judged on their costumes; however, it is expected that attire remains modest and appropriate",
+            "The soundtrack should be submitted in the respective google forms shared by the coordinators within the deadline prescribed and to be brought in a pen drive on the day of the performance (in .mp3 format only).",
+            "Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage is STRICTLY not allowed.",
+            "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification. Songs should be chosen accordingly",
+            "Violation of any of the above rules will lead to heavy penalties.",
+            "The decision of the judges shall be final and binding.",
+            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
+            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
         "elimination":[
-            "Time limit: 2-4 minutes (+1minute setup and clearance time)",
-            "Teams must perform any sequence of their choice on a song of their choice."
+            "The event consist of a single round with a maximum time limit of 5 minutes for each performance including setting up props if any.",
+            "An elimination based preliminary round may also be kept based on the number of participants, if need arises."
         ],
         "TC":[
             
@@ -1926,20 +1931,23 @@
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
-            "Choreography & Energy, Creativity & Synchronisation, Expressions, Costumes(Basic color code), Overall Impact."
+            "Choreography & Energy, Creativity & Synchronisation, Expressions, Overall Impact."
         ],
         "rule": [
-            "Only one team per college is allowed to perform.",
-            "Participants can use more than one song in their performance.",
-            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
-            "Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage are STRICTLY not allowed.",
+            "Teams can perform any sequence on a song of their choice.",
+            "Teams can use more than one song in their performance.",
+            "Participants will not be judged on their costumes; however, it is expected that attire remains modest and appropriate.",
+            "The soundtrack should be submitted in the respective google forms shared by the coordinators within the deadline prescribed and to be brought in a pen drive on the day of the performance (in .mp3 format only).",
+            "Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage is STRICTLY not allowed.",
             "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification. Songs should be chosen accordingly.",
-            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
-            "The decision of the organizers regarding the final line-up would be final."
+            "Violation of any of the above rules will lead to heavy penalties.",
+            "The decision of the judges shall be final and binding.",
+            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
+            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding"
         ],
         "elimination":[
-            "Time limit: 3- 5 minutes ( +1 minute setup and clearance time)",
-            "Teams must perform any sequence of their choice on a song of their choice."
+            "The event consist of a single round with a maximum time limit of 10 minutes for each performance including setting up props if any.",
+            "An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
         ],
         "TC":[
             
@@ -1964,21 +1972,21 @@
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
-            "Theme (vivid illusion), Formation (team only), Music, Dresses & Walk,  Overall Impact."
+            "Theme, Formation (team only), Music, Dresses & Walk, Overall Impact."
         ],
         "rule": [
-            "Colleges are expected to bring with them, all the apparels, props and music CDs/ pen drives according to their respective themes, necessary for the event.",
-            "All teams should report for the prelim, as no direct entry to the Final event would be allowed.",
-            "The slot for the prelims is 10 minutes, including 5 minutes of setup time and 5 minutes of performance time.",
-            "Teams would be selected on the basis of their performance in the prelims to walk on the ramp in the main event.",
-            "The slot for the final event is 15 minutes’ maximum, which includes 3 minutes of setup time as well.",
-            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
-            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
-            "The decision of the organizers regarding the final line-up would be final."
+            "Teams are expected to bring with them, all the apparels, props according to their respective themes, necessary for the event on the day of the event.",
+            "The soundtrack should be submitted in the respective google forms shared by the coordinators within the deadline prescribed and to be brought in a pen drive on the day of the performance (in .mp3 format only).",
+            "Any kind of fluid, flame, powders, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage is STRICTLY not allowed.",
+            "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification.",
+            "Violation of any of the above rules will lead to heavy penalties.",
+            "The decision of the judges shall be final and binding.",
+            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
+            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
         "elimination":[
-            "Time Limit: 10minutes (5 minute + 5minute setup)",
-            "There will be only one round."
+            "The event consist of a single round with a maximum time limit of 12 minutes for each performance including setting up props (if any) and clearance.",
+            "An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
         ],
         "TC":[
             
@@ -2003,21 +2011,19 @@
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
-            "Talent expertise, Uniqueness & Personality, Crowd Reaction, Overall Impact"
+            "Talent expertise, Uniqueness, Personality, Crowd Reaction, Overall Impact"
         ],
         "rule": [
-            "Rounds: 3 (Ethnic , Formal And Urban Wear)",
             "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification.",
-            "Use of cigarettes, alcohol and unfair means is strongly prohibited.",
             "Tracks to be played in the background.",
-            "Incase of any technical issues, the participant would be allowed to perform the entire performance from the beginning.",
-            "Under no condition (other than technical issues) would the participant be allowed to stop and start the performance again.",
-            "The final scoring would be based on equal weightage of all the rounds.",
-            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
-            "The decision of the organizers regarding the final line-up would be final."
+            "The final scoring would be based on cumulative score of all the rounds.",
+            "Violation of any of the above rules will lead to heavy penalties.",
+            "The decision of the judges shall be final and binding.",
+            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
+            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
         "elimination":[
-            
+            "The event consists of 3 rounds (Round 1: Ethnic Wear, Round 2: Formal wear and Round 3: Urban Wear) without elimination."
         ],
         "TC":[
             
@@ -2045,17 +2051,18 @@
             "Coordination among team members, overall performance, stage presence, audience appeal."
         ],
         "rule": [
+            "The team should not have any common members among multiple teams.",
             "Maximum two accompanists are allowed.",
             "The language must be only English and/or Hindi.",
             "The team may sing more than one song within the time limit.",
-            "Time limit should be strictly followed. Participants will be heavily penalised by judges for not doing so.",
-            "The decision of the organisers regarding the final line-up would be final."
+            "Violation of any of the above rules will lead to heavy penalties",
+            "The decision of the judges shall be final and binding.",
+            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
+            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
         "elimination":[
-            "Participation: There should not be any common members.",
-            "There will be only one round.",
-            "Time limit: 15 minutes, 5(Set Up)+ 10(Performance)."
-            
+            "The event consist of a single round with a maximum time limit of 15 minutes for each performance including stage setup, sound check and clearance.",
+            "An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
         ],
         "TC":[
             
@@ -2083,16 +2090,14 @@
             "Talent expertise, Uniqueness, Personality, Crowd Reaction, Overall Impact"
         ],
         "rule": [
-            "Rounds: 2 (Talent and Personality)",
-            "Time Limit: 2-3 Minutes for Talent Round and less than 2 minutes for Personality round.",
-            "This event will consist of 2 rounds, the first round will be the talent display round",
-            "The second round will be a personality round where the participant would be asked a question or asked to speak about a topic for less than 2 minutes.",
-            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
-            "Incase of any technical issues, the participant would be allowed to perform the entire performance from the beginning.",
-            "Under no condition (other than technical issues) would the participant be allowed to stop and start the performance again.",
-            "The final scoring would be based on equal weightage of both the rounds. ➔Talent round: 50 points ➔Personality round: 50 points",
-            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
-            "The decision of the organizers regarding the final line-up would be final."
+            "The final scoring would be based on cumulative score of both the rounds.",
+            "The soundtrack should be submitted in the respective google forms shared by the coordinators within the deadline prescribed and to be brought in a pen drive on the day of the performance (in .mp3 format only).",
+            "Any kind of fluid, flame, powders, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage is STRICTLY not allowed.",
+            "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification.",
+            "Violation of any of the above rules will lead to heavy penalties.",
+            "The decision of the judges shall be final and binding.",
+            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
+            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
         "elimination":[
             
@@ -2123,17 +2128,18 @@
             "Diction, Clarity of Words, Wit (Creativity, rhyme, etc.), Overall Impact (Attitude, Stage Presence, etc.)"
         ],
         "rule": [
-            "Comprises of two rounds: prelims and final",
-            "Participants will have a performance of 2 minute.",
-            "Profanity, swears and sexual slangs (at the judge’s discretion) in the rap are not permitted. Else the participant shall be immediately disqualified.",
+            "Profanity, swears and sexual slangs (at the judge’s discretion) in the rap are not permitted. This may lead to immediately disqualification of the participant.",
             "The participants are free to play any beat of their choice.",
             "The language of rap must be only English and/or Hindi.",
             "The participant is allowed to use puns, double entendres and quips, but any sort of racist, sexist or offensive slurs will lead to immediate disqualification.",
-            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
-            "The decision of the organizers regarding the final line-up would be final."
+            "Violation of any of the above rules will lead to heavy penalties.",
+            "The decision of the judges shall be final and binding.",
+            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
+            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
         "elimination":[
-            
+            "The event consist of a single round with a maximum time limit of 3 minutes for each performance including set-up if any",
+            "An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
         ],
         "TC":[
             
@@ -2158,18 +2164,19 @@
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
-            "Talent expertise, Uniqueness, Personality, Crowd Reaction, Overall Impact."
+            " Body Definition, Built of the Muscles, Personality, Crowd Reaction, Overall Impact."
         ],
         "rule": [
-            "Time Limit: 10minutes (5 minute + 5minute setup).",
-            "There will be only one round.",
+            "Dress Code: Board shorts, posing shorts, or posing trunks. They must be solid in color, cover at least half of the gluteus maximus, and cover the entire frontal area. Padding is not allowed.",
+            "Competitors are not allowed to wear jewelry and no props or gum are permitted. They also cannot lie on the floor, bump, shove, or elbow other competitors",
+            "Participants are allowed to apply tanning glaze to enhance their muscle definition before appearing on the stage.",
+            "Vulgarity and obscenity (at the judge’s discretion) at any point are strictly not allowed. It can lead to immediate disqualification.",
+            "Violation of any of the above rules will lead to heavy penalties.",
             "The decision of the judges shall be final and binding.",
-            "Obscenity (at the discretion of judges) of any kind is not allowed and will lead to immediate disqualification.",
-            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
-            "The decision of the organizers regarding the final line-up would be final."
+            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
         "elimination":[
-            
+            "The event consists of a single round divided into two phases. Phase 1 shall consist of body posing based on the instructions given by the judges. Phase 2 shall consist of freestyle body posing at your own discretion for a time limit instructed by the Judges."
         ],
         "TC":[
             
@@ -2197,14 +2204,16 @@
             "Content, Delivery, Expressions, Engagement"
         ],
         "rule": [
+            "Originality: Monologues should be original and not copied from another source.",
+            "The language of the monologue must be consistent throughout and be only English and/or Hindi.",
+            "Vulgarity (at the judge’s discretion) at any point is strictly not allowed. It can lead to immediate disqualification.",
+            "Violation of any of the above rules will lead to heavy penalties.",
             "The decision of the judges shall be final and binding.",
-            "Obscenity (at the discretion of judges) of any kind is not allowed and will lead to immediate disqualification.",
-            "Time limit should be strictly followed. Participants will be heavily penalised by judges for not doing so.",
-            "The decision of the organisers regarding the final line-up would be final.",
-            "Time Limit: Each participant has a maximum of 5 minutes to deliver their monologue."
+            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
         "elimination":[
-            
+            "The event consist of a single round with a maximum time limit of 3 minutes for each performance including setting up if any.",
+            " An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
         ],
         "TC":[
             
@@ -2229,21 +2238,22 @@
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
-            "Choreography & Expressions during the performance, Clarity and Overall impact."
+            "Choreography, Expressions during the performance, Clarity and Overall impact."
         ],
         "rule": [
-            "No usage of props is allowed for this round.",
-            "Participants will not be judged based on their costumes.",
-            "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
+            "Styles: All except Western dance forms such as Hip-hop, Contemporary etc.",
+            "Participants will not be judged on their costumes; however, it is expected that attire remains modest and appropriate.",
+            "The soundtrack should be submitted in the respective google forms shared by the coordinators within the deadline prescribed and to be brought in a pen drive on the day of the performance (in .mp3 format only).",
             "Any kind of fluid, flame, powders, glitters, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage is STRICTLY not allowed.",
             "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification. Songs should be chosen accordingly.",
             "Violation of any of the above rules will lead to heavy penalties.",
-            "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
-            "The decision of the organizers regarding the final line-up would be final."
+            "The decision of the judges shall be final and binding.",
+            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
+            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
         "elimination":[
-            "Time Limit: 5 minutes",
-            "Styles: All except Folk dance such as Garba, Bhangra, Bihu, etc."
+            "The event consist of a single round with a maximum time limit of 5 minutes for each performance including setting up props if any.",
+            "An elimination based preliminary round may also be kept based on the number of participants, if need arises."
         ],
         "TC":[
             
