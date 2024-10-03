@@ -22,7 +22,7 @@ function UserProfile({ usrDetails }) {
       setPhNum(usrDetails.pNumber);
       setClgName(usrDetails.collegeName);
       setId(usrDetails._id);
-      setYear(usrDetails.year);
+      setYear(usrDetails.year || 1);
       setDob(usrDetails.dob);
       setAddrs(usrDetails.address);
       setGender(usrDetails.gender);
