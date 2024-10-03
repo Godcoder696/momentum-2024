@@ -42,6 +42,8 @@ function UserProfile({ usrDetails }) {
   };
 
   const validateDetails = async () => {
+    console.log(fname, lname, year, dob, addrs, phNum, gender);
+
     if (!fname) myToast("Enter full name!.");
     if (fname.length < 3) myToast("Name should have atleast 3 characters.");
     if (!phNum && phNum.length != 10)
@@ -49,15 +51,7 @@ function UserProfile({ usrDetails }) {
     if (!year) myToast("Please select a year.");
     if (!dob) myToast("Please enter your date of birth.");
     if (!addrs) myToast("Please enter your address.");
-    else if (
-      fname &&
-      fname.length >= 3 &&
-      phNum &&
-      phNum.length == 10 &&
-      year &&
-      dob &&
-      addrs
-    ) {
+    else {
       await fetch("/api/user", {
         method: "PUT",
         headers: {
