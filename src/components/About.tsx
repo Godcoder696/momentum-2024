@@ -62,7 +62,7 @@ function About() {
               <span>THE NORTHCAP UNIVERSITY</span>
             </span>
             <span className='leading-relaxed text-xs xl:text-lg mb-4 about-text-anim text-start '>
-              Momentum is a 2-day long festival organized in the month of November. Momentum is the university fest where we provide the student community from various Universities and Colleges with velocity. This year Momentum 2024, the 26th Edition is planned for <b> 24<sup>th</sup> - 25<sup>th</sup> October.</b>
+              Momentum is a 2-day long festival organized in the month of October. Momentum is the university fest where we provide the student community from various Universities and Colleges with velocity. This year Momentum 2024, the 26th Edition is planned for <b> 24<sup>th</sup> - 25<sup>th</sup> October.</b>
             </span>
         </div>
       </div>
