@@ -14,7 +14,7 @@ function Page({params}) {
     console.log(params.eventId);
     let eventId= Number(params.eventId);
     console.log(eventId);
-    if(eventId<0 || eventId>63 || Number.isNaN(eventId)){
+    if(eventId<0 || eventId>64 || Number.isNaN(eventId)){
       router.push("/events/"+params.eventId+"/page-not-found");
     }
   },[params.eventId])
