@@ -10,7 +10,7 @@ function UserProfile({ usrDetails }) {
   const [clgName, setClgName] = useState();
   const [id, setId] = useState();
   const [role, setRole] = useState("");
-  const [year, setYear] = useState("");
+  const [year, setYear] = useState(1);
   const [dob, setDob] = useState("");
   const [addrs, setAddrs] = useState("");
   const [gender, setGender] = useState("");
