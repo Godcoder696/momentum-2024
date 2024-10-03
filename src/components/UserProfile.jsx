@@ -48,7 +48,7 @@ function UserProfile({ usrDetails }) {
     if (!fname) myToast("Enter full name!.");
     else if (fname.length < 3)
       myToast("Name should have atleast 3 characters.");
-    else if (!phNum && phNum.length != 10)
+    else if (!phNum || phNum.length != 10)
       myToast("Please enter valid phone number.");
     else if (!year) myToast("Please select a year.");
     else if (!dob) myToast("Please enter your date of birth.");
