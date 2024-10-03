@@ -14,6 +14,7 @@ function UserProfile({ usrDetails }) {
   const [dob, setDob] = useState("");
   const [addrs, setAddrs] = useState("");
   const [gender, setGender] = useState("");
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     if (usrDetails) {
@@ -43,14 +44,15 @@ function UserProfile({ usrDetails }) {
 
   const validateDetails = async () => {
     console.log(fname, lname, year, dob, addrs, phNum, gender);
-
+    setLoading(true);
     if (!fname) myToast("Enter full name!.");
-    if (fname.length < 3) myToast("Name should have atleast 3 characters.");
-    if (!phNum && phNum.length != 10)
+    else if (fname.length < 3)
+      myToast("Name should have atleast 3 characters.");
+    else if (!phNum && phNum.length != 10)
       myToast("Please enter valid phone number.");
-    if (!year) myToast("Please select a year.");
-    if (!dob) myToast("Please enter your date of birth.");
-    if (!addrs) myToast("Please enter your address.");
+    else if (!year) myToast("Please select a year.");
+    else if (!dob) myToast("Please enter your date of birth.");
+    else if (!addrs) myToast("Please enter your address.");
     else {
       await fetch("/api/user", {
         method: "PUT",
@@ -74,6 +76,7 @@ function UserProfile({ usrDetails }) {
       });
       window.location.reload();
     }
+    setLoading(false);
   };
 
   return (
@@ -213,8 +216,9 @@ function UserProfile({ usrDetails }) {
         onClick={() => {
           validateDetails();
         }}
+        disabled={loading ? true : false}
       >
-        Save Changes
+        {loading ? <>Saving</> : <>Save Changes</>}
       </button>
       <ToastContainer />
     </div>
