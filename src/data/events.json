@@ -2258,5 +2258,43 @@
         "TC":[
             
         ]
+    },
+    {
+        "id": 64,
+        "imgUrl": "/events/65.webp",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/GVJatoMQjYSCmzhcNqRmpy",
+        "categories": ["Sports","Fun Activities"],
+        "name": "Football Penalty Shootout",
+        "mainCoordi": "",
+        "coordinators": "Niket & Lokesh",
+        "contact": "9560900386",
+        "dayTime":"",
+        "venue": "",
+        "fee": 100,
+        "amount":"",
+        "teamSize": "Solo",
+        "desc": "Participants take penalty shots to score goals from a designated distance. The player with  the most goals will be declared the winner. Registration: Participants must register individually for the penalty shootout competition. Shots: Each participant will be given 10 penalty shots, taken from a distance of 15 meters from the goal post. Scoring: The participant with the highest number of goals out of 10 shots will be declared the winner.",
+        "criteria": [
+            "Total Goals:The participant with the highest number of goals scored out of 10 shots will be declared the winner."
+        ],
+        "rule": [
+            "Distance: The penalty shots will be taken from 15 meters away from the goal post.",
+            "Goal Attempts: Each participant gets 10 attempts to score.",
+            "Time Limit: Participants must complete all 10 shots within a set time frame, which will be announced before the event.",
+            "Tiebreaker: In the event of a tie (where two or more participants have the same number of goals), a sudden-death round will be held, where participants will take additional shots until a winner is determined.",
+            "Conduct: Players are expected to maintain sportsmanship. Unsportsmanlike behavior or cheating will lead to disqualification.",
+            "Disputes: Any disputes regarding goals or rules must be raised immediately to the referee, whose decision will be final.",
+            "The decision of the judges shall be final and binding.",
+            "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
+        ],
+        "elimination":[
+            
+        ],
+        "TC":[
+            
+        ]
     }
 ]
