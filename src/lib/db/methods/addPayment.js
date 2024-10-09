@@ -25,6 +25,7 @@ export default async function addPayment({teamName,eventName, eventId, userId, u
 
         // Step 2: If its a team then store it in team's schema
         if(type!=="Solo"){
+            await dbConnect();
             const team= new Team({
                 eventName: eventName,
                 teamName: teamName,
@@ -35,6 +36,7 @@ export default async function addPayment({teamName,eventName, eventId, userId, u
         }
 
         // Step 3: Add event id to user's schema
+        await dbConnect();
         await newUserTicket(email, eventId);
 
         // Step 4: Send ticket mail

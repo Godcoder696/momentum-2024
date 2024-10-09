@@ -18,6 +18,7 @@ export default async function newUserTicket(email, eventId){
         events.push(eventId);
         console.log(events);
         
+        await dbConnect();
         await User.findOneAndUpdate(
             {
                 email: email
