@@ -2029,45 +2029,6 @@
             
         ]
     },
-    // {
-    //     "id": 58,
-    //     "imgUrl": "/events/59.webp",
-    //     "type": "Team",
-    //     "minSize": "5",
-    //     "maxSize": "20",
-    //     "waLink": "https://chat.whatsapp.com/BTQSznaukhd36NwucpMIgS",
-    //     "categories": ["Music","Entertainment"],
-    //     "name": "Battle of Bands",
-    //     "mainCoordi": "",
-    //     "coordinators": "Karan",
-    //     "contact": "9311573728",
-    //     "dayTime":"",
-    //     "venue": "",
-    //     "fee": 1500,
-    //     "amount":"",
-    //     "teamSize": "Solo",
-    //     "desc": "",
-    //     "criteria": [
-    //         "Coordination among team members, overall performance, stage presence, audience appeal."
-    //     ],
-    //     "rule": [
-    //         "The team should not have any common members among multiple teams.",
-    //         "Maximum two accompanists are allowed.",
-    //         "The language must be only English and/or Hindi.",
-    //         "The team may sing more than one song within the time limit.",
-    //         "Violation of any of the above rules will lead to heavy penalties",
-    //         "The decision of the judges shall be final and binding.",
-    //         "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
-    //         "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
-    //     ],
-    //     "elimination":[
-    //         "The event consist of a single round with a maximum time limit of 15 minutes for each performance including stage setup, sound check and clearance.",
-    //         "An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
-    //     ],
-    //     "TC":[
-            
-    //     ]
-    // },
     {
         "id": 59,
         "imgUrl": "/events/60.webp",
