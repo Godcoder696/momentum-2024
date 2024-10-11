@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function EventForm({rId,setRId, members, setMembers, teamName, setTeamName, type}) {
+function EventForm({rId,setRId, members, setMembers, teamName, setTeamName, type, setTc, tc}) {
     function handleMemberChange(index,event){
         let data= [...members];
         data[index][event.target.name]= event.target.value;
@@ -11,10 +11,6 @@ function EventForm({rId,setRId, members, setMembers, teamName, setTeamName, type
         {
             type!="Solo"?
             <>
-                <div className='text-xs'>
-                    <span className='font-bold'>**Note** </span>
-                    Kindly provide valid team details as they would be verified at the time of event.
-                </div>
                 <div className='flex flex-col space-y-1'>
                     <div className='text-sm'>Team Name</div>
                     <div className='flex space-x-1 md:space-x-3 text-black'>
@@ -68,7 +64,7 @@ function EventForm({rId,setRId, members, setMembers, teamName, setTeamName, type
             <div className='flex space-x-1 md:space-x-3 text-black'>
                 <input 
                     type="text" 
-                    className='bg-gray-50 h-9 sm:h-10 px-2 w-[49%] rounded-md outline-none text-xs sm:text-sm' 
+                    className='bg-gray-50 h-9 sm:h-10 px-2 w-full md:w-[49%] rounded-md outline-none text-xs sm:text-sm' 
                     placeholder='Enter Id'
                     value={rId}
                     onChange={(e)=>{
@@ -76,6 +72,24 @@ function EventForm({rId,setRId, members, setMembers, teamName, setTeamName, type
                     }}
                 />
             </div>
+        </div>
+        <div className='flex flex-col space-y-3'>
+            <div className='font-bold text-sm'>**Terms & Conditions**</div>
+            <ul className='text-xs space-y-2 tc px-5'>
+                <li>
+                    Participants found under the influence of cigarettes, alcohol, or narcotics, or using unfair means, regardless of the event they are participating in or the institution they represent, will be prohibited from participating and asked to leave the premises of the organizing institute.
+                </li>
+                <li>
+                    Once registered for an event, under no circumstances the registration fees shall be refunded to the participants in case of absence/ disqualification.
+                </li>
+                <li>
+                    Kindly provide valid team details as they would be verified at the time of event. Wrong entries could result in direct disqualification.    
+                </li>
+                <span className='flex items-center space-x-3'>
+                    <input type="checkbox" name="" id="" onClick={()=>{setTc(!tc)}}/>
+                    <span>I accept all Terms & Conditions</span>
+                </span>
+            </ul>
         </div>
     </div>
   )

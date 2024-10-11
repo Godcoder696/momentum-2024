@@ -18,6 +18,7 @@ function EventFormWrapper({ eventId }) {
   const [minSize, setMinSize] = useState(events[eventId].minSize || 0);
   const [teamName, setTeamName] = useState(undefined);
   const [type, setType] = useState(events[eventId].type);
+  const [tc, setTc] = useState(false);
 
   useEffect(() => {
     const team = [];
@@ -30,6 +31,8 @@ function EventFormWrapper({ eventId }) {
   const handlePayment = async () => {
     let isValid = true;
     if (events[eventId].type == "Team") isValid = validateDetails();
+    if (!tc) isValid = myToast("Please accept terms & conditions.");
+    isValid = tc;
     if (isValid) {
       setIsProcessing(true);
       try {
@@ -163,6 +166,8 @@ function EventFormWrapper({ eventId }) {
               teamName={teamName}
               setTeamName={setTeamName}
               type={type}
+              setTc={setTc}
+              tc={tc}
             />
           </div>
           <button

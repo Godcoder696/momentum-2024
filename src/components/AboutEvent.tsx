@@ -1,10 +1,9 @@
+import { useAppContext } from '@/app/context/ContextProvider';
 import { useSession } from 'next-auth/react';
 import Image from 'next/image';
 import { useState } from 'react';
-import BottomDrawer from './BottomDrawer';
+import events from '../data/events.json';
 import EventDetails from './EventDetails';
-import events from '../data/events.json'
-import { useAppContext } from '@/app/context/ContextProvider';
 import RegisterButton from './RegisterButton';
 
 function AboutEvent({setProceedToPay, eventId}) {
