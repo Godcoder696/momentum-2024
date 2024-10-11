@@ -1,5 +1,6 @@
 
 const mongoose = require('mongoose');
+import User from './User';
 
 const paymentModel= mongoose.Schema(
     {
@@ -32,7 +33,7 @@ const paymentModel= mongoose.Schema(
         },
         userId: {
             type: mongoose.Schema.Types.ObjectId,
-            ref: 'Users'
+            ref: User
         },
         userTag: {
             type: String
