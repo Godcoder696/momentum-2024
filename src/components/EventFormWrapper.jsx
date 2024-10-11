@@ -30,9 +30,9 @@ function EventFormWrapper({ eventId }) {
   }, [maxSize]);
   const handlePayment = async () => {
     let isValid = true;
-    if (events[eventId].type == "Team") isValid = validateDetails();
     if (!tc) isValid = myToast("Please accept terms & conditions.");
     isValid = tc;
+    if (events[eventId].type == "Team") isValid = validateDetails();
     if (isValid) {
       setIsProcessing(true);
       try {
