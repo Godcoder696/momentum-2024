@@ -86,7 +86,7 @@ function EventForm({rId,setRId, members, setMembers, teamName, setTeamName, type
                     Kindly provide valid team details as they would be verified at the time of event. Wrong entries could result in direct disqualification.    
                 </li>
                 <span className='flex items-center space-x-3'>
-                    <input type="checkbox" name="" id="" onClick={()=>{setTc(!tc)}}/>
+                    <input type="checkbox" onClick={()=>{setTc(!tc)}}/>
                     <span>I accept all Terms & Conditions</span>
                 </span>
             </ul>

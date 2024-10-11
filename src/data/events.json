@@ -180,7 +180,10 @@
         ],
         "rule": [
             "No pre-made crafts allowed.",
-            "Materials will be checked before competition."
+            "Materials will be checked before competition.",
+            "The decision of the judges shall be final and binding.",
+            "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding.",
+            "Registered participants have to bring their own waste materials"
         ],
         "elimination":[
             "Single round competition.",
@@ -309,7 +312,7 @@
         "venue": "RN-102",
         "fee": 100,
         "amount":"",
-        "desc": "Participants showcase their artistic skills by creating original artworks within a specified time limit, aiming to impress judges with creativity and technique. Materials: Participants are required to bring their own materials, including canvases, paints, brushes, or other tools. A list of allowed materials will be provided upon registration. The competition will last for 1 hour. Participants will create their artwork based on a theme announced at the start of the event. Completed artworks must be submitted at the end of the time limit for evaluation.",
+        "desc": "Requirements: Participants are required to bring their own materials, including canvases, paints, brushes, or other tools. A list of allowed materials will be provided upon registration.Competition Format: The competition will last for 1 hour. Participants will create their artwork based on a theme announced at the start of the event. Submission: Completed artworks must be submitted at the end of the time limit for evaluation.",
         "criteria": [
            "Creativity (30%): Originality and uniqueness of the artwork.",
            "Technique (30%): Mastery of the chosen medium and skill in execution.",
@@ -320,7 +323,10 @@
         "rule": [
             "Theme: The theme for the artwork will be announced at the beginning of the event. All entries must relate to this theme.",
             "Originality: All artwork must be original. Plagiarized or copied works will lead to disqualification.",
-            "Conduct: Participants are expected to maintain a respectful and encouraging atmosphere. Disruptive behavior or disrespect towards others’ works will not be tolerated."
+            "Conduct: Participants are expected to maintain a respectful and encouraging atmosphere. Disruptive behavior or disrespect towards others’ works will not be tolerated.",
+            "The decision of the judges shall be final and binding.",
+            "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding.",
+            "A panel of 3-5 judges with expertise in art will evaluate the submissions based on the scoring criteria."
         ],
         "elimination":[
             
@@ -342,7 +348,7 @@
         "venue": "Waiting Area",
         "fee": 100,
         "amount":"",
-        "desc": "Participants create beautiful and intricate rangoli designs using colorful materials, showcasing their artistic skills and creativity. Participants must register in advance, either individually or in teams. Each team can have up to 3 members. Participants should bring their own materials for creating rangoli, including colored powders, flowers, and any additional decorative elements. A list of allowed materials will be provided upon registration. The competition will last for 1 hours. Participants will create their rangoli designs on designated spaces marked on the ground. Completed rangoli designs will be submitted for evaluation at the end of the time limit.",
+        "desc": "Registration: Participants must register in advance, either individually or in teams. Each team can have up to 3 members. Requirement: Participants should bring their own materials for creating rangoli, including colored powders, flowers, and any additional decorative elements. A list of allowed materials will be provided upon registration. Competition Format: The competition will last for 1 hours. Participants will create their rangoli designs on designated spaces marked on the ground. Submission: Completed rangoli designs will be submitted for evaluation at the end of the time limit.",
         "criteria": [
            "Creativity (30%): Originality and uniqueness of the rangoli design.",
            "Technique (30%): Skill in execution, including detail and precision.",
@@ -353,7 +359,9 @@
         "rule": [
             "Theme: A specific theme will be announced at the beginning of the event. All rangoli designs must adhere to this theme.",
             "Originality: All designs must be original. Plagiarized or copied works will lead to disqualification.",
-            "Conduct: Participants are expected to maintain a respectful and encouraging atmosphere. Disruptive behavior or disrespect towards others’ works will not be tolerated."
+            "Conduct: Participants are expected to maintain a respectful and encouraging atmosphere. Disruptive behavior or disrespect towards others’ works will not be tolerated.",
+            "The decision of the judges shall be final and binding.",
+            "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
         "elimination":[
             
@@ -786,7 +794,9 @@
         "rule": [
             "Skipping Technique: Participants must use a standard jump rope for the competition. The rope must be of appropriate length. All skips must be performed with proper form; both feet must leave the ground for each skip.",
             "Time Limit: Each participant has exactly 1 minute to complete as many skips as possible. Timing will be strictly enforced.",
-            "Conduct: Participants are expected to maintain sportsmanship and respect towards other competitors and judges."
+            "Conduct: Participants are expected to maintain sportsmanship and respect towards other competitors and judges.",
+            "The decision of the judges shall be final and binding.",
+            "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
         "elimination":[
             "Missing the rope entirely.",
@@ -954,13 +964,16 @@
            "A panel of judges with expertise in public speaking or politics will evaluate performances based on the scoring criteria.",
            "Quality of arguments",
            "Relevance to the topic",
-           "Public speaking skills"
+           "Public speaking skills",
+           "The top team will be determined by cumulative scores from all debates."
         ],
         "rule": [
             "Conduct: Participants are expected to maintain professionalism and respect during debates. Personal attacks or disrespectful comments will not be tolerated.",
             "Speaking Order: The order of speaking will be predetermined, and participants must adhere to it. Each participant will have a limited time (e.g., 3 minutes) to present their arguments.",
             "Rebuttals: After initial speeches, participants may engage in rebuttals, with each rebuttal having a time limit (e.g., 1-2 minutes).",
-            "Voting: At the end of the debate, a vote will be conducted to decide the outcome of the proposed bill. Simple majority rules will apply."
+            "Voting: At the end of the debate, a vote will be conducted to decide the outcome of the proposed bill. Simple majority rules will apply.",
+            "The decision of the judges shall be final and binding.",
+            "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
         "elimination":[
             "The top team will be determined by cumulative scores from all debates."
@@ -1365,7 +1378,9 @@
         "rule": [
             "Gameplay: Participants must adhere to the standard rules of chess, including the touch-move rule. Each match will be monitored by a tournament director or a designated official.",
             "Chess Clocks: All matches will use chess clocks. Players must press their clock after making a move.",
-            "Conduct: Participants are expected to maintain sportsmanship and respect towards opponents. Disruptive behavior will not be tolerated."
+            "Conduct: Participants are expected to maintain sportsmanship and respect towards opponents. Disruptive behavior will not be tolerated.",
+            "The decision of the judges shall be final and binding.",
+            "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
         "elimination":[
             "Any form of cheating, including using external aids or devices, will lead to immediate disqualification."
@@ -1486,7 +1501,9 @@
         "rule": [
             "Teams of 2 participants.",
             "Cooking only with cold or room-temperature ingredients; no use of fire or electronic devices.",
-            "Time limit: 1 hour."
+            "Time limit: 1 hour.",
+            "The decision of the judges shall be final and binding.",
+            "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
         "elimination":[
             "The least creative dishes will be eliminated in the first round."
@@ -1548,13 +1565,16 @@
         "teamSize": "",
         "desc": "Participants compete in a fun and fast-paced game of musical chairs, showcasing their agility and reflexes to be the last person remaining seated. Registration: Participants must register in advance as individuals. Each participant will be assigned a specific number for the game. Setup: A number of chairs will be arranged in a circle, with one fewer chair than the number of participants. Music will be played while participants walk around the chairs. Game Format: When the music stops, participants must quickly find a chair to sit in. The player left standing without a chair is eliminated. One chair will be removed after each round, continuing until only one participant remains.",
         "criteria": [
-            "A game moderator will oversee the event, ensuring rules are followed and managing the music."
+            
         ],
         "rule": [
             "Music Control: A designated person will control the music, ensuring it starts and stops at random intervals.",
             "Conduct: Participants must not push or shove others to get a chair. Disruptive behavior will lead to disqualification.",
             "Elimination: Once a participant is eliminated, they must leave the game area quietly to avoid distracting remaining players.",
-            "Final Round: The last two participants will compete for the final chair, with music playing until only one person is left seated."
+            "Final Round: The last two participants will compete for the final chair, with music playing until only one person is left seated.",
+            "The decision of the judges shall be final and binding.",
+            "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding.",
+            "A game moderator will oversee the event, ensuring rules are followed and managing the music."
         ],
         "elimination":[
             "The main objective is to avoid elimination and be the last participant remaining in the game."
@@ -1586,16 +1606,18 @@
             "Content (30%): Clarity, coherence, and engagement of the story.",
             "Language (20%): Grammar, vocabulary, and overall writing style.",
             "Structure (10%): Organization and flow of ideas within the piece.",
-            "A panel of judges with expertise in creative writing and literature will evaluate the submissions based on the scoring criteria."
+            "A panel of judges with expertise in creative writing and literature will evaluate the submissions based on the scoring criteria.",
+            "Length: Participants must adhere to a specified word limit (e.g., 1000-1500 words). Pieces exceeding the limit will be disqualified.",
+            "Formatting: Participants must follow specific formatting guidelines (e.g., font type, size, spacing) provided at the beginning of the event.",
+            "Conduct: Participants are expected to maintain professionalism. Disruptive behavior during the writing period will not be tolerated.",
+            "The decision of the judges shall be final and binding.",
+            "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
         "rule": [
             "Participants will be given a topic 10 minutes before the event.",
             "Time limit: 45 minutes, word limit: 600-800 words.",
             "Plagiarism will lead to disqualification.",
-            "Originality: All submitted works must be original. Plagiarized pieces will lead to disqualification.",
-            "Length: Participants must adhere to a specified word limit (e.g., 1000-1500 words). Pieces exceeding the limit will be disqualified.",
-            "Formatting: Participants must follow specific formatting guidelines (e.g., font type, size, spacing) provided at the beginning of the event.",
-            "Conduct: Participants are expected to maintain professionalism. Disruptive behavior during the writing period will not be tolerated."
+            "Originality: All submitted works must be original. Plagiarized pieces will lead to disqualification."
         ],
         "elimination":[
             
@@ -1632,7 +1654,9 @@
             "Shooting Order: Participants will take turns shooting. The order will be predetermined and communicated before the competition starts.",
             "Time Limit: Participants may have a time limit for making their shots from each spot (e.g., 1 minute for all shots from a single spot).",
             "Conduct: Participants are expected to maintain sportsmanship and respect toward others. Disruptive behavior will not be tolerated.",
-            "Judging: Judges will oversee the event, ensuring that rules are followed and that scores are accurately recorded."
+            "Judging: Judges will oversee the event, ensuring that rules are followed and that scores are accurately recorded.",
+            "The decision of the judges shall be final and binding.",
+            "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
         "elimination":[
             
@@ -1670,6 +1694,8 @@
         "rule": [
             "Maximum reel length: 1 minute.",
             "Participants must shoot on the event day.",
+            "The decision of the judges shall be final and binding.",
+            "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding.",
             "Originality: All submitted reels must be original content. Plagiarized or previously published works will lead to disqualification.",
             "Content Guidelines: Reels must adhere to the provided theme and be appropriate for all audiences. Offensive or inappropriate content will not be tolerated.",
             "Technical Requirements: Reels should be submitted in a specified format (e.g., MP4) and resolution. Additional technical guidelines may be provided.",
