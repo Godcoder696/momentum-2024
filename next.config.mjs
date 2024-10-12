@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
 
-export default nextConfig;
-nextConfig = {
+const nextConfig = {
     async headers() {
         return [
             {
@@ -19,4 +17,5 @@ nextConfig = {
     }
 }
 
+export default nextConfig;
 module.exports = nextConfig
