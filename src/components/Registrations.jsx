@@ -1,7 +1,7 @@
 import { useAppContext } from "@/app/context/ContextProvider";
 import React, { useEffect, useState } from "react";
 
-function Registrations() {
+function Registrations({ search }) {
   const { data } = useAppContext();
 
   return (
@@ -27,7 +27,55 @@ function Registrations() {
               // <>{data.allPayments}</>
 
               data.allPayments.map((obj, index) => {
-                return (
+                return (obj.email + "")
+                  .toLowerCase()
+                  .includes(search.toLowerCase()) ||
+                  (obj.college + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.fname + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.lname + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.role + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.gender + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.phone + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.tag + "").toLowerCase().includes(search.toLowerCase()) ||
+                  (obj.year + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.user_verified + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.event_name + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.status + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.amount + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.currency + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.referral + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.team_name + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                  (obj.user_tag + "")
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ? (
                   <tr
                     key={index}
                     className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
@@ -57,6 +105,8 @@ function Registrations() {
                     <td className="px-3 py-2 w-fit">{obj.year}</td>
                     <td className="px-3 py-2 w-fit">{obj.user_tag}</td>
                   </tr>
+                ) : (
+                  <React.Fragment key={index} />
                 );
               })}
           </tbody>

@@ -1,7 +1,7 @@
 import { useAppContext } from '@/app/context/ContextProvider';
 import React from 'react'
 
-function Teams() {
+function Teams({search}) {
   const {data}= useAppContext();
   return (
     <>
@@ -26,10 +26,12 @@ function Teams() {
           <tbody>
             {data &&
               data.teams &&
-              // <>{data.allUsers}</>
-
               data.teams.map((obj, index) => {
                 return (
+                  (
+                    (obj.eventName+"").toLowerCase().includes(search.toLowerCase())|| 
+                    (obj.teamName+"").toLowerCase().includes(search.toLowerCase())
+                  )?
                   <tr
                     key={index}
                     className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
@@ -43,6 +45,8 @@ function Teams() {
                     <td className="px-3 py-2 w-fit">{obj.eventName}</td>
                     <td className="px-3 py-2 w-fit">{obj.teamName}</td>
                   </tr>
+                  :
+                  <React.Fragment key={index}/>
                 );
               })}
           </tbody>

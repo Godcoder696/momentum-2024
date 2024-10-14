@@ -13,6 +13,7 @@ function Dashboard({panel}) {
   const {setData}= useAppContext();
   const [loading, setLoading]= useState(true);
   const [refresh, setRefresh] = useState(false);
+  const [search, setSearch] = useState("");
 
   useEffect(()=>{
     handleRequest();
@@ -63,7 +64,7 @@ function Dashboard({panel}) {
         <hr />
         {/* {
           panel!==0? */}
-          <Options loading={loading} panel={panel} refresh={refresh} setRefresh={setRefresh}/>
+          <Options loading={loading} panel={panel} refresh={refresh} setRefresh={setRefresh} setSearch={setSearch} search={search}/>
           {/* :
           <></>
         } */}
@@ -76,15 +77,15 @@ function Dashboard({panel}) {
           :
           (
             panel==1?
-            <Registrations/>
+            <Registrations search={search}/>
             :
             (
               panel==2?
-              <Teams/>
+              <Teams search={search}/>
               :
               (
                 panel==3?
-                <Users/>
+                <Users search={search}/>
                 :
                 <></>
               )

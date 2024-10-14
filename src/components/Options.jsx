@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 import { MdOutlineFileDownload } from "react-icons/md";
 import exportFromJSON from "export-from-json";
 import { MdRefresh } from "react-icons/md";
-function Options({ loading, panel, refresh, setRefresh }) {
+function Options({ loading, panel, refresh, setRefresh, search, setSearch }) {
   const [inProgress, setInProgress] = useState(loading);
   const { data } = useAppContext();
 
@@ -53,6 +53,10 @@ function Options({ loading, panel, refresh, setRefresh }) {
               type="text"
               className="outline-none px-2 py-3 w-full  text-black"
               placeholder="Enter something to search"
+              onChange={(e) => {
+                setSearch(e.target.value);
+              }}
+              value={search}
             />
           </div>
         )}
