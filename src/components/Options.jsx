@@ -62,15 +62,13 @@ function Options({ loading, panel, refresh, setRefresh, search, setSearch }) {
         )}
         <div className="flex space-x-3 items-center">
           {!loading && panel != 0 ? (
-            <>
-              <button
-                onClick={() => {
-                  generateCSV();
-                }}
-              >
-                <MdOutlineFileDownload size={30} />
-              </button>
-            </>
+            <button
+              onClick={() => {
+                generateCSV();
+              }}
+            >
+              <MdOutlineFileDownload size={30} />
+            </button>
           ) : (
             <></>
           )}
