@@ -3,7 +3,8 @@ import { useEffect, useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineFileDownload } from "react-icons/md";
 import exportFromJSON from "export-from-json";
-function Options({ loading, panel }) {
+import { MdRefresh } from "react-icons/md";
+function Options({ loading, panel, refresh, setRefresh }) {
   const [inProgress, setInProgress] = useState(loading);
   const { data } = useAppContext();
 
@@ -44,27 +45,40 @@ function Options({ loading, panel }) {
   return (
     <>
       <div className="flex items-center justify-between">
-        <div className="flex items-center bg-white space-x-2 px-2 rounded-md w-2/5">
-          <CiSearch size={25} color="black" />
-          <hr className="h-7 w-[1px] bg-black" />
-          <input
-            type="text"
-            className="outline-none px-2 py-3 w-full  text-black"
-            placeholder="Enter something to search"
-          />
-        </div>
+        {panel != 0 && (
+          <div className="flex items-center bg-white space-x-2 px-2 rounded-md w-2/5">
+            <CiSearch size={25} color="black" />
+            <hr className="h-7 w-[1px] bg-black" />
+            <input
+              type="text"
+              className="outline-none px-2 py-3 w-full  text-black"
+              placeholder="Enter something to search"
+            />
+          </div>
+        )}
         <div className="flex space-x-3 items-center">
-          {!loading ? (
-            <button
-              onClick={() => {
-                generateCSV();
-              }}
-              disabled={inProgress}
-            >
-              <MdOutlineFileDownload size={30} />
-            </button>
+          {!loading && panel != 0 ? (
+            <>
+              <button
+                onClick={() => {
+                  generateCSV();
+                }}
+                disabled={inProgress}
+              >
+                <MdOutlineFileDownload size={30} />
+              </button>
+            </>
           ) : (
             <></>
+          )}
+          {!loading && (
+            <button
+              onClick={() => {
+                setRefresh(!refresh);
+              }}
+            >
+              <MdRefresh size={30} />
+            </button>
           )}
         </div>
       </div>

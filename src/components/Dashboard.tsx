@@ -12,10 +12,11 @@ function Dashboard({panel}) {
 
   const {setData}= useAppContext();
   const [loading, setLoading]= useState(true);
+  const [refresh, setRefresh] = useState(false);
 
   useEffect(()=>{
     handleRequest();
-  },[panel])
+  },[panel, refresh])
   async function handleRequest() {
     setLoading(true);
     if(panel==0){
@@ -60,12 +61,12 @@ function Dashboard({panel}) {
       <div className='h-full w-[95%] p-5 text-white space-y-5'>
         <div className='text-3xl'>{heading[panel]}</div>
         <hr />
-        {
-          panel!==0?
-          <Options loading={loading} panel={panel}/>
-          :
+        {/* {
+          panel!==0? */}
+          <Options loading={loading} panel={panel} refresh={refresh} setRefresh={setRefresh}/>
+          {/* :
           <></>
-        }
+        } */}
         {
           panel==0?
           <Overview loading={loading}/>
