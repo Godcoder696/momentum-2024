@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/events/[eventId].ts", "src/lib/methods/mongodb.ts", "src/components/UserProfile.jsx", "src/components/Gateway.jsx", "src/app/profile/page.jsx", "src/mongo/models/User.js", "src/components/EventFormWrapper.jsx", "src/app/context/ContextProvider.jsx", "src/mongo/models/Team.js", "src/mongo/models/Payment.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/events/[eventId].ts", "src/lib/methods/mongodb.ts", "src/components/UserProfile.jsx", "src/components/Gateway.jsx", "src/app/profile/page.jsx", "src/mongo/models/User.js", "src/components/EventFormWrapper.jsx", "src/app/context/ContextProvider.jsx", "src/mongo/models/Team.js", "src/mongo/models/Payment.js", "src/components/Registrations.jsx", "src/components/Options.jsx"],
   "exclude": ["node_modules"]
 }

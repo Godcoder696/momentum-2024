@@ -4,6 +4,7 @@ import UserProfile from "@/components/UserProfile";
 import { useSession } from "next-auth/react";
 import React, { useEffect, useState } from "react";
 import { useAppContext } from "../context/ContextProvider";
+import Link from "next/link";
 
 function Profile() {
   const { data: session } = useSession();
@@ -59,6 +60,19 @@ function Profile() {
           >
             Tickets
           </div>
+          {user && user.role == "admin" ? (
+            <Link href="/admin" className="hidden md:block">
+              <div
+                className={`w-full md:h-10 md:px-6 lg:py-8 px-3 py-2 rounded-md mt-4 flex space-x-4 items-center text-sm md:text-lg cursor-pointer border-[1px] border-[#41454d] ${
+                  +sideBar == 1 ? "bg-[#41454d]" : "hover:bg-[#41454d]"
+                }`}
+              >
+                Admin
+              </div>
+            </Link>
+          ) : (
+            <></>
+          )}
         </div>
       </div>
       <div className="h-min md:h-full w-full md:w-4/6 bg-[#2123279d] p-3 rounded-sm md:p-6 space-y-2 md:space-y-6 overflow-y-scroll">

@@ -126,3 +126,7 @@ body{
 .tc{
     list-style: disc;
 }
+
+.admin{
+    z-index: 70;
+}

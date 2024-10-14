@@ -27,6 +27,7 @@ function SignInButton() {
     });
     const details = await user.json();
     const { data } = details;
+    console.log(data);
     setUser(data);
   }
 

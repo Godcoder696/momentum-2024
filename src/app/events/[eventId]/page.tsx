@@ -6,9 +6,9 @@ import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 
 function Page({params}) {
-  const [proceedToPay, setProceedToPay]= useState(false);
-  const { data: session } = useSession();
-  const router= useRouter();
+    const [proceedToPay, setProceedToPay]= useState(false);
+    const { data: session } = useSession();
+    const router= useRouter();
 
   useEffect(()=>{
     console.log(params.eventId);
