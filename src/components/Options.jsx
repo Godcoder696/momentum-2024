@@ -67,7 +67,6 @@ function Options({ loading, panel, refresh, setRefresh, search, setSearch }) {
                 onClick={() => {
                   generateCSV();
                 }}
-                disabled={inProgress}
               >
                 <MdOutlineFileDownload size={30} />
               </button>
