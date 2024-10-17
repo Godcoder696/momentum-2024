@@ -39,14 +39,7 @@ function Dashboard({panel}) {
 
       const resp= await fetch(
         url,
-        {
-          method: "GET",
-          headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json",
-          },
-          cache: 'no-store'
-        }
+        {cache: 'no-store'},
       );
 
       const data= await resp.json();
