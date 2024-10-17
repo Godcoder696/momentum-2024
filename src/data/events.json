@@ -2019,43 +2019,6 @@
         ]
     },
     {
-        "id": 57,
-        "imgUrl": "/events/58.webp",
-        "type": "Solo",
-        "minSize": "",
-        "maxSize": "",
-        "waLink": "https://chat.whatsapp.com/FNbYFyxderEHl7sc3Z9aLT",
-        "categories": ["Fashion","Entertainment"],
-        "name": "Haute Couture- Intra University Fashion Show",
-        "mainCoordi": "",
-        "coordinators": "Isha Aggarwal",
-        "contact": "9871389860",
-        "dayTime":"",
-        "venue": "",
-        "fee": 450,
-        "amount":"",
-        "teamSize": "Solo",
-        "desc": "",
-        "criteria": [
-            "Talent expertise, Uniqueness, Personality, Crowd Reaction, Overall Impact"
-        ],
-        "rule": [
-            "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification.",
-            "Tracks to be played in the background.",
-            "The final scoring would be based on cumulative score of all the rounds.",
-            "Violation of any of the above rules will lead to heavy penalties.",
-            "The decision of the judges shall be final and binding.",
-            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
-            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
-        ],
-        "elimination":[
-            "The event consists of 2 rounds (Round 1: Ethnic Wear & Round 2: Formal wear) without elimination."
-        ],
-        "TC":[
-            
-        ]
-    },
-    {
         "id": 58,
         "imgUrl": "/events/59.webp",
         "type": "Team",
@@ -2094,83 +2057,7 @@
             
         ]
     },
-    {
-        "id": 59,
-        "imgUrl": "/events/60.webp",
-        "type": "Solo",
-        "minSize": "",
-        "maxSize": "",
-        "waLink": "https://chat.whatsapp.com/FZrvIkDWsXF0hEooFhes9N",
-        "categories": ["Fashion","Entertainment","Creative"],
-        "name": "Mr. and Ms. Fresher’s",
-        "mainCoordi": "",
-        "coordinators": "Isha Aggarwal",
-        "contact": "9871389860",
-        "dayTime":"",
-        "venue": "",
-        "fee": 500,
-        "amount":"",
-        "teamSize": "Solo",
-        "desc": "",
-        "criteria": [
-            "Talent expertise, Uniqueness, Personality, Crowd Reaction, Overall Impact"
-        ],
-        "rule": [
-            "The final scoring would be based on cumulative score of both the rounds.",
-            "The soundtrack should be submitted in the respective google forms shared by the coordinators within the deadline prescribed and to be brought in a pen drive on the day of the performance (in .mp3 format only).",
-            "Any kind of fluid, flame, powders, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage is STRICTLY not allowed.",
-            "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification.",
-            "Violation of any of the above rules will lead to heavy penalties.",
-            "The decision of the judges shall be final and binding.",
-            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
-            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
-        ],
-        "elimination":[
-            
-        ],
-        "TC":[
-            
-        ]
-    },
-    {
-        "id": 60,
-        "imgUrl": "/events/61.webp",
-        "type": "Solo",
-        "minSize": "",
-        "maxSize": "",
-        "waLink": "https://chat.whatsapp.com/HVtSAzagGBRAt5jiiAb7ua",
-        "categories": ["Music","Entertainment"],
-        "name": "Off The Hook – Solo Rap",
-        "mainCoordi": "",
-        "coordinators": "Amisha",
-        "contact": "8448427187",
-        "dayTime":"",
-        "venue": "",
-        "fee": 350,
-        "amount":"",
-        "teamSize": "Solo",
-        "desc": "",
-        "criteria": [
-            "Diction, Clarity of Words, Wit (Creativity, rhyme, etc.), Overall Impact (Attitude, Stage Presence, etc.)"
-        ],
-        "rule": [
-            "Profanity, swears and sexual slangs (at the judge’s discretion) in the rap are not permitted. This may lead to immediately disqualification of the participant.",
-            "The participants are free to play any beat of their choice.",
-            "The language of rap must be only English and/or Hindi.",
-            "The participant is allowed to use puns, double entendres and quips, but any sort of racist, sexist or offensive slurs will lead to immediate disqualification.",
-            "Violation of any of the above rules will lead to heavy penalties.",
-            "The decision of the judges shall be final and binding.",
-            "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
-            "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
-        ],
-        "elimination":[
-            "The event consist of a single round with a maximum time limit of 2 minutes for each performance including set-up if any",
-            "An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
-        ],
-        "TC":[
-            
-        ]
-    },
+    
     {
         "id": 61,
         "imgUrl": "/events/62.webp",
