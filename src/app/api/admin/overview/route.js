@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import getOverview from '../../../../lib/db/methods/getOverview';
 
-export async function GET(){
+export async function POST(){
     try{
         const data= await getOverview()
         return NextResponse.json( data,{status: 200});
