@@ -45,6 +45,7 @@ function Dashboard({panel}) {
             Accept: "application/json",
             "Content-Type": "application/json",
           },
+          cache: 'no-store'
         }
       );
 
