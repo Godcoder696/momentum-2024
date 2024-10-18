@@ -3,6 +3,7 @@ import EventsMarquee from './EventsMarquee'
 import Faqs from './Faqs'
 import Footer from './Footer'
 import LandingPage from './LandingPage'
+import Sponsors from './Sponsors'
 import TopEvents from './TopEvents'
 
 function HomePage() {
@@ -12,7 +13,7 @@ function HomePage() {
       <EventsMarquee/>
       <About/>
       <TopEvents/>
-      {/* <Sponsors/> */}
+      <Sponsors/>
       <Faqs/>
       <Footer/>
     </div>
