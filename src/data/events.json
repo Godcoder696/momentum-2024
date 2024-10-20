@@ -2261,7 +2261,7 @@
         "contact": "8448427187",
         "dayTime": "",
         "venue": "",
-        "closed": false,
+        "closed": true,
         "fee": 350,
         "amount": "",
         "teamSize": "Solo",
