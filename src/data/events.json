@@ -7,13 +7,15 @@
         "minSize": "",
         "maxSize": "",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "waLink": "https://chat.whatsapp.com/ItNIc1A7bhuHwbte99xRS6",
-        "categories": ["Technical"],
+        "categories": [
+            "Technical"
+        ],
         "mainCoordi": "Paras",
         "coordinators": "Himani, Anshika",
         "contact": "9810783403",
-        "dayTime":"Day 1, 12 PM - 1 PM",
+        "dayTime": "Day 1, 12 PM - 1 PM",
         "venue": "RN-136",
         "desc": "Participants compete to achieve the highest typing speed while maintaining accuracy in a series of typing challenges.",
         "criteria": [
@@ -29,7 +31,7 @@
             "Language: The event will be conducted in English, and participants will type in English.",
             "Participant Conduct: Participants are expected to maintain decorum. Disruptive behavior will lead to disqualification."
         ],
-        "elimination":[
+        "elimination": [
             "Top 5 fastest typers qualify for the final round.",
             "Winner is decided based on WPM and accuracy."
         ]
@@ -42,14 +44,17 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/GqS1lFYVNdd0RkNQhtYWwb",
-        "categories": ["Sports","Fun Activities"],
+        "categories": [
+            "Sports",
+            "Fun Activities"
+        ],
         "mainCoordi": "Pakhi",
         "coordinators": "Anam Khan and Jatin Sharma",
         "contact": "9818357711",
-        "dayTime":"Day 1, 12 PM - 2 PM",
+        "dayTime": "Day 1, 12 PM - 2 PM",
         "venue": "Sports Room",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "criteria": [
             "Points-based system.",
@@ -60,7 +65,7 @@
             "No external equipment allowed.",
             "Standard carrom rules apply."
         ],
-        "elimination":[
+        "elimination": [
             "Knockout rounds.",
             "Winners proceed to the next round, followed by semi final and then finals."
         ]
@@ -72,15 +77,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/GZIImwLGtYkGEDvW6tLHlQ",
-        "categories": ["E-Gaming","Fun Activities"],
+        "categories": [
+            "E-Gaming",
+            "Fun Activities"
+        ],
         "name": "Among Us Intrigue (Among Us)",
         "mainCoordi": "Yuvraj",
         "coordinators": "Anvi, Muskan",
         "contact": "7042147175",
-        "dayTime":"Day 1, 12 PM - 2 PM",
+        "dayTime": "Day 1, 12 PM - 2 PM",
         "venue": "N201",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "criteria": [
             "Based on the survival and tasks completed for crew members.",
@@ -91,7 +99,7 @@
             "Cheating or using external tools will result in an immediate ban.",
             "Professional conduct is expected during all rounds."
         ],
-        "elimination":[
+        "elimination": [
             "Players eliminated from each round based on gameplay results."
         ]
     },
@@ -102,15 +110,17 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/BfgJjwQL4LQ8KTNLOdjDbi",
-        "categories": ["E-Gaming"],
+        "categories": [
+            "E-Gaming"
+        ],
         "name": "BGMI Lone Survivor",
         "mainCoordi": "Shridhar",
         "coordinators": "Amandeep, Cheshna Mehra",
         "contact": "9971355350",
-        "dayTime":"Day 1, 12 PM - 2:30 PM",
+        "dayTime": "Day 1, 12 PM - 2:30 PM",
         "venue": "N208",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "criteria": [
             "Based on individual performance and kills.",
@@ -122,7 +132,7 @@
             "Cheating (including third-party software) leads to immediate disqualification.",
             "Players must record POV as proof for fairness."
         ],
-        "elimination":[
+        "elimination": [
             "The player with the most kills wins.",
             "Tiebreaker based on survival time."
         ]
@@ -134,15 +144,18 @@
         "minSize": 2,
         "maxSize": 4,
         "waLink": "https://chat.whatsapp.com/KrfzT4lZwkE1rnRIkBUlyG",
-        "categories": ["Non Technical","Finance"],
+        "categories": [
+            "Non Technical",
+            "Finance"
+        ],
         "name": "BizWhiz Ideathon",
         "mainCoordi": "Kavya",
         "coordinators": "Soumaya",
         "contact": "8595839182",
-        "dayTime":"Day 1, 12 PM - 2:30 PM",
+        "dayTime": "Day 1, 12 PM - 2:30 PM",
         "venue": "N209",
         "fee": 200,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "criteria": [
             "Originality, feasibility, scalability, and market potential of the business plan.",
@@ -153,7 +166,7 @@
             "No external aids (consultants, pre-made templates).",
             "Each team gets 10 minutes for presentation and 5 minutes for Q&A."
         ],
-        "elimination":[
+        "elimination": [
             "Winner based on panel's scoring."
         ]
     },
@@ -164,15 +177,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/DRul5pqB40nKreBOO7GEs4",
-        "categories": ["Non Technical","Fun Activities"],
+        "categories": [
+            "Non Technical",
+            "Fun Activities"
+        ],
         "name": "Eco-Creative Craft (Best Out of Waste)",
         "mainCoordi": "Ishika",
         "coordinators": "Niket Khatana and Prateek Dangi",
         "contact": "8595394240",
-        "dayTime":"Day 1, 12:30 PM - 1:30 PM",
+        "dayTime": "Day 1, 12:30 PM - 1:30 PM",
         "venue": "N302",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "criteria": [
             "Creativity and use of waste materials.",
@@ -185,7 +201,7 @@
             "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding.",
             "Registered participants have to bring their own waste materials"
         ],
-        "elimination":[
+        "elimination": [
             "Single round competition.",
             "Top 3 crafts awarded."
         ]
@@ -197,23 +213,27 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/BZezdSdvANJ8c7ETCjnZGa",
-        "categories": ["Non Technical","Fun Activities","Creative"],
+        "categories": [
+            "Non Technical",
+            "Fun Activities",
+            "Creative"
+        ],
         "name": "Star Search (Talent Hunt)",
         "mainCoordi": "Pakhi",
         "coordinators": "Jyoti, Rao Divyansh",
         "contact": "9818357711",
-        "dayTime":"Day 1, 1 PM - 2 PM",
+        "dayTime": "Day 1, 1 PM - 2 PM",
         "venue": "RN-222",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "criteria": [
-           "Creativity (30%): Originality and uniqueness of the performance.",
-           "Skill (30%): Mastery of the talent showcased.",
-           "Presentation (20%): Overall stage presence, confidence, and audience engagement.",
-           "Technical Execution (20%): Quality of performance, including voice clarity, dance technique, etc.",
-           "Audience Voting: Audience members may cast votes for their favorite performances during the final showcase. Votes will contribute to the overall score but not exceed the judges' scores.",
-           "A panel of 3-5 judges with expertise in various talents will evaluate performances based on the scoring criteria."
+            "Creativity (30%): Originality and uniqueness of the performance.",
+            "Skill (30%): Mastery of the talent showcased.",
+            "Presentation (20%): Overall stage presence, confidence, and audience engagement.",
+            "Technical Execution (20%): Quality of performance, including voice clarity, dance technique, etc.",
+            "Audience Voting: Audience members may cast votes for their favorite performances during the final showcase. Votes will contribute to the overall score but not exceed the judges' scores.",
+            "A panel of 3-5 judges with expertise in various talents will evaluate performances based on the scoring criteria."
         ],
         "rule": [
             "Performance Time: Each participant is allowed solo or a maximum of 5 minutes for their performance. Timing will be strictly enforced.",
@@ -222,9 +242,7 @@
             "Technical Setup: Sound and lighting equipment will be provided. Participants are encouraged to do a brief soundcheck prior to their performance.",
             "Conduct: Participants are expected to maintain professionalism. Disruptive behavior or unsportsmanlike conduct will lead to disqualification."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 7,
@@ -233,32 +251,32 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/LQPxIvrjSmeBLacc1lBbkG",
-        "categories": ["Sports"],
+        "categories": [
+            "Sports"
+        ],
         "name": "Push-Up Endurance (Push Up Competition)",
         "mainCoordi": "Shridhar ",
         "coordinators": "Pratyush, Lokesh",
         "contact": "9971355350",
-        "dayTime":"Day 1, 1 PM - 2 PM",
+        "dayTime": "Day 1, 1 PM - 2 PM",
         "venue": "Incubation Center",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "criteria": [
-           "Total Push-Ups: The winner will be determined by the total number of correctly executed push-ups completed within the 2-minute time frame.",
-           "Tiebreaker: In case of a tie, a sudden-death round will be held where tied participants will perform as many push-ups as possible until one participant fails to meet the proper form or cannot continue.",
-           "Judges will oversee the competition to ensure adherence to rules and proper counting of push-ups.",
-           "Judges have the final authority to determine the validity of each push-up and to disqualify participants as necessary."
+            "Total Push-Ups: The winner will be determined by the total number of correctly executed push-ups completed within the 2-minute time frame.",
+            "Tiebreaker: In case of a tie, a sudden-death round will be held where tied participants will perform as many push-ups as possible until one participant fails to meet the proper form or cannot continue.",
+            "Judges will oversee the competition to ensure adherence to rules and proper counting of push-ups.",
+            "Judges have the final authority to determine the validity of each push-up and to disqualify participants as necessary."
         ],
         "rule": [
             "Starting Position: Participants must begin in a plank position, with hands shoulder-width apart and body in a straight line from head to heels.",
-           "Proper Form: A push-up is counted when the participant lowers their chest to the ground and returns to the starting position without sagging the hips or arching the back. Participants must maintain proper form throughout the duration. Any deviation from proper form will result in disqualification of that push-up.",
-           "Time Limit: Each participant has 2 minutes to complete as many push-ups as possible. Time starts when the judge signals the beginning.",
-           "Resting: Participants may rest in the plank position but must maintain the plank form. If they drop to their knees or sit, they will be disqualified from the count.",
-           "Disqualification: Any participant found cheating or using improper form will be disqualified from the event."
+            "Proper Form: A push-up is counted when the participant lowers their chest to the ground and returns to the starting position without sagging the hips or arching the back. Participants must maintain proper form throughout the duration. Any deviation from proper form will result in disqualification of that push-up.",
+            "Time Limit: Each participant has 2 minutes to complete as many push-ups as possible. Time starts when the judge signals the beginning.",
+            "Resting: Participants may rest in the plank position but must maintain the plank form. If they drop to their knees or sit, they will be disqualified from the count.",
+            "Disqualification: Any participant found cheating or using improper form will be disqualified from the event."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 8,
@@ -267,23 +285,27 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/CitvEyZQ4JQ6rgesMgxbNT",
-        "categories": ["Non Technical","Creative","Fun Activities"],
+        "categories": [
+            "Non Technical",
+            "Creative",
+            "Fun Activities"
+        ],
         "name": "Verses Unbound (Shayari Event)",
         "mainCoordi": "Ishika",
         "coordinators": "Jessica, Ananya",
         "contact": "8595394240",
-        "dayTime":"Day 1, 1 PM - 2 PM",
+        "dayTime": "Day 1, 1 PM - 2 PM",
         "venue": "N204",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Topic Announcement: A specific topic will be announced at the start of the event. Participants will have a short time (e.g., 10 minutes) to prepare their Shayari based on this topic. Each participant is allotted a maximum of 3 minutes for their performance. Participants will recite their Shayari in front of a panel of judges and an audience.",
         "criteria": [
-           "After all performances, judges will evaluate each participant based on set criteria, and winners will be announced.",
-           "Creativity (30%): Originality and uniqueness of the Shayari.",
-           "Delivery (30%): Clarity, emotion, and expressiveness during recitation.",
-           "Connection (20%): Ability to engage and resonate with the audience.",
-           "Technical Quality (20%): Use of language, rhythm, and adherence to poetic structure.",
-           "A panel of 3-5 judges with expertise in poetry will evaluate performances based on the scoring criteria."
+            "After all performances, judges will evaluate each participant based on set criteria, and winners will be announced.",
+            "Creativity (30%): Originality and uniqueness of the Shayari.",
+            "Delivery (30%): Clarity, emotion, and expressiveness during recitation.",
+            "Connection (20%): Ability to engage and resonate with the audience.",
+            "Technical Quality (20%): Use of language, rhythm, and adherence to poetic structure.",
+            "A panel of 3-5 judges with expertise in poetry will evaluate performances based on the scoring criteria."
         ],
         "rule": [
             "Performance Time: Each participant has a strict time limit of 3 minutes. Timing will be monitored, and any participant exceeding this limit will be stopped.",
@@ -292,9 +314,7 @@
             "Props and Aids: Participants may use minimal props, but no visual aids or written materials are allowed during the performance.",
             "Conduct: Participants are expected to maintain professionalism. Disruptive behavior during other participants’ performances will not be tolerated."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 9,
@@ -303,22 +323,26 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/ErFw4WABVKs38OfDm5TNhX",
-        "categories": ["Non Technical","Creative","Fun Activities"],
+        "categories": [
+            "Non Technical",
+            "Creative",
+            "Fun Activities"
+        ],
         "name": "Artistry Arena (Art Competition)",
         "mainCoordi": "Pakhi",
         "coordinators": "Divigya, Hitanshu",
         "contact": "9818357711",
-        "dayTime":"Day 1, 1 PM - 2 PM",
+        "dayTime": "Day 1, 1 PM - 2 PM",
         "venue": "RN-102",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Requirements: Participants are required to bring their own materials, including canvases, paints, brushes, or other tools. A list of allowed materials will be provided upon registration.Competition Format: The competition will last for 1 hour. Participants will create their artwork based on a theme announced at the start of the event. Submission: Completed artworks must be submitted at the end of the time limit for evaluation.",
         "criteria": [
-           "Creativity (30%): Originality and uniqueness of the artwork.",
-           "Technique (30%): Mastery of the chosen medium and skill in execution.",
-           "Theme Relevance (20%): How well the artwork adheres to the announced theme.",
-           "Presentation (20%): Overall aesthetics, including composition and finishing.",
-           "A panel of 3-5 judges with expertise in art will evaluate the submissions based on the scoring criteria."
+            "Creativity (30%): Originality and uniqueness of the artwork.",
+            "Technique (30%): Mastery of the chosen medium and skill in execution.",
+            "Theme Relevance (20%): How well the artwork adheres to the announced theme.",
+            "Presentation (20%): Overall aesthetics, including composition and finishing.",
+            "A panel of 3-5 judges with expertise in art will evaluate the submissions based on the scoring criteria."
         ],
         "rule": [
             "Theme: The theme for the artwork will be announced at the beginning of the event. All entries must relate to this theme.",
@@ -328,9 +352,7 @@
             "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding.",
             "A panel of 3-5 judges with expertise in art will evaluate the submissions based on the scoring criteria."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 10,
@@ -339,22 +361,26 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/BnTa81quizj2KViVGxRlKe",
-        "categories": ["Non Technical","Fun Activities","Creative"],
+        "categories": [
+            "Non Technical",
+            "Fun Activities",
+            "Creative"
+        ],
         "name": "Rangoli Radiance - Rangoli Making Competition",
         "mainCoordi": "Ishika",
         "coordinators": "Kanika, Gaurika",
         "contact": "8595394240",
-        "dayTime":"Day 1, 1:30 PM - 2:30 PM",
+        "dayTime": "Day 1, 1:30 PM - 2:30 PM",
         "venue": "Waiting Area",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Registration: Participants must register in advance, either individually or in teams. Each team can have up to 3 members. Requirement: Participants should bring their own materials for creating rangoli, including colored powders, flowers, and any additional decorative elements. A list of allowed materials will be provided upon registration. Competition Format: The competition will last for 1 hours. Participants will create their rangoli designs on designated spaces marked on the ground. Submission: Completed rangoli designs will be submitted for evaluation at the end of the time limit.",
         "criteria": [
-           "Creativity (30%): Originality and uniqueness of the rangoli design.",
-           "Technique (30%): Skill in execution, including detail and precision.",
-           "Theme Relevance (20%): How well the rangoli adheres to the announced theme.",
-           "Presentation (20%): Overall aesthetics, including color harmony and finishing touches.",
-           "A panel of 3-5 judges with expertise in art and design will evaluate the submissions based on the scoring criteria."
+            "Creativity (30%): Originality and uniqueness of the rangoli design.",
+            "Technique (30%): Skill in execution, including detail and precision.",
+            "Theme Relevance (20%): How well the rangoli adheres to the announced theme.",
+            "Presentation (20%): Overall aesthetics, including color harmony and finishing touches.",
+            "A panel of 3-5 judges with expertise in art and design will evaluate the submissions based on the scoring criteria."
         ],
         "rule": [
             "Theme: A specific theme will be announced at the beginning of the event. All rangoli designs must adhere to this theme.",
@@ -363,9 +389,7 @@
             "The decision of the judges shall be final and binding.",
             "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 11,
@@ -374,21 +398,24 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/BQ5ay1Q9QGyD7a4vpLW2HL",
-        "categories": ["Non Technical","Finance"],
+        "categories": [
+            "Non Technical",
+            "Finance"
+        ],
         "name": "Stock Smarts - Mock Stock",
         "mainCoordi": "Jatin",
         "coordinators": "Rudra, Siya",
         "contact": "9315431144",
-        "dayTime":"Day 1, 1:30 PM - 2:30 PM",
+        "dayTime": "Day 1, 1:30 PM - 2:30 PM",
         "venue": "RN-117",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Participants engage in a simulated stock trading environment to demonstrate their understanding of the stock market, investment strategies, and decision-making skills. Participants must register in advance as individuals or in teams (up to 3 members per team). Participants will be provided with a virtual portfolio containing a set amount of virtual currency (e.g., $100,000). The trading event will last for a specified period (e.g., 1 hours). Participants will make buy and sell decisions based on real-time market data provided during the event. At the end of the trading period, participants will submit their final portfolios for evaluation.",
         "criteria": [
-           "Portfolio Value: The primary scoring criterion will be the final value of each participant’s or team’s portfolio at the end of the trading period.",
-           "Investment Strategy: Judges may also consider the strategy employed by participants, including diversification and risk management.",
-           "Decision-Making: The effectiveness of buy and sell decisions will be evaluated based on the participants’ ability to adapt to market changes.",
-           "A panel of judges with expertise in finance and trading will evaluate participants based on the scoring criteria."
+            "Portfolio Value: The primary scoring criterion will be the final value of each participant’s or team’s portfolio at the end of the trading period.",
+            "Investment Strategy: Judges may also consider the strategy employed by participants, including diversification and risk management.",
+            "Decision-Making: The effectiveness of buy and sell decisions will be evaluated based on the participants’ ability to adapt to market changes.",
+            "A panel of judges with expertise in finance and trading will evaluate participants based on the scoring criteria."
         ],
         "rule": [
             "Trading Limitations: Participants may trade stocks, bonds, and commodities as specified in the event guidelines. Certain high-risk options may be restricted.",
@@ -396,9 +423,7 @@
             "Team Collaboration: Teams may discuss strategies but must ensure that all trading decisions are made collectively.",
             "Conduct: Participants are expected to maintain professionalism and sportsmanship throughout the event. Disruptive behavior will not be tolerated."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 12,
@@ -407,20 +432,23 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/K6oRiNV3Ezg6Q98939tOjC",
-        "categories": ["Technical","Quizzing"],
+        "categories": [
+            "Technical",
+            "Quizzing"
+        ],
         "name": "Tech Trivia Tournament - Tech Quiz",
         "mainCoordi": "Nirjhar",
         "coordinators": "Himani, Anshika",
         "contact": "9311097076",
-        "dayTime":"Day 1, 2:00 PM - 3:00 PM",
+        "dayTime": "Day 1, 2:00 PM - 3:00 PM",
         "venue": "RN-209",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "teamSize": " 2-3 members",
         "criteria": [
-           "Accuracy of answers",
-           "Speed in responding"
+            "Accuracy of answers",
+            "Speed in responding"
         ],
         "rule": [
             "The quiz will consist of multiple-choice, short-answer, and true/false questions.",
@@ -428,7 +456,7 @@
             "In case of cheating, the participant will be disqualified",
             "Any form of cheating will lead to immediate disqualification."
         ],
-        "elimination":[
+        "elimination": [
             "Teams scoring below the median will be eliminated in each round."
         ]
     },
@@ -439,23 +467,26 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/GE9QSRysuWEAsGWIbowzmH",
-        "categories": ["Non Technical","Literary"],
+        "categories": [
+            "Non Technical",
+            "Literary"
+        ],
         "name": "Debate Duel - Debate Competition",
         "mainCoordi": "Kavya",
         "coordinators": "Khushi Sharma, Pawni Kaushik",
         "contact": "8595839182",
-        "dayTime":"Day 1, 2:00 PM - 3:00 PM",
+        "dayTime": "Day 1, 2:00 PM - 3:00 PM",
         "venue": "N304",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Participants engage in a structured debate format to articulate their viewpoints on a given topic, aiming to persuade the judges and audience with their arguments and rebuttals. Participants must register in advance as individuals or in teams (up to 3 members per team). A specific debate topic will be announced at the beginning of the event. Participants will be assigned either the 'pro' or 'con' position.  Participants will have a limited time (e.g., 10-15 minutes) to prepare their arguments before the debate begins. Each debate will consist of multiple rounds, typically including opening statements, rebuttals, and closing arguments. Time limits will be enforced for each segment (e.g., 3 minutes for opening statements, 2 minutes for rebuttals). Judges will evaluate the debates based on the established criteria, and winners will be announced. ",
         "teamSize": " upto 3 members",
         "criteria": [
-           "Argument Quality (40%): Clarity, logic, and persuasiveness of arguments presented.",
-           "Rebuttal Effectiveness (30%): Ability to counter opposing arguments effectively.",
-           "Delivery (20%): Presentation style, confidence, and engagement with the audience.",
-           "Research and Evidence (10%): Use of factual data, examples, and logical reasoning to support arguments.",
-           "A panel of judges with expertise in debate will evaluate performances based on the scoring criteria."
+            "Argument Quality (40%): Clarity, logic, and persuasiveness of arguments presented.",
+            "Rebuttal Effectiveness (30%): Ability to counter opposing arguments effectively.",
+            "Delivery (20%): Presentation style, confidence, and engagement with the audience.",
+            "Research and Evidence (10%): Use of factual data, examples, and logical reasoning to support arguments.",
+            "A panel of judges with expertise in debate will evaluate performances based on the scoring criteria."
         ],
         "rule": [
             "Conduct: Participants are expected to maintain decorum and respect each other's viewpoints. Disruptive behavior will not be tolerated.",
@@ -463,9 +494,7 @@
             "Respectful Discourse: Personal attacks or disrespectful comments towards opponents will lead to disqualification.",
             "Time Management: Participants must adhere to the time limits for each segment. Judges will signal when time is nearly up."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 14,
@@ -474,23 +503,27 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/IEGQWGWhFlVBm45OztWadU",
-        "categories": ["Non Technical","Literary","Creative"],
+        "categories": [
+            "Non Technical",
+            "Literary",
+            "Creative"
+        ],
         "name": "Story Blitz - One-Minute Storytelling",
         "mainCoordi": "Jatin",
         "coordinators": "Hetal Kalra and Ravish",
         "contact": "9315431144",
-        "dayTime":"Day 1, 2:00 PM - 3:00 PM",
+        "dayTime": "Day 1, 2:00 PM - 3:00 PM",
         "venue": "RN-136",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Participants share their original stories in a concise format, aiming to engage the audience and judges within a one-minute timeframe. Participants must register in advance. Each participant will be assigned a specific time slot for their performance. A theme or prompt may be provided at the start of the event to inspire storytelling. Participants will have a short time (e.g., 5 minutes) to prepare. Each participant will have exactly one minute to tell their story in front of the audience and judges. After all performances, judges will evaluate each participant based on the set criteria, and winners will be announced. ",
         "teamSize": "",
         "criteria": [
-           "Creativity (30%): Originality and uniqueness of the story.",
-           "Engagement (30%): Ability to captivate the audience and maintain interest throughout the performance.",
-           "Clarity (20%): Coherence and clarity in storytelling, including structure and flow.",
-           "Delivery (20%): Presentation style, including voice modulation, pacing, and expressiveness.",
-           "A panel of judges with experience in storytelling or literature will evaluate performances based on the scoring criteria."
+            "Creativity (30%): Originality and uniqueness of the story.",
+            "Engagement (30%): Ability to captivate the audience and maintain interest throughout the performance.",
+            "Clarity (20%): Coherence and clarity in storytelling, including structure and flow.",
+            "Delivery (20%): Presentation style, including voice modulation, pacing, and expressiveness.",
+            "A panel of judges with experience in storytelling or literature will evaluate performances based on the scoring criteria."
         ],
         "rule": [
             "Time Limit: Each participant has a strict time limit of one minute. Timing will be monitored, and any participant exceeding this limit will be stopped.",
@@ -499,9 +532,7 @@
             "Props and Aids: No props or visual aids are allowed during the storytelling. Participants should rely solely on their narrative skills.",
             "Conduct: Participants are expected to maintain professionalism. Disruptive behavior during other participants’ performances will not be tolerated."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 15,
@@ -510,21 +541,24 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/CA7j3tfS9h8Kl6Bc0FZWIX",
-        "categories": ["Sports","Fun Activities"],
+        "categories": [
+            "Sports",
+            "Fun Activities"
+        ],
         "name": "Ping Pong Palooza - Table Tennis Competition",
         "mainCoordi": "Nirjhar",
         "coordinators": "Ayush, Aaradhye Agarwal",
         "contact": "9311097076",
-        "dayTime":"Day 1, 2:30 PM - 4:30 PM",
+        "dayTime": "Day 1, 2:30 PM - 4:30 PM",
         "venue": "Sports Room",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Participants compete in a table tennis tournament to showcase their skills and strategy, aiming to win matches and ultimately be crowned the champion. Participants must register in advance as individuals or in teams (if doubles are allowed). The competition will follow a knockout format, with each match played as the best of three games. Each game will be played to 11 points, and players must win by at least 2 points. A brief warm-up period will be provided before each match. Winners will advance to the next round until a champion is determined.",
         "teamSize": "",
         "criteria": [
-           "Match Wins: The primary criterion for advancing in the tournament is the number of matches won.",
-           "Performance Evaluation: While there are no formal scoring criteria beyond match wins, judges may observe performance quality and sportsmanship throughout the event.",
-           "A referee will oversee the matches, ensure adherence to rules, and resolve any disputes."
+            "Match Wins: The primary criterion for advancing in the tournament is the number of matches won.",
+            "Performance Evaluation: While there are no formal scoring criteria beyond match wins, judges may observe performance quality and sportsmanship throughout the event.",
+            "A referee will oversee the matches, ensure adherence to rules, and resolve any disputes."
         ],
         "rule": [
             "Equipment: Players must bring their own paddles. Balls and tables will be provided by the organizers.",
@@ -533,9 +567,7 @@
             "Conduct: Players are expected to maintain sportsmanship. Disruptive behavior, unsportsmanlike conduct, or cheating will lead to disqualification.",
             "Disputes: Any disputes regarding points or rules must be raised immediately to the umpire, whose decision will be final."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 16,
@@ -544,24 +576,27 @@
         "minSize": "4",
         "maxSize": "4",
         "waLink": "https://chat.whatsapp.com/JtEKGOLHIhf2Wz7MaGWzOu",
-        "categories": ["E-Gaming","Fun Activities"],
+        "categories": [
+            "E-Gaming",
+            "Fun Activities"
+        ],
         "name": "Free Fire Frenzy - Free Fire Squad Battle",
         "mainCoordi": "Priyanshu",
         "coordinators": "Raghav, Keshav",
         "contact": "9560900386",
-        "dayTime":"Day 1, 3:00 PM - 4:30 PM",
+        "dayTime": "Day 1, 3:00 PM - 4:30 PM",
         "venue": "N209",
         "fee": 200,
-        "amount":"",
+        "amount": "",
         "desc": "Teams compete in a battle royale format in the game Free Fire, aiming to be the last squad standing while demonstrating teamwork and strategy. Teams must register in advance, with each team consisting of up to 4 players. Teams will be assigned specific match times. Players must ensure their devices and accounts are ready and updated prior to the event. Each match will be played in a standard squad format. The winning team will be the last squad remaining alive in the match. Teams will earn points based on their performance in each match.",
         "teamSize": "",
         "criteria": [
-           "Match Wins: Teams earn 10 points for each match win.",
-           "Eliminations: Teams earn 1 point for each enemy player eliminated.",
-           "Placement Points: Additional points may be awarded based on final placements: 2nd Place: 5 points, 3rd Place: 3 points, 4th Place and lower: 1 point",
-           "Total Points: The team with the highest total points at the end of all matches will be declared the winner.",
-           "A referee or event organizer will oversee the matches, ensuring adherence to rules and resolving any disputes.",
-           "Match results will be tracked and tallied after each round."
+            "Match Wins: Teams earn 10 points for each match win.",
+            "Eliminations: Teams earn 1 point for each enemy player eliminated.",
+            "Placement Points: Additional points may be awarded based on final placements: 2nd Place: 5 points, 3rd Place: 3 points, 4th Place and lower: 1 point",
+            "Total Points: The team with the highest total points at the end of all matches will be declared the winner.",
+            "A referee or event organizer will oversee the matches, ensuring adherence to rules and resolving any disputes.",
+            "Match results will be tracked and tallied after each round."
         ],
         "rule": [
             "Gameplay: Teams must play fair and avoid any form of cheating or exploitation of bugs. All players must adhere to the game’s rules and etiquette.",
@@ -569,9 +604,7 @@
             "Disconnections: If a player disconnects, they may rejoin the match only if the match has not concluded. If the match ends, their team must continue with the remaining players.",
             "Conduct: Players are expected to maintain sportsmanship and respect towards other teams. Disruptive behavior, harassment, or unsportsmanlike conduct will lead to disqualification."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 17,
@@ -580,25 +613,28 @@
         "minSize": "2",
         "maxSize": "2",
         "waLink": "https://chat.whatsapp.com/J6vBmtkaXOT5b5vez9618Z",
-        "categories": ["Non Technical","Quizzing"],
+        "categories": [
+            "Non Technical",
+            "Quizzing"
+        ],
         "name": "Brainiac Battle - General Knowledge Quiz",
         "mainCoordi": "Shridhar",
         "coordinators": "Anvi, Muskan",
         "contact": "9971355350",
-        "dayTime":"Day 1, 3:00 PM - 4:00 PM",
+        "dayTime": "Day 1, 3:00 PM - 4:00 PM",
         "venue": "RN-122",
         "fee": 150,
-        "amount":"",
+        "amount": "",
         "desc": "Multiple-choice and short-answer questions covering various topics, including history, science, geography, pop culture, and current events.",
         "teamSize": "2 members per team",
         "criteria": [
-           "Accuracy of answers."
+            "Accuracy of answers."
         ],
         "rule": [
             "No use of electronic devices.",
             "Cheating will result in immediate elimination."
         ],
-        "elimination":[
+        "elimination": [
             "Teams scoring below 50% will be eliminated after each round."
         ]
     },
@@ -609,26 +645,29 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/I8vyuZdK46V4RJQ3pCAzUD",
-        "categories": ["Non Technical","Fun Activities"],
+        "categories": [
+            "Non Technical",
+            "Fun Activities"
+        ],
         "name": "Minute to Win It - 60-Second Showdown",
         "mainCoordi": "Nayan",
         "coordinators": "Aayushi Dhanda, Vanshika",
         "contact": "7889271180",
-        "dayTime":"Day 1, ",
+        "dayTime": "Day 1, ",
         "venue": "N407",
         "fee": 150,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "teamSize": "Indiviual",
         "criteria": [
-           "Task completion speed and accuracy."
+            "Task completion speed and accuracy."
         ],
         "rule": [
             "Each task must be completed within 60 seconds.",
             "Participants are assigned random tasks.",
             "No external help allowed."
         ],
-        "elimination":[
+        "elimination": [
             "Tasks will increase in difficulty; participants failing to complete in time will be eliminated."
         ]
     },
@@ -639,27 +678,29 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/CEkoFmA1hre6txmMroDfHI",
-        "categories": ["Technical"],
+        "categories": [
+            "Technical"
+        ],
         "name": "Code Golf Challenge - Coding Challenge",
         "mainCoordi": "Jatin",
         "coordinators": "Niket Khatana",
         "contact": "9315431144",
-        "dayTime":"Day 1, 3:00 PM - 4:00 PM",
+        "dayTime": "Day 1, 3:00 PM - 4:00 PM",
         "venue": "RN-136",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Participants compete to solve coding problems using the least amount of code possible, demonstrating efficiency and creativity in their programming skills. A set of coding problems will be announced at the start of the event. Each problem will have specific requirements and constraints. Participants will have a fixed amount of time (e.g., 1 hour) to solve as many problems as possible. Each solution will be evaluated based on its code length and correctness.",
         "teamSize": "",
         "criteria": [
-           "Correctness: Points will only be awarded for correct solutions. A correctly solved problem with a longer solution will score lower than an incorrect solution with a shorter code.",
-           "A panel of judges with expertise in programming will evaluate the submitted solutions based on the scoring criteria."
+            "Correctness: Points will only be awarded for correct solutions. A correctly solved problem with a longer solution will score lower than an incorrect solution with a shorter code.",
+            "A panel of judges with expertise in programming will evaluate the submitted solutions based on the scoring criteria."
         ],
         "rule": [
             "Programming Languages: Participants may choose from a predefined list of programming languages (e.g., Python, JavaScript, Ruby, etc.).",
             "Correctness: Solutions must produce the correct output for all given test cases. Incorrect solutions will not be scored.",
             "Conduct: Participants are expected to maintain professionalism and sportsmanship. Cheating or collaboration between teams during the coding period will lead to disqualification."
         ],
-        "elimination":[
+        "elimination": [
             ""
         ]
     },
@@ -670,23 +711,25 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/ELeMpeV7rTBIUYX85FHkT1",
-        "categories": ["Technical"],
+        "categories": [
+            "Technical"
+        ],
         "name": "The Analysis Arena (Case Study Competition)",
         "mainCoordi": "Yuvraj",
         "coordinators": "Shobhit, Chaitanya",
         "contact": "7042147175",
-        "dayTime":"Day 1, 3:30 PM – 4:30 PM",
+        "dayTime": "Day 1, 3:30 PM – 4:30 PM",
         "venue": "RN-102",
         "fee": 150,
-        "amount":"",
+        "amount": "",
         "desc": "Participants analyze a provided case study, develop solutions or recommendations, and present their findings to a panel of judges. Participants must register in advance as individuals or in teams (up to 4 members per team). A case study will be distributed to participants at the start of the event. Participants will have a set time (e.g., 2-3 hours) to analyze the case and prepare their presentations. Each team will present their findings and recommendations to the judges in a specified time (e.g., 10 minutes), followed by a Q&A session (e.g., 5 minutes). Judges will evaluate presentations based on set criteria, and winners will be announced at the end.",
         "teamSize": "2-3",
         "criteria": [
-           "Analysis (40%): Depth and clarity of the analysis presented, including identification of key issues and insights.",
-           "Solutions (30%): Practicality and creativity of the proposed solutions or recommendations.",
-           "Presentation (20%): Clarity, engagement, and professionalism in delivery, including use of visual aids.",
-           "Q&A Performance (10%): Ability to answer questions effectively and demonstrate a deep understanding of the case.",
-           "A panel of judges with expertise in business analysis and the relevant industry will evaluate the presentations based on the scoring criteria."
+            "Analysis (40%): Depth and clarity of the analysis presented, including identification of key issues and insights.",
+            "Solutions (30%): Practicality and creativity of the proposed solutions or recommendations.",
+            "Presentation (20%): Clarity, engagement, and professionalism in delivery, including use of visual aids.",
+            "Q&A Performance (10%): Ability to answer questions effectively and demonstrate a deep understanding of the case.",
+            "A panel of judges with expertise in business analysis and the relevant industry will evaluate the presentations based on the scoring criteria."
         ],
         "rule": [
             "Case Study Focus: The case study will focus on a specific industry or issue. Participants should tailor their analysis and recommendations accordingly.",
@@ -694,7 +737,7 @@
             "Time Management: Teams must adhere to the allotted time for both presentations and Q&A. Judges will signal when time is nearly up.",
             "Conduct: Participants are expected to maintain professionalism and respect during presentations and Q&A sessions. Disruptive behavior will not be tolerated."
         ],
-        "elimination":[
+        "elimination": [
             ""
         ]
     },
@@ -705,21 +748,24 @@
         "minSize": "3",
         "maxSize": "3",
         "waLink": "https://chat.whatsapp.com/J0P43NeLHIRFLXb4lVb1OO",
-        "categories": ["Sports","Fun Activities"],
+        "categories": [
+            "Sports",
+            "Fun Activities"
+        ],
         "name": "3v3 Basketball Tournament",
         "mainCoordi": "Priyanshu",
         "coordinators": "Jatin Sharma and Anam Khan",
         "contact": "9560900386",
-        "dayTime":"Day 1, 3 PM – 4:30 PM",
+        "dayTime": "Day 1, 3 PM – 4:30 PM",
         "venue": "Basketball Court",
         "fee": 150,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "teamSize": "3",
         "criteria": [
-           "The winning team will be determined by points scored.",
-           "Game Wins: The primary criterion for advancing in the tournament is the number of games won.",
-           "Performance Evaluation: While there are no formal scoring criteria beyond game wins, judges may observe the overall teamwork and sportsmanship throughout the event."
+            "The winning team will be determined by points scored.",
+            "Game Wins: The primary criterion for advancing in the tournament is the number of games won.",
+            "Performance Evaluation: While there are no formal scoring criteria beyond game wins, judges may observe the overall teamwork and sportsmanship throughout the event."
         ],
         "rule": [
             "Standard 3v3 basketball rules apply.",
@@ -731,7 +777,7 @@
             "Timeouts: Each team is allowed one timeout per game, lasting up to 30 seconds.",
             "Conduct: Teams are expected to maintain sportsmanship and respect towards opponents and officials. Disruptive behavior will lead to disqualification."
         ],
-        "elimination":[
+        "elimination": [
             "Knockout rounds will be held until a final winner emerges.",
             "Match Format: The tournament will be conducted in a knockout format, with each match played to a specified number of points (e.g., 15 points) or until the time limit is reached (e.g., 10 minutes). Each game will use half-court play.",
             "Warm-Up: Teams will be given a brief warm-up period before their matches.",
@@ -745,26 +791,29 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/JZPgkW8owA4CAaYLT9Wj2h",
-        "categories": ["E-Gaming","Fun Activities"],
+        "categories": [
+            "E-Gaming",
+            "Fun Activities"
+        ],
         "name": "Clash Master Solo (Clash of Clans Solo Competition)",
         "mainCoordi": "Nirjhar",
         "coordinators": "Preyansh, Ishan",
         "contact": "9311097076",
-        "dayTime":"Day 1, 2:30 PM – 3:30 PM",
+        "dayTime": "Day 1, 2:30 PM – 3:30 PM",
         "venue": "N201",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "teamSize": "Indiviual",
         "criteria": [
-           "Highest destruction percentage and stars earned."
+            "Highest destruction percentage and stars earned."
         ],
         "rule": [
             "Each player will have one opportunity to attack an opponent’s base.",
             "Attack time will be capped at 3 minutes.",
             "Participants must use their own devices with pre-registered accounts."
         ],
-        "elimination":[
+        "elimination": [
             "Knockout basis; top performers will proceed to final rounds."
         ]
     },
@@ -775,21 +824,24 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/KSXf1U7lypC82pJ0PTeIuh",
-        "categories": ["Sports","Fun Activities"],
+        "categories": [
+            "Sports",
+            "Fun Activities"
+        ],
         "name": "SkipMania (Skipping Competition)",
         "mainCoordi": "Yuvraj",
         "coordinators": "Lokesh, Pratyush",
         "contact": "7042147175",
-        "dayTime":"Day 1, 4 PM – 4:30 PM",
+        "dayTime": "Day 1, 4 PM – 4:30 PM",
         "venue": "Badminton Court",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Participants compete to showcase their skipping skills, aiming to achieve the highest number of skips in a set time limit while demonstrating technique and style. Participants must register in advance as individuals. Each participant will be assigned a specific time slot for their turn. A brief warm-up session will be provided to prevent injuries and prepare participants for the competition. Each participant will have a set time (e.g., 1 minute) to complete as many skips as possible. Skips will be counted by judges during the performance. Points will be awarded based on the total number of successful skips completed within the time limit.",
         "teamSize": "Indiviual",
         "criteria": [
-           "Total Skips: The primary scoring criterion will be the total number of successful skips completed within the time limit.",
-           "Style Points: Judges may award additional style points for creativity in skipping techniques (e.g., tricks, variations), but these points will not exceed the total number of skips.",
-           "Judges will oversee the competition to ensure adherence to rules and accurate counting of skips."
+            "Total Skips: The primary scoring criterion will be the total number of successful skips completed within the time limit.",
+            "Style Points: Judges may award additional style points for creativity in skipping techniques (e.g., tricks, variations), but these points will not exceed the total number of skips.",
+            "Judges will oversee the competition to ensure adherence to rules and accurate counting of skips."
         ],
         "rule": [
             "Skipping Technique: Participants must use a standard jump rope for the competition. The rope must be of appropriate length. All skips must be performed with proper form; both feet must leave the ground for each skip.",
@@ -798,7 +850,7 @@
             "The decision of the judges shall be final and binding.",
             "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "Missing the rope entirely.",
             "Using any aids or tools other than the skipping rope.",
             "Conducting disruptive behavior during the competition."
@@ -811,23 +863,27 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/ET4BFkmOQdxEAxiVeuf2Lb",
-        "categories": ["Non Technical","Literary","Creative"],
+        "categories": [
+            "Non Technical",
+            "Literary",
+            "Creative"
+        ],
         "name": "Essay Writing Competition",
         "mainCoordi": "Nirjhar",
         "coordinators": "Shristi, Priyanshi",
         "contact": "9311097076",
-        "dayTime":"Day 1, 3:30 PM – 4:30 PM",
+        "dayTime": "Day 1, 3:30 PM – 4:30 PM",
         "venue": "RN-215",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Participants compose original essays on a given topic, showcasing their writing skills, creativity, and critical thinking abilities. Participants must register in advance as individuals. Each participant will be assigned a specific time slot for the essay writing. A specific essay topic will be announced at the start of the event. Participants will have time to prepare and plan their essays. Each participant will have a set time (e.g., 1-2 hours) to write their essay. Essays must be handwritten or typed, depending on the event setup. Completed essays must be submitted by the end of the allotted time for evaluation.",
         "teamSize": "Indiviual",
         "criteria": [
-           "Content (40%): Relevance to the topic, depth of analysis, and clarity of argument.",
-           "Structure (30%): Organization, coherence, and flow of ideas within the essay.",
-           "Language (20%): Use of grammar, vocabulary, and overall writing style.",
-           "Creativity (10%): Originality of thought and creativity in presentation.",
-           "A panel of judges with expertise in writing and literature will evaluate the essays based on the scoring criteria."
+            "Content (40%): Relevance to the topic, depth of analysis, and clarity of argument.",
+            "Structure (30%): Organization, coherence, and flow of ideas within the essay.",
+            "Language (20%): Use of grammar, vocabulary, and overall writing style.",
+            "Creativity (10%): Originality of thought and creativity in presentation.",
+            "A panel of judges with expertise in writing and literature will evaluate the essays based on the scoring criteria."
         ],
         "rule": [
             "Originality: All essays must be original works. Plagiarized essays will result in disqualification.",
@@ -835,9 +891,7 @@
             "Formatting: Participants may be required to follow specific formatting guidelines (e.g., font type, size, spacing). These guidelines will be provided at the start of the event.",
             "Conduct: Participants are expected to maintain professionalism and respect toward others during the writing period. Disruptive behavior will not be tolerated."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 25,
@@ -846,28 +900,31 @@
         "minSize": "4",
         "maxSize": "4",
         "waLink": "https://chat.whatsapp.com/Iu6sX1FJO1LJSj8jsXbeni",
-        "categories": ["E-Gaming","Fun Activities"],
+        "categories": [
+            "E-Gaming",
+            "Fun Activities"
+        ],
         "name": "BGMI Squad Showdown",
         "mainCoordi": "Jatin",
         "coordinators": "Hanshika, Sneha",
         "contact": "9315431144",
-        "dayTime":"Day 2, 10 AM – 12 PM",
+        "dayTime": "Day 2, 10 AM – 12 PM",
         "venue": "N302",
         "fee": 250,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "teamSize": "4",
         "criteria": [
-           "Teams will be judged on total kills and position.",
-           "Match Points: Points for Eliminations: Each elimination earns a specific number of points (e.g., 1 point per kill). Placement Points: Additional points may be awarded based on final placements: 1st Place: 20 points, 2nd Place: 15 points, 3rd Place: 10 points, 4th Place and below: 5 points",
-           "Total Points: The team with the highest total points across all matches will be declared the winner."
+            "Teams will be judged on total kills and position.",
+            "Match Points: Points for Eliminations: Each elimination earns a specific number of points (e.g., 1 point per kill). Placement Points: Additional points may be awarded based on final placements: 1st Place: 20 points, 2nd Place: 15 points, 3rd Place: 10 points, 4th Place and below: 5 points",
+            "Total Points: The team with the highest total points across all matches will be declared the winner."
         ],
         "rule": [
             "Classic match mode, Erangel, Miramar and Sanhok map.",
             "Only one squad can win per match.",
             "Players must have their POV recording throughout the match."
         ],
-        "elimination":[
+        "elimination": [
             "Only the top three teams from the final points table will proceed as winners."
         ]
     },
@@ -878,24 +935,27 @@
         "minSize": "1",
         "maxSize": "4",
         "waLink": "https://chat.whatsapp.com/Dm9EeTjKnLVIdpXLeaT149",
-        "categories": ["Non Technical","Quizzing"],
+        "categories": [
+            "Non Technical",
+            "Quizzing"
+        ],
         "name": "Mystic Trails (Treasure Hunt)",
         "mainCoordi": "Ishika ",
         "coordinators": "Divigya, Hitanshu",
         "contact": "8595394240",
-        "dayTime":"Day 2, 10 AM – 12 PM",
+        "dayTime": "Day 2, 10 AM – 12 PM",
         "venue": "Starting from Nescafe to NCU campus",
         "fee": 200,
-        "amount":"",
+        "amount": "",
         "desc": "Participants work in teams to solve clues and complete challenges to find hidden treasures scattered across the event area, aiming to be the first team to complete the hunt. Registration: Teams must register in advance, with each team consisting of up to 4 members. Kick-Off Meeting: A briefing session will be held to explain the rules, the treasure hunt area, and how clues will be delivered. Clue Distribution: Teams will receive their first clue at the start of the event. Each clue leads to the next location or challenge. Teams must complete challenges or solve riddles to receive subsequent clues. Completion: The first team to find all treasures and return to the starting point wins.",
         "teamSize": "3",
         "criteria": [
-           "The team that completes the hunt first wins.",
-           "Completion Order: The primary criterion for winning is the order in which teams complete the hunt.",
-           "Bonus Points: Additional points may be awarded for completing challenges correctly or within a specific time frame.",
-           "Creativity: Teams may earn extra points for creativity in completing challenges or for teamwork displayed during the event.",
-           "Organizers will monitor the event, verify clue completion, and ensure adherence to rules.",
-           "Results will be tallied based on the order of completion and any bonus points awarded."
+            "The team that completes the hunt first wins.",
+            "Completion Order: The primary criterion for winning is the order in which teams complete the hunt.",
+            "Bonus Points: Additional points may be awarded for completing challenges correctly or within a specific time frame.",
+            "Creativity: Teams may earn extra points for creativity in completing challenges or for teamwork displayed during the event.",
+            "Organizers will monitor the event, verify clue completion, and ensure adherence to rules.",
+            "Results will be tallied based on the order of completion and any bonus points awarded."
         ],
         "rule": [
             "Teams will be provided clues across the campus.",
@@ -905,7 +965,7 @@
             "Area Boundaries: Participants must remain within designated boundaries. Leaving the designated area will result in disqualification.",
             "Conduct: Participants are expected to maintain sportsmanship and respect towards other teams. Disruptive behavior or cheating will lead to disqualification."
         ],
-        "elimination":[
+        "elimination": [
             "Teams unable to solve clues within the time frame will be disqualified."
         ]
     },
@@ -916,25 +976,28 @@
         "minSize": "1",
         "maxSize": "1",
         "waLink": "https://chat.whatsapp.com/E8UCJTnXYxjHJ07ndWiZRy",
-        "categories": ["Sports","Fun Activities"],
+        "categories": [
+            "Sports",
+            "Fun Activities"
+        ],
         "name": "Beach Volleyball (2v2 Volleyball)",
         "mainCoordi": "Priyanshu ",
         "coordinators": "Keshav, Manan Khatri",
         "contact": "9560900386",
-        "dayTime":"Day 2, 10 AM – 12 PM",
+        "dayTime": "Day 2, 10 AM – 12 PM",
         "venue": "Volleyball Court",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "teamSize": "2",
         "criteria": [
-           "Points scored in each set."
+            "Points scored in each set."
         ],
         "rule": [
             "Standard volleyball rules apply.",
             "Each game will consist of 3 sets, first to 21 points."
         ],
-        "elimination":[
+        "elimination": [
             "Knockout tournament."
         ]
     },
@@ -945,27 +1008,31 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/H0xpg7ukBw66Y20XX3wXob",
-        "categories": ["Non Technical","Literary","Creative"],
+        "categories": [
+            "Non Technical",
+            "Literary",
+            "Creative"
+        ],
         "name": "Parley in Parliament (Mock Parliament)",
         "mainCoordi": "Jatin ",
         "coordinators": "Hetal Kalra and Ravish",
         "contact": "9315431144",
-        "dayTime":"Day 2, 10 AM – 11 AM",
+        "dayTime": "Day 2, 10 AM – 11 AM",
         "venue": "N307",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Participants simulate a parliamentary session, engaging in debates, discussions, and decision-making processes to understand the workings of a parliamentary system and enhance their public speaking and critical thinking skills. Registration: Participants must register in advance as individuals or in teams (up to 4 members per team). Topic Announcement: A specific topic or bill will be announced at the beginning of the event. Participants will be assigned roles (e.g.,government, opposition, independent members) related to the topic. Preparation: Participants will have a brief period (e.g., 15-30 minutes) to prepare their arguments and strategies. Mock Session: The mock parliament will be conducted, with each team presenting their viewpoints, followed by debates and voting on the proposed bill or topic.",
         "teamSize": "5",
         "criteria": [
-           "Argument Quality (40%): Clarity, logic, and persuasiveness of the arguments presented.",
-           "Engagement (30%): Ability to engage and respond to opposing viewpoints effectively.",
-           "Delivery (20%): Presentation style, confidence, and engagement with the audience.",
-           "Research and Evidence (10%): Use of factual data and examples to support arguments.",
-           "A panel of judges with expertise in public speaking or politics will evaluate performances based on the scoring criteria.",
-           "Quality of arguments",
-           "Relevance to the topic",
-           "Public speaking skills",
-           "The top team will be determined by cumulative scores from all debates."
+            "Argument Quality (40%): Clarity, logic, and persuasiveness of the arguments presented.",
+            "Engagement (30%): Ability to engage and respond to opposing viewpoints effectively.",
+            "Delivery (20%): Presentation style, confidence, and engagement with the audience.",
+            "Research and Evidence (10%): Use of factual data and examples to support arguments.",
+            "A panel of judges with expertise in public speaking or politics will evaluate performances based on the scoring criteria.",
+            "Quality of arguments",
+            "Relevance to the topic",
+            "Public speaking skills",
+            "The top team will be determined by cumulative scores from all debates."
         ],
         "rule": [
             "Conduct: Participants are expected to maintain professionalism and respect during debates. Personal attacks or disrespectful comments will not be tolerated.",
@@ -975,7 +1042,7 @@
             "The decision of the judges shall be final and binding.",
             "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "The top team will be determined by cumulative scores from all debates."
         ]
     },
@@ -986,26 +1053,29 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/DGPSlfTCFuxBR6ADmwKmVL",
-        "categories": ["Technical","Literary"],
+        "categories": [
+            "Technical",
+            "Literary"
+        ],
         "name": "Tech Talk Battle (Tech Debate)",
         "mainCoordi": "Yuvraj",
         "coordinators": "Amandeep, Cheshna Mehra",
         "contact": "7042147175",
-        "dayTime":"Day 2, 10 AM – 11 AM",
+        "dayTime": "Day 2, 10 AM – 11 AM",
         "venue": "N304",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Participants engage in a structured debate focusing on current technology topics, showcasing their analytical skills, persuasive abilities, and knowledge of the subject matter. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Topic Announcement: A specific tech-related debate topic will be announced at the beginning of the event. Participants will be assigned either the 'pro' or 'con' position regarding the topic.Preparation Time: Participants will have a brief period (e.g., 10-15 minutes) to prepare their arguments and strategies based on their assigned positions. Debate Format: Each debate will consist of opening statements, rebuttals, and closing arguments. Each segment will have a designated time limit (e.g., 3 minutes for opening statements, 2 minutes for rebuttals).",
         "teamSize": "2",
         "criteria": [
-           "Argument Quality (40%): Clarity, logic, and persuasiveness of the arguments presented.",
-           "Rebuttal Effectiveness (30%): Ability to counter opposing arguments effectively and engage with the topic.",
-           "Delivery (20%): Presentation style, confidence, and engagement with the audience.",
-           "Research and Evidence (10%): Use of factual data, examples, and logical reasoning to support arguments.",
-           "A panel of judges with expertise in technology and debate will evaluate performances based on the scoring criteria.",
-           "Clarity of arguments",
-           "Research and facts presented",
-           "Teamwork and rebuttal strength"
+            "Argument Quality (40%): Clarity, logic, and persuasiveness of the arguments presented.",
+            "Rebuttal Effectiveness (30%): Ability to counter opposing arguments effectively and engage with the topic.",
+            "Delivery (20%): Presentation style, confidence, and engagement with the audience.",
+            "Research and Evidence (10%): Use of factual data, examples, and logical reasoning to support arguments.",
+            "A panel of judges with expertise in technology and debate will evaluate performances based on the scoring criteria.",
+            "Clarity of arguments",
+            "Research and facts presented",
+            "Teamwork and rebuttal strength"
         ],
         "rule": [
             "Conduct: Participants are expected to maintain professionalism and respect during debates. Personal attacks or disrespectful comments towards opponents will not be tolerated.",
@@ -1013,7 +1083,7 @@
             "Time Management: Participants must adhere to the time limits for each segment. Judges will signal when time is nearly up.",
             "Disputes: Any disputes regarding rules or points of order must be raised immediately to the debate moderator, whose decision will be final."
         ],
-        "elimination":[
+        "elimination": [
             "Knockout rounds, with the top 2 teams advancing to the finals."
         ]
     },
@@ -1024,15 +1094,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/J2204P7dfLMBpjLG8kR4eK",
-        "categories": ["E-Gaming","Fun Activities"],
+        "categories": [
+            "E-Gaming",
+            "Fun Activities"
+        ],
         "name": "COD Lone Wolf (Solo)",
         "mainCoordi": "Yuvraj",
         "coordinators": "Divyansh, Prince",
         "contact": "7042147175",
-        "dayTime":"Day 2, 11:00 AM - 12:30 PM",
+        "dayTime": "Day 2, 11:00 AM - 12:30 PM",
         "venue": "N201",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "",
         "teamSize": "Solo",
         "criteria": [
@@ -1047,7 +1120,7 @@
             "Participants must bring their own devices and ensure stable internet connectivity.",
             "Any attempt to use external software or cheats will lead to instant disqualification."
         ],
-        "elimination":[
+        "elimination": [
             "Knockout format. Top 50% will proceed to the next round."
         ]
     },
@@ -1058,15 +1131,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/CGKVZWMENSb8vhcZblua7P",
-        "categories": ["Non Technical","Fun Activities"],
+        "categories": [
+            "Non Technical",
+            "Fun Activities"
+        ],
         "name": "Melody Master: Name the Song",
         "mainCoordi": "Pakhi",
         "coordinators": "Jessica, Ananya",
         "contact": "9818357711",
-        "dayTime":"Day 2, 11:00 AM - 12:00 PM",
+        "dayTime": "Day 2, 11:00 AM - 12:00 PM",
         "venue": "RN-117",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Participants compete to identify songs based on short audio clips or clues, showcasing their musical knowledge and quick recall. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Game Format: The event will consist of multiple rounds, each featuring a series of audio clips or clues from various songs across different genres and eras.Each round will have a specific number of songs (e.g., 10 songs) to identify. Timing: Participants will have a limited time (e.g., 30 seconds) to answer each song clue. Scoring: Points will be awarded for each correct song identification. ",
         "teamSize": "",
         "criteria": [
@@ -1081,9 +1157,7 @@
             "No Electronic Devices: Participants are not allowed to use phones or other electronic devices during the competition.",
             "Conduct: Participants are expected to maintain sportsmanship and respect toward other competitors. Disruptive behavior will lead to disqualification."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 32,
@@ -1092,15 +1166,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/JduqYnuSfeR3rYJraEiYS3",
-        "categories": ["Non Technical","Creative"],
+        "categories": [
+            "Non Technical",
+            "Creative"
+        ],
         "name": "Photon Quest: Online Photography Contest",
         "mainCoordi": "Pakhi",
         "coordinators": "Kanika, Gaurika",
         "contact": "9818357711",
-        "dayTime":"Day 2, 11:00 AM - 12:00 PM",
+        "dayTime": "Day 2, 11:00 AM - 12:00 PM",
         "venue": "RN-307",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "desc": "Participants submit their original photographs based on a specific theme, showcasing their creativity, composition skills, and technical proficiency. Registration: Participants must register in advance by providing their name and a brief description of their photographic style. Theme Announcement: A specific theme (e.g., nature, portrait, urban, etc.) will be announced at the start of the contest. Submission Period: Participants will have a set time (e.g., 1-2 weeks) to capture and submit their photographs based on the theme. Submission Format: All entries must be submitted electronically in a specified format (e.g., JPEG, PNG) and adhere to size guidelines.",
         "teamSize": "",
         "criteria": [
@@ -1116,9 +1193,7 @@
             "Submission Limits: Each participant may submit a limited number of entries (e.g., up to 3 photographs).",
             "Conduct: Participants are expected to maintain professionalism and respect towards other competitors. Disruptive behavior will not be tolerated."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 33,
@@ -1127,16 +1202,19 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/HJg5kFmph2LEj8ZXlHGftE",
-        "categories": ["Non Technical","Creative"],
+        "categories": [
+            "Non Technical",
+            "Creative"
+        ],
         "name": "Meme-o-Mania: Meme Battle",
         "mainCoordi": "Nayan",
         "coordinators": "Khushi, Pawni",
         "contact": "7889271180",
-        "dayTime":"Day 2, 12:00 PM - 1:00 PM",
+        "dayTime": "Day 2, 12:00 PM - 1:00 PM",
         "venue": "RN-310",
         "fee": 100,
         "teamSize": "",
-        "amount":"",
+        "amount": "",
         "desc": "Participants create and present original memes based on specific themes or prompts, showcasing their creativity, humor, and understanding of meme culture. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme or prompt will be announced at the start of the event (e.g., current events, pop culture, etc.). Creation Period: Participants will have a set amount of time (e.g., 45 mins) to create their memes using any digital tools or applications. Each participant or team may submit a limited number of memes (e.g., up to 3 memes). Submission: Memes must be submitted electronically in a specified format (e.g., JPEG, PNG) by the end of the creation period.",
         "criteria": [
             "Creativity (40%): Originality and uniqueness of the meme in relation to the theme.",
@@ -1151,9 +1229,7 @@
             "Technical Requirements: Memes should adhere to size guidelines and be submitted in a clear and readable format.",
             "Conduct: Participants are expected to maintain professionalism and respect toward other competitors. Disruptive behavior will not be tolerated."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 34,
@@ -1162,15 +1238,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/DGpKPJnN1lBJN3X6dxEo1x",
-        "categories": ["Non Technical","Fun Activities"],
+        "categories": [
+            "Non Technical",
+            "Fun Activities"
+        ],
         "name": "Bollywood Quiz",
         "mainCoordi": "Kavya",
         "coordinators": "Siya, Rudra",
         "contact": "8595839182",
-        "dayTime":"Day 2, 12:00 PM - 1:00 PM",
+        "dayTime": "Day 2, 12:00 PM - 1:00 PM",
         "venue": "N407",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "Participants compete in a quiz format to test their knowledge of Bollywood films, actors, music, and trivia, aiming to score the highest points. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Quiz Format: The quiz will consist of multiple rounds, including multiple-choice questions, true/false questions, and rapid-fire rounds. Each round will feature a specific number of questions (e.g., 20 questions per round). Timing: Each question will have a time limit (e.g., 30 seconds) for answering. Scoring: Points will be awarded for each correct answer, and the total will be tallied at the end of the event.",
         "criteria": [
@@ -1185,9 +1264,7 @@
             "Use of Devices: No electronic devices or reference materials are allowed during the quiz.",
             "Disputes: Any disputes regarding questions or answers must be raised immediately to the quizmaster, whose decision will be final."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 35,
@@ -1196,15 +1273,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/FXKpw9THQjqGuHNyryij34",
-        "categories": ["Sports","Fun Activities"],
+        "categories": [
+            "Sports",
+            "Fun Activities"
+        ],
         "name": "Cube Champ: Rubik's Cube Solving",
         "mainCoordi": "Paras",
         "coordinators": "Shristi, Priyanshi",
         "contact": "9810783403",
-        "dayTime":"Day 2, 12:00 PM - 1:00 PM",
+        "dayTime": "Day 2, 12:00 PM - 1:00 PM",
         "venue": "Sports Room",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1215,8 +1295,8 @@
             "The event will follow the official World Cube Association (WCA) rules.",
             "Personal cubes are allowed; however, the judge’s decision on the legitimacy of the solve is final."
         ],
-        "elimination":[
-            "Top 3 fastest solvers will compete in the final round."   
+        "elimination": [
+            "Top 3 fastest solvers will compete in the final round."
         ]
     },
     {
@@ -1226,15 +1306,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/DoipNxAgkcvFYBTfvHhavh",
-        "categories": ["E-Gaming","Fun Activities"],
+        "categories": [
+            "E-Gaming",
+            "Fun Activities"
+        ],
         "name": "Battle Blitz: BGMI (WOW Mode)",
         "mainCoordi": "Nirjhar",
         "coordinators": "Anoop, Sushil",
         "contact": "9311097076",
-        "dayTime":"Day 2, 1:00 PM - 2:00 PM",
+        "dayTime": "Day 2, 1:00 PM - 2:00 PM",
         "venue": "N304",
         "fee": 150,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1245,9 +1328,7 @@
             "Participants must bring their own mobile devices and earphones.",
             "Any use of hacks or cheats will result in immediate disqualification."
         ],
-        "elimination":[
-            
-        ]
+        "elimination": []
     },
     {
         "id": 37,
@@ -1256,15 +1337,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/CuJnN6fgHFU3VTOE2fCwIG",
-        "categories": ["E-Gaming","Fun Activities"],
+        "categories": [
+            "E-Gaming",
+            "Fun Activities"
+        ],
         "name": "Clash Royale Rumble",
         "mainCoordi": "Shridhar",
         "coordinators": "Divyansh, Prince",
         "contact": "9971355350",
-        "dayTime":"Day 2, 1:00 PM - 2:30 PM",
+        "dayTime": "Day 2, 1:00 PM - 2:30 PM",
         "venue": "N302",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1275,7 +1359,7 @@
             "Participants must bring their own mobile devices.",
             "Any disruptions caused by device malfunctions are the player's responsibility."
         ],
-        "elimination":[
+        "elimination": [
             "Single elimination bracket until the final."
         ]
     },
@@ -1286,15 +1370,17 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/Dd1dgmFVelqKOyM6BuP3t1",
-        "categories": ["Sports"],
+        "categories": [
+            "Sports"
+        ],
         "name": "Plank Challenge",
         "mainCoordi": "Shridhar",
         "coordinators": "Shobhit, Chaitanya",
         "contact": "9971355350",
-        "dayTime":"Day 2, 1:00 PM - 2:00 PM",
+        "dayTime": "Day 2, 1:00 PM - 2:00 PM",
         "venue": "Incubation Center",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1307,7 +1393,7 @@
             "Time Limits: Participants must hold the plank position for a minimum of 10 seconds to qualify for timing.",
             "Conduct: Participants are expected to maintain sportsmanship and respect toward others. Disruptive behavior will not be tolerated."
         ],
-        "elimination":[
+        "elimination": [
             "No elimination; a one-round competition."
         ]
     },
@@ -1318,15 +1404,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/C1cxTOLmRAP3XbvVRY4cSo",
-        "categories": ["Technical","Entertainment"],
+        "categories": [
+            "Technical",
+            "Entertainment"
+        ],
         "name": "IPL Fantasy Auction",
         "mainCoordi": "Paras",
         "coordinators": "Preyansh, Ishan",
         "contact": "9810783403",
-        "dayTime":"Day 2, 2:00 PM - 3:00 PM",
+        "dayTime": "Day 2, 2:00 PM - 3:00 PM",
         "venue": "N309",
         "fee": 150,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1342,10 +1431,10 @@
             "The credit points will be reduced as a penalty for the teams that are overcoming the disciplinary rules.",
             "The credit points of the selected players by a team will be added to decide the winners."
         ],
-        "elimination":[
+        "elimination": [
             "Teams with the least budget allocation will be eliminated at the end of each round."
         ],
-        "TC":[
+        "TC": [
             "By participating in our tournaments, all participants automatically agree that they vow to respect fellow participants.",
             "It is prohibited to spam or use offensive messages on any of the ongoing events of Momentum & The NorthCap University, and doing so may result in the Organisers taking punitive measures against the person responsible for the same.",
             "The event organizer retains the authority to cancel, reschedule, or postpone any event, especially when its conduct could directly or indirectly impact the overall flow and integrity of the entire fest. This action may be taken in response to factors such as commercial inviability, legal restrictions, or substantial interference arising from unforeseen circumstances beyond the organizer's control, such as acts of nature or force majeure events."
@@ -1358,15 +1447,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/IeUinpeUk19DQvlsY2y7Kx",
-        "categories": ["Sports","Quizzing"],
+        "categories": [
+            "Sports",
+            "Quizzing"
+        ],
         "name": "Chess Champions",
         "mainCoordi": "Priyanshu",
         "coordinators": "Sartaj, Yathansh",
         "contact": "9560900386",
-        "dayTime":"Day 2, 2:00 PM - 3:30 PM",
+        "dayTime": "Day 2, 2:00 PM - 3:30 PM",
         "venue": "Sports Room",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "Participants compete in a chess tournament to demonstrate their strategic thinking, problem-solving skills, and mastery of the game. Registration: Participants must register in advance as individuals. Each participant will be assigned a specific match time. Match Format: The tournament will follow a knockout format or Swiss system, depending on the number of participants. Each match will be played under standard chess rules, with a time control set (e.g., 10 minutes per player for blitz or longer for classical).Warm-Up: A brief warm-up period may be provided before the tournament begins. Scoring: Points will be awarded for match wins, draws, and overall performance based on the tournament format.",
         "criteria": [
@@ -1382,12 +1474,10 @@
             "The decision of the judges shall be final and binding.",
             "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "Any form of cheating, including using external aids or devices, will lead to immediate disqualification."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
     {
         "id": 41,
@@ -1396,15 +1486,18 @@
         "minSize": "5",
         "maxSize": "5",
         "waLink": "https://chat.whatsapp.com/EgitCkL8VQz5u3n3YeC7kI",
-        "categories": ["E-Gaming","Fun Activities"],
+        "categories": [
+            "E-Gaming",
+            "Fun Activities"
+        ],
         "name": "Valorant Vanguard",
         "mainCoordi": "Nayan",
         "coordinators": "Soumya",
         "contact": "7889271180",
-        "dayTime":"Day 2, 2:30 PM - 4:00 PM",
+        "dayTime": "Day 2, 2:30 PM - 4:00 PM",
         "venue": "RN-118",
         "fee": 250,
-        "amount":"",
+        "amount": "",
         "teamSize": "5 members per squad.",
         "desc": "",
         "criteria": [
@@ -1415,10 +1508,10 @@
             "Best-of-3 rounds format.",
             "All participants must be on the event’s Discord server."
         ],
-        "elimination":[
+        "elimination": [
             "Single-elimination format."
         ],
-        "TC":[
+        "TC": [
             "No external tools or scripts allowed.",
             "Participants must ensure stable internet connections; disconnections will not be entertained for a rematch."
         ]
@@ -1430,15 +1523,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/FU5Mnzb8cwaF3oUlSQQKdZ",
-        "categories": ["E-Gaming","Fun Activities"],
+        "categories": [
+            "E-Gaming",
+            "Fun Activities"
+        ],
         "name": "Militia Madness (Mini Militia)",
         "mainCoordi": "Paras",
         "coordinators": "Ayush, Aaradhye Agarwal",
         "contact": "9810783403",
-        "dayTime":"Day 2, 2:30 PM - 3:30 PM",
+        "dayTime": "Day 2, 2:30 PM - 3:30 PM",
         "venue": "RN-117",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1462,13 +1558,13 @@
             "Weapons: All default weapons will be allowed unless specifically restricted for the match. Jetpack Fuel & Health: Players will have the standard game settings, unless organizers decide to tweak it for specific rounds.",
             "Additional Rules: Players must arrive at least 10 minutes before their match for setup and connectivity testing. Organizers reserve the right to modify rules or settings during the competition to maintain fair play."
         ],
-        "elimination":[
+        "elimination": [
             "Unsportsmanlike Behavior: Any inappropriate behavior such as harassment, trash-talking, or disruptive conduct will result in penalties or disqualification.",
             "Cheating: Any use of mods, hacks, or external tools (like auto-aim) will lead to immediate removal from the competition.",
             "Team Penalties: If any player is caught cheating, the entire team may face disqualification.",
             "Top 2 from each round advance to the next stage."
         ],
-        "TC":[
+        "TC": [
             "Participants must bring their devices fully charged.",
             "In case of disputes, the final decision will be made by coordinators."
         ]
@@ -1480,15 +1576,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/CdTemg9TYhj0DsE9FFckxf",
-        "categories": ["Non Technical","Creative"],
+        "categories": [
+            "Non Technical",
+            "Creative"
+        ],
         "name": "Kitchen Kwizards (No flame cooking challenge)",
         "mainCoordi": "Ishika",
         "coordinators": "Jyoti, Cheshna Mehra",
         "contact": "8595394240",
-        "dayTime":"Day 2, 2:30 PM - 3:30 PM",
+        "dayTime": "Day 2, 2:30 PM - 3:30 PM",
         "venue": "NCU Ground",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "teamSize": "2",
         "desc": "",
         "criteria": [
@@ -1505,10 +1604,10 @@
             "The decision of the judges shall be final and binding.",
             "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "The least creative dishes will be eliminated in the first round."
         ],
-        "TC":[
+        "TC": [
             "All ingredients must be brought by the participants.",
             "No pre-cooked or store-bought items allowed except for garnishing purposes."
         ]
@@ -1520,15 +1619,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/BaUpquRf9jE5ifw2C2YtV6",
-        "categories": ["E-Gaming","Fun Activities"],
+        "categories": [
+            "E-Gaming",
+            "Fun Activities"
+        ],
         "name": "Clash Mix Mayhem (Clash of Clans Mix Challenges)",
         "mainCoordi": "Nayan",
         "coordinators": "Hanshika, Sneha",
         "contact": "7889271180",
-        "dayTime":"Day 2, 3:00 PM - 4:30 PM",
+        "dayTime": "Day 2, 3:00 PM - 4:30 PM",
         "venue": "N301",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "",
         "criteria": [
@@ -1538,10 +1640,10 @@
             "All town hall levels allowed.",
             "Attacks to be done in real-time with tournament mode settings."
         ],
-        "elimination":[
+        "elimination": [
             "Single elimination after 2 losses."
         ],
-        "TC":[
+        "TC": [
             "Players must use their own accounts.",
             "No external mods or cheats allowed."
         ]
@@ -1553,20 +1655,21 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/HbzEhl0ToAmAa80KgHJNrx",
-        "categories": ["Non Technical","Fun Activities"],
+        "categories": [
+            "Non Technical",
+            "Fun Activities"
+        ],
         "name": "Chair Chase (Musical Chair)",
         "mainCoordi": "Paras",
         "coordinators": "Anoop, Sushil",
         "contact": "9810783403",
-        "dayTime":"Day 2, 3:00 PM - 4:00 PM",
+        "dayTime": "Day 2, 3:00 PM - 4:00 PM",
         "venue": "Common Room RN-101",
         "fee": 120,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "Participants compete in a fun and fast-paced game of musical chairs, showcasing their agility and reflexes to be the last person remaining seated. Registration: Participants must register in advance as individuals. Each participant will be assigned a specific number for the game. Setup: A number of chairs will be arranged in a circle, with one fewer chair than the number of participants. Music will be played while participants walk around the chairs. Game Format: When the music stops, participants must quickly find a chair to sit in. The player left standing without a chair is eliminated. One chair will be removed after each round, continuing until only one participant remains.",
-        "criteria": [
-            
-        ],
+        "criteria": [],
         "rule": [
             "Music Control: A designated person will control the music, ensuring it starts and stops at random intervals.",
             "Conduct: Participants must not push or shove others to get a chair. Disruptive behavior will lead to disqualification.",
@@ -1576,12 +1679,10 @@
             "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding.",
             "A game moderator will oversee the event, ensuring rules are followed and managing the music."
         ],
-        "elimination":[
+        "elimination": [
             "The main objective is to avoid elimination and be the last participant remaining in the game."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
     {
         "id": 46,
@@ -1590,15 +1691,19 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/H28cCrxbalzHNuj6CzY8Ek",
-        "categories": ["Non Technical","Literary","Creative"],
+        "categories": [
+            "Non Technical",
+            "Literary",
+            "Creative"
+        ],
         "name": "InkSpire Writing (Creative Writing Competition)",
         "mainCoordi": "Kavya",
         "coordinators": "Prateek Dangi, Vishal Bansal",
         "contact": "8595839182",
-        "dayTime":"Day 2, 3:00 PM - 4:00 PM",
+        "dayTime": "Day 2, 3:00 PM - 4:00 PM",
         "venue": "RN-318",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "Participants create original written works based on a given prompt, showcasing their creativity, storytelling skills, and writing abilities. Registration: Participants must register in advance as individuals. Each participant will receive a unique identification number for anonymity during judging. Prompt Announcement: A specific writing prompt or theme will be announced at the start of the event. Writing Period: Participants will have a set time (e.g., 2-3 hours) to write their pieces. Submission: Completed works must be submitted by the end of the allotted time for evaluation.",
         "criteria": [
@@ -1619,10 +1724,8 @@
             "Plagiarism will lead to disqualification.",
             "Originality: All submitted works must be original. Plagiarized pieces will lead to disqualification."
         ],
-        "elimination":[
-            
-        ],
-        "TC":[
+        "elimination": [],
+        "TC": [
             "Submissions must be handwritten.",
             "Any form of cheating will result in immediate disqualification."
         ]
@@ -1634,15 +1737,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/I1xGYv2AmR12s28IDnVeMF",
-        "categories": ["Sports","Fun Activities"],
+        "categories": [
+            "Sports",
+            "Fun Activities"
+        ],
         "name": "Shooting Basketball",
         "mainCoordi": "Priyanshu",
         "coordinators": "Manan Khatri, Raghav",
         "contact": "9560900386",
-        "dayTime":"Day 2, 3:00 PM - 4:00 PM",
+        "dayTime": "Day 2, 3:00 PM - 4:00 PM",
         "venue": "Basketball Court",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "Participants compete to demonstrate their shooting skills by making the most baskets from designated shooting spots on the court. Registration: Participants must register in advance as individuals. Each participant will be assigned a specific time slot for their shooting attempt. Setup: The competition will be held on a standard basketball court with marked shooting spots (e.g., 2 pointer line, three-point line). Each participant will have a set number of shots (e.g., 10 shots) from each spot. Shooting Format: Participants will take shots from each designated spot in a predetermined order. Each successful basket made will count toward their total score.",
         "criteria": [
@@ -1658,12 +1764,8 @@
             "The decision of the judges shall be final and binding.",
             "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
-        "elimination":[
-            
-        ],
-        "TC":[
-            
-        ]
+        "elimination": [],
+        "TC": []
     },
     {
         "id": 48,
@@ -1672,15 +1774,17 @@
         "minSize": "1",
         "maxSize": "2",
         "waLink": "https://chat.whatsapp.com/FluQQySe1Lj1gSLOjVThOA",
-        "categories": ["Non Technical"],
+        "categories": [
+            "Non Technical"
+        ],
         "name": "Reel Revolution (Reel Making Competition)",
         "mainCoordi": "Kavya ",
         "coordinators": "Aayushi Dhanda, Vanshika",
         "contact": "8595839182",
-        "dayTime":"Day 2, 3:00 PM - 4:00 PM",
+        "dayTime": "Day 2, 3:00 PM - 4:00 PM",
         "venue": "NCU Ground",
         "fee": 150,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "Participants create engaging and creative video reels based on a specified theme, showcasing their storytelling, editing, and filmmaking skills. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme or prompt will be announced at the start of the competition (e.g., travel, friendship, humor). Creation Period: Participants will have a set time (e.g., 2-3 hours) to shoot, edit, and finalize their reels. Reels should be kept within a specified duration (e.g., 30-60 seconds). Submission: Completed reels must be submitted electronically by the end of the creation period.",
         "criteria": [
@@ -1701,10 +1805,8 @@
             "Technical Requirements: Reels should be submitted in a specified format (e.g., MP4) and resolution. Additional technical guidelines may be provided.",
             "Conduct: Participants are expected to maintain professionalism and respect toward other competitors. Disruptive behavior will not be tolerated."
         ],
-        "elimination":[
-            
-        ],
-        "TC":[
+        "elimination": [],
+        "TC": [
             "No offensive content allowed.",
             "Reels must be original."
         ]
@@ -1716,15 +1818,20 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/KSpa3i3IxmqFrOE7lkY9hw",
-        "categories": ["Technical","Creative","Entertainment","Fun Activities"],
+        "categories": [
+            "Technical",
+            "Creative",
+            "Entertainment",
+            "Fun Activities"
+        ],
         "name": "Cosmic Canvas Creations (Digital Art Competition)",
         "mainCoordi": "Nayan",
         "coordinators": "Prateek Dangi, Vishal Bansal",
         "contact": "7889271180",
-        "dayTime":"Day 2, 4:00 PM - 4:30 PM",
+        "dayTime": "Day 2, 4:00 PM - 4:30 PM",
         "venue": "RN-324",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "Participants create original digital artwork based on a specified theme, showcasing their creativity, technical skills, and artistic expression. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme will be announced at the start of the competition (e.g., nature, fantasy, technology). Creation Period: Participants will have a set time (e.g., 1 hour) to create their digital artworks. All artworks must be completed during this time frame. Submission: Completed artworks must be submitted electronically in a specified format (e.g., PNG, JPEG) by the end of the creation period.",
         "criteria": [
@@ -1740,12 +1847,8 @@
             "Size and Format: Artworks should adhere to specified size guidelines (e.g., minimum dimensions) and must be submitted in the required file format.",
             "Conduct: Participants are expected to maintain professionalism and respect toward other competitors. Disruptive behavior will not be tolerated."
         ],
-        "elimination":[
-            
-        ],
-        "TC":[
-            
-        ]
+        "elimination": [],
+        "TC": []
     },
     {
         "id": 50,
@@ -1754,15 +1857,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/KsDazK6RcjwKrs5jqlGTwH",
-        "categories": ["Sports","Fun Activities"],
+        "categories": [
+            "Sports",
+            "Fun Activities"
+        ],
         "name": "Tug of War",
         "mainCoordi": "Jatin",
         "coordinators": "Sartaj, Yathansh",
         "contact": "9315431144",
-        "dayTime":"Day 2, 3:30 PM - 4:30 PM",
+        "dayTime": "Day 2, 3:30 PM - 4:30 PM",
         "venue": "Amphitheater",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "teamSize": "",
         "desc": "Teams compete in a test of strength and teamwork to pull the opposing team across a designated line, showcasing their coordination and physical endurance. Registration: Teams must register in advance, with each team consisting of 5 to 10 members. Setup: A rope will be used for the competition, with a marked center line on the ground. Each team will take positions on opposite sides of the rope. Match Format: Teams will compete in a series of rounds, with each round lasting until one team successfully pulls the other team across the center line.Best of three rounds may be played to determine the winning team.",
         "criteria": [
@@ -1774,12 +1880,8 @@
             "Conduct: Participants are expected to maintain sportsmanship and respect toward opponents. Disruptive behavior or unsportsmanlike conduct will lead to disqualification.",
             "Safety: Participants must wear appropriate footwear and clothing to prevent injury. Any unsafe practices will result in disqualification."
         ],
-        "elimination":[
-            
-        ],
-        "TC":[
-            
-        ]
+        "elimination": [],
+        "TC": []
     },
     {
         "id": 51,
@@ -1788,15 +1890,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/HOpKGkOUpF9AOIUgtnA2LB",
-        "categories": ["Music", "Entertainment"],
+        "categories": [
+            "Music",
+            "Entertainment"
+        ],
         "name": "IKTAARA- Solo Singing (Hindi/English)",
         "mainCoordi": "",
         "coordinators": "Amisha",
         "contact": "8448427187",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
         "fee": 350,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -1812,13 +1917,11 @@
             "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
             "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "The event consist of a single round with a maximum time limit of 3 minutes for each performance including setup if any.",
             "An elimination based preliminary round may also be kept based on the number of participants, if need arises."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
     {
         "id": 52,
@@ -1827,15 +1930,18 @@
         "minSize": "5",
         "maxSize": "20",
         "waLink": "https://chat.whatsapp.com/LGnO5P9QHtK9YUaUk2FKkq",
-        "categories": ["Music","Entertainment"],
+        "categories": [
+            "Music",
+            "Entertainment"
+        ],
         "name": "GOONJ – Group Singing (Choir/acapella)",
         "mainCoordi": "",
         "coordinators": "Amisha",
         "contact": "8448427187",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
         "fee": 1100,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -1849,13 +1955,11 @@
             " The decision of the judges shall be final and binding.",
             "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "Participation: There should not be any common members among multiple teams. Such cases shall be immediately disqualified.",
             "There will be only one round with a maximum time limit of 10 minutes (including sound check) for each group performance."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
     {
         "id": 53,
@@ -1864,15 +1968,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/EoYhZ3Do9Ng0AOXGh9Oz7a",
-        "categories": ["Dance", "Entertainment"],
+        "categories": [
+            "Dance",
+            "Entertainment"
+        ],
         "name": "TARANG – Solo Dance (Western)",
         "mainCoordi": "",
         "coordinators": "Vishesh, Utkarsh",
         "contact": "9596755674, 9810592534",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
         "fee": 350,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -1889,13 +1996,11 @@
             "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
             "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "The event consist of a single round with a maximum time limit of 5 minutes for each performance including setting up props if any.",
             "An elimination based preliminary round may also be kept based on the number of participants, if need arises."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
     {
         "id": 54,
@@ -1904,15 +2009,18 @@
         "minSize": "2",
         "maxSize": "2",
         "waLink": "https://chat.whatsapp.com/IpIZr70obbZ9szuD6Fytzr",
-        "categories": ["Dance","Entertainment"],
+        "categories": [
+            "Dance",
+            "Entertainment"
+        ],
         "name": "SWIRL – Couple dance",
         "mainCoordi": "",
         "coordinators": "Vishesh, Utkarsh",
         "contact": "9596755674, 9810592534",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
         "fee": 700,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -1930,13 +2038,11 @@
             "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
             "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "The event consist of a single round with a maximum time limit of 5 minutes for each performance including setting up props if any.",
             "An elimination based preliminary round may also be kept based on the number of participants, if need arises."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
     {
         "id": 55,
@@ -1945,15 +2051,18 @@
         "minSize": "5",
         "maxSize": "25",
         "waLink": "https://chat.whatsapp.com/EM4fPp7ICEt5ISDgmlRcuu",
-        "categories": ["Dance","Entertainment"],
+        "categories": [
+            "Dance",
+            "Entertainment"
+        ],
         "name": "UTOPIA – Group Dance",
         "mainCoordi": "",
         "coordinators": "Vishesh, Utkarsh",
         "contact": "9596755674, 9810592534",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
         "fee": 1100,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -1971,13 +2080,11 @@
             "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
             "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding"
         ],
-        "elimination":[
+        "elimination": [
             "The event consist of a single round with a maximum time limit of 10 minutes for each performance including setting up props if any.",
             "An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
     {
         "id": 56,
@@ -1986,15 +2093,18 @@
         "minSize": "5",
         "maxSize": "20",
         "waLink": "https://chat.whatsapp.com/Bk7S1FR8MRmHqgKLAAngki",
-        "categories": ["Fashion", "Entertainment"],
+        "categories": [
+            "Fashion",
+            "Entertainment"
+        ],
         "name": "Thread mill – Inter University Fashion Show",
         "mainCoordi": "",
         "coordinators": "Tanvi Kathuria",
         "contact": "7011584257",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
         "fee": 1100,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -2010,13 +2120,11 @@
             "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
             "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "The event consist of a single round with a maximum time limit of 10 minutes for each performance including setting up props (if any) and clearance.",
             "An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
     {
         "id": 57,
@@ -2025,16 +2133,19 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/FNbYFyxderEHl7sc3Z9aLT",
-        "categories": ["Fashion","Entertainment"],
+        "categories": [
+            "Fashion",
+            "Entertainment"
+        ],
         "name": "Haute Couture- Intra University Fashion Show",
         "mainCoordi": "",
         "coordinators": "Isha Aggarwal",
         "contact": "9871389860",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
         "closed": true,
         "fee": 450,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -2049,12 +2160,10 @@
             "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
             "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "The event consists of 2 rounds (Round 1: Ethnic Wear & Round 2: Formal wear) without elimination."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
     {
         "id": 58,
@@ -2063,15 +2172,18 @@
         "minSize": "5",
         "maxSize": "20",
         "waLink": "https://chat.whatsapp.com/BTQSznaukhd36NwucpMIgS",
-        "categories": ["Music","Entertainment"],
+        "categories": [
+            "Music",
+            "Entertainment"
+        ],
         "name": "Battle of Bands",
         "mainCoordi": "",
         "coordinators": "Karan",
         "contact": "9311573728",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
         "fee": 1500,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -2087,13 +2199,11 @@
             "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
             "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "The event consist of a single round with a maximum time limit of 15 minutes for each performance including stage setup, sound check and clearance.",
             "An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
     {
         "id": 59,
@@ -2102,16 +2212,20 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/FZrvIkDWsXF0hEooFhes9N",
-        "categories": ["Fashion","Entertainment","Creative"],
+        "categories": [
+            "Fashion",
+            "Entertainment",
+            "Creative"
+        ],
         "name": "Mr. and Ms. Fresher’s",
         "mainCoordi": "",
         "coordinators": "Isha Aggarwal",
         "contact": "9871389860",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
         "closed": false,
         "fee": 500,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -2127,14 +2241,9 @@
             "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
             "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
-        "elimination":[
-            
-        ],
-        "TC":[
-            
-        ]
+        "elimination": [],
+        "TC": []
     },
-
     {
         "id": 60,
         "imgUrl": "/events/61.webp",
@@ -2142,16 +2251,19 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/HVtSAzagGBRAt5jiiAb7ua",
-        "categories": ["Music","Entertainment"],
+        "categories": [
+            "Music",
+            "Entertainment"
+        ],
         "name": "Off The Hook – Solo Rap",
         "mainCoordi": "",
         "coordinators": "Amisha",
         "contact": "8448427187",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
-        "closed": true,
+        "closed": false,
         "fee": 350,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -2167,16 +2279,12 @@
             "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
             "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "The event consist of a single round with a maximum time limit of 2 minutes for each performance including set-up if any",
             "An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
-
-    
     {
         "id": 61,
         "imgUrl": "/events/62.webp",
@@ -2184,15 +2292,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/H5E21DIhRkiHpxoGoSP8ZM",
-        "categories": ["Entertainment","Fashion"],
+        "categories": [
+            "Entertainment",
+            "Fashion"
+        ],
         "name": "Muscle Fit",
         "mainCoordi": "",
         "coordinators": "Karan",
         "contact": "9311573728",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
         "fee": 350,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -2207,12 +2318,10 @@
             "The decision of the judges shall be final and binding.",
             "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "The event consists of a single round divided into two phases. Phase 1 shall consist of body posing based on the instructions given by the judges. Phase 2 shall consist of freestyle body posing at your own discretion for a time limit instructed by the Judges."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
     {
         "id": 62,
@@ -2221,15 +2330,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/C6x1tdKyZM26Y4d3ft6pqr",
-        "categories": ["Literary","Creative"],
+        "categories": [
+            "Literary",
+            "Creative"
+        ],
         "name": "PRATIGYAA: Monologue Delivery",
         "mainCoordi": "",
         "coordinators": "Tanvi Kathuria",
         "contact": "7011584257",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
         "fee": 350,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -2243,13 +2355,11 @@
             "The decision of the judges shall be final and binding.",
             "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "The event consist of a single round with a maximum time limit of 3 minutes for each performance including setting up if any.",
             " An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
     {
         "id": 63,
@@ -2258,15 +2368,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/L2OHKBIm81nFHjZO4TjIWt",
-        "categories": ["Dance","Entertainment"],
+        "categories": [
+            "Dance",
+            "Entertainment"
+        ],
         "name": "JHANKAAR – Solo Dance (Classical)",
         "mainCoordi": "",
         "coordinators": "Vishesh, Utkarsh",
         "contact": "9596755674, 9810592534",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
         "fee": 350,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "",
         "criteria": [
@@ -2283,13 +2396,11 @@
             "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
             "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
         ],
-        "elimination":[
+        "elimination": [
             "The event consist of a single round with a maximum time limit of 4 minutes for each performance including setting up props if any.",
             "An elimination based preliminary round may also be kept based on the number of participants, if need arises."
         ],
-        "TC":[
-            
-        ]
+        "TC": []
     },
     {
         "id": 64,
@@ -2298,15 +2409,18 @@
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/GVJatoMQjYSCmzhcNqRmpy",
-        "categories": ["Sports","Fun Activities"],
+        "categories": [
+            "Sports",
+            "Fun Activities"
+        ],
         "name": "Football Penalty Shootout",
         "mainCoordi": "",
         "coordinators": "Niket & Lokesh",
         "contact": "9560900386",
-        "dayTime":"",
+        "dayTime": "",
         "venue": "",
         "fee": 100,
-        "amount":"",
+        "amount": "",
         "teamSize": "Solo",
         "desc": "Participants take penalty shots to score goals from a designated distance. The player with  the most goals will be declared the winner. Registration: Participants must register individually for the penalty shootout competition. Shots: Each participant will be given 10 penalty shots, taken from a distance of 15 meters from the goal post. Scoring: The participant with the highest number of goals out of 10 shots will be declared the winner.",
         "criteria": [
@@ -2322,11 +2436,7 @@
             "The decision of the judges shall be final and binding.",
             "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
-        "elimination":[
-            
-        ],
-        "TC":[
-            
-        ]
+        "elimination": [],
+        "TC": []
     }
 ]
