@@ -2143,7 +2143,7 @@
         "contact": "9871389860",
         "dayTime": "",
         "venue": "",
-        "closed": true,
+        "closed": false,
         "fee": 450,
         "amount": "",
         "teamSize": "Solo",
