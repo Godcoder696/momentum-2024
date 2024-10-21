@@ -49,7 +49,12 @@ function EventDetails({event}) {
                   event.type=="Solo"?
                   " Solo"
                   :
-                  (event.minSize==event.maxSize?`${event.maxSize} members`:`${event.minSize} - ${event.maxSize} members`)
+                  (
+                    event.type=="Solo/Team"?
+                    " "+event.type
+                    :
+                    " "+(event.minSize==event.maxSize?`${event.maxSize} members`:`${event.minSize} - ${event.maxSize} members`)
+                  )
                 }
               </span>
             </div>

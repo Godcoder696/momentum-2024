@@ -1572,7 +1572,7 @@
     {
         "id": 43,
         "imgUrl": "/events/44.webp",
-        "type": "Solo",
+        "type": "Solo/Team",
         "minSize": "",
         "maxSize": "",
         "waLink": "https://chat.whatsapp.com/CdTemg9TYhj0DsE9FFckxf",
@@ -1605,7 +1605,7 @@
             "In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding."
         ],
         "elimination": [
-            "The least creative dishes will be eliminated in the first round."
+            
         ],
         "TC": [
             "All ingredients must be brought by the participants.",
