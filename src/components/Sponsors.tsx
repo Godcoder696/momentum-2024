@@ -14,8 +14,8 @@ function Sponsors() {
           <Image src="/Sponsors.webp" height={750} width={750} alt='sponsors' className='p-4'/>
         </div> */}
         <Marquee autoFill={true}>
-          <div className='w-full flex -space-x-80'>
-            <Image src="/Sponsors.webp" height={750} width={750} alt='sponsors'/>
+          <div className='w-full flex'>
+            <Image src="/Sponsors.webp" height={750} width={750} alt='sponsors' />
             {/* <Image src="/Sponsors.webp" height={750} width={750} alt='sponsors' className='p-4'/> */}
           </div> 
         </Marquee>

@@ -18,6 +18,7 @@
         "dayTime": "Day 1, 12 PM - 1 PM",
         "venue": "RN-136",
         "desc": "Participants compete to achieve the highest typing speed while maintaining accuracy in a series of typing challenges.",
+        "closed": true,
         "criteria": [
             "Typing speed and accuracy (Words per Minute - WPM).",
             "Each participant will complete two typing tests; the higher score will be considered.",
@@ -56,6 +57,7 @@
         "fee": 100,
         "amount": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Points-based system.",
             "Fair play and sportsmanship are critical.",
@@ -90,6 +92,7 @@
         "fee": 100,
         "amount": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Based on the survival and tasks completed for crew members.",
             "Impostors judged by successful sabotages and eliminations."
@@ -122,6 +125,7 @@
         "fee": 100,
         "amount": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Based on individual performance and kills.",
             "No teaming allowed.",
@@ -263,6 +267,7 @@
         "fee": 100,
         "amount": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Total Push-Ups: The winner will be determined by the total number of correctly executed push-ups completed within the 2-minute time frame.",
             "Tiebreaker: In case of a tie, a sudden-death round will be held where tied participants will perform as many push-ups as possible until one participant fails to meet the proper form or cannot continue.",
@@ -553,6 +558,7 @@
         "venue": "Sports Room",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Participants compete in a table tennis tournament to showcase their skills and strategy, aiming to win matches and ultimately be crowned the champion. Participants must register in advance as individuals or in teams (if doubles are allowed). The competition will follow a knockout format, with each match played as the best of three games. Each game will be played to 11 points, and players must win by at least 2 points. A brief warm-up period will be provided before each match. Winners will advance to the next round until a champion is determined.",
         "teamSize": "",
         "criteria": [
@@ -876,6 +882,7 @@
         "venue": "RN-215",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Participants compose original essays on a given topic, showcasing their writing skills, creativity, and critical thinking abilities. Participants must register in advance as individuals. Each participant will be assigned a specific time slot for the essay writing. A specific essay topic will be announced at the start of the event. Participants will have time to prepare and plan their essays. Each participant will have a set time (e.g., 1-2 hours) to write their essay. Essays must be handwritten or typed, depending on the event setup. Completed essays must be submitted by the end of the allotted time for evaluation.",
         "teamSize": "Indiviual",
         "criteria": [
@@ -1104,6 +1111,7 @@
         "contact": "7042147175",
         "dayTime": "Day 2, 11:00 AM - 12:30 PM",
         "venue": "N201",
+        "closed": true,
         "fee": 100,
         "amount": "",
         "desc": "",
@@ -1537,6 +1545,7 @@
         "amount": "",
         "teamSize": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "In Deathmatch Mode, the team with the most kills at the end of the match wins.",
             "In CTF Mode, the team with the most flags captured within the time limit wins.",
