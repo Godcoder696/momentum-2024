@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Marquee from 'react-fast-marquee'
 
 function Sponsors() {
   return (
@@ -8,7 +9,16 @@ function Sponsors() {
         <div className='flex justify-start text-white w-[90%] text-lg xl:text-3xl font-semibold'>
           <span>OUR SPONSORS</span>
         </div>
-        <Image src="/Sponsors.svg" height={750} width={750} alt='sponsors' className='p-4'/>
+        {/* <div className='w-full flex -space-x-24'>
+          <Image src="/Sponsors.webp" height={750} width={750} alt='sponsors' className='p-4'/>
+          <Image src="/Sponsors.webp" height={750} width={750} alt='sponsors' className='p-4'/>
+        </div> */}
+        <Marquee autoFill={true}>
+          <div className='w-full flex -space-x-80'>
+            <Image src="/Sponsors.webp" height={750} width={750} alt='sponsors'/>
+            {/* <Image src="/Sponsors.webp" height={750} width={750} alt='sponsors' className='p-4'/> */}
+          </div> 
+        </Marquee>
       </div> 
     </>
   )

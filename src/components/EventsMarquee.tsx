@@ -4,7 +4,8 @@ import Marquee from 'react-fast-marquee'
 function EventsMarquee() {
   return (
     <>
-        <Marquee autoFill={true} style={
+        <Marquee autoFill={true} 
+            style={
             {
                 color:"black",
                 marginTop: "-40px",
