@@ -1996,7 +1996,7 @@
         "amount": "",
         "teamSize": "Solo",
         "desc": "",
-        "closed": true,
+        "closed": false,
         "criteria": [
             "Coordination among team members, overall performance, stage presence, audience appeal."
         ],
@@ -2120,7 +2120,7 @@
         "amount": "",
         "teamSize": "Solo",
         "desc": "",
-        "closed": true,
+        "closed": false,
         "criteria": [
             "Choreography & Energy, Creativity & Synchronisation, Expressions, Overall Impact."
         ],
@@ -2163,7 +2163,7 @@
         "amount": "",
         "teamSize": "Solo",
         "desc": "",
-        "closed": true,
+        "closed": false,
         "criteria": [
             "Theme, Formation (team only), Music, Dresses & Walk, Overall Impact."
         ],
