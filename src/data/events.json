@@ -161,6 +161,7 @@
         "fee": 200,
         "amount": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Originality, feasibility, scalability, and market potential of the business plan.",
             "Presentation skills and team collaboration."
@@ -194,6 +195,7 @@
         "fee": 100,
         "amount": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Creativity and use of waste materials.",
             "Aesthetic appeal and overall concept."
@@ -231,6 +233,7 @@
         "fee": 100,
         "amount": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Creativity (30%): Originality and uniqueness of the performance.",
             "Skill (30%): Mastery of the talent showcased.",
@@ -303,6 +306,7 @@
         "venue": "N204",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Topic Announcement: A specific topic will be announced at the start of the event. Participants will have a short time (e.g., 10 minutes) to prepare their Shayari based on this topic. Each participant is allotted a maximum of 3 minutes for their performance. Participants will recite their Shayari in front of a panel of judges and an audience.",
         "criteria": [
             "After all performances, judges will evaluate each participant based on set criteria, and winners will be announced.",
@@ -341,6 +345,7 @@
         "venue": "RN-102",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Requirements: Participants are required to bring their own materials, including canvases, paints, brushes, or other tools. A list of allowed materials will be provided upon registration.Competition Format: The competition will last for 1 hour. Participants will create their artwork based on a theme announced at the start of the event. Submission: Completed artworks must be submitted at the end of the time limit for evaluation.",
         "criteria": [
             "Creativity (30%): Originality and uniqueness of the artwork.",
@@ -379,6 +384,7 @@
         "venue": "Waiting Area",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Registration: Participants must register in advance, either individually or in teams. Each team can have up to 3 members. Requirement: Participants should bring their own materials for creating rangoli, including colored powders, flowers, and any additional decorative elements. A list of allowed materials will be provided upon registration. Competition Format: The competition will last for 1 hours. Participants will create their rangoli designs on designated spaces marked on the ground. Submission: Completed rangoli designs will be submitted for evaluation at the end of the time limit.",
         "criteria": [
             "Creativity (30%): Originality and uniqueness of the rangoli design.",
@@ -415,6 +421,7 @@
         "venue": "RN-117",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Participants engage in a simulated stock trading environment to demonstrate their understanding of the stock market, investment strategies, and decision-making skills. Participants must register in advance as individuals or in teams (up to 3 members per team). Participants will be provided with a virtual portfolio containing a set amount of virtual currency (e.g., $100,000). The trading event will last for a specified period (e.g., 1 hours). Participants will make buy and sell decisions based on real-time market data provided during the event. At the end of the trading period, participants will submit their final portfolios for evaluation.",
         "criteria": [
             "Portfolio Value: The primary scoring criterion will be the final value of each participant’s or team’s portfolio at the end of the trading period.",
@@ -450,6 +457,7 @@
         "fee": 100,
         "amount": "",
         "desc": "",
+        "closed": true,
         "teamSize": " 2-3 members",
         "criteria": [
             "Accuracy of answers",
@@ -484,6 +492,7 @@
         "venue": "N304",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Participants engage in a structured debate format to articulate their viewpoints on a given topic, aiming to persuade the judges and audience with their arguments and rebuttals. Participants must register in advance as individuals or in teams (up to 3 members per team). A specific debate topic will be announced at the beginning of the event. Participants will be assigned either the 'pro' or 'con' position.  Participants will have a limited time (e.g., 10-15 minutes) to prepare their arguments before the debate begins. Each debate will consist of multiple rounds, typically including opening statements, rebuttals, and closing arguments. Time limits will be enforced for each segment (e.g., 3 minutes for opening statements, 2 minutes for rebuttals). Judges will evaluate the debates based on the established criteria, and winners will be announced. ",
         "teamSize": " upto 3 members",
         "criteria": [
@@ -521,6 +530,7 @@
         "venue": "RN-136",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Participants share their original stories in a concise format, aiming to engage the audience and judges within a one-minute timeframe. Participants must register in advance. Each participant will be assigned a specific time slot for their performance. A theme or prompt may be provided at the start of the event to inspire storytelling. Participants will have a short time (e.g., 5 minutes) to prepare. Each participant will have exactly one minute to tell their story in front of the audience and judges. After all performances, judges will evaluate each participant based on the set criteria, and winners will be announced. ",
         "teamSize": "",
         "criteria": [
@@ -594,6 +604,7 @@
         "venue": "N209",
         "fee": 200,
         "amount": "",
+        "closed": true,
         "desc": "Teams compete in a battle royale format in the game Free Fire, aiming to be the last squad standing while demonstrating teamwork and strategy. Teams must register in advance, with each team consisting of up to 4 players. Teams will be assigned specific match times. Players must ensure their devices and accounts are ready and updated prior to the event. Each match will be played in a standard squad format. The winning team will be the last squad remaining alive in the match. Teams will earn points based on their performance in each match.",
         "teamSize": "",
         "criteria": [
@@ -631,6 +642,7 @@
         "venue": "RN-122",
         "fee": 150,
         "amount": "",
+        "closed": true,
         "desc": "Multiple-choice and short-answer questions covering various topics, including history, science, geography, pop culture, and current events.",
         "teamSize": "2 members per team",
         "criteria": [
@@ -664,6 +676,7 @@
         "fee": 150,
         "amount": "",
         "desc": "",
+        "closed": true,
         "teamSize": "Indiviual",
         "criteria": [
             "Task completion speed and accuracy."
@@ -695,6 +708,7 @@
         "venue": "RN-136",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Participants compete to solve coding problems using the least amount of code possible, demonstrating efficiency and creativity in their programming skills. A set of coding problems will be announced at the start of the event. Each problem will have specific requirements and constraints. Participants will have a fixed amount of time (e.g., 1 hour) to solve as many problems as possible. Each solution will be evaluated based on its code length and correctness.",
         "teamSize": "",
         "criteria": [
@@ -728,6 +742,7 @@
         "venue": "RN-102",
         "fee": 150,
         "amount": "",
+        "closed": true,
         "desc": "Participants analyze a provided case study, develop solutions or recommendations, and present their findings to a panel of judges. Participants must register in advance as individuals or in teams (up to 4 members per team). A case study will be distributed to participants at the start of the event. Participants will have a set time (e.g., 2-3 hours) to analyze the case and prepare their presentations. Each team will present their findings and recommendations to the judges in a specified time (e.g., 10 minutes), followed by a Q&A session (e.g., 5 minutes). Judges will evaluate presentations based on set criteria, and winners will be announced at the end.",
         "teamSize": "2-3",
         "criteria": [
@@ -768,6 +783,7 @@
         "amount": "",
         "desc": "",
         "teamSize": "3",
+        "closed": true,
         "criteria": [
             "The winning team will be determined by points scored.",
             "Game Wins: The primary criterion for advancing in the tournament is the number of games won.",
@@ -811,6 +827,7 @@
         "amount": "",
         "desc": "",
         "teamSize": "Indiviual",
+        "closed": true,
         "criteria": [
             "Highest destruction percentage and stars earned."
         ],
@@ -842,6 +859,7 @@
         "venue": "Badminton Court",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Participants compete to showcase their skipping skills, aiming to achieve the highest number of skips in a set time limit while demonstrating technique and style. Participants must register in advance as individuals. Each participant will be assigned a specific time slot for their turn. A brief warm-up session will be provided to prevent injuries and prepare participants for the competition. Each participant will have a set time (e.g., 1 minute) to complete as many skips as possible. Skips will be counted by judges during the performance. Points will be awarded based on the total number of successful skips completed within the time limit.",
         "teamSize": "Indiviual",
         "criteria": [
@@ -921,6 +939,7 @@
         "amount": "",
         "desc": "",
         "teamSize": "4",
+        "closed": true,
         "criteria": [
             "Teams will be judged on total kills and position.",
             "Match Points: Points for Eliminations: Each elimination earns a specific number of points (e.g., 1 point per kill). Placement Points: Additional points may be awarded based on final placements: 1st Place: 20 points, 2nd Place: 15 points, 3rd Place: 10 points, 4th Place and below: 5 points",
@@ -954,6 +973,7 @@
         "venue": "Starting from Nescafe to NCU campus",
         "fee": 200,
         "amount": "",
+        "closed": true,
         "desc": "Participants work in teams to solve clues and complete challenges to find hidden treasures scattered across the event area, aiming to be the first team to complete the hunt. Registration: Teams must register in advance, with each team consisting of up to 4 members. Kick-Off Meeting: A briefing session will be held to explain the rules, the treasure hunt area, and how clues will be delivered. Clue Distribution: Teams will receive their first clue at the start of the event. Each clue leads to the next location or challenge. Teams must complete challenges or solve riddles to receive subsequent clues. Completion: The first team to find all treasures and return to the starting point wins.",
         "teamSize": "3",
         "criteria": [
@@ -997,6 +1017,7 @@
         "amount": "",
         "desc": "",
         "teamSize": "2",
+        "closed": true,
         "criteria": [
             "Points scored in each set."
         ],
@@ -1028,6 +1049,7 @@
         "venue": "N307",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Participants simulate a parliamentary session, engaging in debates, discussions, and decision-making processes to understand the workings of a parliamentary system and enhance their public speaking and critical thinking skills. Registration: Participants must register in advance as individuals or in teams (up to 4 members per team). Topic Announcement: A specific topic or bill will be announced at the beginning of the event. Participants will be assigned roles (e.g.,government, opposition, independent members) related to the topic. Preparation: Participants will have a brief period (e.g., 15-30 minutes) to prepare their arguments and strategies. Mock Session: The mock parliament will be conducted, with each team presenting their viewpoints, followed by debates and voting on the proposed bill or topic.",
         "teamSize": "5",
         "criteria": [
@@ -1072,6 +1094,7 @@
         "venue": "N304",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Participants engage in a structured debate focusing on current technology topics, showcasing their analytical skills, persuasive abilities, and knowledge of the subject matter. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Topic Announcement: A specific tech-related debate topic will be announced at the beginning of the event. Participants will be assigned either the 'pro' or 'con' position regarding the topic.Preparation Time: Participants will have a brief period (e.g., 10-15 minutes) to prepare their arguments and strategies based on their assigned positions. Debate Format: Each debate will consist of opening statements, rebuttals, and closing arguments. Each segment will have a designated time limit (e.g., 3 minutes for opening statements, 2 minutes for rebuttals).",
         "teamSize": "2",
         "criteria": [
@@ -1151,6 +1174,7 @@
         "venue": "RN-117",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Participants compete to identify songs based on short audio clips or clues, showcasing their musical knowledge and quick recall. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Game Format: The event will consist of multiple rounds, each featuring a series of audio clips or clues from various songs across different genres and eras.Each round will have a specific number of songs (e.g., 10 songs) to identify. Timing: Participants will have a limited time (e.g., 30 seconds) to answer each song clue. Scoring: Points will be awarded for each correct song identification. ",
         "teamSize": "",
         "criteria": [
@@ -1186,6 +1210,7 @@
         "venue": "RN-307",
         "fee": 100,
         "amount": "",
+        "closed": true,
         "desc": "Participants submit their original photographs based on a specific theme, showcasing their creativity, composition skills, and technical proficiency. Registration: Participants must register in advance by providing their name and a brief description of their photographic style. Theme Announcement: A specific theme (e.g., nature, portrait, urban, etc.) will be announced at the start of the contest. Submission Period: Participants will have a set time (e.g., 1-2 weeks) to capture and submit their photographs based on the theme. Submission Format: All entries must be submitted electronically in a specified format (e.g., JPEG, PNG) and adhere to size guidelines.",
         "teamSize": "",
         "criteria": [
@@ -1223,6 +1248,7 @@
         "fee": 100,
         "teamSize": "",
         "amount": "",
+        "closed": true,
         "desc": "Participants create and present original memes based on specific themes or prompts, showcasing their creativity, humor, and understanding of meme culture. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme or prompt will be announced at the start of the event (e.g., current events, pop culture, etc.). Creation Period: Participants will have a set amount of time (e.g., 45 mins) to create their memes using any digital tools or applications. Each participant or team may submit a limited number of memes (e.g., up to 3 memes). Submission: Memes must be submitted electronically in a specified format (e.g., JPEG, PNG) by the end of the creation period.",
         "criteria": [
             "Creativity (40%): Originality and uniqueness of the meme in relation to the theme.",
@@ -1259,6 +1285,7 @@
         "fee": 100,
         "amount": "",
         "teamSize": "",
+        "closed": true,
         "desc": "Participants compete in a quiz format to test their knowledge of Bollywood films, actors, music, and trivia, aiming to score the highest points. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Quiz Format: The quiz will consist of multiple rounds, including multiple-choice questions, true/false questions, and rapid-fire rounds. Each round will feature a specific number of questions (e.g., 20 questions per round). Timing: Each question will have a time limit (e.g., 30 seconds) for answering. Scoring: Points will be awarded for each correct answer, and the total will be tallied at the end of the event.",
         "criteria": [
             "Correct Answers: Each correct answer will typically earn 1 point. Incorrect answers will not result in point deductions.",
@@ -1295,6 +1322,7 @@
         "amount": "",
         "teamSize": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Time taken to solve the cube."
         ],
@@ -1328,6 +1356,7 @@
         "amount": "",
         "teamSize": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Top 3 with maximum distance covered will be rewarded."
         ],
@@ -1359,6 +1388,7 @@
         "amount": "",
         "teamSize": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Win by taking down the opponent’s towers."
         ],
@@ -1391,6 +1421,7 @@
         "amount": "",
         "teamSize": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Hold Duration: The primary criterion for winning is the total time held in the plank position. The participant with the longest time wins.",
             "Tie-Breaker: In case of a tie, a sudden-death plank round may be held, where participants will compete again to determine the winner."
@@ -1426,6 +1457,7 @@
         "amount": "",
         "teamSize": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Based on the performance of the drafted team in subsequent matches."
         ],
@@ -1468,6 +1500,7 @@
         "fee": 100,
         "amount": "",
         "teamSize": "",
+        "closed": true,
         "desc": "Participants compete in a chess tournament to demonstrate their strategic thinking, problem-solving skills, and mastery of the game. Registration: Participants must register in advance as individuals. Each participant will be assigned a specific match time. Match Format: The tournament will follow a knockout format or Swiss system, depending on the number of participants. Each match will be played under standard chess rules, with a time control set (e.g., 10 minutes per player for blitz or longer for classical).Warm-Up: A brief warm-up period may be provided before the tournament begins. Scoring: Points will be awarded for match wins, draws, and overall performance based on the tournament format.",
         "criteria": [
             "Match Wins: Each match win will earn the player a point. A draw will earn half a point.",
@@ -1508,6 +1541,7 @@
         "amount": "",
         "teamSize": "5 members per squad.",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Based on wins in each round."
         ],
@@ -1599,6 +1633,7 @@
         "amount": "",
         "teamSize": "2",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Taste, presentation, creativity, and hygiene.",
             "Creativity (40%): Originality and uniqueness of the dish in relation to the theme.",
@@ -1642,6 +1677,7 @@
         "amount": "",
         "teamSize": "",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Based on the total destruction percentage and star count."
         ],
@@ -1677,6 +1713,7 @@
         "fee": 120,
         "amount": "",
         "teamSize": "",
+        "closed": true,
         "desc": "Participants compete in a fun and fast-paced game of musical chairs, showcasing their agility and reflexes to be the last person remaining seated. Registration: Participants must register in advance as individuals. Each participant will be assigned a specific number for the game. Setup: A number of chairs will be arranged in a circle, with one fewer chair than the number of participants. Music will be played while participants walk around the chairs. Game Format: When the music stops, participants must quickly find a chair to sit in. The player left standing without a chair is eliminated. One chair will be removed after each round, continuing until only one participant remains.",
         "criteria": [],
         "rule": [
@@ -1714,6 +1751,7 @@
         "fee": 100,
         "amount": "",
         "teamSize": "",
+        "closed": true,
         "desc": "Participants create original written works based on a given prompt, showcasing their creativity, storytelling skills, and writing abilities. Registration: Participants must register in advance as individuals. Each participant will receive a unique identification number for anonymity during judging. Prompt Announcement: A specific writing prompt or theme will be announced at the start of the event. Writing Period: Participants will have a set time (e.g., 2-3 hours) to write their pieces. Submission: Completed works must be submitted by the end of the allotted time for evaluation.",
         "criteria": [
             "Creativity (40%): Originality and uniqueness of the writing in relation to the prompt.",
@@ -1759,6 +1797,7 @@
         "fee": 100,
         "amount": "",
         "teamSize": "",
+        "closed": true,
         "desc": "Participants compete to demonstrate their shooting skills by making the most baskets from designated shooting spots on the court. Registration: Participants must register in advance as individuals. Each participant will be assigned a specific time slot for their shooting attempt. Setup: The competition will be held on a standard basketball court with marked shooting spots (e.g., 2 pointer line, three-point line). Each participant will have a set number of shots (e.g., 10 shots) from each spot. Shooting Format: Participants will take shots from each designated spot in a predetermined order. Each successful basket made will count toward their total score.",
         "criteria": [
             "Baskets Made: Each successful shot will earn 1 point. The total score will be the sum of all successful shots made from each designated spot.",
@@ -1795,6 +1834,7 @@
         "fee": 150,
         "amount": "",
         "teamSize": "",
+        "closed": true,
         "desc": "Participants create engaging and creative video reels based on a specified theme, showcasing their storytelling, editing, and filmmaking skills. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme or prompt will be announced at the start of the competition (e.g., travel, friendship, humor). Creation Period: Participants will have a set time (e.g., 2-3 hours) to shoot, edit, and finalize their reels. Reels should be kept within a specified duration (e.g., 30-60 seconds). Submission: Completed reels must be submitted electronically by the end of the creation period.",
         "criteria": [
             "Creativity, editing, and storytelling.",
@@ -1842,6 +1882,7 @@
         "fee": 100,
         "amount": "",
         "teamSize": "",
+        "closed": true,
         "desc": "Participants create original digital artwork based on a specified theme, showcasing their creativity, technical skills, and artistic expression. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme will be announced at the start of the competition (e.g., nature, fantasy, technology). Creation Period: Participants will have a set time (e.g., 1 hour) to create their digital artworks. All artworks must be completed during this time frame. Submission: Completed artworks must be submitted electronically in a specified format (e.g., PNG, JPEG) by the end of the creation period.",
         "criteria": [
             "Creativity (40%): Originality and uniqueness of the artwork in relation to the theme.",
@@ -1879,6 +1920,7 @@
         "fee": 100,
         "amount": "",
         "teamSize": "",
+        "closed": true,
         "desc": "Teams compete in a test of strength and teamwork to pull the opposing team across a designated line, showcasing their coordination and physical endurance. Registration: Teams must register in advance, with each team consisting of 5 to 10 members. Setup: A rope will be used for the competition, with a marked center line on the ground. Each team will take positions on opposite sides of the rope. Match Format: Teams will compete in a series of rounds, with each round lasting until one team successfully pulls the other team across the center line.Best of three rounds may be played to determine the winning team.",
         "criteria": [
             "Round Wins: The primary criterion for winning is the number of rounds won. The team that wins two out of three rounds is declared the overall winner."
@@ -1913,6 +1955,7 @@
         "amount": "",
         "teamSize": "Solo",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Pitch, Rhythm, Voice modulation, overall impact of the song (Song selection, stage presence etc.)"
         ],
@@ -1953,6 +1996,7 @@
         "amount": "",
         "teamSize": "Solo",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Coordination among team members, overall performance, stage presence, audience appeal."
         ],
@@ -1991,6 +2035,7 @@
         "amount": "",
         "teamSize": "Solo",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Choreography, Expressions during the performance, Clarity and Overall impact."
         ],
@@ -2032,6 +2077,7 @@
         "amount": "",
         "teamSize": "Solo",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Choreography & Energy, Creativity & Synchronisation, Expressions, Overall Impact"
         ],
@@ -2074,6 +2120,7 @@
         "amount": "",
         "teamSize": "Solo",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Choreography & Energy, Creativity & Synchronisation, Expressions, Overall Impact."
         ],
@@ -2116,6 +2163,7 @@
         "amount": "",
         "teamSize": "Solo",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Theme, Formation (team only), Music, Dresses & Walk, Overall Impact."
         ],
@@ -2152,7 +2200,7 @@
         "contact": "9871389860",
         "dayTime": "",
         "venue": "",
-        "closed": false,
+        "closed": true,
         "fee": 450,
         "amount": "",
         "teamSize": "Solo",
@@ -2195,6 +2243,7 @@
         "amount": "",
         "teamSize": "Solo",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Coordination among team members, overall performance, stage presence, audience appeal."
         ],
@@ -2232,7 +2281,7 @@
         "contact": "9871389860",
         "dayTime": "",
         "venue": "",
-        "closed": false,
+        "closed": true,
         "fee": 500,
         "amount": "",
         "teamSize": "Solo",
@@ -2270,7 +2319,7 @@
         "contact": "8448427187",
         "dayTime": "",
         "venue": "",
-        "closed": false,
+        "closed": true,
         "fee": 350,
         "amount": "",
         "teamSize": "Solo",
@@ -2315,6 +2364,7 @@
         "amount": "",
         "teamSize": "Solo",
         "desc": "",
+        "closed": true,
         "criteria": [
             " Body Definition, Built of the Muscles, Personality, Crowd Reaction, Overall Impact."
         ],
@@ -2353,6 +2403,7 @@
         "amount": "",
         "teamSize": "Solo",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Content, Delivery, Expressions, Engagement"
         ],
@@ -2391,6 +2442,7 @@
         "amount": "",
         "teamSize": "Solo",
         "desc": "",
+        "closed": true,
         "criteria": [
             "Choreography, Expressions during the performance, Clarity and Overall impact."
         ],
@@ -2431,6 +2483,7 @@
         "fee": 100,
         "amount": "",
         "teamSize": "Solo",
+        "closed": true,
         "desc": "Participants take penalty shots to score goals from a designated distance. The player with  the most goals will be declared the winner. Registration: Participants must register individually for the penalty shootout competition. Shots: Each participant will be given 10 penalty shots, taken from a distance of 15 meters from the goal post. Scoring: The participant with the highest number of goals out of 10 shots will be declared the winner.",
         "criteria": [
             "Total Goals:The participant with the highest number of goals scored out of 10 shots will be declared the winner."
