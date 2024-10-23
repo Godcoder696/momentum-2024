@@ -18,7 +18,7 @@
         "dayTime": "Day 1, 12 PM - 1 PM",
         "venue": "RN-136",
         "desc": "Participants compete to achieve the highest typing speed while maintaining accuracy in a series of typing challenges.",
-        "closed": true,
+        "closed": false,
         "criteria": [
             "Typing speed and accuracy (Words per Minute - WPM).",
             "Each participant will complete two typing tests; the higher score will be considered.",
@@ -1094,7 +1094,7 @@
         "venue": "N304",
         "fee": 100,
         "amount": "",
-        "closed": true,
+        "closed": false,
         "desc": "Participants engage in a structured debate focusing on current technology topics, showcasing their analytical skills, persuasive abilities, and knowledge of the subject matter. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Topic Announcement: A specific tech-related debate topic will be announced at the beginning of the event. Participants will be assigned either the 'pro' or 'con' position regarding the topic.Preparation Time: Participants will have a brief period (e.g., 10-15 minutes) to prepare their arguments and strategies based on their assigned positions. Debate Format: Each debate will consist of opening statements, rebuttals, and closing arguments. Each segment will have a designated time limit (e.g., 3 minutes for opening statements, 2 minutes for rebuttals).",
         "teamSize": "2",
         "criteria": [
