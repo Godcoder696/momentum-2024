@@ -16,7 +16,7 @@ function EventsMarquee() {
                 <span className='px-1'>●</span>
                 <span className='px-[3px]'>RESULTS</span>
                 <span className='px-[3px]'>ARE</span>
-                <span className='px-[3px]'>LIVE </span>
+                <span className='px-[3px]'>OUT </span>
             </div>
         </Marquee>
     </>
