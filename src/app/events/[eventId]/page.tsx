@@ -11,12 +11,13 @@ function Page({params}) {
     const router= useRouter();
 
   useEffect(()=>{
-    console.log(params.eventId);
-    let eventId= Number(params.eventId);
-    console.log(eventId);
-    if(eventId<0 || eventId>64 || Number.isNaN(eventId)){
-      router.push("/events/"+params.eventId+"/page-not-found");
-    }
+    // console.log(params.eventId);
+    // let eventId= Number(params.eventId);
+    // console.log(eventId);
+    // if(eventId<0 || eventId>64 || Number.isNaN(eventId)){
+    //   router.push("/events/"+params.eventId+"/page-not-found");
+    // }
+    router.push("/events/"+params.eventId+"/page-not-found");
   },[params.eventId])
   
   return (
