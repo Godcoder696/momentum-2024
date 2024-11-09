@@ -22,7 +22,14 @@ function NavBar() {
               <div>Home</div>
               {/* <hr /> */}
             </Link>
-            <Link href="/events" className='hover:font-normal cursor-pointer text-xs md:text-sm'>Events</Link>
+            {/* <Link href="/events" className='hover:font-normal cursor-pointer text-xs md:text-sm'>Events</Link> */}
+            <a 
+              href="https://drive.google.com/file/d/1uwT9f5ytcunqLL-5JIvNDkheyycHAGyC/view?usp=drivesdk" 
+              className='hover:font-normal cursor-pointer text-xs md:text-sm'
+              target='_blank'
+            >
+              Results
+            </a>
             <SignInButton/>
           </div>
         </div>

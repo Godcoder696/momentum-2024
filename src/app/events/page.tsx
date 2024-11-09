@@ -6,12 +6,18 @@ import Link from "next/link";
 // import { getEvents } from "lib/eventList";
 // import EventCard from "@/components/newUI/eventCard";
 // import PageWrapper from "@/components/PageWrapper";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import events from '@/data/events.json'
+import { useRouter } from 'next/navigation'
 
 export default function Events({ }) {
   const [eventFilter, setEventFilter] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
+  const router= useRouter();
+
+  useEffect(()=>{
+    router.push("/page-not-found");
+  },[])
   
   return (
     <div>
@@ -21,7 +27,7 @@ export default function Events({ }) {
           {
             events.map((event, index)=>{
               return (
-                (
+                ( 
                   event.categories.includes(eventFilter) || eventFilter=="All"?
                   (
                     event.name.toLowerCase().includes(searchQuery.toLowerCase())?
